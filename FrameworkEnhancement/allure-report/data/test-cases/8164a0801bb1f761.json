@@ -1,0 +1,169 @@
+{
+  "uid" : "8164a0801bb1f761",
+  "name" : "User can check the redirection to payment location card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to payment location card from the header menu",
+  "historyId" : "2b6da3ceeb3077153f2613e03dc7fa8d",
+  "time" : {
+    "start" : 1537793364885,
+    "stop" : 1537793401674,
+    "duration" : 36789
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms",
+  "statusTrace" : "Error: element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms\n                    at elements(\"input[class= 'amw-input-search-field blackColor']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"input[class= 'amw-input-search-field blackColor']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms",
+    "statusTrace" : "Error: element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms\n                    at elements(\"input[class= 'amw-input-search-field blackColor']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"input[class= 'amw-input-search-field blackColor']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+    "steps" : [ {
+      "name" : "again user navigates to payment menu from header",
+      "time" : {
+        "start" : 1537793374234,
+        "stop" : 1537793383195,
+        "duration" : 8961
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81a86816417fc7cd",
+        "name" : "Screenshot",
+        "source" : "81a86816417fc7cd.png",
+        "type" : "image/png",
+        "size" : 404988
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on Payment Location",
+      "time" : {
+        "start" : 1537793383195,
+        "stop" : 1537793389862,
+        "duration" : 6667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24ec78d003c5132a",
+        "name" : "Screenshot",
+        "source" : "24ec78d003c5132a.png",
+        "type" : "image/png",
+        "size" : 338437
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Payment Location card is displayed with the content text box and a label as \"Find Your Nearest Payment Location\"",
+      "time" : {
+        "start" : 1537793389865,
+        "stop" : 1537793394503,
+        "duration" : 4638
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms\n                    at elements(\"input[class= 'amw-input-search-field blackColor']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"input[class= 'amw-input-search-field blackColor']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6fb29360b7c315a0",
+        "name" : "Screenshot",
+        "source" : "6fb29360b7c315a0.png",
+        "type" : "image/png",
+        "size" : 338437
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "1d4e87a86521c728",
+      "name" : "Screenshot",
+      "source" : "1d4e87a86521c728.png",
+      "type" : "image/png",
+      "size" : 432450
+    }, {
+      "uid" : "9bb6d00690ec3f65",
+      "name" : "Screenshot",
+      "source" : "9bb6d00690ec3f65.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to payment location card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e0cd388bc2e9fa9",
+      "status" : "broken",
+      "statusDetails" : "element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1537283657600,
+        "stop" : 1537283707216,
+        "duration" : 49616
+      }
+    }, {
+      "uid" : "75e0c9ba7bf0942b",
+      "status" : "broken",
+      "statusDetails" : "element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1537278438929,
+        "stop" : 1537278484854,
+        "duration" : 45925
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8164a0801bb1f761.json",
+  "parameterValues" : [ "chrome" ]
+}

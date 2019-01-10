@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278739105' stop='1537278881085'>
+    <name>User navigates to usage overview card and verifies the data</name>
+    <title>User navigates to usage overview card and verifies the data</title>
+    <test-cases>
+        <test-case start='1537278739107' status='broken' stop='1537278881085'>
+            <name>user can see monthly consumption details from usage overview card</name>
+            <title>user can see monthly consumption details from usage overview card</title>
+            <labels>
+                <label name='feature' value='User navigates to usage overview card and verifies the data'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278761940' status='passed' stop='1537278773255'>
+                    <name>user navigates to usage overview page</name>
+                    <title>user navigates to usage overview page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c46aaf75-fcd4-4589-914a-62e8268da930-attachment.png' type='image/png' size='321035'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278773255' status='broken' stop='1537278871518'>
+                    <name>user click on the radio button having month details</name>
+                    <title>user click on the radio button having month details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='87339b8d-ccd3-49d7-892a-8d8c46866c59-attachment.png' type='image/png' size='266532'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278871518' status='pending' stop='1537278874063'>
+                    <name>user view monthly details</name>
+                    <title>user view monthly details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8b3570d0-0eaa-4aeb-8579-9db9398fda57-attachment.png' type='image/png' size='266091'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0997a2b8-217b-4768-8200-5fc34833ab1f-attachment.png' type='image/png' size='429191'/>
+                <attachment title='Screenshot' source='29ee0f4b-ab16-49a0-8c48-8177edefbd29-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//*[@id="usageOverview"]/div[3]/div/div/div/div[2]/div/div/div/button[2]").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//*[@id="usageOverview"]/div[3]/div/div/div/div[2]/div/div/div/button[2]").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

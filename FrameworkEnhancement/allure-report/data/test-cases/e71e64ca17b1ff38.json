@@ -1,0 +1,187 @@
+{
+  "uid" : "e71e64ca17b1ff38",
+  "name" : "Validate Payment Locations Page default status",
+  "fullName" : "Check Payment Locations by Zip codes.Validate Payment Locations Page default status",
+  "historyId" : "71c496c48db6b2058a9c465929994535",
+  "time" : {
+    "start" : 1537278504297,
+    "stop" : 1537278551795,
+    "duration" : 47498
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to equal false",
+  "statusTrace" : "AssertionError: expected true to equal false\n                    at CommonFunctions.assertValue (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:39:24)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\paymentLocations\\paymentLocations.step.js:16:15)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to equal false",
+    "statusTrace" : "AssertionError: expected true to equal false\n                    at CommonFunctions.assertValue (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:39:24)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\paymentLocations\\paymentLocations.step.js:16:15)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537278524515,
+        "stop" : 1537278529385,
+        "duration" : 4870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf745604bf59de99",
+        "name" : "Screenshot",
+        "source" : "bf745604bf59de99.png",
+        "type" : "image/png",
+        "size" : 334824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "payments locations page is displayed",
+      "time" : {
+        "start" : 1537278529385,
+        "stop" : 1537278532664,
+        "duration" : 3279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d7b0a76227b110cc",
+        "name" : "Screenshot",
+        "source" : "d7b0a76227b110cc.png",
+        "type" : "image/png",
+        "size" : 334824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "show more link is displayed and disabled",
+      "time" : {
+        "start" : 1537278532664,
+        "stop" : 1537278536810,
+        "duration" : 4146
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected true to equal false\n                    at CommonFunctions.assertValue (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:39:24)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\paymentLocations\\paymentLocations.step.js:16:15)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5241f78948a56695",
+        "name" : "Screenshot",
+        "source" : "5241f78948a56695.png",
+        "type" : "image/png",
+        "size" : 334824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "no search location results is shown",
+      "time" : {
+        "start" : 1537278536810,
+        "stop" : 1537278539380,
+        "duration" : 2570
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85403f58d9aafb1e",
+        "name" : "Screenshot",
+        "source" : "85403f58d9aafb1e.png",
+        "type" : "image/png",
+        "size" : 334824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "search result pane has text \"No Cash Payment Locations available for ZIP Code\" displayed",
+      "time" : {
+        "start" : 1537278539381,
+        "stop" : 1537278542451,
+        "duration" : 3070
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7abe9ed6a4e9aa58",
+        "name" : "Screenshot",
+        "source" : "7abe9ed6a4e9aa58.png",
+        "type" : "image/png",
+        "size" : 334824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "9a6d83361fbc3502",
+      "name" : "Screenshot",
+      "source" : "9a6d83361fbc3502.png",
+      "type" : "image/png",
+      "size" : 429264
+    }, {
+      "uid" : "112f64e6640053d1",
+      "name" : "Screenshot",
+      "source" : "112f64e6640053d1.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Payment Locations Page default status"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e71e64ca17b1ff38.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866585448' stop='1546866637692'>
+    <name>Biliing and Payment history</name>
+    <title>Biliing and Payment history</title>
+    <test-cases>
+        <test-case start='1546866585451' status='broken' stop='1546866608722'>
+            <name>Display Billing and payments history monthwise</name>
+            <title>Display Billing and payments history monthwise</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866600504' status='pending' stop='1546866602572'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866602580' status='pending' stop='1546866604596'>
+                    <name>user slides the slider bar to set statement period for 1 month</name>
+                    <title>user slides the slider bar to set statement period for 1 month</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866604597' status='pending' stop='1546866606614'>
+                    <name>billing and payments table should display transactions only for the selected statement period</name>
+                    <title>billing and payments table should display transactions only for the selected statement period</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866608730' status='broken' stop='1546866622998'>
+            <name>verify invoice is attached and opens in billing and payments table</name>
+            <title>verify invoice is attached and opens in billing and payments table</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866610778' status='pending' stop='1546866612808'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866612812' status='pending' stop='1546866614848'>
+                    <name>user clicks on the invoicing link under column TRANSACTION TYPE</name>
+                    <title>user clicks on the invoicing link under column TRANSACTION TYPE</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866614855' status='pending' stop='1546866616891'>
+                    <name>information is displayed in a new tab</name>
+                    <title>information is displayed in a new tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866616898' status='pending' stop='1546866618954'>
+                    <name>new tab contains information as pdf</name>
+                    <title>new tab contains information as pdf</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866618954' status='pending' stop='1546866620970'>
+                    <name>user closes new tab</name>
+                    <title>user closes new tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866622999' status='broken' stop='1546866637689'>
+            <name>verify service information is attached and opens in billing and payments table</name>
+            <title>verify service information is attached and opens in billing and payments table</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866625049' status='pending' stop='1546866627068'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866627068' status='pending' stop='1546866629103'>
+                    <name>user clicks on the service link under column IMPORTANT INFORMATION</name>
+                    <title>user clicks on the service link under column IMPORTANT INFORMATION</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866629109' status='pending' stop='1546866631137'>
+                    <name>information is displayed in a new tab</name>
+                    <title>information is displayed in a new tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866631142' status='pending' stop='1546866633154'>
+                    <name>new tab contains information as pdf</name>
+                    <title>new tab contains information as pdf</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866633156' status='pending' stop='1546866635165'>
+                    <name>user closes new tab</name>
+                    <title>user closes new tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

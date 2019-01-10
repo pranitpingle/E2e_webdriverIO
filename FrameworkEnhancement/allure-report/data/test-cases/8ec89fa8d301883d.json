@@ -1,0 +1,119 @@
+{
+  "uid" : "8ec89fa8d301883d",
+  "name" : "User can see the open request available in the section or not",
+  "fullName" : "A registered user can check for messages alerts & open request.User can see the open request available in the section or not",
+  "historyId" : "317734362e6793d54c92a637f1e2fb3b",
+  "time" : {
+    "start" : 1537283424552,
+    "stop" : 1537283461738,
+    "duration" : 37186
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Open Request",
+      "time" : {
+        "start" : 1537283437484,
+        "stop" : 1537283447404,
+        "duration" : 9920
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31dc1c3538094161",
+        "name" : "Screenshot",
+        "source" : "31dc1c3538094161.png",
+        "type" : "image/png",
+        "size" : 423002
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the open request available in the section or not",
+      "time" : {
+        "start" : 1537283447463,
+        "stop" : 1537283451737,
+        "duration" : 4274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9549caf953998e5c",
+        "name" : "Screenshot",
+        "source" : "9549caf953998e5c.png",
+        "type" : "image/png",
+        "size" : 423002
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "d15b8a15d32775f6",
+      "name" : "Screenshot",
+      "source" : "d15b8a15d32775f6.png",
+      "type" : "image/png",
+      "size" : 429439
+    }, {
+      "uid" : "14aaa981fc65ded9",
+      "name" : "Screenshot",
+      "source" : "14aaa981fc65ded9.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can see the open request available in the section or not"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ec89fa8d301883d.json",
+  "parameterValues" : [ "chrome" ]
+}

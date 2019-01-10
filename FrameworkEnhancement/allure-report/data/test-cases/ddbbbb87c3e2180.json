@@ -1,0 +1,250 @@
+{
+  "uid" : "ddbbbb87c3e2180",
+  "name" : "User can check account & meter information",
+  "fullName" : "A registered user can Login to Dashboard and can see the account information.User can check account & meter information",
+  "historyId" : "6621bb1fc9c25bab48985f7dbb3de451",
+  "time" : {
+    "start" : 1537278173733,
+    "stop" : 1537278243825,
+    "duration" : 70092
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters.",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters.\n                    at moveToObject(\"//*[@id=\"root\"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]\", 0, 700) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\at element(\"//*[@id=\"root\"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\moveToObject.js:47:17",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters.",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters.\n                    at moveToObject(\"//*[@id=\"root\"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]\", 0, 700) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\at element(\"//*[@id=\"root\"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\moveToObject.js:47:17",
+    "steps" : [ {
+      "name" : "user navigates to Dashboard page",
+      "time" : {
+        "start" : 1537278202947,
+        "stop" : 1537278205744,
+        "duration" : 2797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fa30e498bc7c7d6",
+        "name" : "Screenshot",
+        "source" : "8fa30e498bc7c7d6.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on plus button to expand the account information",
+      "time" : {
+        "start" : 1537278205744,
+        "stop" : 1537278212286,
+        "duration" : 6542
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters.\n                    at moveToObject(\"//*[@id=\"root\"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]\", 0, 700) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\at element(\"//*[@id=\"root\"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\moveToObject.js:47:17",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76436476829b00ef",
+        "name" : "Screenshot",
+        "source" : "76436476829b00ef.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on account number & verifies it",
+      "time" : {
+        "start" : 1537278212370,
+        "stop" : 1537278215387,
+        "duration" : 3017
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7073f94b0ed73a55",
+        "name" : "Screenshot",
+        "source" : "7073f94b0ed73a55.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on Meters service type & verifies the same",
+      "time" : {
+        "start" : 1537278215388,
+        "stop" : 1537278218672,
+        "duration" : 3284
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92dd4e82942be6e3",
+        "name" : "Screenshot",
+        "source" : "92dd4e82942be6e3.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on meter size & verifes it",
+      "time" : {
+        "start" : 1537278218672,
+        "stop" : 1537278221499,
+        "duration" : 2827
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86dd96c2553ade65",
+        "name" : "Screenshot",
+        "source" : "86dd96c2553ade65.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on meter location & verifes it",
+      "time" : {
+        "start" : 1537278221499,
+        "stop" : 1537278224341,
+        "duration" : 2842
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18b7c3033519ebe2",
+        "name" : "Screenshot",
+        "source" : "18b7c3033519ebe2.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on installation date & verifes it",
+      "time" : {
+        "start" : 1537278224416,
+        "stop" : 1537278227426,
+        "duration" : 3010
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e41140b1bb73f7e6",
+        "name" : "Screenshot",
+        "source" : "e41140b1bb73f7e6.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user is displayed with all the account information",
+      "time" : {
+        "start" : 1537278227428,
+        "stop" : 1537278230479,
+        "duration" : 3051
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d771176af07114b",
+        "name" : "Screenshot",
+        "source" : "5d771176af07114b.png",
+        "type" : "image/png",
+        "size" : 429146
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "6b64b2f8d347d38e",
+      "name" : "Screenshot",
+      "source" : "6b64b2f8d347d38e.png",
+      "type" : "image/png",
+      "size" : 429146
+    }, {
+      "uid" : "36ea62d7c0e2baf2",
+      "name" : "Screenshot",
+      "source" : "36ea62d7c0e2baf2.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check account & meter information"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddbbbb87c3e2180.json",
+  "parameterValues" : [ "chrome" ]
+}

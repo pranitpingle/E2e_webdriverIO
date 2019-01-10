@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866879635' stop='1546866924916'>
+    <name>Navy Footer links redirection in new tab</name>
+    <title>Navy Footer links redirection in new tab</title>
+    <test-cases>
+        <test-case start='1546866879642' status='broken' stop='1546866924912'>
+            <name>verify user able to open Navy Footer Links in new tab link in new browser tab</name>
+            <title>verify user able to open Navy Footer Links in new tab link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Navy Footer links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866894345' status='pending' stop='1546866896383'>
+                    <name>user clicks on Leak Detection Information link in Footer</name>
+                    <title>user clicks on Leak Detection Information link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866896386' status='pending' stop='1546866898407'>
+                    <name>validate Leak Detection Information link is successfully redirecting to Leak Detection Information page by verifying url</name>
+                    <title>validate Leak Detection Information link is successfully redirecting to Leak Detection Information page by verifying url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866898413' status='pending' stop='1546866900440'>
+                    <name>user click on Leak Detection Information Spanish link in Footer</name>
+                    <title>user click on Leak Detection Information Spanish link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866900442' status='pending' stop='1546866902510'>
+                    <name>validate Leak Detection Information Spanish link is successfully redirecting to Leak Detection Information page by verifying url</name>
+                    <title>validate Leak Detection Information Spanish link is successfully redirecting to Leak Detection Information page by verifying url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866902521' status='pending' stop='1546866904555'>
+                    <name>user click on bill calculator link in Navy Footer</name>
+                    <title>user click on bill calculator link in Navy Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866904557' status='pending' stop='1546866906611'>
+                    <name>user validate Bill calculator page with page title "CUSTOMER BILL CALCULATOR"</name>
+                    <title>user validate Bill calculator page with page title "CUSTOMER BILL CALCULATOR"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866906615' status='pending' stop='1546866908630'>
+                    <name>validate Bill Calculator link is successfully redirecting to Bill Calculator page by verifying url</name>
+                    <title>validate Bill Calculator link is successfully redirecting to Bill Calculator page by verifying url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866908633' status='pending' stop='1546866910643'>
+                    <name>user click on Search for openings link</name>
+                    <title>user click on Search for openings link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866910644' status='pending' stop='1546866912653'>
+                    <name>validate the career opening page with text "Career Opportunities"</name>
+                    <title>validate the career opening page with text "Career Opportunities"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866912655' status='pending' stop='1546866914684'>
+                    <name>validate Career opening page by verifying url</name>
+                    <title>validate Career opening page by verifying url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866914690' status='pending' stop='1546866916705'>
+                    <name>user click on view Accomadation Policy</name>
+                    <title>user click on view Accomadation Policy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866916706' status='pending' stop='1546866918735'>
+                    <name>user validate accomodation page with text "ACCOMMODATIONS"</name>
+                    <title>user validate accomodation page with text "ACCOMMODATIONS"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866918738' status='pending' stop='1546866920764'>
+                    <name>verify accomodation page by validating url</name>
+                    <title>verify accomodation page by validating url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866920769' status='pending' stop='1546866922804'>
+                    <name>user click on Adjustment Request form</name>
+                    <title>user click on Adjustment Request form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4c3a0714-a574-40e5-bb39-87f8a9257935-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

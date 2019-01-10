@@ -1,0 +1,166 @@
+{
+  "uid" : "2a8609d22dc256da",
+  "name" : "User can check the alerts available in alerts section",
+  "fullName" : "A registered user can check for messages alerts & open request.User can check the alerts available in alerts section",
+  "historyId" : "59d74a5111f5b033f3957337a03cf82",
+  "time" : {
+    "start" : 1537793214522,
+    "stop" : 1537793247316,
+    "duration" : 32794
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to alerts",
+      "time" : {
+        "start" : 1537793224409,
+        "stop" : 1537793232548,
+        "duration" : 8139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "802366583e335857",
+        "name" : "Screenshot",
+        "source" : "802366583e335857.png",
+        "type" : "image/png",
+        "size" : 388050
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the alerts available in the section with each having alert icon",
+      "time" : {
+        "start" : 1537793232548,
+        "stop" : 1537793235772,
+        "duration" : 3224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe2aa5e4df92957c",
+        "name" : "Screenshot",
+        "source" : "fe2aa5e4df92957c.png",
+        "type" : "image/png",
+        "size" : 388050
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the alerts available in the section with each having alert title",
+      "time" : {
+        "start" : 1537793235772,
+        "stop" : 1537793239894,
+        "duration" : 4122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9db497594a6ed95",
+        "name" : "Screenshot",
+        "source" : "b9db497594a6ed95.png",
+        "type" : "image/png",
+        "size" : 388050
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "7e518db71c2d1192",
+      "name" : "Screenshot",
+      "source" : "7e518db71c2d1192.png",
+      "type" : "image/png",
+      "size" : 432439
+    }, {
+      "uid" : "8283471f318ded14",
+      "name" : "Screenshot",
+      "source" : "8283471f318ded14.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the alerts available in alerts section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b73a02dd1d41f5dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283461741,
+        "stop" : 1537283500940,
+        "duration" : 39199
+      }
+    }, {
+      "uid" : "15e013818a4ea36a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278265885,
+        "stop" : 1537278303237,
+        "duration" : 37352
+      }
+    }, {
+      "uid" : "3d5f6d20a229d5f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537261476501,
+        "stop" : 1537261515507,
+        "duration" : 39006
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a8609d22dc256da.json",
+  "parameterValues" : [ "chrome" ]
+}

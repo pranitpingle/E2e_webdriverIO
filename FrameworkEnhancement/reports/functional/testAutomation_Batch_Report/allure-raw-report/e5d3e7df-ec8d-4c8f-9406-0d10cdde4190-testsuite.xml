@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866726225' stop='1546866752440'>
+    <name>autopay in dashboard</name>
+    <title>autopay in dashboard</title>
+    <test-cases>
+        <test-case start='1546866726227' status='broken' stop='1546866752439'>
+            <name>autopay card should be displayed if autopay is not enrolled for the user</name>
+            <title>autopay card should be displayed if autopay is not enrolled for the user</title>
+            <labels>
+                <label name='feature' value='autopay in dashboard'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866743763' status='pending' stop='1546866745929'>
+                    <name>user navigates to Edit User Profile page to check for autopay</name>
+                    <title>user navigates to Edit User Profile page to check for autopay</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='674c3d5a-658a-4bbb-a0d1-eb9c4cb8f0d6-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866745931' status='pending' stop='1546866748056'>
+                    <name>user navigates to the autopay enrollment section</name>
+                    <title>user navigates to the autopay enrollment section</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c9ebad63-a135-41c0-a8c2-a8389c57dcbe-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866748057' status='pending' stop='1546866750244'>
+                    <name>unenroll autopay if it is subscribed and navigate to dashboard "Auto Pay"</name>
+                    <title>unenroll autopay if it is subscribed and navigate to dashboard "Auto Pay"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='75939429-0e16-42e9-9aa0-823aa6868067-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8567a687-2968-4082-9e37-46064354b2d1-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='103b0f6f-1fb4-404d-9b18-8d739473115d-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

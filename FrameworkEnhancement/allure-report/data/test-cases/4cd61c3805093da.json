@@ -1,0 +1,145 @@
+{
+  "uid" : "4cd61c3805093da",
+  "name" : "user can see monthly consumption details from usage overview card",
+  "fullName" : "User navigates to usage overview card and verifies the data.user can see monthly consumption details from usage overview card",
+  "historyId" : "b4cb770fc56b331adfe3ccd0c7ea6131",
+  "time" : {
+    "start" : 1537283877453,
+    "stop" : 1537283946246,
+    "duration" : 68793
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.9421332684138681-11\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.9421332684138681-11\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+    "steps" : [ {
+      "name" : "user navigates to usage overview page",
+      "time" : {
+        "start" : 1537283893142,
+        "stop" : 1537283901342,
+        "duration" : 8200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d05c54afda00ec81",
+        "name" : "Screenshot",
+        "source" : "d05c54afda00ec81.png",
+        "type" : "image/png",
+        "size" : 396808
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on the radio button having month details",
+      "time" : {
+        "start" : 1537283901342,
+        "stop" : 1537283935217,
+        "duration" : 33875
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.9421332684138681-11\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2cdc3a6eaa291a2",
+        "name" : "Screenshot",
+        "source" : "c2cdc3a6eaa291a2.png",
+        "type" : "image/png",
+        "size" : 364061
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view monthly details",
+      "time" : {
+        "start" : 1537283935218,
+        "stop" : 1537283937929,
+        "duration" : 2711
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f484399758413287",
+        "name" : "Screenshot",
+        "source" : "f484399758413287.png",
+        "type" : "image/png",
+        "size" : 364061
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "fb69aa8edb0ea535",
+      "name" : "Screenshot",
+      "source" : "fb69aa8edb0ea535.png",
+      "type" : "image/png",
+      "size" : 429458
+    }, {
+      "uid" : "b634456a1e2076",
+      "name" : "Screenshot",
+      "source" : "b634456a1e2076.png",
+      "type" : "image/png",
+      "size" : 189114
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see monthly consumption details from usage overview card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cd61c3805093da.json",
+  "parameterValues" : [ "chrome" ]
+}

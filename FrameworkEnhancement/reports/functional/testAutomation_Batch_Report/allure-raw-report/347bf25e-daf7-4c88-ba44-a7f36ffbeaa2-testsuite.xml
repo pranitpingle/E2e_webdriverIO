@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537793207112' stop='1537793378516'>
+    <name>A registered user can Login to Dashboard and can edit personal information</name>
+    <title>A registered user can Login to Dashboard and can edit personal information</title>
+    <test-cases>
+        <test-case start='1537793207114' status='passed' stop='1537793378516'>
+            <name>To verify if user can make changes successfully in various fields of Edit Profile section</name>
+            <title>To verify if user can make changes successfully in various fields of Edit Profile section</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can edit personal information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793221315' status='passed' stop='1537793239665'>
+                    <name>user navigates to Edit User Profile page and modifies the name &amp; confirms name changed successfully with message</name>
+                    <title>user navigates to Edit User Profile page and modifies the name &amp; confirms name changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='65c05bde-719f-4390-8f14-c1621e3b06f5-attachment.png' type='image/png' size='351666'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793239665' status='passed' stop='1537793273797'>
+                    <name>user changes the contact information &amp; confirms contact &amp; pref.details changed successfully with message</name>
+                    <title>user changes the contact information &amp; confirms contact &amp; pref.details changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d3d27854-805f-429b-a421-ebded05fc940-attachment.png' type='image/png' size='351869'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793273797' status='passed' stop='1537793279951'>
+                    <name>user changes the alert settings &amp; confirms alert settings changed successfully with message</name>
+                    <title>user changes the alert settings &amp; confirms alert settings changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8eb8975e-7e8a-4303-8d63-07bb9a18249b-attachment.png' type='image/png' size='323302'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793279951' status='passed' stop='1537793301830'>
+                    <name>user changes the address &amp; confirms address changed successfully with message</name>
+                    <title>user changes the address &amp; confirms address changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d7116a20-a51e-4caf-b4d9-97c1cdc72654-attachment.png' type='image/png' size='355725'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793301831' status='passed' stop='1537793316010'>
+                    <name>user changes the Login ID &amp; confirms Login ID changed successfully with message</name>
+                    <title>user changes the Login ID &amp; confirms Login ID changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='794f9145-cf52-4467-ae09-55a83cc227d0-attachment.png' type='image/png' size='63209'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793316011' status='passed' stop='1537793338242'>
+                    <name>user changes the Password &amp; confirms Password changed successfully with message</name>
+                    <title>user changes the Password &amp; confirms Password changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b3748fef-f227-4f08-ade3-55f67214f55a-attachment.png' type='image/png' size='355728'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793338243' status='passed' stop='1537793355045'>
+                    <name>user adds sec. acc. holder data successfully</name>
+                    <title>user adds sec. acc. holder data successfully</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b098c3d3-5016-4b52-a609-690b9be29da2-attachment.png' type='image/png' size='56162'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793355048' status='passed' stop='1537793371983'>
+                    <name>user removes sec. acc. holder data successfully</name>
+                    <title>user removes sec. acc. holder data successfully</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='97d0c5f5-85a2-4002-ab84-ae74dd62df04-attachment.png' type='image/png' size='77289'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ae3b31c5-d379-4195-9e7f-d8e1f5cb43b4-attachment.png' type='image/png' size='418818'/>
+                <attachment title='Screenshot' source='a66c6162-e8cd-4586-94b5-f93139ca74dd-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

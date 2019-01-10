@@ -1,0 +1,203 @@
+{
+  "uid" : "3161ca245a26b7a3",
+  "name" : "user can see projected gallons from usage projection card",
+  "fullName" : "User navigates to Usage projection card and verifies the data..user can see projected gallons from usage projection card",
+  "historyId" : "f2a881cd2a89f31da4b355dc4ba64fdd",
+  "time" : {
+    "start" : 1537283948893,
+    "stop" : 1537283993736,
+    "duration" : 44843
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to usage projection card",
+      "time" : {
+        "start" : 1537283962275,
+        "stop" : 1537283968856,
+        "duration" : 6581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc15efd72b65115b",
+        "name" : "Screenshot",
+        "source" : "dc15efd72b65115b.png",
+        "type" : "image/png",
+        "size" : 235158
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user navigates to usage projection",
+      "time" : {
+        "start" : 1537283968856,
+        "stop" : 1537283974226,
+        "duration" : 5370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "21b449091ccdd3e6",
+        "name" : "Screenshot",
+        "source" : "21b449091ccdd3e6.png",
+        "type" : "image/png",
+        "size" : 235158
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view projected gallons",
+      "time" : {
+        "start" : 1537283974227,
+        "stop" : 1537283976797,
+        "duration" : 2570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1f79afc5048edfc",
+        "name" : "Screenshot",
+        "source" : "b1f79afc5048edfc.png",
+        "type" : "image/png",
+        "size" : 235158
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view current month projection",
+      "time" : {
+        "start" : 1537283976797,
+        "stop" : 1537283979268,
+        "duration" : 2471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fff56fbccb972e83",
+        "name" : "Screenshot",
+        "source" : "fff56fbccb972e83.png",
+        "type" : "image/png",
+        "size" : 235158
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view days left",
+      "time" : {
+        "start" : 1537283979268,
+        "stop" : 1537283981889,
+        "duration" : 2621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc21dee717db85d1",
+        "name" : "Screenshot",
+        "source" : "cc21dee717db85d1.png",
+        "type" : "image/png",
+        "size" : 235158
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view service period",
+      "time" : {
+        "start" : 1537283981889,
+        "stop" : 1537283986481,
+        "duration" : 4592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5ecbb78ce45886d",
+        "name" : "Screenshot",
+        "source" : "e5ecbb78ce45886d.png",
+        "type" : "image/png",
+        "size" : 235158
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "99de6d0d1bd3dc19",
+      "name" : "Screenshot",
+      "source" : "99de6d0d1bd3dc19.png",
+      "type" : "image/png",
+      "size" : 429404
+    }, {
+      "uid" : "75feb6ce635b4c77",
+      "name" : "Screenshot",
+      "source" : "75feb6ce635b4c77.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see projected gallons from usage projection card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3161ca245a26b7a3.json",
+  "parameterValues" : [ "chrome" ]
+}

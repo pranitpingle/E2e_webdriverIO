@@ -1,0 +1,145 @@
+{
+  "uid" : "2e760dc9be93fd05",
+  "name" : "user can see monthly consumption details from usage overview card",
+  "fullName" : "User navigates to usage overview card and verifies the data.user can see monthly consumption details from usage overview card",
+  "historyId" : "b4cb770fc56b331adfe3ccd0c7ea6131",
+  "time" : {
+    "start" : 1537278739107,
+    "stop" : 1537278881085,
+    "duration" : 141978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//*[@id=\"usageOverview\"]/div[3]/div/div/div/div[2]/div/div/div/button[2]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//*[@id=\"usageOverview\"]/div[3]/div/div/div/div[2]/div/div/div/button[2]\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//*[@id=\"usageOverview\"]/div[3]/div/div/div/div[2]/div/div/div/button[2]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//*[@id=\"usageOverview\"]/div[3]/div/div/div/div[2]/div/div/div/button[2]\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to usage overview page",
+      "time" : {
+        "start" : 1537278761940,
+        "stop" : 1537278773255,
+        "duration" : 11315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3d096e4eceed67d",
+        "name" : "Screenshot",
+        "source" : "b3d096e4eceed67d.png",
+        "type" : "image/png",
+        "size" : 321035
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on the radio button having month details",
+      "time" : {
+        "start" : 1537278773255,
+        "stop" : 1537278871518,
+        "duration" : 98263
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//*[@id=\"usageOverview\"]/div[3]/div/div/div/div[2]/div/div/div/button[2]\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c80f9b959409627e",
+        "name" : "Screenshot",
+        "source" : "c80f9b959409627e.png",
+        "type" : "image/png",
+        "size" : 266532
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view monthly details",
+      "time" : {
+        "start" : 1537278871518,
+        "stop" : 1537278874063,
+        "duration" : 2545
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17fc4a0510a464f4",
+        "name" : "Screenshot",
+        "source" : "17fc4a0510a464f4.png",
+        "type" : "image/png",
+        "size" : 266091
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "297881569acb65c2",
+      "name" : "Screenshot",
+      "source" : "297881569acb65c2.png",
+      "type" : "image/png",
+      "size" : 429191
+    }, {
+      "uid" : "5c21ac24849bac67",
+      "name" : "Screenshot",
+      "source" : "5c21ac24849bac67.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see monthly consumption details from usage overview card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e760dc9be93fd05.json",
+  "parameterValues" : [ "chrome" ]
+}

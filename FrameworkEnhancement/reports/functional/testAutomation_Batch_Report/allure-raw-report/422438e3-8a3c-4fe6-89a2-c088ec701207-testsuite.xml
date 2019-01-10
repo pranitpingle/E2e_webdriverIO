@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866837598' stop='1546866907213'>
+    <name>A registered user can pay by available Payment methods</name>
+    <title>A registered user can pay by available Payment methods</title>
+    <test-cases>
+        <test-case start='1546866837604' status='broken' stop='1546866861136'>
+            <name>User can make payment by cash</name>
+            <title>User can make payment by cash</title>
+            <labels>
+                <label name='feature' value='A registered user can pay by available Payment methods'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866852441' status='pending' stop='1546866854607'>
+                    <name>user navigates to Make Payments page an selects payment method "Cash"</name>
+                    <title>user navigates to Make Payments page an selects payment method "Cash"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='aff539fb-96d8-49a9-b3a9-0206bf31768e-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866854608' status='pending' stop='1546866856784'>
+                    <name>user pays with amount "84" and enters receipt number to submit</name>
+                    <title>user pays with amount "84" and enters receipt number to submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3bec1284-bc55-49bb-acf2-e4dd1e8b5344-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866856785' status='pending' stop='1546866858906'>
+                    <name>cash payment is successful with message "You have successfully completed your CASH payment!"</name>
+                    <title>cash payment is successful with message "You have successfully completed your CASH payment!"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='47977ed2-ad11-4e35-a2f2-aad4096cdb21-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e8c00dc8-24ca-4844-93b5-1d849a9be555-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='d5e10c3e-9021-4ef4-817b-f1755b56203f-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866861137' status='broken' stop='1546866884580'>
+            <name>User can make payment by Electronic Check</name>
+            <title>User can make payment by Electronic Check</title>
+            <labels>
+                <label name='feature' value='A registered user can pay by available Payment methods'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866873937' status='pending' stop='1546866876102'>
+                    <name>user navigates to Make Payments page an selects payment method "Electronic Check"</name>
+                    <title>user navigates to Make Payments page an selects payment method "Electronic Check"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6c277511-fd35-4286-832b-37f89125e704-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866876103' status='pending' stop='1546866878208'>
+                    <name>user sucessfully pays "5.00$"</name>
+                    <title>user sucessfully pays "5.00$"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ae379b83-8cac-46d3-bb93-2ad2f148856b-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866878208' status='pending' stop='1546866880306'>
+                    <name>user recieves payment successful message "You have successfully completed your Electronic Check Payment!"</name>
+                    <title>user recieves payment successful message "You have successfully completed your Electronic Check Payment!"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='51e5e37a-228d-4a90-83d3-dbd931c329d8-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866880306' status='pending' stop='1546866882416'>
+                    <name>user Account Summary is updated with the deficit amount after 10 seconds</name>
+                    <title>user Account Summary is updated with the deficit amount after 10 seconds</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a8248124-02b8-48ed-8031-b134a67396e9-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='dc8d4391-deb3-4939-aa4e-d12b280bddd6-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='de38fb66-3881-4272-bc0c-9700412bf7b1-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866884581' status='broken' stop='1546866907212'>
+            <name>User can make payment by Debit or Credit card</name>
+            <title>User can make payment by Debit or Credit card</title>
+            <labels>
+                <label name='feature' value='A registered user can pay by available Payment methods'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866897049' status='pending' stop='1546866899057'>
+                    <name>user navigates to Make Payments page an selects payment method "Credit or Debit Card"</name>
+                    <title>user navigates to Make Payments page an selects payment method "Credit or Debit Card"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866899059' status='pending' stop='1546866901072'>
+                    <name>user sucessfully pays "5.00$"</name>
+                    <title>user sucessfully pays "5.00$"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866901073' status='pending' stop='1546866903102'>
+                    <name>user recieves payment successful message "You have successfully completed your Credit Card Payment!"</name>
+                    <title>user recieves payment successful message "You have successfully completed your Credit Card Payment!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866903106' status='pending' stop='1546866905141'>
+                    <name>user Account Summary is updated with the deficit amount after 10 seconds</name>
+                    <title>user Account Summary is updated with the deficit amount after 10 seconds</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='767f6d8b-d7f1-4324-9bdb-9f97d6d0032d-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

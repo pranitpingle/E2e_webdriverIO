@@ -1,0 +1,140 @@
+{
+  "uid" : "a4074801ef36bc77",
+  "name" : "User can check the redirection to usage projection card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to usage projection card from the header menu",
+  "historyId" : "45d3d20a146be84bc6c7006427c9c811",
+  "time" : {
+    "start" : 1537283759828,
+    "stop" : 1537283804641,
+    "duration" : 44813
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu header menu present in dashboard",
+      "time" : {
+        "start" : 1537283770152,
+        "stop" : 1537283779196,
+        "duration" : 9044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae358e1cd023323",
+        "name" : "Screenshot",
+        "source" : "ae358e1cd023323.png",
+        "type" : "image/png",
+        "size" : 407924
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on usage projection sub menu",
+      "time" : {
+        "start" : 1537283779197,
+        "stop" : 1537283787073,
+        "duration" : 7876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3ae074482dad9f1",
+        "name" : "Screenshot",
+        "source" : "d3ae074482dad9f1.png",
+        "type" : "image/png",
+        "size" : 188247
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "usage projection card is displayed in focus with a label as \"Usage Projection\"",
+      "time" : {
+        "start" : 1537283787075,
+        "stop" : 1537283796438,
+        "duration" : 9363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c1feddcc1db729c",
+        "name" : "Screenshot",
+        "source" : "6c1feddcc1db729c.png",
+        "type" : "image/png",
+        "size" : 259048
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "e5431d5d398f4ca2",
+      "name" : "Screenshot",
+      "source" : "e5431d5d398f4ca2.png",
+      "type" : "image/png",
+      "size" : 429414
+    }, {
+      "uid" : "c649fd7cb6f0a1ff",
+      "name" : "Screenshot",
+      "source" : "c649fd7cb6f0a1ff.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to usage projection card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4074801ef36bc77.json",
+  "parameterValues" : [ "chrome" ]
+}

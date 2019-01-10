@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866900923' stop='1546866912156'>
+    <name>Paperless billing in dashboard</name>
+    <title>Paperless billing in dashboard</title>
+    <test-cases>
+        <test-case start='1546866900925' status='broken' stop='1546866912155'>
+            <name>paperless card should be displayed if paperless is not enrolled for the user</name>
+            <title>paperless card should be displayed if paperless is not enrolled for the user</title>
+            <labels>
+                <label name='feature' value='Paperless billing in dashboard'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866903984' status='pending' stop='1546866906054'>
+                    <name>user navigates to Edit User Profile page</name>
+                    <title>user navigates to Edit User Profile page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866906059' status='pending' stop='1546866908073'>
+                    <name>user navigates to the paperless enrollment section</name>
+                    <title>user navigates to the paperless enrollment section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866908074' status='pending' stop='1546866910097'>
+                    <name>unsubscribe paperless if it is subscribed and navigate to dashboard "Go Paperless"</name>
+                    <title>unsubscribe paperless if it is subscribed and navigate to dashboard "Go Paperless"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

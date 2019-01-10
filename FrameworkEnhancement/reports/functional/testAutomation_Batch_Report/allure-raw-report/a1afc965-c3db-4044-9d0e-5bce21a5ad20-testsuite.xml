@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546953852008' stop='1546953862169'>
+    <name>Login to Gmail.com</name>
+    <title>Login to Gmail.com</title>
+    <test-cases>
+        <test-case start='1546953852012' status='passed' stop='1546953862168'>
+            <name>User launch Gmail and enters valid credentials</name>
+            <title>User launch Gmail and enters valid credentials</title>
+            <labels>
+                <label name='feature' value='Login to Gmail.com'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546953857936' status='passed' stop='1546953860045'>
+                    <name>user navigates to Gmail login page</name>
+                    <title>user navigates to Gmail login page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d685d9ca-b42b-4485-a1af-e6a65144db16-attachment.png' type='image/png' size='30938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='cb981933-1b89-412a-a80c-ac41977f14d6-attachment.png' type='image/png' size='30938'/>
+                <attachment title='Screenshot' source='a6caca65-cefc-4bb1-b727-9f1fbca538af-attachment.png' type='image/png' size='30956'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,119 @@
+{
+  "uid" : "fcef9307ae035448",
+  "name" : "verify user able to open Blog footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Blog footer icon link in new browser tab",
+  "historyId" : "b7f16e2af6f523f422a2657e549046d4",
+  "time" : {
+    "start" : 1538037331793,
+    "stop" : 1538037352304,
+    "duration" : 20511
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on blog link in Footer",
+      "time" : {
+        "start" : 1538037339201,
+        "stop" : 1538037342052,
+        "duration" : 2851
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "532690dffa701ca6",
+        "name" : "Screenshot",
+        "source" : "532690dffa701ca6.png",
+        "type" : "image/png",
+        "size" : 203707
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "blog link is successfully redirecting to blog Page by validating page url",
+      "time" : {
+        "start" : 1538037342052,
+        "stop" : 1538037345723,
+        "duration" : 3671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d973ac7fdc8a9cd",
+        "name" : "Screenshot",
+        "source" : "d973ac7fdc8a9cd.png",
+        "type" : "image/png",
+        "size" : 203707
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8d986855d61d8d4e",
+      "name" : "Screenshot",
+      "source" : "8d986855d61d8d4e.png",
+      "type" : "image/png",
+      "size" : 431954
+    }, {
+      "uid" : "7dfce22969287aa8",
+      "name" : "Screenshot",
+      "source" : "7dfce22969287aa8.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Blog footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcef9307ae035448.json",
+  "parameterValues" : [ "chrome" ]
+}

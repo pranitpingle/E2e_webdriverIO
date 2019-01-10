@@ -1,0 +1,161 @@
+{
+  "uid" : "1a8f7bae2ef8f60",
+  "name" : "User cannot submit the feedback using one manadatory fields",
+  "fullName" : "Footer page links redirection in new tab.User cannot submit the feedback using one manadatory fields",
+  "historyId" : "d9b75f8209606503da5c1f8172afbdb8",
+  "time" : {
+    "start" : 1537283749582,
+    "stop" : 1537283790662,
+    "duration" : 41080
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "a user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1537283762563,
+        "stop" : 1537283769166,
+        "duration" : 6603
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f5b61a3c76d0fd2",
+        "name" : "Screenshot",
+        "source" : "3f5b61a3c76d0fd2.png",
+        "type" : "image/png",
+        "size" : 144096
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user selects radio button for second question only for footer",
+      "time" : {
+        "start" : 1537283769169,
+        "stop" : 1537283772373,
+        "duration" : 3204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eadd0fcc00dcffbb",
+        "name" : "Screenshot",
+        "source" : "eadd0fcc00dcffbb.png",
+        "type" : "image/png",
+        "size" : 144230
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user tries to submit the feedback form for footer",
+      "time" : {
+        "start" : 1537283772373,
+        "stop" : 1537283780284,
+        "duration" : 7911
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5be381f2cad64e5e",
+        "name" : "Screenshot",
+        "source" : "5be381f2cad64e5e.png",
+        "type" : "image/png",
+        "size" : 147752
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback submission ask for the selection of fields with a validation message for footer",
+      "time" : {
+        "start" : 1537283780284,
+        "stop" : 1537283782990,
+        "duration" : 2706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32a7cc764cf42e58",
+        "name" : "Screenshot",
+        "source" : "32a7cc764cf42e58.png",
+        "type" : "image/png",
+        "size" : 185017
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c3832306b3c413ad",
+      "name" : "Screenshot",
+      "source" : "c3832306b3c413ad.png",
+      "type" : "image/png",
+      "size" : 429451
+    }, {
+      "uid" : "817757cfd2998776",
+      "name" : "Screenshot",
+      "source" : "817757cfd2998776.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "User cannot submit the feedback using one manadatory fields"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a8f7bae2ef8f60.json",
+  "parameterValues" : [ "chrome" ]
+}

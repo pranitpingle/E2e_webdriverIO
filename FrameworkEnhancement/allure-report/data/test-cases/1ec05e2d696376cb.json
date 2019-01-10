@@ -1,0 +1,255 @@
+{
+  "uid" : "1ec05e2d696376cb",
+  "name" : "To verify if user can make changes successfully in various fields of Edit Profile section",
+  "fullName" : "A registered user can Login to Dashboard and can edit personal information.To verify if user can make changes successfully in various fields of Edit Profile section",
+  "historyId" : "d9281ef27a9dd69b34d7751077f7431d",
+  "time" : {
+    "start" : 1537793207114,
+    "stop" : 1537793378516,
+    "duration" : 171402
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page and modifies the name & confirms name changed successfully with message",
+      "time" : {
+        "start" : 1537793221315,
+        "stop" : 1537793239665,
+        "duration" : 18350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "201b94fe23a9757e",
+        "name" : "Screenshot",
+        "source" : "201b94fe23a9757e.png",
+        "type" : "image/png",
+        "size" : 351666
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the contact information & confirms contact & pref.details changed successfully with message",
+      "time" : {
+        "start" : 1537793239665,
+        "stop" : 1537793273797,
+        "duration" : 34132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "baec00bd96c05bcd",
+        "name" : "Screenshot",
+        "source" : "baec00bd96c05bcd.png",
+        "type" : "image/png",
+        "size" : 351869
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the alert settings & confirms alert settings changed successfully with message",
+      "time" : {
+        "start" : 1537793273797,
+        "stop" : 1537793279951,
+        "duration" : 6154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "563c04d5909eb086",
+        "name" : "Screenshot",
+        "source" : "563c04d5909eb086.png",
+        "type" : "image/png",
+        "size" : 323302
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the address & confirms address changed successfully with message",
+      "time" : {
+        "start" : 1537793279951,
+        "stop" : 1537793301830,
+        "duration" : 21879
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d19ac995272ac8a9",
+        "name" : "Screenshot",
+        "source" : "d19ac995272ac8a9.png",
+        "type" : "image/png",
+        "size" : 355725
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the Login ID & confirms Login ID changed successfully with message",
+      "time" : {
+        "start" : 1537793301831,
+        "stop" : 1537793316010,
+        "duration" : 14179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "339477c1ce58ea5f",
+        "name" : "Screenshot",
+        "source" : "339477c1ce58ea5f.png",
+        "type" : "image/png",
+        "size" : 63209
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the Password & confirms Password changed successfully with message",
+      "time" : {
+        "start" : 1537793316011,
+        "stop" : 1537793338242,
+        "duration" : 22231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5db73edb7484b1b",
+        "name" : "Screenshot",
+        "source" : "b5db73edb7484b1b.png",
+        "type" : "image/png",
+        "size" : 355728
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user adds sec. acc. holder data successfully",
+      "time" : {
+        "start" : 1537793338243,
+        "stop" : 1537793355045,
+        "duration" : 16802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be7edf52021ba020",
+        "name" : "Screenshot",
+        "source" : "be7edf52021ba020.png",
+        "type" : "image/png",
+        "size" : 56162
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user removes sec. acc. holder data successfully",
+      "time" : {
+        "start" : 1537793355048,
+        "stop" : 1537793371983,
+        "duration" : 16935
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2494c0c1d1011d0",
+        "name" : "Screenshot",
+        "source" : "c2494c0c1d1011d0.png",
+        "type" : "image/png",
+        "size" : 77289
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "701eecb9b4ee6db3",
+      "name" : "Screenshot",
+      "source" : "701eecb9b4ee6db3.png",
+      "type" : "image/png",
+      "size" : 418818
+    }, {
+      "uid" : "dd9917993a7f3182",
+      "name" : "Screenshot",
+      "source" : "dd9917993a7f3182.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "testMethod",
+    "value" : "To verify if user can make changes successfully in various fields of Edit Profile section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c2f12b1b8348788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283450543,
+        "stop" : 1537283663087,
+        "duration" : 212544
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ec05e2d696376cb.json",
+  "parameterValues" : [ "chrome" ]
+}

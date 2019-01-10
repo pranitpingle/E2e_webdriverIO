@@ -1,0 +1,161 @@
+{
+  "uid" : "a9ce0ca2a2c329d6",
+  "name" : "Verify thank you message during paperless billing enrollment",
+  "fullName" : "Paperless billing enrollment.Verify thank you message during paperless billing enrollment",
+  "historyId" : "9f79d3d0576fe9cd676f4de4e0cb0bcc",
+  "time" : {
+    "start" : 1537283622059,
+    "stop" : 1537283665818,
+    "duration" : 43759
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user click on Go Paperless Card in Dashboard",
+      "time" : {
+        "start" : 1537283636826,
+        "stop" : 1537283645321,
+        "duration" : 8495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35e6b8b66f0fa64b",
+        "name" : "Screenshot",
+        "source" : "35e6b8b66f0fa64b.png",
+        "type" : "image/png",
+        "size" : 181956
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Paperless billing enrollment form must be seen",
+      "time" : {
+        "start" : 1537283645323,
+        "stop" : 1537283648353,
+        "duration" : 3030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20d37429a353e7aa",
+        "name" : "Screenshot",
+        "source" : "20d37429a353e7aa.png",
+        "type" : "image/png",
+        "size" : 181956
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Thank you message is seen \"Thank you for requesting to participate in our paperless billing program which helps protect our environment by saving paper. Checking the box below confirms that you would like to receive your water bill and bill inserts online. You will no longer receive a paper bill. Instead, you will receive an email notification informing you that your water bill and other important information is ready for viewing through My Account. Should you want a copy for your records, you can simply print it from the web site.\"",
+      "time" : {
+        "start" : 1537283648353,
+        "stop" : 1537283651036,
+        "duration" : 2683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2b3b0251d6a67e2",
+        "name" : "Screenshot",
+        "source" : "b2b3b0251d6a67e2.png",
+        "type" : "image/png",
+        "size" : 181956
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes Paperless billing enrollment dialog",
+      "time" : {
+        "start" : 1537283651038,
+        "stop" : 1537283655424,
+        "duration" : 4386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd68db013c4a148c",
+        "name" : "Screenshot",
+        "source" : "dd68db013c4a148c.png",
+        "type" : "image/png",
+        "size" : 250583
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "7d9fd619326fc85e",
+      "name" : "Screenshot",
+      "source" : "7d9fd619326fc85e.png",
+      "type" : "image/png",
+      "size" : 429446
+    }, {
+      "uid" : "3d2e6aa966fcda2c",
+      "name" : "Screenshot",
+      "source" : "3d2e6aa966fcda2c.png",
+      "type" : "image/png",
+      "size" : 193961
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify thank you message during paperless billing enrollment"
+  }, {
+    "name" : "package",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9ce0ca2a2c329d6.json",
+  "parameterValues" : [ "chrome" ]
+}

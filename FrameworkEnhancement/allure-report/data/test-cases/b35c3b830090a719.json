@@ -1,0 +1,144 @@
+{
+  "uid" : "b35c3b830090a719",
+  "name" : "verify user able to open Youtube footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Youtube footer icon link in new browser tab",
+  "historyId" : "2837298f8b5c70e93e6f4ade931ae3b8",
+  "time" : {
+    "start" : 1537793601179,
+    "stop" : 1537793686195,
+    "duration" : 85016
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user clicks on Youtube link in Footer",
+      "time" : {
+        "start" : 1537793675658,
+        "stop" : 1537793677974,
+        "duration" : 2316
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40ffa1d57d770fbf",
+        "name" : "Screenshot",
+        "source" : "40ffa1d57d770fbf.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Youtube link with page \"caamwater\"",
+      "time" : {
+        "start" : 1537793677978,
+        "stop" : 1537793680240,
+        "duration" : 2262
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad67a2bb7d7828b6",
+        "name" : "Screenshot",
+        "source" : "ad67a2bb7d7828b6.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Youtube link is successfully redirecting to Youtube Page by validating page url",
+      "time" : {
+        "start" : 1537793680241,
+        "stop" : 1537793683602,
+        "duration" : 3361
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1364f07bf2a23bb6",
+        "name" : "Screenshot",
+        "source" : "1364f07bf2a23bb6.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "16495df715242b64",
+      "name" : "Screenshot",
+      "source" : "16495df715242b64.png",
+      "type" : "image/png",
+      "size" : 10352
+    }, {
+      "uid" : "1bb7e5655763b73d",
+      "name" : "Screenshot",
+      "source" : "1bb7e5655763b73d.png",
+      "type" : "image/png",
+      "size" : 10352
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Youtube footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b35c3b830090a719.json",
+  "parameterValues" : [ "chrome" ]
+}

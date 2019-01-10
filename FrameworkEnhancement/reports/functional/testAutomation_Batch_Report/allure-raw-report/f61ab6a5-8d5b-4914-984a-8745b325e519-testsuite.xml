@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546938734656' stop='1546938748830'>
+    <name>To check the users primary information</name>
+    <title>To check the users primary information</title>
+    <test-cases>
+        <test-case start='1546938734661' status='broken' stop='1546938748829'>
+            <name>User can check his basic information</name>
+            <title>User can check his basic information</title>
+            <labels>
+                <label name='feature' value='To check the users primary information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546938742461' status='broken' stop='1546938744589'>
+                    <name>user reaches to Dashboard page after the login</name>
+                    <title>user reaches to Dashboard page after the login</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1de39ad9-2695-45fe-8d70-643d23bd0b6c-attachment.png' type='image/png' size='30956'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938744589' status='broken' stop='1546938746713'>
+                    <name>user verifies all his basic information</name>
+                    <title>user verifies all his basic information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f66c9951-307c-4e63-9294-34acec52f2a7-attachment.png' type='image/png' size='30956'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c8441f32-ae7d-4b1f-b219-a6d046c7a62d-attachment.png' type='image/png' size='30938'/>
+                <attachment title='Screenshot' source='2d3fd8d7-61e6-46d3-b223-3ec4b38c17e9-attachment.png' type='image/png' size='30938'/>
+            </attachments>
+            <failure>
+                <message>Step "user verifies all his basic information" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/home/ankitasawant/Documents/AmwaterDashboardFinal-Error solving/AmwaterDashboardFinal/cp-dashboard-qa/features/UserProfile/viewUserProfile.feature:6</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

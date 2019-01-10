@@ -1,0 +1,180 @@
+{
+  "uid" : "9867cdc28171b70b",
+  "name" : "User can submit the feedback using all the manadatory fields",
+  "fullName" : "A registered user can submit the feedback.User can submit the feedback using all the manadatory fields",
+  "historyId" : "af975facda297980d58f526e4511fd01",
+  "time" : {
+    "start" : 1537793264301,
+    "stop" : 1537793306239,
+    "duration" : 41938
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to feedback modal view",
+      "time" : {
+        "start" : 1537793275678,
+        "stop" : 1537793281884,
+        "duration" : 6206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64975e7846a2c989",
+        "name" : "Screenshot",
+        "source" : "64975e7846a2c989.png",
+        "type" : "image/png",
+        "size" : 161892
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user selects radio button for first question and second question",
+      "time" : {
+        "start" : 1537793281884,
+        "stop" : 1537793285269,
+        "duration" : 3385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78468e72e519fa7b",
+        "name" : "Screenshot",
+        "source" : "78468e72e519fa7b.png",
+        "type" : "image/png",
+        "size" : 162134
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form",
+      "time" : {
+        "start" : 1537793285270,
+        "stop" : 1537793294246,
+        "duration" : 8976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c46bf6dbb05337a",
+        "name" : "Screenshot",
+        "source" : "4c46bf6dbb05337a.png",
+        "type" : "image/png",
+        "size" : 432711
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with message \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1537793294250,
+        "stop" : 1537793298091,
+        "duration" : 3841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17df045f16f4121",
+        "name" : "Screenshot",
+        "source" : "17df045f16f4121.png",
+        "type" : "image/png",
+        "size" : 432432
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "bc4bea8fa49f11a6",
+      "name" : "Screenshot",
+      "source" : "bc4bea8fa49f11a6.png",
+      "type" : "image/png",
+      "size" : 432432
+    }, {
+      "uid" : "7731543317945f05",
+      "name" : "Screenshot",
+      "source" : "7731543317945f05.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can submit the feedback using all the manadatory fields"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f8fade857a1f3fe3",
+      "status" : "broken",
+      "statusDetails" : "element (\"div[class= 'ant-notification-notice-description']\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1537283550296,
+        "stop" : 1537283615694,
+        "duration" : 65398
+      }
+    }, {
+      "uid" : "92bc27ae740b56dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278324956,
+        "stop" : 1537278372323,
+        "duration" : 47367
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9867cdc28171b70b.json",
+  "parameterValues" : [ "chrome" ]
+}

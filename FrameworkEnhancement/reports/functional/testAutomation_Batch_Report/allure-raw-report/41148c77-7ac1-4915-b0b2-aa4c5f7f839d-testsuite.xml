@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278778170' stop='1537278831408'>
+    <name>User navigates to Usage projection card and verifies the data.</name>
+    <title>User navigates to Usage projection card and verifies the data.</title>
+    <test-cases>
+        <test-case start='1537278778173' status='passed' stop='1537278831408'>
+            <name>user can see projected gallons from usage projection card</name>
+            <title>user can see projected gallons from usage projection card</title>
+            <labels>
+                <label name='feature' value='User navigates to Usage projection card and verifies the data.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278793788' status='passed' stop='1537278800025'>
+                    <name>user navigates to usage projection card</name>
+                    <title>user navigates to usage projection card</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5713687c-fe0f-4d80-b4e0-7f0487be752f-attachment.png' type='image/png' size='238354'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278800025' status='passed' stop='1537278805507'>
+                    <name>user navigates to usage projection</name>
+                    <title>user navigates to usage projection</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a90209a0-dfb4-4241-9235-e4bd0a2691dd-attachment.png' type='image/png' size='238354'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278805507' status='passed' stop='1537278809354'>
+                    <name>user view projected gallons</name>
+                    <title>user view projected gallons</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='07e26a2c-0942-45b9-959a-83e904d1c9bb-attachment.png' type='image/png' size='238276'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278809354' status='passed' stop='1537278811844'>
+                    <name>user view current month projection</name>
+                    <title>user view current month projection</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1e4bf3d5-2fb5-42b3-9861-a2d51bd20aef-attachment.png' type='image/png' size='238276'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278811844' status='passed' stop='1537278814379'>
+                    <name>user view days left</name>
+                    <title>user view days left</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='809b5e18-2593-41fb-8d84-a89fe80b00e6-attachment.png' type='image/png' size='238276'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278814381' status='passed' stop='1537278819294'>
+                    <name>user view service period</name>
+                    <title>user view service period</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6e82d174-41fe-48e2-bafe-c6e9001095b4-attachment.png' type='image/png' size='238276'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='38c5d049-9463-4bca-9ba2-0586ce972895-attachment.png' type='image/png' size='429230'/>
+                <attachment title='Screenshot' source='94b6e9b8-0bef-4675-b812-ea03e03c47e3-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,262 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866825391' stop='1546866933434'>
+    <name>A registered user can open different menu and submenu</name>
+    <title>A registered user can open different menu and submenu</title>
+    <test-cases>
+        <test-case start='1546866825393' status='broken' stop='1546866849027'>
+            <name>User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu</name>
+            <title>User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866840179' status='pending' stop='1546866842394'>
+                    <name>user navigates to payment menu</name>
+                    <title>user navigates to payment menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1d9da78a-125c-428d-be90-c1c323b24177-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866842395' status='pending' stop='1546866844572'>
+                    <name>user click on cash payment</name>
+                    <title>user click on cash payment</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='76f1ce15-20bc-4bc2-ac86-3917f84e6ee1-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866844573' status='pending' stop='1546866846793'>
+                    <name>cash payment selected as default under payment modal view "Cash Payment Receipt Entry"</name>
+                    <title>cash payment selected as default under payment modal view "Cash Payment Receipt Entry"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='746d627d-8ef9-4a36-8bb7-65eac641ea1e-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f080b184-e2e7-4036-a659-4686223c90a7-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='f3786fa4-c047-4c5b-ace1-bebad4517a77-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866849031' status='broken' stop='1546866870651'>
+            <name>User can check the make payment modal view are displayed with all the payment method from header menu</name>
+            <title>User can check the make payment modal view are displayed with all the payment method from header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866862007' status='pending' stop='1546866864125'>
+                    <name>again user navigates to payment menu</name>
+                    <title>again user navigates to payment menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f0961ca9-b735-4293-be90-04f8f25b5a1e-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866864129' status='pending' stop='1546866866265'>
+                    <name>user click on make payment</name>
+                    <title>user click on make payment</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='43805b60-2386-4bcf-b66a-f46d05302e4e-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866866268' status='pending' stop='1546866868439'>
+                    <name>all the payment methods are displayed under make payment modal view with label "Make a Payment"</name>
+                    <title>all the payment methods are displayed under make payment modal view with label "Make a Payment"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2e0eacbc-f407-4d95-a027-8b9335ec21cc-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='52d943e0-a973-4894-8a7f-9d09423fc34f-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='7b3bef83-3387-4940-8e25-c917491d213d-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866870654' status='broken' stop='1546866892178'>
+            <name>User can check the redirection to payment location card from the header menu</name>
+            <title>User can check the redirection to payment location card from the header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866883272' status='pending' stop='1546866885452'>
+                    <name>again user navigates to payment menu from header</name>
+                    <title>again user navigates to payment menu from header</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b876894d-16e0-4560-b3c5-53cc62967611-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866885452' status='pending' stop='1546866887700'>
+                    <name>user click on Payment Location</name>
+                    <title>user click on Payment Location</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='173c237e-8d1d-408c-a5ce-d9f442d9d37a-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866887700' status='pending' stop='1546866889941'>
+                    <name>Payment Location card is displayed with the content text box and a label as "Find Your Nearest Payment Location"</name>
+                    <title>Payment Location card is displayed with the content text box and a label as "Find Your Nearest Payment Location"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cfeebeee-0d00-4857-ba97-f50e2c37a406-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7d487188-16ca-43a2-9cdd-6fdf54cf0aeb-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='9c226687-e4d1-4302-becb-af9f8d9346da-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866892178' status='broken' stop='1546866913005'>
+            <name>User can check the redirection to usage overview card from the header menu</name>
+            <title>User can check the redirection to usage overview card from the header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866904871' status='pending' stop='1546866906895'>
+                    <name>again user navigates to usage menu from header</name>
+                    <title>again user navigates to usage menu from header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866906900' status='pending' stop='1546866908915'>
+                    <name>user click on usage overview sub menu</name>
+                    <title>user click on usage overview sub menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866908917' status='pending' stop='1546866910941'>
+                    <name>usage overview card is displayed in focus with a label as "Usage Overview"</name>
+                    <title>usage overview card is displayed in focus with a label as "Usage Overview"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866913035' status='broken' stop='1546866923272'>
+            <name>User can check the redirection to usage projection card from the header menu</name>
+            <title>User can check the redirection to usage projection card from the header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866915095' status='pending' stop='1546866917111'>
+                    <name>again user navigates to usage menu header menu present in dashboard</name>
+                    <title>again user navigates to usage menu header menu present in dashboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866917117' status='pending' stop='1546866919147'>
+                    <name>user click on usage projection sub menu</name>
+                    <title>user click on usage projection sub menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866919153' status='pending' stop='1546866921205'>
+                    <name>usage projection card is displayed in focus with a label as "Usage Projection"</name>
+                    <title>usage projection card is displayed in focus with a label as "Usage Projection"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866923274' status='broken' stop='1546866933433'>
+            <name>User can contact the amwater team using contact us link</name>
+            <title>User can contact the amwater team using contact us link</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866925310' status='pending' stop='1546866927324'>
+                    <name>user click on Contact Us</name>
+                    <title>user click on Contact Us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866927325' status='pending' stop='1546866929335'>
+                    <name>user validate Contact Us page with text "CONTACT US"</name>
+                    <title>user validate Contact Us page with text "CONTACT US"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866929336' status='pending' stop='1546866931365'>
+                    <name>verify Contact Us page by validating url</name>
+                    <title>verify Contact Us page by validating url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

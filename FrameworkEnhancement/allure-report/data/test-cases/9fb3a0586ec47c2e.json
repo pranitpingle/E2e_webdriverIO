@@ -1,0 +1,140 @@
+{
+  "uid" : "9fb3a0586ec47c2e",
+  "name" : "verify user able to open Twitter footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Twitter footer icon link in new browser tab",
+  "historyId" : "d8d4ef2f9669ccbad536fddec42fc1ea",
+  "time" : {
+    "start" : 1537277537141,
+    "stop" : 1537277569025,
+    "duration" : 31884
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Twitter link in Footer",
+      "time" : {
+        "start" : 1537277546876,
+        "stop" : 1537277551807,
+        "duration" : 4931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2dac81ec163a936e",
+        "name" : "Screenshot",
+        "source" : "2dac81ec163a936e.png",
+        "type" : "image/png",
+        "size" : 233516
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Twitter link with page \"CA American Water\"",
+      "time" : {
+        "start" : 1537277551811,
+        "stop" : 1537277559007,
+        "duration" : 7196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69902ee7f09080e2",
+        "name" : "Screenshot",
+        "source" : "69902ee7f09080e2.png",
+        "type" : "image/png",
+        "size" : 787558
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Twitter link is successfully redirecting to Twitter by validating page url",
+      "time" : {
+        "start" : 1537277559019,
+        "stop" : 1537277561752,
+        "duration" : 2733
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f709a31b964a2f7d",
+        "name" : "Screenshot",
+        "source" : "f709a31b964a2f7d.png",
+        "type" : "image/png",
+        "size" : 233505
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "4984a70f94d9e74f",
+      "name" : "Screenshot",
+      "source" : "4984a70f94d9e74f.png",
+      "type" : "image/png",
+      "size" : 429171
+    }, {
+      "uid" : "50f03125ee17d463",
+      "name" : "Screenshot",
+      "source" : "50f03125ee17d463.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Twitter footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fb3a0586ec47c2e.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,140 @@
+{
+  "uid" : "ab488631ac0cd994",
+  "name" : "verify user able to open privacy policy footer link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open privacy policy footer link in new browser tab",
+  "historyId" : "7a9e6f2f6c1a957589132cc74ffe5d24",
+  "time" : {
+    "start" : 1537793293064,
+    "stop" : 1537793346994,
+    "duration" : 53930
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Privacy Policy link in Footer",
+      "time" : {
+        "start" : 1537793311615,
+        "stop" : 1537793321139,
+        "duration" : 9524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "794bcf4b16bc00bc",
+        "name" : "Screenshot",
+        "source" : "794bcf4b16bc00bc.png",
+        "type" : "image/png",
+        "size" : 202741
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Privacy Policy page with page title \"PRIVACY POLICY\"",
+      "time" : {
+        "start" : 1537793321139,
+        "stop" : 1537793327767,
+        "duration" : 6628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "162ad9099ef42750",
+        "name" : "Screenshot",
+        "source" : "162ad9099ef42750.png",
+        "type" : "image/png",
+        "size" : 84187
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Privacy Policy link is successfully redirecting to Privacy Policy Page by validating page url",
+      "time" : {
+        "start" : 1537793327769,
+        "stop" : 1537793339733,
+        "duration" : 11964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0ee77bc2afa7451",
+        "name" : "Screenshot",
+        "source" : "b0ee77bc2afa7451.png",
+        "type" : "image/png",
+        "size" : 202741
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "be63cb348b6f52eb",
+      "name" : "Screenshot",
+      "source" : "be63cb348b6f52eb.png",
+      "type" : "image/png",
+      "size" : 432547
+    }, {
+      "uid" : "4e62b0f79e1f308f",
+      "name" : "Screenshot",
+      "source" : "4e62b0f79e1f308f.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open privacy policy footer link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab488631ac0cd994.json",
+  "parameterValues" : [ "chrome" ]
+}

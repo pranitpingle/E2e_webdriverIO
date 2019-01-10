@@ -1,0 +1,163 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283550293' stop='1537283707916'>
+    <name>A registered user can submit the feedback</name>
+    <title>A registered user can submit the feedback</title>
+    <test-cases>
+        <test-case start='1537283550296' status='broken' stop='1537283615694'>
+            <name>User can submit the feedback using all the manadatory fields</name>
+            <title>User can submit the feedback using all the manadatory fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283571801' status='passed' stop='1537283581312'>
+                    <name>user navigates to feedback modal view</name>
+                    <title>user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3d763ff3-9cab-4626-89b6-315ddd1d1b24-attachment.png' type='image/png' size='161579'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283581315' status='passed' stop='1537283585117'>
+                    <name>user selects radio button for first question and second question</name>
+                    <title>user selects radio button for first question and second question</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='47f41f53-a5b5-4b73-a88f-aa4ff44b4af3-attachment.png' type='image/png' size='161831'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283585117' status='passed' stop='1537283594023'>
+                    <name>user submit the feedback form</name>
+                    <title>user submit the feedback form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='92766e99-1b5b-4f2c-b402-7dfe45f4dacc-attachment.png' type='image/png' size='429624'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283594023' status='broken' stop='1537283608036'>
+                    <name>feedback is successfull with message "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with message "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0ef2e9b6-f8b6-45b6-a180-b5317ed806a8-attachment.png' type='image/png' size='429319'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d02be268-940c-45ca-adb8-2aef6b72a5a7-attachment.png' type='image/png' size='429319'/>
+                <attachment title='Screenshot' source='9198a04a-201a-46d8-acb9-96ceaba2e62c-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>element ("div[class= 'ant-notification-notice-description']") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("div[class= 'ant-notification-notice-description']") still not existing after 10000ms
+                    at elements("div[class= 'ant-notification-notice-description']") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting("div[class= 'ant-notification-notice-description']") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537283615695' status='passed' stop='1537283660947'>
+            <name>User can submit the feedback using all the fields</name>
+            <title>User can submit the feedback using all the fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283630161' status='passed' stop='1537283636603'>
+                    <name>again user navigates to feedback modal view</name>
+                    <title>again user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='024e31d8-994c-4d37-b02b-52178e3e5162-attachment.png' type='image/png' size='161696'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283636603' status='passed' stop='1537283639862'>
+                    <name>again user selects radio button for first question and second question and the comment box</name>
+                    <title>again user selects radio button for first question and second question and the comment box</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='09eee41a-1612-4afc-a487-4ddc659e57be-attachment.png' type='image/png' size='161938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283639863' status='passed' stop='1537283648332'>
+                    <name>user submit the feedback form again</name>
+                    <title>user submit the feedback form again</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d4032617-35a2-42cf-bf3e-9a898613185e-attachment.png' type='image/png' size='429747'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283648338' status='passed' stop='1537283651635'>
+                    <name>feedback is successfull with a message "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with a message "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='02fcbc54-12b0-4af2-b172-ff4ef601fdff-attachment.png' type='image/png' size='429447'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1df82a8e-6818-4015-bb62-c67eb20caa46-attachment.png' type='image/png' size='429447'/>
+                <attachment title='Screenshot' source='a9b04ca1-017f-4970-9fc4-a4af6a356ba4-attachment.png' type='image/png' size='193509'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537283660948' status='passed' stop='1537283707915'>
+            <name>User cannot submit the feedback using one manadatory fields</name>
+            <title>User cannot submit the feedback using one manadatory fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283674805' status='passed' stop='1537283683507'>
+                    <name>a user navigates to feedback modal view</name>
+                    <title>a user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3a36a025-2f45-4f80-975e-2d5224b79248-attachment.png' type='image/png' size='161656'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283683507' status='passed' stop='1537283687427'>
+                    <name>user selects radio button for second question only</name>
+                    <title>user selects radio button for second question only</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4a03150d-37e7-4ebe-8669-cd9e180e2ca2-attachment.png' type='image/png' size='161771'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283687427' status='passed' stop='1537283695557'>
+                    <name>user tries to submit the feedback form</name>
+                    <title>user tries to submit the feedback form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='03da4f20-0df8-45b6-a642-a742c23049a2-attachment.png' type='image/png' size='165153'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283695580' status='passed' stop='1537283699324'>
+                    <name>feedback submission ask for the selection of fields with a validation message</name>
+                    <title>feedback submission ask for the selection of fields with a validation message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9f74f14d-292b-49b0-bc1f-0e768bd9a705-attachment.png' type='image/png' size='429790'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9b0b4843-39a5-4201-aa86-98980027fce2-attachment.png' type='image/png' size='429423'/>
+                <attachment title='Screenshot' source='7fe475e4-ce6f-46ac-a885-3acf25cb2c30-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

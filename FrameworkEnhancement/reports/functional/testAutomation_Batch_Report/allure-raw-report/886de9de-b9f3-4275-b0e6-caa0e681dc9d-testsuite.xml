@@ -1,0 +1,412 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866806293' stop='1546866951534'>
+    <name>Footer page links redirection in new tab</name>
+    <title>Footer page links redirection in new tab</title>
+    <test-cases>
+        <test-case start='1546866806304' status='broken' stop='1546866830113'>
+            <name>verify user able to open privacy policy footer link in new browser tab</name>
+            <title>verify user able to open privacy policy footer link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866821389' status='pending' stop='1546866823526'>
+                    <name>user clicks on Privacy Policy link in Footer</name>
+                    <title>user clicks on Privacy Policy link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9d8d9c77-df95-459c-803b-f0af4a374ff9-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866823527' status='pending' stop='1546866825686'>
+                    <name>user validate Privacy Policy page with page title "PRIVACY POLICY"</name>
+                    <title>user validate Privacy Policy page with page title "PRIVACY POLICY"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ef7c57c4-b8aa-4731-b273-5123b0dd3301-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866825686' status='pending' stop='1546866827879'>
+                    <name>Privacy Policy link is successfully redirecting to Privacy Policy Page by validating page url</name>
+                    <title>Privacy Policy link is successfully redirecting to Privacy Policy Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8fffcae6-0fc1-44e1-beb7-d46a3f4406be-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='871e75d3-6b06-4448-9c9a-7a8ef44117d2-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='f0344374-ec7f-4828-9507-0532276650bc-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866830117' status='broken' stop='1546866851249'>
+            <name>verify user able to open Terms Of Use footer link in new browser tab</name>
+            <title>verify user able to open Terms Of Use footer link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866842566' status='pending' stop='1546866844678'>
+                    <name>user clicks on Terms Of Use link in Footer</name>
+                    <title>user clicks on Terms Of Use link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5851955e-7a82-4237-883b-da4688717003-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866844679' status='pending' stop='1546866846808'>
+                    <name>user validate Terms of Use page with page title "TERMS OF USE"</name>
+                    <title>user validate Terms of Use page with page title "TERMS OF USE"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2b3c954b-a833-4235-b9e3-b14ad5b4b97f-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866846808' status='pending' stop='1546866849006'>
+                    <name>Terms of Use link is successfully redirecting to Terms of Use Page by validating page url</name>
+                    <title>Terms of Use link is successfully redirecting to Terms of Use Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='61132e0e-3a48-4b06-869d-c2438569b163-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='496faea0-26c0-4633-aea0-9be931f546b4-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='7ab8de88-f813-4909-a86c-c1b06565299c-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866851249' status='broken' stop='1546866875067'>
+            <name>verify user able to open Feedback footer link and verify it</name>
+            <title>verify user able to open Feedback footer link and verify it</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866864489' status='pending' stop='1546866866574'>
+                    <name>user navigates to feedback from footer link</name>
+                    <title>user navigates to feedback from footer link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='00cc3579-3c75-4343-a734-3ebc4b7b16bf-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866866575' status='pending' stop='1546866868668'>
+                    <name>user selects radio button for first question and second question for footer</name>
+                    <title>user selects radio button for first question and second question for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a6849f1e-7073-4b9d-9ba6-9a3c631df072-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866868668' status='pending' stop='1546866870768'>
+                    <name>user submit the feedback form for footer</name>
+                    <title>user submit the feedback form for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cfb6e07a-9290-4793-8f8d-36a7fc46b638-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866870769' status='pending' stop='1546866872902'>
+                    <name>feedback is successfull with message for footer first "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with message for footer first "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1b43fcd9-4735-4577-a2a5-2a9e4da72ce9-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9eeea286-b03b-42d4-9825-af3974a5baff-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='363748eb-dd6a-486f-bc32-fb4c950df8f4-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866875067' status='broken' stop='1546866898407'>
+            <name>User can submit the feedback using all the fields</name>
+            <title>User can submit the feedback using all the fields</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866887700' status='pending' stop='1546866889873'>
+                    <name>again user navigates to feedback from footer link</name>
+                    <title>again user navigates to feedback from footer link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a42fa9c7-a476-4c17-ac0d-af367275aaaf-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866889874' status='pending' stop='1546866892107'>
+                    <name>again user selects radio button for first question and second question and the comment box for footer</name>
+                    <title>again user selects radio button for first question and second question and the comment box for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='df26902e-f316-4ae2-8141-db0fd38c2fde-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866892109' status='pending' stop='1546866894221'>
+                    <name>user submit the feedback form again for footer</name>
+                    <title>user submit the feedback form again for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1c8852a2-8848-4394-8aff-d0e3fab4c7be-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866894224' status='pending' stop='1546866896332'>
+                    <name>feedback is successfull with a message for footer second "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with a message for footer second "Thank you for providing your feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f6aa5040-4728-4a4c-a6ec-3699e168e024-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866898409' status='broken' stop='1546866910671'>
+            <name>User cannot submit the feedback using one manadatory fields</name>
+            <title>User cannot submit the feedback using one manadatory fields</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866900467' status='pending' stop='1546866902543'>
+                    <name>a user navigates to feedback from footer link</name>
+                    <title>a user navigates to feedback from footer link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866902555' status='pending' stop='1546866904575'>
+                    <name>user selects radio button for second question only for footer</name>
+                    <title>user selects radio button for second question only for footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866904577' status='pending' stop='1546866906618'>
+                    <name>user tries to submit the feedback form for footer</name>
+                    <title>user tries to submit the feedback form for footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866906622' status='pending' stop='1546866908638'>
+                    <name>feedback submission ask for the selection of fields with a validation message for footer</name>
+                    <title>feedback submission ask for the selection of fields with a validation message for footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866910671' status='broken' stop='1546866918789'>
+            <name>verify user able to open Facebook footer icon link in new browser tab</name>
+            <title>verify user able to open Facebook footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866912694' status='pending' stop='1546866914724'>
+                    <name>user clicks on Facebook link in Footer</name>
+                    <title>user clicks on Facebook link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866914729' status='pending' stop='1546866916747'>
+                    <name>Facebook link is successfully redirecting to Facebook by validating page url</name>
+                    <title>Facebook link is successfully redirecting to Facebook by validating page url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866918790' status='broken' stop='1546866926988'>
+            <name>verify user able to open Twitter footer icon link in new browser tab</name>
+            <title>verify user able to open Twitter footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866920835' status='pending' stop='1546866922874'>
+                    <name>user clicks on Twitter link in Footer</name>
+                    <title>user clicks on Twitter link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866922882' status='pending' stop='1546866924932'>
+                    <name>Twitter link is successfully redirecting to Twitter by validating page url</name>
+                    <title>Twitter link is successfully redirecting to Twitter by validating page url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866926989' status='broken' stop='1546866935175'>
+            <name>verify user able to open Youtube footer icon link in new browser tab</name>
+            <title>verify user able to open Youtube footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866929026' status='pending' stop='1546866931056'>
+                    <name>user clicks on Youtube link in Footer</name>
+                    <title>user clicks on Youtube link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866931062' status='pending' stop='1546866933096'>
+                    <name>Youtube link is successfully redirecting to Youtube Page by validating page url</name>
+                    <title>Youtube link is successfully redirecting to Youtube Page by validating page url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866935177' status='broken' stop='1546866943325'>
+            <name>verify user able to open Blog footer icon link in new browser tab</name>
+            <title>verify user able to open Blog footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866937234' status='pending' stop='1546866939264'>
+                    <name>user clicks on blog link in Footer</name>
+                    <title>user clicks on blog link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866939271' status='pending' stop='1546866941294'>
+                    <name>blog link is successfully redirecting to blog Page by validating page url</name>
+                    <title>blog link is successfully redirecting to blog Page by validating page url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866943327' status='broken' stop='1546866951534'>
+            <name>verify user able to open PuddleDuck footer icon link in new browser tab</name>
+            <title>verify user able to open PuddleDuck footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866945380' status='pending' stop='1546866947415'>
+                    <name>user clicks on PuddleDuck link in Footer</name>
+                    <title>user clicks on PuddleDuck link in Footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866947420' status='pending' stop='1546866949459'>
+                    <name>PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url</name>
+                    <title>PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

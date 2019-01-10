@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283368172' stop='1537283439780'>
+    <name>A registered user can Login to Dashboard and can see the account information</name>
+    <title>A registered user can Login to Dashboard and can see the account information</title>
+    <test-cases>
+        <test-case start='1537283368175' status='passed' stop='1537283439779'>
+            <name>User can check account &amp; meter information</name>
+            <title>User can check account &amp; meter information</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can see the account information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283392994' status='passed' stop='1537283396251'>
+                    <name>user navigates to Dashboard page</name>
+                    <title>user navigates to Dashboard page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4308bead-7e00-4230-b891-40a21eaa7bc4-attachment.png' type='image/png' size='429470'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283396341' status='passed' stop='1537283402944'>
+                    <name>user clicks on plus button to expand the account information</name>
+                    <title>user clicks on plus button to expand the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='64ed6051-8b73-47da-947b-7f3eeffcd36a-attachment.png' type='image/png' size='384658'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283402946' status='passed' stop='1537283407084'>
+                    <name>user clicks on account number &amp; verifies it</name>
+                    <title>user clicks on account number &amp; verifies it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='405ff3b7-e2b0-4ebc-9b6e-96bc8ff2a1a7-attachment.png' type='image/png' size='384653'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283407084' status='passed' stop='1537283410867'>
+                    <name>user clicks on Meters service type &amp; verifies the same</name>
+                    <title>user clicks on Meters service type &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='422cf942-219e-4fe8-ba92-9db2048606f3-attachment.png' type='image/png' size='286717'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283410868' status='passed' stop='1537283413729'>
+                    <name>user clicks on meter serial number &amp; verifies the same</name>
+                    <title>user clicks on meter serial number &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6a41e337-d6a3-46c0-a25c-4943ed693a17-attachment.png' type='image/png' size='278041'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283413731' status='passed' stop='1537283416967'>
+                    <name>user clicks on meter size &amp; verifes it</name>
+                    <title>user clicks on meter size &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7b016249-2da9-4df5-83be-488656610deb-attachment.png' type='image/png' size='268447'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283416968' status='passed' stop='1537283420286'>
+                    <name>user clicks on meter location &amp; verifes it</name>
+                    <title>user clicks on meter location &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='63eb0514-1077-4178-8a11-37eab4a53fd3-attachment.png' type='image/png' size='252961'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283420286' status='passed' stop='1537283423520'>
+                    <name>user clicks on installation date &amp; verifes it</name>
+                    <title>user clicks on installation date &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5e289168-0d6d-4232-bdc9-423b8a0ffd1f-attachment.png' type='image/png' size='232463'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283423520' status='passed' stop='1537283431163'>
+                    <name>user is displayed with all the account information</name>
+                    <title>user is displayed with all the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a39a0bd6-4a34-4572-a3ff-9cbe30281f32-attachment.png' type='image/png' size='232463'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='03a08532-1892-41f4-8bb7-942c7ae9e748-attachment.png' type='image/png' size='429470'/>
+                <attachment title='Screenshot' source='18a022d2-146c-4ccf-8347-88d55c7190d2-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

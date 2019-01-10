@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537793438429' stop='1537793486553'>
+    <name>Paperless billing in dashboard</name>
+    <title>Paperless billing in dashboard</title>
+    <test-cases>
+        <test-case start='1537793438434' status='failed' stop='1537793486553'>
+            <name>paperless card should be displayed if paperless is not enrolled for the user</name>
+            <title>paperless card should be displayed if paperless is not enrolled for the user</title>
+            <labels>
+                <label name='feature' value='Paperless billing in dashboard'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793450037' status='passed' stop='1537793457463'>
+                    <name>user navigates to Edit User Profile page</name>
+                    <title>user navigates to Edit User Profile page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6d53b286-580c-49d6-a9aa-1e2a1b325131-attachment.png' type='image/png' size='351731'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793457463' status='passed' stop='1537793460264'>
+                    <name>user navigates to the paperless enrollment section</name>
+                    <title>user navigates to the paperless enrollment section</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='461ab111-0353-44fa-8e0b-fca6b233d691-attachment.png' type='image/png' size='98786'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793460266' status='failed' stop='1537793479599'>
+                    <name>unsubscribe paperless if it is subscribed and navigate to dashboard "Go Paperless"</name>
+                    <title>unsubscribe paperless if it is subscribed and navigate to dashboard "Go Paperless"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e1df3c22-97e6-4c0e-bcd0-3118ab1cb398-attachment.png' type='image/png' size='432455'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ab513544-92fe-4b67-9bad-7e7ba3e0775c-attachment.png' type='image/png' size='432552'/>
+                <attachment title='Screenshot' source='48069e2c-5deb-4b97-b9e8-4f9f0d8f4ef1-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>expected '' to equal 'Go Paperless'</message>
+                <stack-trace>AssertionError: expected '' to equal 'Go Paperless'
+                    at CommonFunctions.assertElementText (D:\AmwaterDashboardFinal\cp-dashboard-qa\utilities\commonFunctions.js:35:45)
+                    at World.&lt;anonymous> (D:\AmwaterDashboardFinal\cp-dashboard-qa\step-definitions\paperlessFromDashboard\paperlessFromDashboard.step.js:23:13)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:594:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\core-js\library\modules\_export.js:36:28)
+                    at World.executeSync (D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:592:12)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:214:29</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

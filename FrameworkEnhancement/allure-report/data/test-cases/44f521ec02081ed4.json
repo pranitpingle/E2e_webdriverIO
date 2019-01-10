@@ -1,0 +1,190 @@
+{
+  "uid" : "44f521ec02081ed4",
+  "name" : "verify user able to open PuddleDuck footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open PuddleDuck footer icon link in new browser tab",
+  "historyId" : "288c93eb6cbc52c91131116b0d40d111",
+  "time" : {
+    "start" : 1538393404592,
+    "stop" : 1538393430791,
+    "duration" : 26199
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on PuddleDuck link in Footer",
+      "time" : {
+        "start" : 1538393412101,
+        "stop" : 1538393414969,
+        "duration" : 2868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9594d1d39b354e3",
+        "name" : "Screenshot",
+        "source" : "f9594d1d39b354e3.png",
+        "type" : "image/png",
+        "size" : 127943
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate PuddleDuck link with page \"PUDDLES ON THE WEB\"",
+      "time" : {
+        "start" : 1538393414971,
+        "stop" : 1538393421542,
+        "duration" : 6571
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d03e15ba03b27a7b",
+        "name" : "Screenshot",
+        "source" : "d03e15ba03b27a7b.png",
+        "type" : "image/png",
+        "size" : 158252
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url",
+      "time" : {
+        "start" : 1538393421542,
+        "stop" : 1538393424143,
+        "duration" : 2601
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9cbf86250a812782",
+        "name" : "Screenshot",
+        "source" : "9cbf86250a812782.png",
+        "type" : "image/png",
+        "size" : 128030
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3bfb6c7c08beef7f",
+      "name" : "Screenshot",
+      "source" : "3bfb6c7c08beef7f.png",
+      "type" : "image/png",
+      "size" : 399444
+    }, {
+      "uid" : "89a1fd49e0a9a1e3",
+      "name" : "Screenshot",
+      "source" : "89a1fd49e0a9a1e3.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open PuddleDuck footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "48261e8e289726e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037352305,
+        "stop" : 1538037378708,
+        "duration" : 26403
+      }
+    }, {
+      "uid" : "db852d4396b333ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793708945,
+        "stop" : 1537793738140,
+        "duration" : 29195
+      }
+    }, {
+      "uid" : "df4893c736826e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283934848,
+        "stop" : 1537283970620,
+        "duration" : 35772
+      }
+    }, {
+      "uid" : "272ff0e899f9b15b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278748530,
+        "stop" : 1537278800734,
+        "duration" : 52204
+      }
+    }, {
+      "uid" : "44934071c1016eab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277622045,
+        "stop" : 1537277649635,
+        "duration" : 27590
+      }
+    }, {
+      "uid" : "62d0c6cfba3c4d63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276689567,
+        "stop" : 1537276719995,
+        "duration" : 30428
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44f521ec02081ed4.json",
+  "parameterValues" : [ "chrome" ]
+}

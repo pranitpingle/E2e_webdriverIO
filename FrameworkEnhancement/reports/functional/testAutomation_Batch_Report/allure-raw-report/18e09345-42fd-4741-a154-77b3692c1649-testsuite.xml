@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546938441810' stop='1546938457510'>
+    <name>User navigates to usage overview card and verifies the data</name>
+    <title>User navigates to usage overview card and verifies the data</title>
+    <test-cases>
+        <test-case start='1546938441818' status='broken' stop='1546938457509'>
+            <name>user can see monthly consumption details from usage overview card</name>
+            <title>user can see monthly consumption details from usage overview card</title>
+            <labels>
+                <label name='feature' value='User navigates to usage overview card and verifies the data'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546938449016' status='broken' stop='1546938451156'>
+                    <name>user navigates to usage overview page</name>
+                    <title>user navigates to usage overview page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b8db65aa-da17-4783-9fa4-b0791c46fbf3-attachment.png' type='image/png' size='32486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938451158' status='broken' stop='1546938453273'>
+                    <name>user click on the radio button having month details</name>
+                    <title>user click on the radio button having month details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='01ee8e89-676e-48da-bb0c-513e44e3dbe6-attachment.png' type='image/png' size='31491'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938453274' status='broken' stop='1546938455368'>
+                    <name>user view monthly details</name>
+                    <title>user view monthly details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ad3b9b5a-9be9-4c24-9219-39d494cbddcc-attachment.png' type='image/png' size='32486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f72c9525-834a-4910-82e2-87cfc9df510e-attachment.png' type='image/png' size='30938'/>
+                <attachment title='Screenshot' source='5695be05-b0b1-478d-8a8d-5c729b0fe792-attachment.png' type='image/png' size='30938'/>
+            </attachments>
+            <failure>
+                <message>Step "user view monthly details" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/home/ankitasawant/Documents/AmwaterDashboardFinal-Error solving/AmwaterDashboardFinal/cp-dashboard-qa/features/UsageOverview/consumptionDetails.feature:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

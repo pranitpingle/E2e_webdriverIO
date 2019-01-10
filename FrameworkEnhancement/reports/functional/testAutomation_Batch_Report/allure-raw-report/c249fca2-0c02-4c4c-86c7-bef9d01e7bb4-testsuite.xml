@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283367922' stop='1537283540788'>
+    <name>A registered user can check for messages alerts &amp; open request</name>
+    <title>A registered user can check for messages alerts &amp; open request</title>
+    <test-cases>
+        <test-case start='1537283367924' status='passed' stop='1537283424552'>
+            <name>User can download the pdf messages available in message section</name>
+            <title>User can download the pdf messages available in message section</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283396944' status='passed' stop='1537283405471'>
+                    <name>user navigates to messages</name>
+                    <title>user navigates to messages</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ce2112d8-0e1c-469e-bf2b-b497c0ba0bb1-attachment.png' type='image/png' size='396074'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283405473' status='passed' stop='1537283410088'>
+                    <name>user see the messages available in the section with message icon and title</name>
+                    <title>user see the messages available in the section with message icon and title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='544c1f89-f248-4e93-b505-815af319759c-attachment.png' type='image/png' size='396074'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283410126' status='passed' stop='1537283416352'>
+                    <name>user can download the selected pdf messages</name>
+                    <title>user can download the selected pdf messages</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='611c2695-d4d6-43e9-a900-b63c35dba95c-attachment.png' type='image/png' size='396315'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1b8f441e-7dc6-4cd9-ae50-b41cdc9d18ab-attachment.png' type='image/png' size='429470'/>
+                <attachment title='Screenshot' source='7dd84242-100c-4e71-82aa-c1be2d1a0273-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537283424552' status='passed' stop='1537283461738'>
+            <name>User can see the open request available in the section or not</name>
+            <title>User can see the open request available in the section or not</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283437484' status='passed' stop='1537283447404'>
+                    <name>user navigates to Open Request</name>
+                    <title>user navigates to Open Request</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cb8f9f7f-968e-459c-9a71-eb1ca6564233-attachment.png' type='image/png' size='423002'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283447463' status='passed' stop='1537283451737'>
+                    <name>user see the open request available in the section or not</name>
+                    <title>user see the open request available in the section or not</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f0603b25-0c87-4401-b83c-5109286ed276-attachment.png' type='image/png' size='423002'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3a366ec5-c24e-498e-b3db-8db2a6e912cd-attachment.png' type='image/png' size='429439'/>
+                <attachment title='Screenshot' source='644be9f9-5a8e-45d2-b3a7-7e45629cc110-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537283461741' status='passed' stop='1537283500940'>
+            <name>User can check the alerts available in alerts section</name>
+            <title>User can check the alerts available in alerts section</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283475360' status='passed' stop='1537283484279'>
+                    <name>user navigates to alerts</name>
+                    <title>user navigates to alerts</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ec78d97f-22e6-48f3-aae5-43b3690095f8-attachment.png' type='image/png' size='388780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283484279' status='passed' stop='1537283487639'>
+                    <name>user see the alerts available in the section with each having alert icon</name>
+                    <title>user see the alerts available in the section with each having alert icon</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='67c8b5ff-0de0-47e2-b0c0-81fe7da7445e-attachment.png' type='image/png' size='388780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283487640' status='passed' stop='1537283491569'>
+                    <name>user see the alerts available in the section with each having alert title</name>
+                    <title>user see the alerts available in the section with each having alert title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='95d8fcfc-ab09-4e72-96b5-ac958f21fbb0-attachment.png' type='image/png' size='388780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='faf97ef3-31fe-4b05-8a44-9973770a16a2-attachment.png' type='image/png' size='429330'/>
+                <attachment title='Screenshot' source='10257041-6997-48f1-af88-ca1028ceadc7-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537283500941' status='passed' stop='1537283540787'>
+            <name>User can check the latest alert are displaying at top</name>
+            <title>User can check the latest alert are displaying at top</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283512389' status='passed' stop='1537283521238'>
+                    <name>user again navigates to alerts</name>
+                    <title>user again navigates to alerts</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3b5fe731-3e53-4b70-a127-1b077768bba5-attachment.png' type='image/png' size='388777'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283521239' status='passed' stop='1537283524162'>
+                    <name>user see the alerts available in the section with each of them having the alert icon</name>
+                    <title>user see the alerts available in the section with each of them having the alert icon</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7ef7332b-96b5-4a89-b7a4-b2dcaec648b3-attachment.png' type='image/png' size='388777'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283524162' status='passed' stop='1537283532072'>
+                    <name>user see the latest alert is displaying on the top</name>
+                    <title>user see the latest alert is displaying on the top</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2fc9584c-c970-4ab0-b35b-cf0d85be6354-attachment.png' type='image/png' size='388777'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5adb9261-488d-40e6-bfc7-ce4efc0174e9-attachment.png' type='image/png' size='429319'/>
+                <attachment title='Screenshot' source='4e67aef6-2126-4da6-a15d-211a64a93f1e-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

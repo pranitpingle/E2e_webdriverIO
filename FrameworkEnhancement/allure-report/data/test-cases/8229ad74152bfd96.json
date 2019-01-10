@@ -1,0 +1,158 @@
+{
+  "uid" : "8229ad74152bfd96",
+  "name" : "User can contact the amwater team using contact us link",
+  "fullName" : "A registered user can open different menu and submenu.User can contact the amwater team using contact us link",
+  "historyId" : "daf6c3aa05cba0a80488d7ca5bcc2052",
+  "time" : {
+    "start" : 1537793494781,
+    "stop" : 1537793544863,
+    "duration" : 50082
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user click on Contact Us",
+      "time" : {
+        "start" : 1537793511051,
+        "stop" : 1537793517945,
+        "duration" : 6894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "251a14be9677d3e1",
+        "name" : "Screenshot",
+        "source" : "251a14be9677d3e1.png",
+        "type" : "image/png",
+        "size" : 432812
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Contact Us page with text \"CONTACT US\"",
+      "time" : {
+        "start" : 1537793517991,
+        "stop" : 1537793525684,
+        "duration" : 7693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "daca84d102618561",
+        "name" : "Screenshot",
+        "source" : "daca84d102618561.png",
+        "type" : "image/png",
+        "size" : 96247
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "verify Contact Us page by validating url",
+      "time" : {
+        "start" : 1537793525685,
+        "stop" : 1537793535886,
+        "duration" : 10201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa382b595f6d7f6d",
+        "name" : "Screenshot",
+        "source" : "aa382b595f6d7f6d.png",
+        "type" : "image/png",
+        "size" : 432774
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8040bd09ac13b453",
+      "name" : "Screenshot",
+      "source" : "8040bd09ac13b453.png",
+      "type" : "image/png",
+      "size" : 432455
+    }, {
+      "uid" : "9d3825014679fdea",
+      "name" : "Screenshot",
+      "source" : "9d3825014679fdea.png",
+      "type" : "image/png",
+      "size" : 193223
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can contact the amwater team using contact us link"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d82de9fe96f4c275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283804641,
+        "stop" : 1537283853332,
+        "duration" : 48691
+      }
+    }, {
+      "uid" : "ed2e81976d83c584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278597210,
+        "stop" : 1537278642539,
+        "duration" : 45329
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8229ad74152bfd96.json",
+  "parameterValues" : [ "chrome" ]
+}

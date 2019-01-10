@@ -1,0 +1,164 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283674365' stop='1537283784270'>
+    <name>A registered user can pay by available Payment methods</name>
+    <title>A registered user can pay by available Payment methods</title>
+    <test-cases>
+        <test-case start='1537283674367' status='broken' stop='1537283712820'>
+            <name>User can make payment by cash</name>
+            <title>User can make payment by cash</title>
+            <labels>
+                <label name='feature' value='A registered user can pay by available Payment methods'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283690287' status='broken' stop='1537283695591'>
+                    <name>user navigates to Make Payments page an selects payment method "Cash"</name>
+                    <title>user navigates to Make Payments page an selects payment method "Cash"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2514258c-0a89-4997-b39e-5a5610bbdae1-attachment.png' type='image/png' size='401984'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283695645' status='pending' stop='1537283699037'>
+                    <name>user pays with amount "84" and enters receipt number to submit</name>
+                    <title>user pays with amount "84" and enters receipt number to submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='346b462b-8db7-46aa-9669-ff97b58c80ae-attachment.png' type='image/png' size='401984'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283699039' status='pending' stop='1537283701837'>
+                    <name>cash payment is successful with message "You have successfully completed your CASH payment!"</name>
+                    <title>cash payment is successful with message "You have successfully completed your CASH payment!"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='05f7239c-0853-4e24-8fa9-1207b06b8059-attachment.png' type='image/png' size='401984'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='96091405-7376-42c7-a46c-002cb22c4535-attachment.png' type='image/png' size='429448'/>
+                <attachment title='Screenshot' source='dd0deb18-8c6e-40bf-b9d1-26b328793159-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537283712820' status='broken' stop='1537283750973'>
+            <name>User can make payment by Electronic Check</name>
+            <title>User can make payment by Electronic Check</title>
+            <labels>
+                <label name='feature' value='A registered user can pay by available Payment methods'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283727848' status='broken' stop='1537283733507'>
+                    <name>user navigates to Make Payments page an selects payment method "Electronic Check"</name>
+                    <title>user navigates to Make Payments page an selects payment method "Electronic Check"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='45bebc9a-91dc-4a36-9a37-dbd3cd050ec3-attachment.png' type='image/png' size='401933'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283733508' status='pending' stop='1537283737104'>
+                    <name>user sucessfully pays "5.00$"</name>
+                    <title>user sucessfully pays "5.00$"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7664ae3d-9f0f-478f-ac0b-0ecfd7b6d49e-attachment.png' type='image/png' size='401933'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283737104' status='pending' stop='1537283739920'>
+                    <name>user recieves payment successful message "You have successfully completed your Electronic Check Payment!"</name>
+                    <title>user recieves payment successful message "You have successfully completed your Electronic Check Payment!"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ef099ffa-857f-4082-9219-e0e9052fb07b-attachment.png' type='image/png' size='401933'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283739922' status='pending' stop='1537283742839'>
+                    <name>user Account Summary is updated with the deficit amount after 10 seconds</name>
+                    <title>user Account Summary is updated with the deficit amount after 10 seconds</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f3eb2827-7505-41f0-8a39-d00019bf1817-attachment.png' type='image/png' size='401933'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8ca29ac5-e3d8-4392-9a56-f8b629cd3522-attachment.png' type='image/png' size='429396'/>
+                <attachment title='Screenshot' source='0dd609a5-d1b5-4259-9c68-3ed3f2d4147b-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537283750974' status='broken' stop='1537283784268'>
+            <name>User can make payment by Debit or Credit card</name>
+            <title>User can make payment by Debit or Credit card</title>
+            <labels>
+                <label name='feature' value='A registered user can pay by available Payment methods'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283763754' status='broken' stop='1537283769374'>
+                    <name>user navigates to Make Payments page an selects payment method "Credit or Debit Card"</name>
+                    <title>user navigates to Make Payments page an selects payment method "Credit or Debit Card"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9195d9ef-6811-43bf-a272-eaeaedb8561b-attachment.png' type='image/png' size='401983'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283769375' status='pending' stop='1537283771863'>
+                    <name>user sucessfully pays "5.00$"</name>
+                    <title>user sucessfully pays "5.00$"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='54373934-0f7e-4d61-be03-50a2c1d5f72a-attachment.png' type='image/png' size='401983'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283771863' status='pending' stop='1537283774527'>
+                    <name>user recieves payment successful message "You have successfully completed your Credit Card Payment!"</name>
+                    <title>user recieves payment successful message "You have successfully completed your Credit Card Payment!"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b6115c73-f41d-4905-a05e-2da9a74f2797-attachment.png' type='image/png' size='401983'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283774567' status='pending' stop='1537283777366'>
+                    <name>user Account Summary is updated with the deficit amount after 10 seconds</name>
+                    <title>user Account Summary is updated with the deficit amount after 10 seconds</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='96801124-51aa-4da0-99c6-517da608aaa8-attachment.png' type='image/png' size='401983'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3d386c34-c259-4125-bf1f-9300e48fb293-attachment.png' type='image/png' size='429451'/>
+                <attachment title='Screenshot' source='5f43a7f2-30e0-4a8f-b506-ca96415088a6-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

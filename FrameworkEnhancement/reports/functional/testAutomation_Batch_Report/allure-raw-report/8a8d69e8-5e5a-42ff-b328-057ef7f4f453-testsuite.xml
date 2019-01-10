@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866927223' stop='1546866949597'>
+    <name>Validate fields Service Request card</name>
+    <title>Validate fields Service Request card</title>
+    <test-cases>
+        <test-case start='1546866927225' status='broken' stop='1546866935326'>
+            <name>service request description</name>
+            <title>service request description</title>
+            <labels>
+                <label name='feature' value='Validate fields Service Request card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866931255' status='pending' stop='1546866933296'>
+                    <name>service description visible in the card is "Please call us for any customer service requests including starting or stopping service."</name>
+                    <title>service description visible in the card is "Please call us for any customer service requests including starting or stopping service."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866935336' status='broken' stop='1546866941454'>
+            <name>service request number</name>
+            <title>service request number</title>
+            <labels>
+                <label name='feature' value='Validate fields Service Request card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866937382' status='pending' stop='1546866939401'>
+                    <name>service request number "1-888-237-1333" is visible in the card</name>
+                    <title>service request number "1-888-237-1333" is visible in the card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866941458' status='broken' stop='1546866949596'>
+            <name>service request availibility</name>
+            <title>service request availibility</title>
+            <labels>
+                <label name='feature' value='Validate fields Service Request card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866943506' status='pending' stop='1546866945537'>
+                    <name>customer support hours "Hours: Monday - Friday 7 am - 7 pm" is visible in the card</name>
+                    <title>customer support hours "Hours: Monday - Friday 7 am - 7 pm" is visible in the card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866945544' status='pending' stop='1546866947562'>
+                    <name>emergency suppport "For emergencies: We are available 24/7" is visible in the card</name>
+                    <title>emergency suppport "For emergencies: We are available 24/7" is visible in the card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

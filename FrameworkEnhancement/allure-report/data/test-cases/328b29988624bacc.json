@@ -1,0 +1,169 @@
+{
+  "uid" : "328b29988624bacc",
+  "name" : "user can see monthly consumption details from usage overview card",
+  "fullName" : "User navigates to usage overview card and verifies the data.user can see monthly consumption details from usage overview card",
+  "historyId" : "b4cb770fc56b331adfe3ccd0c7ea6131",
+  "time" : {
+    "start" : 1537793555261,
+    "stop" : 1537793631696,
+    "duration" : 76435
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.635744284356828-11\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.635744284356828-11\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+    "steps" : [ {
+      "name" : "user navigates to usage overview page",
+      "time" : {
+        "start" : 1537793574827,
+        "stop" : 1537793584153,
+        "duration" : 9326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82556151387833c4",
+        "name" : "Screenshot",
+        "source" : "82556151387833c4.png",
+        "type" : "image/png",
+        "size" : 345748
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on the radio button having month details",
+      "time" : {
+        "start" : 1537793584153,
+        "stop" : 1537793617114,
+        "duration" : 32961
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.635744284356828-11\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b5d6c4eb6573cf9",
+        "name" : "Screenshot",
+        "source" : "4b5d6c4eb6573cf9.png",
+        "type" : "image/png",
+        "size" : 318398
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view monthly details",
+      "time" : {
+        "start" : 1537793617114,
+        "stop" : 1537793619773,
+        "duration" : 2659
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3eca5d0b0cb9573",
+        "name" : "Screenshot",
+        "source" : "e3eca5d0b0cb9573.png",
+        "type" : "image/png",
+        "size" : 318398
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "e5caac42ec0e7c31",
+      "name" : "Screenshot",
+      "source" : "e5caac42ec0e7c31.png",
+      "type" : "image/png",
+      "size" : 432491
+    }, {
+      "uid" : "d6b89efa8b23edca",
+      "name" : "Screenshot",
+      "source" : "d6b89efa8b23edca.png",
+      "type" : "image/png",
+      "size" : 189112
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see monthly consumption details from usage overview card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4cd61c3805093da",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+      "time" : {
+        "start" : 1537283877453,
+        "stop" : 1537283946246,
+        "duration" : 68793
+      }
+    }, {
+      "uid" : "2e760dc9be93fd05",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//*[@id=\"usageOverview\"]/div[3]/div/div/div/div[2]/div/div/div/button[2]\").",
+      "time" : {
+        "start" : 1537278739107,
+        "stop" : 1537278881085,
+        "duration" : 141978
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "328b29988624bacc.json",
+  "parameterValues" : [ "chrome" ]
+}

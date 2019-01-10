@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283956146' stop='1537283993244'>
+    <name>To check the users primary information</name>
+    <title>To check the users primary information</title>
+    <test-cases>
+        <test-case start='1537283956149' status='passed' stop='1537283993243'>
+            <name>User can check his basic information</name>
+            <title>User can check his basic information</title>
+            <labels>
+                <label name='feature' value='To check the users primary information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283972190' status='passed' stop='1537283983382'>
+                    <name>user reaches to Dashboard page after the login</name>
+                    <title>user reaches to Dashboard page after the login</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fab33209-1127-4ae6-8f61-a671113e86b1-attachment.png' type='image/png' size='429368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283983382' status='passed' stop='1537283986104'>
+                    <name>user verifies all his basic information</name>
+                    <title>user verifies all his basic information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='86881016-e94d-422f-8fde-3c97226e4827-attachment.png' type='image/png' size='429368'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b90da5f7-13cf-4793-840f-f14c0de51e58-attachment.png' type='image/png' size='429368'/>
+                <attachment title='Screenshot' source='615a5a35-9f1f-48d5-b098-b33156333244-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

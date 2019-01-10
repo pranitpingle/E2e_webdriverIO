@@ -1,0 +1,190 @@
+{
+  "uid" : "bdfd85f1f2eb424e",
+  "name" : "verify user able to open Terms Of Use footer link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Terms Of Use footer link in new browser tab",
+  "historyId" : "77a8f5afeb266a1bf7aa8a0be4956e85",
+  "time" : {
+    "start" : 1538393176915,
+    "stop" : 1538393205914,
+    "duration" : 28999
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Terms Of Use link in Footer",
+      "time" : {
+        "start" : 1538393184645,
+        "stop" : 1538393187388,
+        "duration" : 2743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4b3f9793df5bb6",
+        "name" : "Screenshot",
+        "source" : "b4b3f9793df5bb6.png",
+        "type" : "image/png",
+        "size" : 129803
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Terms of Use page with page title \"TERMS OF USE\"",
+      "time" : {
+        "start" : 1538393187388,
+        "stop" : 1538393193855,
+        "duration" : 6467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "180f023554c13e1",
+        "name" : "Screenshot",
+        "source" : "180f023554c13e1.png",
+        "type" : "image/png",
+        "size" : 65921
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Terms of Use link is successfully redirecting to Terms of Use Page by validating page url",
+      "time" : {
+        "start" : 1538393193856,
+        "stop" : 1538393199426,
+        "duration" : 5570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8022dac22a5b04b7",
+        "name" : "Screenshot",
+        "source" : "8022dac22a5b04b7.png",
+        "type" : "image/png",
+        "size" : 129803
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "4df25982d3e47318",
+      "name" : "Screenshot",
+      "source" : "4df25982d3e47318.png",
+      "type" : "image/png",
+      "size" : 399552
+    }, {
+      "uid" : "b6f2a7c2cf0a504b",
+      "name" : "Screenshot",
+      "source" : "b6f2a7c2cf0a504b.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Terms Of Use footer link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e707712e849203e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037117162,
+        "stop" : 1538037147473,
+        "duration" : 30311
+      }
+    }, {
+      "uid" : "9071c45e79b345d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793346994,
+        "stop" : 1537793379420,
+        "duration" : 32426
+      }
+    }, {
+      "uid" : "1efc13ecea7cbe70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283609791,
+        "stop" : 1537283650174,
+        "duration" : 40383
+      }
+    }, {
+      "uid" : "36a69e12c01cf1b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278387910,
+        "stop" : 1537278427425,
+        "duration" : 39515
+      }
+    }, {
+      "uid" : "b03c8e747ac00841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277338447,
+        "stop" : 1537277379344,
+        "duration" : 40897
+      }
+    }, {
+      "uid" : "e1afd1e154ca104a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276432002,
+        "stop" : 1537276463866,
+        "duration" : 31864
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdfd85f1f2eb424e.json",
+  "parameterValues" : [ "chrome" ]
+}

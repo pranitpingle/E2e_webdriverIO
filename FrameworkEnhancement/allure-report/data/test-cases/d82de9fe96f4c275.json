@@ -1,0 +1,140 @@
+{
+  "uid" : "d82de9fe96f4c275",
+  "name" : "User can contact the amwater team using contact us link",
+  "fullName" : "A registered user can open different menu and submenu.User can contact the amwater team using contact us link",
+  "historyId" : "daf6c3aa05cba0a80488d7ca5bcc2052",
+  "time" : {
+    "start" : 1537283804641,
+    "stop" : 1537283853332,
+    "duration" : 48691
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user click on Contact Us",
+      "time" : {
+        "start" : 1537283822459,
+        "stop" : 1537283828927,
+        "duration" : 6468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42be47bdbd2c8cda",
+        "name" : "Screenshot",
+        "source" : "42be47bdbd2c8cda.png",
+        "type" : "image/png",
+        "size" : 429844
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Contact Us page with text \"CONTACT US\"",
+      "time" : {
+        "start" : 1537283828927,
+        "stop" : 1537283836309,
+        "duration" : 7382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2cee35a5865c8bd4",
+        "name" : "Screenshot",
+        "source" : "2cee35a5865c8bd4.png",
+        "type" : "image/png",
+        "size" : 96247
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "verify Contact Us page by validating url",
+      "time" : {
+        "start" : 1537283836310,
+        "stop" : 1537283845952,
+        "duration" : 9642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c967090e204c63b1",
+        "name" : "Screenshot",
+        "source" : "c967090e204c63b1.png",
+        "type" : "image/png",
+        "size" : 429844
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8da63ebecb95b4f5",
+      "name" : "Screenshot",
+      "source" : "8da63ebecb95b4f5.png",
+      "type" : "image/png",
+      "size" : 429484
+    }, {
+      "uid" : "cc85d02b6288f272",
+      "name" : "Screenshot",
+      "source" : "cc85d02b6288f272.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can contact the amwater team using contact us link"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d82de9fe96f4c275.json",
+  "parameterValues" : [ "chrome" ]
+}

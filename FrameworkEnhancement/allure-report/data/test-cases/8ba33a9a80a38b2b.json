@@ -1,0 +1,158 @@
+{
+  "uid" : "8ba33a9a80a38b2b",
+  "name" : "User can check the redirection to usage projection card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to usage projection card from the header menu",
+  "historyId" : "45d3d20a146be84bc6c7006427c9c811",
+  "time" : {
+    "start" : 1537793448774,
+    "stop" : 1537793494781,
+    "duration" : 46007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu header menu present in dashboard",
+      "time" : {
+        "start" : 1537793459673,
+        "stop" : 1537793469442,
+        "duration" : 9769
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e6a479212f20aa2",
+        "name" : "Screenshot",
+        "source" : "6e6a479212f20aa2.png",
+        "type" : "image/png",
+        "size" : 411048
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on usage projection sub menu",
+      "time" : {
+        "start" : 1537793469478,
+        "stop" : 1537793477461,
+        "duration" : 7983
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f3c4c527ca3e1e3",
+        "name" : "Screenshot",
+        "source" : "5f3c4c527ca3e1e3.png",
+        "type" : "image/png",
+        "size" : 236597
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "usage projection card is displayed in focus with a label as \"Usage Projection\"",
+      "time" : {
+        "start" : 1537793477462,
+        "stop" : 1537793485516,
+        "duration" : 8054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f01aa27ff9c827c",
+        "name" : "Screenshot",
+        "source" : "8f01aa27ff9c827c.png",
+        "type" : "image/png",
+        "size" : 308206
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "df19462676f1ba81",
+      "name" : "Screenshot",
+      "source" : "df19462676f1ba81.png",
+      "type" : "image/png",
+      "size" : 432523
+    }, {
+      "uid" : "d4379010571ba4b",
+      "name" : "Screenshot",
+      "source" : "d4379010571ba4b.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to usage projection card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a4074801ef36bc77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283759828,
+        "stop" : 1537283804641,
+        "duration" : 44813
+      }
+    }, {
+      "uid" : "d8b984dac7f0261c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278539306,
+        "stop" : 1537278597209,
+        "duration" : 57903
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ba33a9a80a38b2b.json",
+  "parameterValues" : [ "chrome" ]
+}

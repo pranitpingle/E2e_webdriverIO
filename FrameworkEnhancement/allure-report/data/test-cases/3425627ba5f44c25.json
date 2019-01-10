@@ -1,0 +1,145 @@
+{
+  "uid" : "3425627ba5f44c25",
+  "name" : "Display Billing and payments history monthwise",
+  "fullName" : "Biliing and Payment history.Display Billing and payments history monthwise",
+  "historyId" : "555fd191e2d4421ed25289e25dcaf7f7",
+  "time" : {
+    "start" : 1537283367885,
+    "stop" : 1537283443339,
+    "duration" : 75454
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".ant-slider-step\") still not existing after 20000ms",
+  "statusTrace" : "Error: element (\".ant-slider-step\") still not existing after 20000ms\n                    at elements(\".ant-slider-step\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".ant-slider-step\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".ant-slider-step\") still not existing after 20000ms",
+    "statusTrace" : "Error: element (\".ant-slider-step\") still not existing after 20000ms\n                    at elements(\".ant-slider-step\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".ant-slider-step\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537283399894,
+        "stop" : 1537283427499,
+        "duration" : 27605
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\".ant-slider-step\") still not existing after 20000ms\n                    at elements(\".ant-slider-step\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".ant-slider-step\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f1e89e851db02b2",
+        "name" : "Screenshot",
+        "source" : "2f1e89e851db02b2.png",
+        "type" : "image/png",
+        "size" : 402263
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user slides the slider bar to set statement period for 1 month",
+      "time" : {
+        "start" : 1537283427673,
+        "stop" : 1537283431277,
+        "duration" : 3604
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c74356e44929e34",
+        "name" : "Screenshot",
+        "source" : "9c74356e44929e34.png",
+        "type" : "image/png",
+        "size" : 402263
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "billing and payments table should display transactions only for the selected statement period",
+      "time" : {
+        "start" : 1537283431279,
+        "stop" : 1537283434483,
+        "duration" : 3204
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9dd82bcb076e9456",
+        "name" : "Screenshot",
+        "source" : "9dd82bcb076e9456.png",
+        "type" : "image/png",
+        "size" : 402263
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "f97e3aba735b1f07",
+      "name" : "Screenshot",
+      "source" : "f97e3aba735b1f07.png",
+      "type" : "image/png",
+      "size" : 429476
+    }, {
+      "uid" : "657ece0856b751d2",
+      "name" : "Screenshot",
+      "source" : "657ece0856b751d2.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "Display Billing and payments history monthwise"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3425627ba5f44c25.json",
+  "parameterValues" : [ "chrome" ]
+}

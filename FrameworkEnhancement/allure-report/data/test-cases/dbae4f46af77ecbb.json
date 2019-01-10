@@ -1,0 +1,187 @@
+{
+  "uid" : "dbae4f46af77ecbb",
+  "name" : "verify invoice is attached and opens in billing and payments table",
+  "fullName" : "Biliing and Payment history.verify invoice is attached and opens in billing and payments table",
+  "historyId" : "c7a537f6db10c7f120d59d9b794d7bae",
+  "time" : {
+    "start" : 1537261449047,
+    "stop" : 1537261492768,
+    "duration" : 43721
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <a tabindex=\"0\" href=\"#\">...</a> is not clickable at point (437, 65). Other element would receive the click: <div class=\"banner-container aw-hidden-tablet\" style=\"background-image: url(&quot;/static/media/dashboard-banner.0e3f59e5.png&quot;);\"></div>",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.3315140262402605-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Element <a tabindex=\"0\" href=\"#\">...</a> is not clickable at point (437, 65). Other element would receive the click: <div class=\"banner-container aw-hidden-tablet\" style=\"background-image: url(&quot;/static/media/dashboard-banner.0e3f59e5.png&quot;);\"></div>",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.3315140262402605-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537261462599,
+        "stop" : 1537261468925,
+        "duration" : 6326
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at elementIdClick(\"0.3315140262402605-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e4e95c30340a381",
+        "name" : "Screenshot",
+        "source" : "4e4e95c30340a381.png",
+        "type" : "image/png",
+        "size" : 429086
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on the invoicing link under column TRANSACTION TYPE",
+      "time" : {
+        "start" : 1537261468925,
+        "stop" : 1537261471930,
+        "duration" : 3005
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cadf7c8b2059cd88",
+        "name" : "Screenshot",
+        "source" : "cadf7c8b2059cd88.png",
+        "type" : "image/png",
+        "size" : 429086
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "information is displayed in a new tab",
+      "time" : {
+        "start" : 1537261471967,
+        "stop" : 1537261476636,
+        "duration" : 4669
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a218bb7041deafe4",
+        "name" : "Screenshot",
+        "source" : "a218bb7041deafe4.png",
+        "type" : "image/png",
+        "size" : 429086
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "new tab contains information as pdf",
+      "time" : {
+        "start" : 1537261476637,
+        "stop" : 1537261480321,
+        "duration" : 3684
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44a3209922815de2",
+        "name" : "Screenshot",
+        "source" : "44a3209922815de2.png",
+        "type" : "image/png",
+        "size" : 429086
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes new tab",
+      "time" : {
+        "start" : 1537261480321,
+        "stop" : 1537261483199,
+        "duration" : 2878
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eef7b71e6c51c98",
+        "name" : "Screenshot",
+        "source" : "eef7b71e6c51c98.png",
+        "type" : "image/png",
+        "size" : 429086
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "7a4002f9287e6a17",
+      "name" : "Screenshot",
+      "source" : "7a4002f9287e6a17.png",
+      "type" : "image/png",
+      "size" : 429086
+    }, {
+      "uid" : "1ccb53f27b55c980",
+      "name" : "Screenshot",
+      "source" : "1ccb53f27b55c980.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify invoice is attached and opens in billing and payments table"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbae4f46af77ecbb.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866725873' stop='1546866792943'>
+    <name>AutoPay enrollment</name>
+    <title>AutoPay enrollment</title>
+    <test-cases>
+        <test-case start='1546866725875' status='broken' stop='1546866750266'>
+            <name>User has an option to enroll for AutoPay</name>
+            <title>User has an option to enroll for AutoPay</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866741627' status='pending' stop='1546866743787'>
+                    <name>user is not enrolled for AutoPay</name>
+                    <title>user is not enrolled for AutoPay</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='61f0a556-255b-48c0-bc26-ab2079d09cf8-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866743791' status='pending' stop='1546866745916'>
+                    <name>user enrolls for AutoPay and gets "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</name>
+                    <title>user enrolls for AutoPay and gets "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='55c1e796-d8f9-447b-8521-e19838cf5d00-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866745917' status='pending' stop='1546866748030'>
+                    <name>user closes success message dialog and AutoPay card is not displayed in Dashboard</name>
+                    <title>user closes success message dialog and AutoPay card is not displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f1979297-cbe5-43ba-8b09-6f8d1e743236-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='204f0272-b241-4802-beca-d24188c981a7-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='aaee1369-94e3-4c58-9835-d762d24431f8-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866750266' status='broken' stop='1546866771774'>
+            <name>User has an option to Update AutoPay information</name>
+            <title>User has an option to Update AutoPay information</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866763209' status='pending' stop='1546866765348'>
+                    <name>user is enrolled for AutoPay to update information</name>
+                    <title>user is enrolled for AutoPay to update information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3c08a18b-9e4b-449a-b7b3-4be2ad449023-attachment.png' type='image/png' size='35304'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866765350' status='pending' stop='1546866767477'>
+                    <name>user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</name>
+                    <title>user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='569a2d2c-abf0-4e83-a6fb-f56785aaa024-attachment.png' type='image/png' size='35304'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866767477' status='pending' stop='1546866769595'>
+                    <name>user closes success message dialog and AutoPay card is displayed with updated Information</name>
+                    <title>user closes success message dialog and AutoPay card is displayed with updated Information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ad41d230-9ee2-4185-a81a-4772b07faaea-attachment.png' type='image/png' size='35304'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='424b2f8e-5756-433c-91eb-1f42dfe23209-attachment.png' type='image/png' size='35304'/>
+                <attachment title='Screenshot' source='dcaf4221-8e0f-490d-a401-1a11d32bc152-attachment.png' type='image/png' size='35304'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866771774' status='broken' stop='1546866792943'>
+            <name>User has an option to Cancel AutoPay Enrollment</name>
+            <title>User has an option to Cancel AutoPay Enrollment</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866784348' status='pending' stop='1546866786434'>
+                    <name>user is enrolled for AutoPay</name>
+                    <title>user is enrolled for AutoPay</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='65b57e6b-0e85-4573-b37a-8cf42b4f5706-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866786438' status='pending' stop='1546866788540'>
+                    <name>user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."</name>
+                    <title>user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='94ca5b42-90bb-4091-8797-ba132f72c03e-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866788541' status='pending' stop='1546866790669'>
+                    <name>user closes success message dialog and AutoPay card is now displayed in Dashboard</name>
+                    <title>user closes success message dialog and AutoPay card is now displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c4951c73-cc52-4037-887c-f96786975ae3-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='741947d2-ea87-4ed6-ba71-ee4a9382b5d8-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='4883503e-c8ed-4358-b138-765f52280dcc-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

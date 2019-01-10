@@ -1,0 +1,793 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "A registered user can Login to Dashboard and can edit personal information",
+    "children" : [ {
+      "name" : "user can change name from change Name option",
+      "uid" : "ea1ec72590aa5b33",
+      "parentUid" : "f695a0e73659f39a43d38aff332391a5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537278254318,
+        "stop" : 1537278316130,
+        "duration" : 61812
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "To verify if user can make changes successfully in various fields of Edit Profile section",
+      "uid" : "1ec05e2d696376cb",
+      "parentUid" : "f695a0e73659f39a43d38aff332391a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793207114,
+        "stop" : 1537793378516,
+        "duration" : 171402
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f695a0e73659f39a43d38aff332391a5"
+  }, {
+    "name" : "Navy Footer page links redirection in new tab",
+    "children" : [ {
+      "name" : "verify user able to open Navy Footer Links in new tab link in new browser tab",
+      "uid" : "adb88a476e674585",
+      "parentUid" : "d5c9219e844323a644c4fbba59715752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283721410,
+        "stop" : 1537283864370,
+        "duration" : 142960
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "d5c9219e844323a644c4fbba59715752"
+  }, {
+    "name" : "Dashboard service alerts verfication",
+    "children" : [ {
+      "name" : "verify user able to validate service alerts",
+      "uid" : "fa04088e7331332c",
+      "parentUid" : "1fe09dd6d6c16188f0bb091f0f50322d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283796740,
+        "stop" : 1537283846876,
+        "duration" : 50136
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1fe09dd6d6c16188f0bb091f0f50322d"
+  }, {
+    "name" : "Validate social media links on Marketing card",
+    "children" : [ {
+      "name" : "Verify user is able to click and verify all social media link on marketing cards",
+      "uid" : "9da57f4a355f2d6d",
+      "parentUid" : "b9f5b89789722fe541591304ed5b23ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283863196,
+        "stop" : 1537283982133,
+        "duration" : 118937
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b9f5b89789722fe541591304ed5b23ae"
+  }, {
+    "name" : "A registered user can check for messages alerts & open request",
+    "children" : [ {
+      "name" : "User can download the pdf messages available in message section",
+      "uid" : "a142846f01669cc8",
+      "parentUid" : "0822fff4aff4153b376a10658b2dbacb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793139873,
+        "stop" : 1537793184767,
+        "duration" : 44894
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can see the open request available in the section or not",
+      "uid" : "53350f83561ed964",
+      "parentUid" : "0822fff4aff4153b376a10658b2dbacb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793184774,
+        "stop" : 1537793214519,
+        "duration" : 29745
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check the alerts available in alerts section",
+      "uid" : "2a8609d22dc256da",
+      "parentUid" : "0822fff4aff4153b376a10658b2dbacb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793214522,
+        "stop" : 1537793247316,
+        "duration" : 32794
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check the latest alert are displaying at top",
+      "uid" : "e1b85f294bbf2737",
+      "parentUid" : "0822fff4aff4153b376a10658b2dbacb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793247317,
+        "stop" : 1537793283878,
+        "duration" : 36561
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "0822fff4aff4153b376a10658b2dbacb"
+  }, {
+    "name" : "Biliing and Payment history",
+    "children" : [ {
+      "name" : "Display Billing and payments history monthwise",
+      "uid" : "dfb556e44a6b11b1",
+      "parentUid" : "81683afebca599e1b35ba74ae0c57998",
+      "status" : "failed",
+      "time" : {
+        "start" : 1537793139915,
+        "stop" : 1537793177663,
+        "duration" : 37748
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify invoice is attached and opens in billing and payments table",
+      "uid" : "7c464b27a3e92ce1",
+      "parentUid" : "81683afebca599e1b35ba74ae0c57998",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793177697,
+        "stop" : 1537793216498,
+        "duration" : 38801
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify service information is attached and opens in billing and payments table",
+      "uid" : "7f750aaf38536c32",
+      "parentUid" : "81683afebca599e1b35ba74ae0c57998",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793216499,
+        "stop" : 1537793256356,
+        "duration" : 39857
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "81683afebca599e1b35ba74ae0c57998"
+  }, {
+    "name" : "AutoPay enrollment",
+    "children" : [ {
+      "name" : "User has an option to enroll for AutoPay",
+      "uid" : "2e6c7e6553bf905f",
+      "parentUid" : "943a2f4d1a9a338140df8a927430d960",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793139950,
+        "stop" : 1537793195260,
+        "duration" : 55310
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User has an option to Update AutoPay information",
+      "uid" : "cd9948dac422e455",
+      "parentUid" : "943a2f4d1a9a338140df8a927430d960",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793195261,
+        "stop" : 1537793242882,
+        "duration" : 47621
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User has an option to Cancel AutoPay Enrollment",
+      "uid" : "adc1ede72218aee7",
+      "parentUid" : "943a2f4d1a9a338140df8a927430d960",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793242884,
+        "stop" : 1537793287066,
+        "duration" : 44182
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "943a2f4d1a9a338140df8a927430d960"
+  }, {
+    "name" : "A registered user can Login to Dashboard and can see the account information",
+    "children" : [ {
+      "name" : "User can check account & meter information",
+      "uid" : "e3e5e8f02f704d9d",
+      "parentUid" : "4d29ac3b05a64b849e5cc84c7025cfd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793140189,
+        "stop" : 1537793198577,
+        "duration" : 58388
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "4d29ac3b05a64b849e5cc84c7025cfd9"
+  }, {
+    "name" : "A registered user can see the conservation tips",
+    "children" : [ {
+      "name" : "User can check the conservation tips are displayed with correct content",
+      "uid" : "6b0dd98d5a8319b1",
+      "parentUid" : "9c21fc525448347859bc085656c2bc1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793140418,
+        "stop" : 1537793192095,
+        "duration" : 51677
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check all the  conservation tips are displayed with correct content",
+      "uid" : "102c96c895daa3f7",
+      "parentUid" : "9c21fc525448347859bc085656c2bc1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793192095,
+        "stop" : 1537793240840,
+        "duration" : 48745
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check all the  conservation tips are displayed with correct content in detail",
+      "uid" : "c395299fbffeda76",
+      "parentUid" : "9c21fc525448347859bc085656c2bc1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793240841,
+        "stop" : 1537793288458,
+        "duration" : 47617
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "9c21fc525448347859bc085656c2bc1a"
+  }, {
+    "name" : "A registered user can submit the feedback",
+    "children" : [ {
+      "name" : "User can submit the feedback using all the manadatory fields",
+      "uid" : "9867cdc28171b70b",
+      "parentUid" : "bd35cc225d4627a6236ba36a1c38cf6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793264301,
+        "stop" : 1537793306239,
+        "duration" : 41938
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can submit the feedback using all the fields",
+      "uid" : "7b643208542817ec",
+      "parentUid" : "bd35cc225d4627a6236ba36a1c38cf6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793306240,
+        "stop" : 1537793346392,
+        "duration" : 40152
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User cannot submit the feedback using one manadatory fields",
+      "uid" : "4327a6582f64b31f",
+      "parentUid" : "bd35cc225d4627a6236ba36a1c38cf6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793346392,
+        "stop" : 1537793384772,
+        "duration" : 38380
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bd35cc225d4627a6236ba36a1c38cf6f"
+  }, {
+    "name" : "Paperless billing enrollment",
+    "children" : [ {
+      "name" : "user can unenroll from paperless billing enrollment",
+      "uid" : "2c9f0e0db827a02e",
+      "parentUid" : "1778625514bbc0ab41fbdb22944db307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793295977,
+        "stop" : 1537793348804,
+        "duration" : 52827
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify thank you message during paperless billing enrollment",
+      "uid" : "4319430ce99c011f",
+      "parentUid" : "1778625514bbc0ab41fbdb22944db307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793348805,
+        "stop" : 1537793381061,
+        "duration" : 32256
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify acknowledgement during paperless billing enrollment",
+      "uid" : "a2bf601cba5b0b0d",
+      "parentUid" : "1778625514bbc0ab41fbdb22944db307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793381062,
+        "stop" : 1537793430754,
+        "duration" : 49692
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1778625514bbc0ab41fbdb22944db307"
+  }, {
+    "name" : "A registered user can open different menu and submenu",
+    "children" : [ {
+      "name" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+      "uid" : "255a34a0d2cdb8ac",
+      "parentUid" : "057a53bed65bef9d0189fbec8d58cf43",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793296807,
+        "stop" : 1537793332518,
+        "duration" : 35711
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check the make payment modal view are displayed with all the payment method from header menu",
+      "uid" : "205ec55c0032e099",
+      "parentUid" : "057a53bed65bef9d0189fbec8d58cf43",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793332518,
+        "stop" : 1537793364884,
+        "duration" : 32366
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check the redirection to payment location card from the header menu",
+      "uid" : "8164a0801bb1f761",
+      "parentUid" : "057a53bed65bef9d0189fbec8d58cf43",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793364885,
+        "stop" : 1537793401674,
+        "duration" : 36789
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check the redirection to usage overview card from the header menu",
+      "uid" : "15bf81df3fa991ae",
+      "parentUid" : "057a53bed65bef9d0189fbec8d58cf43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793401675,
+        "stop" : 1537793448774,
+        "duration" : 47099
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can check the redirection to usage projection card from the header menu",
+      "uid" : "8ba33a9a80a38b2b",
+      "parentUid" : "057a53bed65bef9d0189fbec8d58cf43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793448774,
+        "stop" : 1537793494781,
+        "duration" : 46007
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can contact the amwater team using contact us link",
+      "uid" : "8229ad74152bfd96",
+      "parentUid" : "057a53bed65bef9d0189fbec8d58cf43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793494781,
+        "stop" : 1537793544863,
+        "duration" : 50082
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "057a53bed65bef9d0189fbec8d58cf43"
+  }, {
+    "name" : "A registered user can pay by available Payment methods",
+    "children" : [ {
+      "name" : "User can make payment by cash",
+      "uid" : "ddf23f25be352685",
+      "parentUid" : "f799bf9e4208b9f572653b52c08f444f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793387287,
+        "stop" : 1537793418202,
+        "duration" : 30915
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can make payment by Electronic Check",
+      "uid" : "9dc0993a3fbca936",
+      "parentUid" : "f799bf9e4208b9f572653b52c08f444f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793418202,
+        "stop" : 1537793453667,
+        "duration" : 35465
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can make payment by Debit or Credit card",
+      "uid" : "c92f66ba52ab9890",
+      "parentUid" : "f799bf9e4208b9f572653b52c08f444f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793453668,
+        "stop" : 1537793484652,
+        "duration" : 30984
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f799bf9e4208b9f572653b52c08f444f"
+  }, {
+    "name" : "Navy Footer links redirection in new tab",
+    "children" : [ {
+      "name" : "verify user able to open Navy Footer Links in new tab link in new browser tab",
+      "uid" : "942691131a113b2d",
+      "parentUid" : "8194d337668fdd6dbc44155a9a515562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793394991,
+        "stop" : 1537793531943,
+        "duration" : 136952
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "8194d337668fdd6dbc44155a9a515562"
+  }, {
+    "name" : "Paperless billing in dashboard",
+    "children" : [ {
+      "name" : "paperless card should be displayed if paperless is not enrolled for the user",
+      "uid" : "b80c715dadf3fb6e",
+      "parentUid" : "3117b7a8f4efcc4b8378ce711a690a78",
+      "status" : "failed",
+      "time" : {
+        "start" : 1537793438434,
+        "stop" : 1537793486553,
+        "duration" : 48119
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "3117b7a8f4efcc4b8378ce711a690a78"
+  }, {
+    "name" : "Check Payment Locations by Zip codes",
+    "children" : [ {
+      "name" : "Validate Payment Locations Page default status",
+      "uid" : "1f112afce36c8b26",
+      "parentUid" : "dcb720a33b3e365755d19044a01a54ca",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793493336,
+        "stop" : 1537793543477,
+        "duration" : 50141
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Validate number of search results for a valid zip code",
+      "uid" : "bc964499b73cc7bd",
+      "parentUid" : "dcb720a33b3e365755d19044a01a54ca",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793543479,
+        "stop" : 1537793596557,
+        "duration" : 53078
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Validate address - currency and phone number in the results displayed for a valid zip code",
+      "uid" : "522a77cc345d446a",
+      "parentUid" : "dcb720a33b3e365755d19044a01a54ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793683988,
+        "stop" : 1537793719990,
+        "duration" : 36002
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Validate locations are not diplayed for invalid zip code",
+      "uid" : "2b348ce529722bbe",
+      "parentUid" : "dcb720a33b3e365755d19044a01a54ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793719991,
+        "stop" : 1537793745757,
+        "duration" : 25766
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "dcb720a33b3e365755d19044a01a54ca"
+  }, {
+    "name" : "Service alerts content and link verfication",
+    "children" : [ {
+      "name" : "verify user able to validate service alerts",
+      "uid" : "d0d100566cf4edbe",
+      "parentUid" : "445e45b4efc35f130740dac454856bf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793495752,
+        "stop" : 1537793544863,
+        "duration" : 49111
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "445e45b4efc35f130740dac454856bf3"
+  }, {
+    "name" : "Validate fields Service Request card",
+    "children" : [ {
+      "name" : "service request description",
+      "uid" : "78adf2b2eb0aecfb",
+      "parentUid" : "2c3dbf5e5ebcba1610707a0b3ea97370",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793541158,
+        "stop" : 1537793576276,
+        "duration" : 35118
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "service request number",
+      "uid" : "93c2b62eace7724b",
+      "parentUid" : "2c3dbf5e5ebcba1610707a0b3ea97370",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793576283,
+        "stop" : 1537793600325,
+        "duration" : 24042
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "service request availibility",
+      "uid" : "d75548a93e4706fd",
+      "parentUid" : "2c3dbf5e5ebcba1610707a0b3ea97370",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793600325,
+        "stop" : 1537793681696,
+        "duration" : 81371
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2c3dbf5e5ebcba1610707a0b3ea97370"
+  }, {
+    "name" : "User navigates to usage overview card and verifies the data",
+    "children" : [ {
+      "name" : "user can see monthly consumption details from usage overview card",
+      "uid" : "328b29988624bacc",
+      "parentUid" : "405c9730ac75449068f8b17c535d55a1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1537793555261,
+        "stop" : 1537793631696,
+        "duration" : 76435
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "405c9730ac75449068f8b17c535d55a1"
+  }, {
+    "name" : "User navigates to Usage projection card and verifies the data.",
+    "children" : [ {
+      "name" : "user can see projected gallons from usage projection card",
+      "uid" : "9f4cc105f289ca91",
+      "parentUid" : "cdddc01005aa0bc6621c0784d2dd7e15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793640591,
+        "stop" : 1537793686145,
+        "duration" : 45554
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "cdddc01005aa0bc6621c0784d2dd7e15"
+  }, {
+    "name" : "To check the users primary information",
+    "children" : [ {
+      "name" : "User can check his basic information",
+      "uid" : "62503d2c70a6f358",
+      "parentUid" : "2df6ab4f685e2ae8174c1330ff7fa4ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793677990,
+        "stop" : 1537793711958,
+        "duration" : 33968
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2df6ab4f685e2ae8174c1330ff7fa4ef"
+  }, {
+    "name" : "Footer page links redirection in new tab",
+    "children" : [ {
+      "name" : "verify user able to open privacy policy footer link in new browser tab",
+      "uid" : "dbce59bff29c3568",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393134238,
+        "stop" : 1538393176915,
+        "duration" : 42677
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open Terms Of Use footer link in new browser tab",
+      "uid" : "bdfd85f1f2eb424e",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393176915,
+        "stop" : 1538393205914,
+        "duration" : 28999
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open Feedback footer link and verify it",
+      "uid" : "6fe17a69aef5d62b",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393205916,
+        "stop" : 1538393238194,
+        "duration" : 32278
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User can submit the feedback using all the fields",
+      "uid" : "6313fe29ee0e4edc",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393238196,
+        "stop" : 1538393270783,
+        "duration" : 32587
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User cannot submit the feedback using one manadatory fields",
+      "uid" : "3c801bacbf648248",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393270784,
+        "stop" : 1538393303189,
+        "duration" : 32405
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open Facebook footer icon link in new browser tab",
+      "uid" : "599d87929ab0b02b",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393303192,
+        "stop" : 1538393331534,
+        "duration" : 28342
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open Twitter footer icon link in new browser tab",
+      "uid" : "30645e4e60c4463",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393331537,
+        "stop" : 1538393358075,
+        "duration" : 26538
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open Youtube footer icon link in new browser tab",
+      "uid" : "fbb5c26589e6241c",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393358076,
+        "stop" : 1538393384174,
+        "duration" : 26098
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open Blog footer icon link in new browser tab",
+      "uid" : "5884fbada41891e7",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393384174,
+        "stop" : 1538393404591,
+        "duration" : 20417
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify user able to open PuddleDuck footer icon link in new browser tab",
+      "uid" : "44f521ec02081ed4",
+      "parentUid" : "3965d8645e54806b8eef1dacfa8abecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393404592,
+        "stop" : 1538393430791,
+        "duration" : 26199
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "3965d8645e54806b8eef1dacfa8abecf"
+  }, {
+    "name" : "Social Media Marketing card all links verification",
+    "children" : [ {
+      "name" : "Verify user is able to click and verify all social media link on marketing cards",
+      "uid" : "4d94f9995ae4c29b",
+      "parentUid" : "f977c170aa83c28718f93d8439df8456",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393656843,
+        "stop" : 1538393746849,
+        "duration" : 90006
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f977c170aa83c28718f93d8439df8456"
+  } ]
+}

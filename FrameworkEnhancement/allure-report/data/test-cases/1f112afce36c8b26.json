@@ -1,0 +1,211 @@
+{
+  "uid" : "1f112afce36c8b26",
+  "name" : "Validate Payment Locations Page default status",
+  "fullName" : "Check Payment Locations by Zip codes.Validate Payment Locations Page default status",
+  "historyId" : "71c496c48db6b2058a9c465929994535",
+  "time" : {
+    "start" : 1537793493336,
+    "stop" : 1537793543477,
+    "duration" : 50141
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms\n                    at elements(\"//div[contains(text(), 'No Cash Payment')]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"//div[contains(text(), 'No Cash Payment')]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms",
+    "statusTrace" : "Error: element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms\n                    at elements(\"//div[contains(text(), 'No Cash Payment')]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"//div[contains(text(), 'No Cash Payment')]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537793510693,
+        "stop" : 1537793514078,
+        "duration" : 3385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52fa8336d80dfc93",
+        "name" : "Screenshot",
+        "source" : "52fa8336d80dfc93.png",
+        "type" : "image/png",
+        "size" : 338665
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "payments locations page is displayed",
+      "time" : {
+        "start" : 1537793514078,
+        "stop" : 1537793516823,
+        "duration" : 2745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e70fd4956b30bfe",
+        "name" : "Screenshot",
+        "source" : "1e70fd4956b30bfe.png",
+        "type" : "image/png",
+        "size" : 338665
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "show more link is displayed and disabled",
+      "time" : {
+        "start" : 1537793516827,
+        "stop" : 1537793519939,
+        "duration" : 3112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50cf9d85f90bf814",
+        "name" : "Screenshot",
+        "source" : "50cf9d85f90bf814.png",
+        "type" : "image/png",
+        "size" : 338665
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "no search location results is shown",
+      "time" : {
+        "start" : 1537793519945,
+        "stop" : 1537793533398,
+        "duration" : 13453
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms\n                    at elements(\"//div[contains(text(), 'No Cash Payment')]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"//div[contains(text(), 'No Cash Payment')]\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7a77bbc9a2e1a9c",
+        "name" : "Screenshot",
+        "source" : "b7a77bbc9a2e1a9c.png",
+        "type" : "image/png",
+        "size" : 338667
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "search result pane has text \"No Cash Payment Locations available for ZIP Code\" displayed",
+      "time" : {
+        "start" : 1537793533400,
+        "stop" : 1537793535918,
+        "duration" : 2518
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf8f0bac0f446c9e",
+        "name" : "Screenshot",
+        "source" : "bf8f0bac0f446c9e.png",
+        "type" : "image/png",
+        "size" : 338667
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "7beccbb3abf61efc",
+      "name" : "Screenshot",
+      "source" : "7beccbb3abf61efc.png",
+      "type" : "image/png",
+      "size" : 418531
+    }, {
+      "uid" : "60758f0d7b4b14c0",
+      "name" : "Screenshot",
+      "source" : "60758f0d7b4b14c0.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Payment Locations Page default status"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9899466947556a3",
+      "status" : "failed",
+      "statusDetails" : "expected true to equal false",
+      "time" : {
+        "start" : 1537283793303,
+        "stop" : 1537283834080,
+        "duration" : 40777
+      }
+    }, {
+      "uid" : "e71e64ca17b1ff38",
+      "status" : "failed",
+      "statusDetails" : "expected true to equal false",
+      "time" : {
+        "start" : 1537278504297,
+        "stop" : 1537278551795,
+        "duration" : 47498
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1f112afce36c8b26.json",
+  "parameterValues" : [ "chrome" ]
+}

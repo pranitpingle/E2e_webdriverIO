@@ -1,0 +1,132 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866585424' stop='1546866630499'>
+    <name>AutoPay enrollment</name>
+    <title>AutoPay enrollment</title>
+    <test-cases>
+        <test-case start='1546866585433' status='broken' stop='1546866609464'>
+            <name>User has an option to enroll for AutoPay</name>
+            <title>User has an option to enroll for AutoPay</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866600663' status='pending' stop='1546866602895'>
+                    <name>user is not enrolled for AutoPay</name>
+                    <title>user is not enrolled for AutoPay</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='55e21154-88b4-4c1e-9c58-314f935a0835-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866602901' status='pending' stop='1546866605071'>
+                    <name>user enrolls for AutoPay and gets "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</name>
+                    <title>user enrolls for AutoPay and gets "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='24bf0942-d34d-42ef-8679-d0ea12af7f60-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866605076' status='pending' stop='1546866607200'>
+                    <name>user closes success message dialog and AutoPay card is not displayed in Dashboard</name>
+                    <title>user closes success message dialog and AutoPay card is not displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a0f26181-74da-42ca-83c0-b88164f999dc-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c7c9a974-0519-4e68-a58a-2da14e305b17-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='aa00fecf-1405-4d7b-a9f8-b968989c70ef-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866609465' status='broken' stop='1546866620334'>
+            <name>User has an option to Update AutoPay information</name>
+            <title>User has an option to Update AutoPay information</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866612090' status='pending' stop='1546866614127'>
+                    <name>user is enrolled for AutoPay to update information</name>
+                    <title>user is enrolled for AutoPay to update information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866614134' status='pending' stop='1546866616188'>
+                    <name>user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</name>
+                    <title>user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866616196' status='pending' stop='1546866618227'>
+                    <name>user closes success message dialog and AutoPay card is displayed with updated Information</name>
+                    <title>user closes success message dialog and AutoPay card is displayed with updated Information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found</message>
+                <stack-trace>Error: A request to switch to a different window could not be satisfied because the window could not be found.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866620339' status='broken' stop='1546866630498'>
+            <name>User has an option to Cancel AutoPay Enrollment</name>
+            <title>User has an option to Cancel AutoPay Enrollment</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866622409' status='pending' stop='1546866624431'>
+                    <name>user is enrolled for AutoPay</name>
+                    <title>user is enrolled for AutoPay</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866624436' status='pending' stop='1546866626447'>
+                    <name>user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."</name>
+                    <title>user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546866626448' status='pending' stop='1546866628467'>
+                    <name>user closes success message dialog and AutoPay card is now displayed in Dashboard</name>
+                    <title>user closes success message dialog and AutoPay card is now displayed in Dashboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found</message>
+                <stack-trace>Error: A request to switch to a different window could not be satisfied because the window could not be found.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

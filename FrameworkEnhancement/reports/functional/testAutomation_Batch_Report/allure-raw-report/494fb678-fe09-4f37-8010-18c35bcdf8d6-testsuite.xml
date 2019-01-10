@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866804143' stop='1546866877221'>
+    <name>A registered user can submit the feedback</name>
+    <title>A registered user can submit the feedback</title>
+    <test-cases>
+        <test-case start='1546866804145' status='broken' stop='1546866829658'>
+            <name>User can submit the feedback using all the manadatory fields</name>
+            <title>User can submit the feedback using all the manadatory fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866818815' status='pending' stop='1546866820922'>
+                    <name>user navigates to feedback modal view</name>
+                    <title>user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='64560aa6-e2c4-4fbd-ab58-232b3793338a-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866820926' status='pending' stop='1546866823092'>
+                    <name>user selects radio button for first question and second question</name>
+                    <title>user selects radio button for first question and second question</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='26f78051-b3e9-4a6e-b9b4-dbcc6b616d43-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866823092' status='pending' stop='1546866825242'>
+                    <name>user submit the feedback form</name>
+                    <title>user submit the feedback form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='45f74306-0be6-495a-a501-147f92c5b4d7-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866825243' status='pending' stop='1546866827391'>
+                    <name>feedback is successfull with message "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with message "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='157bc5a1-19c2-414c-bfcc-db4924e5bda8-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='26863b8b-62c8-4261-bf44-cf92ffddeebd-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='e532dde2-e719-4aff-b45a-7d660c1f5b8a-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866829658' status='broken' stop='1546866853494'>
+            <name>User can submit the feedback using all the fields</name>
+            <title>User can submit the feedback using all the fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866842378' status='pending' stop='1546866844597'>
+                    <name>again user navigates to feedback modal view</name>
+                    <title>again user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='29c2fcab-1d35-4bfb-9b03-72beff7a7402-attachment.png' type='image/png' size='35057'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866844607' status='pending' stop='1546866846793'>
+                    <name>again user selects radio button for first question and second question and the comment box</name>
+                    <title>again user selects radio button for first question and second question and the comment box</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b3e4bbe8-a50d-424b-bd2e-bb2fefc38927-attachment.png' type='image/png' size='35057'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866846801' status='pending' stop='1546866849023'>
+                    <name>user submit the feedback form again</name>
+                    <title>user submit the feedback form again</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b0078218-79c8-44df-9469-c36b79c76d9a-attachment.png' type='image/png' size='35057'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866849024' status='pending' stop='1546866851229'>
+                    <name>feedback is successfull with a message "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with a message "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='370eea44-5d25-45b0-827f-abf9230302fd-attachment.png' type='image/png' size='35057'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='cd9310d5-8307-4f64-97da-76e718c8163c-attachment.png' type='image/png' size='35057'/>
+                <attachment title='Screenshot' source='8a52f91f-2723-459d-8266-fe10fabd119d-attachment.png' type='image/png' size='35309'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866853498' status='broken' stop='1546866877221'>
+            <name>User cannot submit the feedback using one manadatory fields</name>
+            <title>User cannot submit the feedback using one manadatory fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866866255' status='pending' stop='1546866868437'>
+                    <name>a user navigates to feedback modal view</name>
+                    <title>a user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='309610a1-eb7b-4f66-9694-04bfad9dba44-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866868445' status='pending' stop='1546866870637'>
+                    <name>user selects radio button for second question only</name>
+                    <title>user selects radio button for second question only</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='40769f7b-5af7-43c8-86d6-1adeb684be75-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866870640' status='pending' stop='1546866872823'>
+                    <name>user tries to submit the feedback form</name>
+                    <title>user tries to submit the feedback form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0de8180b-8e18-4755-9164-07317e8cac2c-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866872824' status='pending' stop='1546866875017'>
+                    <name>feedback submission ask for the selection of fields with a validation message</name>
+                    <title>feedback submission ask for the selection of fields with a validation message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4e7218bf-f141-45ca-aeac-0aa4d233c448-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3d9b00af-0a6d-4ad1-8f5b-381a7cc9e1e0-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='af416db6-cdd0-4f07-8082-defe96263372-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

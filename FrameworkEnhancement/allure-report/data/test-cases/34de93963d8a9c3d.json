@@ -1,0 +1,166 @@
+{
+  "uid" : "34de93963d8a9c3d",
+  "name" : "verify user able to open Feedback footer link and verify it",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Feedback footer link and verify it",
+  "historyId" : "ae6a2fd696b9db40beda9fdc0ec65f67",
+  "time" : {
+    "start" : 1537276463869,
+    "stop" : 1537276498857,
+    "duration" : 34988
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"feedback is successfull with message for footer \"Thank you for providing your feedback\"\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "d:\\AmwaterDashboardFinal\\cp-dashboard-qa\\features\\footerLink\\footerLink.feature:19",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Step \"feedback is successfull with message for footer \"Thank you for providing your feedback\"\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "statusTrace" : "d:\\AmwaterDashboardFinal\\cp-dashboard-qa\\features\\footerLink\\footerLink.feature:19",
+    "steps" : [ {
+      "name" : "user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1537276473063,
+        "stop" : 1537276479001,
+        "duration" : 5938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bcef4391c1d1d415",
+        "name" : "Screenshot",
+        "source" : "bcef4391c1d1d415.png",
+        "type" : "image/png",
+        "size" : 173670
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user selects radio button for first question and second question for footer",
+      "time" : {
+        "start" : 1537276479002,
+        "stop" : 1537276481830,
+        "duration" : 2828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b86f1c8088ac2dc",
+        "name" : "Screenshot",
+        "source" : "b86f1c8088ac2dc.png",
+        "type" : "image/png",
+        "size" : 173960
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form for footer",
+      "time" : {
+        "start" : 1537276481832,
+        "stop" : 1537276489536,
+        "duration" : 7704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c8b2f31c15c13e3",
+        "name" : "Screenshot",
+        "source" : "6c8b2f31c15c13e3.png",
+        "type" : "image/png",
+        "size" : 212423
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with message for footer \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1537276489536,
+        "stop" : 1537276491958,
+        "duration" : 2422
+      },
+      "status" : "broken",
+      "statusMessage" : "d:\\AmwaterDashboardFinal\\cp-dashboard-qa\\features\\footerLink\\footerLink.feature:19",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b11ded458d02aa95",
+        "name" : "Screenshot",
+        "source" : "b11ded458d02aa95.png",
+        "type" : "image/png",
+        "size" : 228937
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "b843697926fa87e8",
+      "name" : "Screenshot",
+      "source" : "b843697926fa87e8.png",
+      "type" : "image/png",
+      "size" : 429205
+    }, {
+      "uid" : "489a04711f60099d",
+      "name" : "Screenshot",
+      "source" : "489a04711f60099d.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Feedback footer link and verify it"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34de93963d8a9c3d.json",
+  "parameterValues" : [ "chrome" ]
+}

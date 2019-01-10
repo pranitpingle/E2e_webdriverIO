@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546934823240' stop='1546934857155'>
+    <name>A registered user can Login to Dashboard and can edit personal information</name>
+    <title>A registered user can Login to Dashboard and can edit personal information</title>
+    <test-cases>
+        <test-case start='1546934823244' status='broken' stop='1546934857154'>
+            <name>To verify if user can make changes successfully in various fields of Edit Profile section</name>
+            <title>To verify if user can make changes successfully in various fields of Edit Profile section</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can edit personal information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546934838101' status='pending' stop='1546934840186'>
+                    <name>user navigates to Edit User Profile page and modifies the name &amp; confirms name changed successfully with message</name>
+                    <title>user navigates to Edit User Profile page and modifies the name &amp; confirms name changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4b10c413-c964-43be-bdf0-9b144c9ad721-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934840187' status='pending' stop='1546934842303'>
+                    <name>user changes the contact information &amp; confirms contact &amp; pref.details changed successfully with message</name>
+                    <title>user changes the contact information &amp; confirms contact &amp; pref.details changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9b57953e-926e-4c0a-81ea-8b4bafd900bc-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934842305' status='pending' stop='1546934844413'>
+                    <name>user changes the alert settings &amp; confirms alert settings changed successfully with message</name>
+                    <title>user changes the alert settings &amp; confirms alert settings changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='72703625-c2a4-42a3-96ef-39630c34dc91-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934844413' status='pending' stop='1546934846558'>
+                    <name>user changes the address &amp; confirms address changed successfully with message</name>
+                    <title>user changes the address &amp; confirms address changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d8ca9ff9-4cc5-440c-b77f-92175f1da921-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934846560' status='pending' stop='1546934848645'>
+                    <name>user changes the Login ID &amp; confirms Login ID changed successfully with message</name>
+                    <title>user changes the Login ID &amp; confirms Login ID changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b1fa7ee3-ca48-4951-99ca-0efc3383a453-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934848646' status='pending' stop='1546934850762'>
+                    <name>user changes the Password &amp; confirms Password changed successfully with message</name>
+                    <title>user changes the Password &amp; confirms Password changed successfully with message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='20aa5d16-2a69-4006-853c-120dad9b608c-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934850763' status='pending' stop='1546934852869'>
+                    <name>user adds sec. acc. holder data successfully</name>
+                    <title>user adds sec. acc. holder data successfully</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='adfeb280-ae30-48ba-89ff-51af43b8b848-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934852871' status='pending' stop='1546934854983'>
+                    <name>user removes sec. acc. holder data successfully</name>
+                    <title>user removes sec. acc. holder data successfully</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ccf480ed-1cbb-4a57-bd57-d3a59f8d24eb-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5c71c8f1-9c24-44aa-bebb-80e032e46eb7-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='1a52e5cf-7861-4def-983b-65f4a0f18be4-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

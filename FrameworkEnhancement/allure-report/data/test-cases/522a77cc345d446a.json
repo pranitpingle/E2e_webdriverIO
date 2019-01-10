@@ -1,0 +1,225 @@
+{
+  "uid" : "522a77cc345d446a",
+  "name" : "Validate address - currency and phone number in the results displayed for a valid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate address - currency and phone number in the results displayed for a valid zip code",
+  "historyId" : "354d3c49d407310ad1865465731df9da",
+  "time" : {
+    "start" : 1537793683988,
+    "stop" : 1537793719990,
+    "duration" : 36002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537793696457,
+        "stop" : 1537793699884,
+        "duration" : 3427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b60cb1a69c96a3af",
+        "name" : "Screenshot",
+        "source" : "b60cb1a69c96a3af.png",
+        "type" : "image/png",
+        "size" : 338754
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user enter \"90001\" and clicks on search button",
+      "time" : {
+        "start" : 1537793699884,
+        "stop" : 1537793702782,
+        "duration" : 2898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c59dedc92a26afbb",
+        "name" : "Screenshot",
+        "source" : "c59dedc92a26afbb.png",
+        "type" : "image/png",
+        "size" : 369705
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "address displayed must contain \"LOS ANGELES CA\"",
+      "time" : {
+        "start" : 1537793702782,
+        "stop" : 1537793706701,
+        "duration" : 3919
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8504beeb912673c",
+        "name" : "Screenshot",
+        "source" : "c8504beeb912673c.png",
+        "type" : "image/png",
+        "size" : 369705
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "fee displayed must be in currency format with two decimal digits",
+      "time" : {
+        "start" : 1537793706701,
+        "stop" : 1537793709529,
+        "duration" : 2828
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14487eb3e7728216",
+        "name" : "Screenshot",
+        "source" : "14487eb3e7728216.png",
+        "type" : "image/png",
+        "size" : 324614
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "phone number is displayed in NANP format",
+      "time" : {
+        "start" : 1537793709532,
+        "stop" : 1537793712678,
+        "duration" : 3146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3a11922126b5fe0",
+        "name" : "Screenshot",
+        "source" : "f3a11922126b5fe0.png",
+        "type" : "image/png",
+        "size" : 324614
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3e084e3851d94d59",
+      "name" : "Screenshot",
+      "source" : "3e084e3851d94d59.png",
+      "type" : "image/png",
+      "size" : 432513
+    }, {
+      "uid" : "19973f537e752612",
+      "name" : "Screenshot",
+      "source" : "19973f537e752612.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate address - currency and phone number in the results displayed for a valid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65316ffcb0c441b3",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Cannot read property 'scrollTo' of null",
+      "time" : {
+        "start" : 1537793596567,
+        "stop" : 1537793683987,
+        "duration" : 87420
+      }
+    }, {
+      "uid" : "26dce9ed928f9c6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283924222,
+        "stop" : 1537283963984,
+        "duration" : 39762
+      }
+    }, {
+      "uid" : "3370aacd976184f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283878969,
+        "stop" : 1537283924221,
+        "duration" : 45252
+      }
+    }, {
+      "uid" : "4389aff635e23f30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278655301,
+        "stop" : 1537278714706,
+        "duration" : 59405
+      }
+    }, {
+      "uid" : "36bfcc7175328e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278604592,
+        "stop" : 1537278655301,
+        "duration" : 50709
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "522a77cc345d446a.json",
+  "parameterValues" : [ "chrome" ]
+}

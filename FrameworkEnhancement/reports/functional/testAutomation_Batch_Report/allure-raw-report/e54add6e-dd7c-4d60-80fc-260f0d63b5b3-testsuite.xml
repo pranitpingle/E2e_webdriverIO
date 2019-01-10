@@ -1,0 +1,275 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278358591' stop='1537278642539'>
+    <name>A registered user can open different menu and submenu</name>
+    <title>A registered user can open different menu and submenu</title>
+    <test-cases>
+        <test-case start='1537278358593' status='broken' stop='1537278395893'>
+            <name>User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu</name>
+            <title>User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278368975' status='passed' stop='1537278378629'>
+                    <name>user navigates to payment menu</name>
+                    <title>user navigates to payment menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='68763255-24a3-4302-84ff-b7ac14a0a92f-attachment.png' type='image/png' size='401741'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278378630' status='broken' stop='1537278390028'>
+                    <name>user click on cash payment</name>
+                    <title>user click on cash payment</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='265518c6-6235-45e4-b27f-5f5b3d6c1b51-attachment.png' type='image/png' size='364841'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278390028' status='pending' stop='1537278392874'>
+                    <name>cash payment selected as default under payment modal view "Cash Payment Receipt Entry"</name>
+                    <title>cash payment selected as default under payment modal view "Cash Payment Receipt Entry"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='26d07084-89bc-4a7a-9515-c08c2851c2fd-attachment.png' type='image/png' size='364841'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='f277bfbf-9347-4366-adbd-73ee31a80dbf-attachment.png' type='image/png' size='429215'/>
+                <attachment title='Screenshot' source='0f5bd42b-2f40-463a-8c1b-0ea4c13fc564-attachment.png' type='image/png' size='364841'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//a[text()='Continue']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//a[text()='Continue']").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537278395893' status='broken' stop='1537278438928'>
+            <name>User can check the make payment modal view are displayed with all the payment method from header menu</name>
+            <title>User can check the make payment modal view are displayed with all the payment method from header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278411026' status='passed' stop='1537278421336'>
+                    <name>again user navigates to payment menu</name>
+                    <title>again user navigates to payment menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3c930687-1ca0-409e-84c5-48a2ff00fad5-attachment.png' type='image/png' size='401795'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278421336' status='broken' stop='1537278427012'>
+                    <name>user click on make payment</name>
+                    <title>user click on make payment</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9d8c0128-6133-4279-a407-d2f1ea5a24a8-attachment.png' type='image/png' size='401795'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278427012' status='pending' stop='1537278430302'>
+                    <name>all the payment methods are displayed under make payment modal view with label "Make a Payment"</name>
+                    <title>all the payment methods are displayed under make payment modal view with label "Make a Payment"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='feb0ed7d-2d6a-4807-8713-8a5c9294f785-attachment.png' type='image/png' size='401795'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6c13aad2-36f4-4fda-ab0a-4a2e67266091-attachment.png' type='image/png' size='429271'/>
+                <attachment title='Screenshot' source='9aaa90ad-6b45-4174-aa55-fd654a80f3d4-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("//a[text()='Make Payment']").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537278438929' status='broken' stop='1537278484854'>
+            <name>User can check the redirection to payment location card from the header menu</name>
+            <title>User can check the redirection to payment location card from the header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278450805' status='passed' stop='1537278460418'>
+                    <name>again user navigates to payment menu from header</name>
+                    <title>again user navigates to payment menu from header</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e579d2a2-abe6-449a-8ed7-42981e52f541-attachment.png' type='image/png' size='401636'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278460418' status='passed' stop='1537278467554'>
+                    <name>user click on Payment Location</name>
+                    <title>user click on Payment Location</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fe91a2c3-b543-4509-a783-5dc1bec0ea93-attachment.png' type='image/png' size='334452'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278467570' status='broken' stop='1537278472592'>
+                    <name>Payment Location card is displayed with the content text box and a label as "Find Your Nearest Payment Location"</name>
+                    <title>Payment Location card is displayed with the content text box and a label as "Find Your Nearest Payment Location"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='da0a0b61-e8d6-4a5c-b9d6-f9478182da0a-attachment.png' type='image/png' size='334452'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='67924b21-b89c-4efa-8396-af967d9f0d79-attachment.png' type='image/png' size='429117'/>
+                <attachment title='Screenshot' source='a92dde61-ea20-4ad7-8cb6-681901a28a59-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>element ("input[class= 'amw-input-search-field blackColor']") still not existing after 2000ms</message>
+                <stack-trace>Error: element ("input[class= 'amw-input-search-field blackColor']") still not existing after 2000ms
+                    at elements("input[class= 'amw-input-search-field blackColor']") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting("input[class= 'amw-input-search-field blackColor']") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537278484854' status='passed' stop='1537278539305'>
+            <name>User can check the redirection to usage overview card from the header menu</name>
+            <title>User can check the redirection to usage overview card from the header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278499382' status='passed' stop='1537278511793'>
+                    <name>again user navigates to usage menu from header</name>
+                    <title>again user navigates to usage menu from header</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='809e4780-068c-499c-aa34-60b43be9586c-attachment.png' type='image/png' size='407729'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278511795' status='passed' stop='1537278521455'>
+                    <name>user click on usage overview sub menu</name>
+                    <title>user click on usage overview sub menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='44120f93-876c-44f8-82ab-2d0dd529d935-attachment.png' type='image/png' size='205090'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278521458' status='passed' stop='1537278530905'>
+                    <name>usage overview card is displayed in focus with a label as "Usage Overview"</name>
+                    <title>usage overview card is displayed in focus with a label as "Usage Overview"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fea23246-f5e2-45ff-8ff4-b7a9ff75f625-attachment.png' type='image/png' size='229197'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8b31bdd4-901e-4a5d-9bdf-c955a14eb928-attachment.png' type='image/png' size='429221'/>
+                <attachment title='Screenshot' source='54e96aca-fc1c-4ed5-9bf0-6faf4e5ed42a-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537278539306' status='passed' stop='1537278597209'>
+            <name>User can check the redirection to usage projection card from the header menu</name>
+            <title>User can check the redirection to usage projection card from the header menu</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278554171' status='passed' stop='1537278564443'>
+                    <name>again user navigates to usage menu header menu present in dashboard</name>
+                    <title>again user navigates to usage menu header menu present in dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f0c81b0e-2215-4132-b238-4bacd1e56cd0-attachment.png' type='image/png' size='407751'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278564512' status='passed' stop='1537278574824'>
+                    <name>user click on usage projection sub menu</name>
+                    <title>user click on usage projection sub menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='92753118-d79f-4417-a7b6-a42115e8a64a-attachment.png' type='image/png' size='203571'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278574827' status='passed' stop='1537278585248'>
+                    <name>usage projection card is displayed in focus with a label as "Usage Projection"</name>
+                    <title>usage projection card is displayed in focus with a label as "Usage Projection"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='22df620a-6e74-4f26-b6a5-53a5f3fc31dd-attachment.png' type='image/png' size='279440'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0eb73b39-0cf7-41a5-9838-c3bf56f68982-attachment.png' type='image/png' size='429238'/>
+                <attachment title='Screenshot' source='f7e27fdc-c1ba-4db2-b9dd-36cad31fe4d1-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537278597210' status='passed' stop='1537278642539'>
+            <name>User can contact the amwater team using contact us link</name>
+            <title>User can contact the amwater team using contact us link</title>
+            <labels>
+                <label name='feature' value='A registered user can open different menu and submenu'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278608553' status='passed' stop='1537278616175'>
+                    <name>user click on Contact Us</name>
+                    <title>user click on Contact Us</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='efa32d24-8fd2-4054-8dc2-90774544c965-attachment.png' type='image/png' size='429562'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278616177' status='passed' stop='1537278623863'>
+                    <name>user validate Contact Us page with text "CONTACT US"</name>
+                    <title>user validate Contact Us page with text "CONTACT US"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7e7e636a-d0cb-4be8-ab87-c38ea04152e0-attachment.png' type='image/png' size='96247'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278623863' status='passed' stop='1537278633203'>
+                    <name>verify Contact Us page by validating url</name>
+                    <title>verify Contact Us page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0db0b64a-a226-49be-9bf7-5ebe18096627-attachment.png' type='image/png' size='429562'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0db97b36-0c8b-4b4d-9a67-86c7513e4307-attachment.png' type='image/png' size='429209'/>
+                <attachment title='Screenshot' source='c9ebddff-fa2d-44f9-ac4c-f590d258c96c-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

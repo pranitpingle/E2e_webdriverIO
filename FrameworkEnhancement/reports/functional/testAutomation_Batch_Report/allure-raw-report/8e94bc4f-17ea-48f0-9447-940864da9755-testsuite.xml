@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546953905438' stop='1546953918626'>
+    <name>To check the users primary information</name>
+    <title>To check the users primary information</title>
+    <test-cases>
+        <test-case start='1546953905446' status='broken' stop='1546953918622'>
+            <name>User can check his basic information</name>
+            <title>User can check his basic information</title>
+            <labels>
+                <label name='feature' value='To check the users primary information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546953912398' status='broken' stop='1546953914549'>
+                    <name>user reaches to Dashboard page after the login</name>
+                    <title>user reaches to Dashboard page after the login</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='73306074-c565-4c86-9a5b-aa6ea593bcac-attachment.png' type='image/png' size='30938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546953914551' status='broken' stop='1546953916573'>
+                    <name>user verifies all his basic information</name>
+                    <title>user verifies all his basic information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c3d2eaaa-1bb7-40b4-b23a-521dc6ce7363-attachment.png' type='image/png' size='30938'/>
+            </attachments>
+            <failure>
+                <message>Step "user verifies all his basic information" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/home/ankitasawant/Documents/AmwaterDashboardFinal-Error solving/AmwaterDashboardFinal/cp-dashboard-qa/features/UserProfile/viewUserProfile.feature:6</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

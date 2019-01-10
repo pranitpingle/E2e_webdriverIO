@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546935196791' stop='1546935225343'>
+    <name>A registered user can Login to Dashboard and can see the account information</name>
+    <title>A registered user can Login to Dashboard and can see the account information</title>
+    <test-cases>
+        <test-case start='1546935196797' status='broken' stop='1546935225342'>
+            <name>User can check account &amp; meter information</name>
+            <title>User can check account &amp; meter information</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can see the account information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546935201686' status='passed' stop='1546935203836'>
+                    <name>user navigates to Dashboard page</name>
+                    <title>user navigates to Dashboard page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b358cba4-bb1e-4598-8529-28d9fb2eed6d-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546935203837' status='broken' stop='1546935209032'>
+                    <name>user clicks on plus button to expand the account information</name>
+                    <title>user clicks on plus button to expand the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ca77b0b0-1ac4-410e-bb8c-66754e77d4cc-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546935209040' status='pending' stop='1546935211060'>
+                    <name>user clicks on account number &amp; verifies it</name>
+                    <title>user clicks on account number &amp; verifies it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546935211061' status='pending' stop='1546935213095'>
+                    <name>user clicks on Meters service type &amp; verifies the same</name>
+                    <title>user clicks on Meters service type &amp; verifies the same</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546935213100' status='pending' stop='1546935215140'>
+                    <name>user clicks on meter serial number &amp; verifies the same</name>
+                    <title>user clicks on meter serial number &amp; verifies the same</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546935215145' status='pending' stop='1546935217184'>
+                    <name>user clicks on meter size &amp; verifes it</name>
+                    <title>user clicks on meter size &amp; verifes it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546935217188' status='pending' stop='1546935219226'>
+                    <name>user clicks on meter location &amp; verifes it</name>
+                    <title>user clicks on meter location &amp; verifes it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546935219233' status='pending' stop='1546935221275'>
+                    <name>user clicks on installation date &amp; verifes it</name>
+                    <title>user clicks on installation date &amp; verifes it</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1546935221281' status='pending' stop='1546935223319'>
+                    <name>user is displayed with all the account information</name>
+                    <title>user is displayed with all the account information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fab66941-53d6-48d4-ba93-ab9f5b255779-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters.</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters.
+                    at moveToObject("//div[@class="account-no"]", 0, 700) - at element("//div[@class="account-no"]") - moveToObject.js:47:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

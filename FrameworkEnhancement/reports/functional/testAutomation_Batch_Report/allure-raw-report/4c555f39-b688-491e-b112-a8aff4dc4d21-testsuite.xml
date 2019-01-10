@@ -1,0 +1,322 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537793493334' stop='1537793745757'>
+    <name>Check Payment Locations by Zip codes</name>
+    <title>Check Payment Locations by Zip codes</title>
+    <test-cases>
+        <test-case start='1537793493336' status='broken' stop='1537793543477'>
+            <name>Validate Payment Locations Page default status</name>
+            <title>Validate Payment Locations Page default status</title>
+            <labels>
+                <label name='feature' value='Check Payment Locations by Zip codes'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793510693' status='passed' stop='1537793514078'>
+                    <name>user clicks on Payment Locations search button in Dashboard</name>
+                    <title>user clicks on Payment Locations search button in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='40343d93-d3c7-4d2b-8acd-cdc69e98b97a-attachment.png' type='image/png' size='338665'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793514078' status='passed' stop='1537793516823'>
+                    <name>payments locations page is displayed</name>
+                    <title>payments locations page is displayed</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0efe4f63-b0a4-4c94-baf8-1f430cdbb16a-attachment.png' type='image/png' size='338665'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793516827' status='passed' stop='1537793519939'>
+                    <name>show more link is displayed and disabled</name>
+                    <title>show more link is displayed and disabled</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1ce5fb19-4a5d-4bc2-9027-e1ec302be2e4-attachment.png' type='image/png' size='338665'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793519945' status='broken' stop='1537793533398'>
+                    <name>no search location results is shown</name>
+                    <title>no search location results is shown</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a03c91de-7317-4589-a400-b3c47757da2e-attachment.png' type='image/png' size='338667'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793533400' status='pending' stop='1537793535918'>
+                    <name>search result pane has text "No Cash Payment Locations available for ZIP Code" displayed</name>
+                    <title>search result pane has text "No Cash Payment Locations available for ZIP Code" displayed</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='17682cf7-168b-4a61-a90d-2e70a7526611-attachment.png' type='image/png' size='338667'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='272e583a-a1ed-4d9c-9d56-71379467e6cd-attachment.png' type='image/png' size='418531'/>
+                <attachment title='Screenshot' source='10d974a3-d4be-4dbd-ab25-4f885064a5f8-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+            <failure>
+                <message>element ("//div[contains(text(), 'No Cash Payment')]") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("//div[contains(text(), 'No Cash Payment')]") still not existing after 10000ms
+                    at elements("//div[contains(text(), 'No Cash Payment')]") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting("//div[contains(text(), 'No Cash Payment')]") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537793543479' status='broken' stop='1537793596557'>
+            <name>Validate number of search results for a valid zip code</name>
+            <title>Validate number of search results for a valid zip code</title>
+            <labels>
+                <label name='feature' value='Check Payment Locations by Zip codes'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793557563' status='passed' stop='1537793562998'>
+                    <name>user clicks on Payment Locations search button in Dashboard</name>
+                    <title>user clicks on Payment Locations search button in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7464a330-1b3e-4226-8959-958447cb82e8-attachment.png' type='image/png' size='338736'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793563088' status='passed' stop='1537793567366'>
+                    <name>user enters "08043"</name>
+                    <title>user enters "08043"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ecb1121f-385b-4650-8a10-a076220932d7-attachment.png' type='image/png' size='338723'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793567366' status='broken' stop='1537793574718'>
+                    <name>user clicks on Search button</name>
+                    <title>user clicks on Search button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1989ed0f-ce49-4f74-98c7-5aaf50175702-attachment.png' type='image/png' size='372687'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793574720' status='pending' stop='1537793577358'>
+                    <name>show more link is enabled</name>
+                    <title>show more link is enabled</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ddaf1368-1648-46b3-92c9-1cfdc5b29f83-attachment.png' type='image/png' size='372687'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793577359' status='pending' stop='1537793579944'>
+                    <name>number of search results displayed is "3"</name>
+                    <title>number of search results displayed is "3"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1a1bfaea-de4b-4c27-b37a-c2c120923972-attachment.png' type='image/png' size='372687'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793579944' status='pending' stop='1537793584567'>
+                    <name>user clicks on show more link</name>
+                    <title>user clicks on show more link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2b3377de-b739-46c4-85ba-a31da032701b-attachment.png' type='image/png' size='372687'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793584568' status='pending' stop='1537793588003'>
+                    <name>number of search results displayed is "6"</name>
+                    <title>number of search results displayed is "6"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f559817a-939b-42a3-8dee-4545968d7cb5-attachment.png' type='image/png' size='372687'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='510e28e3-1895-4ac2-b777-53a64981f12b-attachment.png' type='image/png' size='432504'/>
+                <attachment title='Screenshot' source='edd29100-0a53-4fc5-9352-adb40b0024c9-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'includes' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'includes' of undefined
+                    at Object.&lt;anonymous> (D:\AmwaterDashboardFinal\cp-dashboard-qa\pageFunctions\paymentLocations.js:25:26)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:214:29</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537793596567' status='broken' stop='1537793683987'>
+            <name>Validate address - currency and phone number in the results displayed for a valid zip code</name>
+            <title>Validate address - currency and phone number in the results displayed for a valid zip code</title>
+            <labels>
+                <label name='feature' value='Check Payment Locations by Zip codes'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793669209' status='pending' stop='1537793671723'>
+                    <name>user clicks on Payment Locations search button in Dashboard</name>
+                    <title>user clicks on Payment Locations search button in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='58036e62-d592-44f1-b221-0fab33387f83-attachment.png' type='image/png' size='10352'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793671725' status='pending' stop='1537793674032'>
+                    <name>user enter "73301" and clicks on search button</name>
+                    <title>user enter "73301" and clicks on search button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='34ede490-a3db-417e-a61b-e6472ee13b86-attachment.png' type='image/png' size='10352'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793674034' status='pending' stop='1537793676324'>
+                    <name>address displayed must contain "AUSTIN TX"</name>
+                    <title>address displayed must contain "AUSTIN TX"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='70290ae5-5b58-4eac-bfa2-db6aa5248d9f-attachment.png' type='image/png' size='10352'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793676326' status='pending' stop='1537793678770'>
+                    <name>fee displayed must be in currency format with two decimal digits</name>
+                    <title>fee displayed must be in currency format with two decimal digits</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3cbe67c3-0fd6-45f6-97dd-63130a615a80-attachment.png' type='image/png' size='10352'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793678772' status='pending' stop='1537793681051'>
+                    <name>phone number is displayed in NANP format</name>
+                    <title>phone number is displayed in NANP format</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c5ee528d-1905-4724-b209-db43ad32335c-attachment.png' type='image/png' size='10352'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1c309672-8676-4ac3-97a4-82a365e1d14e-attachment.png' type='image/png' size='10352'/>
+                <attachment title='Screenshot' source='d470334c-3a04-44a0-9bac-df086d33c8c7-attachment.png' type='image/png' size='10352'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537793683988' status='passed' stop='1537793719990'>
+            <name>Validate address - currency and phone number in the results displayed for a valid zip code</name>
+            <title>Validate address - currency and phone number in the results displayed for a valid zip code</title>
+            <labels>
+                <label name='feature' value='Check Payment Locations by Zip codes'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793696457' status='passed' stop='1537793699884'>
+                    <name>user clicks on Payment Locations search button in Dashboard</name>
+                    <title>user clicks on Payment Locations search button in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e83ae04e-93c6-4af6-a3ec-900f6e6b32a9-attachment.png' type='image/png' size='338754'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793699884' status='passed' stop='1537793702782'>
+                    <name>user enter "90001" and clicks on search button</name>
+                    <title>user enter "90001" and clicks on search button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b5898ae8-dbd3-4740-8e13-c311054371ef-attachment.png' type='image/png' size='369705'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793702782' status='passed' stop='1537793706701'>
+                    <name>address displayed must contain "LOS ANGELES CA"</name>
+                    <title>address displayed must contain "LOS ANGELES CA"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='308cf90f-8757-42f6-a63c-49b111bc295b-attachment.png' type='image/png' size='369705'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793706701' status='passed' stop='1537793709529'>
+                    <name>fee displayed must be in currency format with two decimal digits</name>
+                    <title>fee displayed must be in currency format with two decimal digits</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='95e2248d-5186-4435-8369-98fe1fe67fa8-attachment.png' type='image/png' size='324614'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793709532' status='passed' stop='1537793712678'>
+                    <name>phone number is displayed in NANP format</name>
+                    <title>phone number is displayed in NANP format</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2b96724a-8e30-4a22-983c-b60499363da3-attachment.png' type='image/png' size='324614'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c8bd0c59-bd2f-4a4f-802f-311454cdd307-attachment.png' type='image/png' size='432513'/>
+                <attachment title='Screenshot' source='3a31b317-9795-4acb-8494-4b699d3f2504-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537793719991' status='passed' stop='1537793745757'>
+            <name>Validate locations are not diplayed for invalid zip code</name>
+            <title>Validate locations are not diplayed for invalid zip code</title>
+            <labels>
+                <label name='feature' value='Check Payment Locations by Zip codes'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793728270' status='passed' stop='1537793731122'>
+                    <name>user clicks on Payment Locations search button in Dashboard</name>
+                    <title>user clicks on Payment Locations search button in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4b2fc585-0576-4968-8473-f2bb60cd28a6-attachment.png' type='image/png' size='338736'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793731122' status='passed' stop='1537793733785'>
+                    <name>user enter "73302" and clicks on search button</name>
+                    <title>user enter "73302" and clicks on search button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c3d51b6f-0f9c-4341-8bee-46218a314413-attachment.png' type='image/png' size='344479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793733785' status='passed' stop='1537793736434'>
+                    <name>no search location results is shown</name>
+                    <title>no search location results is shown</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='43d110e2-29ca-495b-8f8b-dfa36b3ab84f-attachment.png' type='image/png' size='344479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793736434' status='passed' stop='1537793739258'>
+                    <name>search result pane has text "No Cash Payment Locations available for ZIP Code 73302." displayed</name>
+                    <title>search result pane has text "No Cash Payment Locations available for ZIP Code 73302." displayed</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a425ac9b-e6ec-4bd0-a66a-4b8254b73cb4-attachment.png' type='image/png' size='344479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a57ec512-a9af-4fd0-a543-3698fc842d5a-attachment.png' type='image/png' size='432499'/>
+                <attachment title='Screenshot' source='07b3f700-4850-4436-80d5-1d6b5255178c-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

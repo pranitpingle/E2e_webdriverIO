@@ -1,0 +1,221 @@
+{
+  "uid" : "a2bf601cba5b0b0d",
+  "name" : "Verify acknowledgement during paperless billing enrollment",
+  "fullName" : "Paperless billing enrollment.Verify acknowledgement during paperless billing enrollment",
+  "historyId" : "fa9a919223f043e2431633d1f560d95",
+  "time" : {
+    "start" : 1537793381062,
+    "stop" : 1537793430754,
+    "duration" : 49692
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user click on Go Paperless Card in Dashboard",
+      "time" : {
+        "start" : 1537793391400,
+        "stop" : 1537793400318,
+        "duration" : 8918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e622b05f4f2fc39b",
+        "name" : "Screenshot",
+        "source" : "e622b05f4f2fc39b.png",
+        "type" : "image/png",
+        "size" : 181956
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user acknowledgement message is seen \"* Yes, I am confirming that I wish to receive my future water bills and communications online. I understand that once my registration has been activated, I will no longer receive a paper bill or standard paper communications.\"",
+      "time" : {
+        "start" : 1537793400320,
+        "stop" : 1537793403602,
+        "duration" : 3282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd6adda44a846408",
+        "name" : "Screenshot",
+        "source" : "fd6adda44a846408.png",
+        "type" : "image/png",
+        "size" : 181956
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user checks the acknowledgement checkbox and submits",
+      "time" : {
+        "start" : 1537793403605,
+        "stop" : 1537793410753,
+        "duration" : 7148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e666b80a51ee5b55",
+        "name" : "Screenshot",
+        "source" : "e666b80a51ee5b55.png",
+        "type" : "image/png",
+        "size" : 185645
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "paperless enrollment successfull message is seen \"Enrollment in Paperless Billing is Successful.\"",
+      "time" : {
+        "start" : 1537793410755,
+        "stop" : 1537793414811,
+        "duration" : 4056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53c6093000f16a97",
+        "name" : "Screenshot",
+        "source" : "53c6093000f16a97.png",
+        "type" : "image/png",
+        "size" : 199161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes Paperless billing enrollment dialog",
+      "time" : {
+        "start" : 1537793414813,
+        "stop" : 1537793418830,
+        "duration" : 4017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "721c5cd2cd60d18e",
+        "name" : "Screenshot",
+        "source" : "721c5cd2cd60d18e.png",
+        "type" : "image/png",
+        "size" : 339770
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "go paperless card must not be visible in Dashboard",
+      "time" : {
+        "start" : 1537793418830,
+        "stop" : 1537793421559,
+        "duration" : 2729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d2f0eee52f15a68",
+        "name" : "Screenshot",
+        "source" : "5d2f0eee52f15a68.png",
+        "type" : "image/png",
+        "size" : 339770
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c0967307619ed01c",
+      "name" : "Screenshot",
+      "source" : "c0967307619ed01c.png",
+      "type" : "image/png",
+      "size" : 432468
+    }, {
+      "uid" : "f0ec5ae781bd524b",
+      "name" : "Screenshot",
+      "source" : "f0ec5ae781bd524b.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify acknowledgement during paperless billing enrollment"
+  }, {
+    "name" : "package",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25edae7c5522c9a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283665818,
+        "stop" : 1537283729823,
+        "duration" : 64005
+      }
+    }, {
+      "uid" : "d38590b5519b9d4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278428661,
+        "stop" : 1537278478404,
+        "duration" : 49743
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2bf601cba5b0b0d.json",
+  "parameterValues" : [ "chrome" ]
+}

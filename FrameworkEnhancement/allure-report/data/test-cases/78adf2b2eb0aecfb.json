@@ -1,0 +1,116 @@
+{
+  "uid" : "78adf2b2eb0aecfb",
+  "name" : "service request description",
+  "fullName" : "Validate fields Service Request card.service request description",
+  "historyId" : "6d421a2ec664d6f7cc5c28875080599",
+  "time" : {
+    "start" : 1537793541158,
+    "stop" : 1537793576276,
+    "duration" : 35118
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "service description visible in the card is \"Please call us for any customer service requests including starting or stopping service.\"",
+      "time" : {
+        "start" : 1537793562998,
+        "stop" : 1537793567366,
+        "duration" : 4368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf7880285561cd23",
+        "name" : "Screenshot",
+        "source" : "cf7880285561cd23.png",
+        "type" : "image/png",
+        "size" : 432557
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "38c6e5ce033b5366",
+      "name" : "Screenshot",
+      "source" : "38c6e5ce033b5366.png",
+      "type" : "image/png",
+      "size" : 432557
+    }, {
+      "uid" : "125a1efab5cdb39",
+      "name" : "Screenshot",
+      "source" : "125a1efab5cdb39.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testMethod",
+    "value" : "service request description"
+  }, {
+    "name" : "package",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a09cfcc3f1d92e34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283856209,
+        "stop" : 1537283886005,
+        "duration" : 29796
+      }
+    }, {
+      "uid" : "cc7041ed96872461",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278645033,
+        "stop" : 1537278687417,
+        "duration" : 42384
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "78adf2b2eb0aecfb.json",
+  "parameterValues" : [ "chrome" ]
+}

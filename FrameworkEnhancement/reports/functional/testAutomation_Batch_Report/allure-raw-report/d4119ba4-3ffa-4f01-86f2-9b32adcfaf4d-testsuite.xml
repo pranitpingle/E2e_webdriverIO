@@ -1,0 +1,443 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1538393134236' stop='1538393430792'>
+    <name>Footer page links redirection in new tab</name>
+    <title>Footer page links redirection in new tab</title>
+    <test-cases>
+        <test-case start='1538393134238' status='passed' stop='1538393176915'>
+            <name>verify user able to open privacy policy footer link in new browser tab</name>
+            <title>verify user able to open privacy policy footer link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393143754' status='passed' stop='1538393152504'>
+                    <name>user clicks on Privacy Policy link in Footer</name>
+                    <title>user clicks on Privacy Policy link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='30cfb327-8cbd-44d2-bbac-b78d44c059ab-attachment.png' type='image/png' size='149977'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393152504' status='passed' stop='1538393158986'>
+                    <name>user validate Privacy Policy page with page title "PRIVACY POLICY"</name>
+                    <title>user validate Privacy Policy page with page title "PRIVACY POLICY"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ec3ba3ef-f1fb-4455-b538-a0363ff045fc-attachment.png' type='image/png' size='61460'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393158987' status='passed' stop='1538393170530'>
+                    <name>Privacy Policy link is successfully redirecting to Privacy Policy Page by validating page url</name>
+                    <title>Privacy Policy link is successfully redirecting to Privacy Policy Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='35ac89db-a938-4598-94cd-ea8987144834-attachment.png' type='image/png' size='149977'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8a76f08f-71f0-4c5d-9af6-0cad09fa5e5d-attachment.png' type='image/png' size='399494'/>
+                <attachment title='Screenshot' source='8511d886-6b4e-4698-b01e-c6a4120a9858-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393176915' status='passed' stop='1538393205914'>
+            <name>verify user able to open Terms Of Use footer link in new browser tab</name>
+            <title>verify user able to open Terms Of Use footer link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393184645' status='passed' stop='1538393187388'>
+                    <name>user clicks on Terms Of Use link in Footer</name>
+                    <title>user clicks on Terms Of Use link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e8c002b9-6d58-4c00-84b3-2f0afaacc0bf-attachment.png' type='image/png' size='129803'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393187388' status='passed' stop='1538393193855'>
+                    <name>user validate Terms of Use page with page title "TERMS OF USE"</name>
+                    <title>user validate Terms of Use page with page title "TERMS OF USE"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1f254b02-5aac-498f-a367-985d3b8fe04e-attachment.png' type='image/png' size='65921'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393193856' status='passed' stop='1538393199426'>
+                    <name>Terms of Use link is successfully redirecting to Terms of Use Page by validating page url</name>
+                    <title>Terms of Use link is successfully redirecting to Terms of Use Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1f859714-174f-4181-9b21-4293f0b056e7-attachment.png' type='image/png' size='129803'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='89201656-9b1d-4b60-bb8a-006e3ae646cf-attachment.png' type='image/png' size='399552'/>
+                <attachment title='Screenshot' source='f09ea3cf-d998-4d05-b41d-e5b9909a517b-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393205916' status='passed' stop='1538393238194'>
+            <name>verify user able to open Feedback footer link and verify it</name>
+            <title>verify user able to open Feedback footer link and verify it</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393213519' status='passed' stop='1538393219207'>
+                    <name>user navigates to feedback from footer link</name>
+                    <title>user navigates to feedback from footer link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e67da23b-d8bd-4636-b14f-64a4d6141a95-attachment.png' type='image/png' size='130878'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393219208' status='passed' stop='1538393221872'>
+                    <name>user selects radio button for first question and second question for footer</name>
+                    <title>user selects radio button for first question and second question for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d0bfdc92-c81f-4c21-90ed-510cfbe209df-attachment.png' type='image/png' size='131152'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393221873' status='passed' stop='1538393229325'>
+                    <name>user submit the feedback form for footer</name>
+                    <title>user submit the feedback form for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5a8bf34a-676d-4af1-a366-f685d5a1399e-attachment.png' type='image/png' size='131760'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393229326' status='passed' stop='1538393231771'>
+                    <name>feedback is successfull with message for footer first "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with message for footer first "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='95f14145-2142-470c-9e46-fa81bfccec75-attachment.png' type='image/png' size='162474'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='25efce37-3e5b-4123-9a6e-a1005c503dad-attachment.png' type='image/png' size='399537'/>
+                <attachment title='Screenshot' source='5b90156a-6b56-44a7-80e0-9f739940fceb-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393238196' status='passed' stop='1538393270783'>
+            <name>User can submit the feedback using all the fields</name>
+            <title>User can submit the feedback using all the fields</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393245976' status='passed' stop='1538393251705'>
+                    <name>again user navigates to feedback from footer link</name>
+                    <title>again user navigates to feedback from footer link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7d56b730-aba4-4237-bfee-8b479e8372b5-attachment.png' type='image/png' size='108086'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393251706' status='passed' stop='1538393254461'>
+                    <name>again user selects radio button for first question and second question and the comment box for footer</name>
+                    <title>again user selects radio button for first question and second question and the comment box for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c9490f45-3577-44fd-8d30-2cbf9827e3e9-attachment.png' type='image/png' size='108336'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393254462' status='passed' stop='1538393261943'>
+                    <name>user submit the feedback form again for footer</name>
+                    <title>user submit the feedback form again for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3f65e5d0-c845-48e8-add3-6a7fc972d7be-attachment.png' type='image/png' size='114995'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393261945' status='passed' stop='1538393264395'>
+                    <name>feedback is successfull with a message for footer second "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with a message for footer second "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='976fd53a-b6ff-4f55-afc1-a38fd8bf46c2-attachment.png' type='image/png' size='129807'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e57261db-2765-4be2-bf93-61a3ec7a16f7-attachment.png' type='image/png' size='399526'/>
+                <attachment title='Screenshot' source='b3c96e6e-9039-4126-a867-eb67720b9c49-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393270784' status='passed' stop='1538393303189'>
+            <name>User cannot submit the feedback using one manadatory fields</name>
+            <title>User cannot submit the feedback using one manadatory fields</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393278521' status='passed' stop='1538393284228'>
+                    <name>a user navigates to feedback from footer link</name>
+                    <title>a user navigates to feedback from footer link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='88679cf1-9323-4335-9986-39a092467833-attachment.png' type='image/png' size='111891'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393284229' status='passed' stop='1538393286713'>
+                    <name>user selects radio button for second question only for footer</name>
+                    <title>user selects radio button for second question only for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f093df35-3495-4465-aa88-ccdbfeac1905-attachment.png' type='image/png' size='112021'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393286713' status='passed' stop='1538393294181'>
+                    <name>user tries to submit the feedback form for footer</name>
+                    <title>user tries to submit the feedback form for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='57f36b7c-52a9-4e78-90da-1e6dd06ffaff-attachment.png' type='image/png' size='115477'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393294182' status='passed' stop='1538393296708'>
+                    <name>feedback submission ask for the selection of fields with a validation message for footer</name>
+                    <title>feedback submission ask for the selection of fields with a validation message for footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='34ccd819-6206-42ad-8ff7-2e91b0743978-attachment.png' type='image/png' size='139079'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a858d728-c709-4cd2-9d22-d714af038e37-attachment.png' type='image/png' size='399412'/>
+                <attachment title='Screenshot' source='f770dccf-ecfe-4145-b347-44e211b426e8-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393303192' status='passed' stop='1538393331534'>
+            <name>verify user able to open Facebook footer icon link in new browser tab</name>
+            <title>verify user able to open Facebook footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393311196' status='passed' stop='1538393315104'>
+                    <name>user clicks on Facebook link in Footer</name>
+                    <title>user clicks on Facebook link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5c9ec6fa-e896-4848-b851-933e5f61caca-attachment.png' type='image/png' size='139045'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393315105' status='passed' stop='1538393322402'>
+                    <name>user validate Facebook link with page title "California American Water"</name>
+                    <title>user validate Facebook link with page title "California American Water"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b7559930-263c-4fbb-914c-cd7bd72a516a-attachment.png' type='image/png' size='529854'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393322402' status='passed' stop='1538393324981'>
+                    <name>Facebook link is successfully redirecting to Facebook by validating page url</name>
+                    <title>Facebook link is successfully redirecting to Facebook by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='635a17ae-7551-4ddc-9b9b-bccc6e9f7415-attachment.png' type='image/png' size='139157'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='340ec4bd-90aa-4513-ac86-22c7e5cab4c3-attachment.png' type='image/png' size='399486'/>
+                <attachment title='Screenshot' source='40e13a3a-90a5-48e7-a974-32d369378d66-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393331537' status='passed' stop='1538393358075'>
+            <name>verify user able to open Twitter footer icon link in new browser tab</name>
+            <title>verify user able to open Twitter footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393339199' status='passed' stop='1538393342212'>
+                    <name>user clicks on Twitter link in Footer</name>
+                    <title>user clicks on Twitter link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='579286bd-0b4d-4a62-a752-e31e0f8b3ceb-attachment.png' type='image/png' size='139056'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393342213' status='passed' stop='1538393349075'>
+                    <name>user validate Twitter link with page "CA American Water"</name>
+                    <title>user validate Twitter link with page "CA American Water"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8459e233-498d-4b93-9ae9-d56bd94437cf-attachment.png' type='image/png' size='743639'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393349075' status='passed' stop='1538393351660'>
+                    <name>Twitter link is successfully redirecting to Twitter by validating page url</name>
+                    <title>Twitter link is successfully redirecting to Twitter by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f49ba167-6982-432e-a478-af066fc7fb89-attachment.png' type='image/png' size='139000'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ae1c096e-4b03-4455-a3c3-f283e1702321-attachment.png' type='image/png' size='399572'/>
+                <attachment title='Screenshot' source='27da481a-cb35-44d3-b1ff-b00976de421f-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393358076' status='passed' stop='1538393384174'>
+            <name>verify user able to open Youtube footer icon link in new browser tab</name>
+            <title>verify user able to open Youtube footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393365415' status='passed' stop='1538393368373'>
+                    <name>user clicks on Youtube link in Footer</name>
+                    <title>user clicks on Youtube link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='79245fc2-a5ec-4e7e-a22c-3871ab974bed-attachment.png' type='image/png' size='162438'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393368373' status='passed' stop='1538393375056'>
+                    <name>user validate Youtube link with page "caamwater"</name>
+                    <title>user validate Youtube link with page "caamwater"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='137ae42e-1cb2-4ca2-b833-52a1a562639e-attachment.png' type='image/png' size='473312'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393375056' status='passed' stop='1538393377616'>
+                    <name>Youtube link is successfully redirecting to Youtube Page by validating page url</name>
+                    <title>Youtube link is successfully redirecting to Youtube Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5c593714-f9ae-45ce-8b41-01db6a15f1a2-attachment.png' type='image/png' size='162520'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2e60b71f-22f0-47a6-8d77-2fd23fc93008-attachment.png' type='image/png' size='399527'/>
+                <attachment title='Screenshot' source='95a0b3f1-ac47-4da6-bb1b-de8639d76654-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393384174' status='passed' stop='1538393404591'>
+            <name>verify user able to open Blog footer icon link in new browser tab</name>
+            <title>verify user able to open Blog footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393391859' status='passed' stop='1538393394570'>
+                    <name>user clicks on blog link in Footer</name>
+                    <title>user clicks on blog link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9a7027a2-6801-48b6-ac83-4d7c7ec3a6b8-attachment.png' type='image/png' size='149955'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393394571' status='passed' stop='1538393398108'>
+                    <name>blog link is successfully redirecting to blog Page by validating page url</name>
+                    <title>blog link is successfully redirecting to blog Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0e6b42a2-5c78-4570-8698-38526667b5fa-attachment.png' type='image/png' size='149988'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7f3bf085-fd31-4a70-b9f8-e68ab7fdaf57-attachment.png' type='image/png' size='399439'/>
+                <attachment title='Screenshot' source='03f9bc75-adbb-4bfd-b7b0-00f7e6c47e49-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1538393404592' status='passed' stop='1538393430791'>
+            <name>verify user able to open PuddleDuck footer icon link in new browser tab</name>
+            <title>verify user able to open PuddleDuck footer icon link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1538393412101' status='passed' stop='1538393414969'>
+                    <name>user clicks on PuddleDuck link in Footer</name>
+                    <title>user clicks on PuddleDuck link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b33c2974-3622-4e8b-8649-5c77047af9ba-attachment.png' type='image/png' size='127943'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393414971' status='passed' stop='1538393421542'>
+                    <name>user validate PuddleDuck link with page "PUDDLES ON THE WEB"</name>
+                    <title>user validate PuddleDuck link with page "PUDDLES ON THE WEB"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='61ecbde0-c984-45d0-8125-29c8fca61ba3-attachment.png' type='image/png' size='158252'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538393421542' status='passed' stop='1538393424143'>
+                    <name>PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url</name>
+                    <title>PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d1cbeb55-4712-4566-9f38-d886e6698524-attachment.png' type='image/png' size='128030'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3b79568a-f7de-4a20-ac0f-b4775040008b-attachment.png' type='image/png' size='399444'/>
+                <attachment title='Screenshot' source='6c15f615-67ea-4081-adcf-b71b2f9294ec-attachment.png' type='image/png' size='183168'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

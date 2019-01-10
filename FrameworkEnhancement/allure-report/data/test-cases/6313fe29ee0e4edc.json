@@ -1,0 +1,213 @@
+{
+  "uid" : "6313fe29ee0e4edc",
+  "name" : "User can submit the feedback using all the fields",
+  "fullName" : "Footer page links redirection in new tab.User can submit the feedback using all the fields",
+  "historyId" : "bdfac44a4ee51d417b6e3b23073d5ad7",
+  "time" : {
+    "start" : 1538393238196,
+    "stop" : 1538393270783,
+    "duration" : 32587
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1538393245976,
+        "stop" : 1538393251705,
+        "duration" : 5729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15048a70e9a1597d",
+        "name" : "Screenshot",
+        "source" : "15048a70e9a1597d.png",
+        "type" : "image/png",
+        "size" : 108086
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "again user selects radio button for first question and second question and the comment box for footer",
+      "time" : {
+        "start" : 1538393251706,
+        "stop" : 1538393254461,
+        "duration" : 2755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "487d9061d0cf2b4b",
+        "name" : "Screenshot",
+        "source" : "487d9061d0cf2b4b.png",
+        "type" : "image/png",
+        "size" : 108336
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form again for footer",
+      "time" : {
+        "start" : 1538393254462,
+        "stop" : 1538393261943,
+        "duration" : 7481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4f479de5c1c561b",
+        "name" : "Screenshot",
+        "source" : "d4f479de5c1c561b.png",
+        "type" : "image/png",
+        "size" : 114995
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with a message for footer second \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1538393261945,
+        "stop" : 1538393264395,
+        "duration" : 2450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4ca9d07421b434cc",
+        "name" : "Screenshot",
+        "source" : "4ca9d07421b434cc.png",
+        "type" : "image/png",
+        "size" : 129807
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "dd659320005c25b2",
+      "name" : "Screenshot",
+      "source" : "dd659320005c25b2.png",
+      "type" : "image/png",
+      "size" : 399526
+    }, {
+      "uid" : "abaea33141cf24ba",
+      "name" : "Screenshot",
+      "source" : "abaea33141cf24ba.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can submit the feedback using all the fields"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59fb16c0c3b38c30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037180611,
+        "stop" : 1538037214001,
+        "duration" : 33390
+      }
+    }, {
+      "uid" : "e2d6c88b976aa08a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793419330,
+        "stop" : 1537793462099,
+        "duration" : 42769
+      }
+    }, {
+      "uid" : "55b74c8b29735bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283701843,
+        "stop" : 1537283749582,
+        "duration" : 47739
+      }
+    }, {
+      "uid" : "d680a493606d833d",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"div[class= 'ant-notification-notice-description']\").",
+      "time" : {
+        "start" : 1537278468364,
+        "stop" : 1537278522685,
+        "duration" : 54321
+      }
+    }, {
+      "uid" : "edeab5333b30ce46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277425781,
+        "stop" : 1537277462149,
+        "duration" : 36368
+      }
+    }, {
+      "uid" : "7ec59c55d0d92bb6",
+      "status" : "broken",
+      "statusDetails" : "Step \"feedback is successfull with a message for footer\"Thank you for providing your feedback\"\" is not defined. You can ignore this error by setting\n                                              cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1537276498860,
+        "stop" : 1537276535495,
+        "duration" : 36635
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6313fe29ee0e4edc.json",
+  "parameterValues" : [ "chrome" ]
+}

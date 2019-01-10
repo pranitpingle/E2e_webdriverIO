@@ -1,0 +1,119 @@
+{
+  "uid" : "d7cff12f258c61ed",
+  "name" : "service request availibility",
+  "fullName" : "Validate fields Service Request card.service request availibility",
+  "historyId" : "60618eaf3e1e12ec590a571daf65658b",
+  "time" : {
+    "start" : 1537283911797,
+    "stop" : 1537283939237,
+    "duration" : 27440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "customer support hours \"Hours: Monday - Friday 7 am - 7 pm\" is visible in the card",
+      "time" : {
+        "start" : 1537283923307,
+        "stop" : 1537283926453,
+        "duration" : 3146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55683a5e9cf87d33",
+        "name" : "Screenshot",
+        "source" : "55683a5e9cf87d33.png",
+        "type" : "image/png",
+        "size" : 429466
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "emergency suppport \"For emergencies: We are available 24/7\" is visible in the card",
+      "time" : {
+        "start" : 1537283926503,
+        "stop" : 1537283929984,
+        "duration" : 3481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a28a73b9129ce38c",
+        "name" : "Screenshot",
+        "source" : "a28a73b9129ce38c.png",
+        "type" : "image/png",
+        "size" : 429466
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "660ba685dcb9949",
+      "name" : "Screenshot",
+      "source" : "660ba685dcb9949.png",
+      "type" : "image/png",
+      "size" : 429466
+    }, {
+      "uid" : "3711e250358468fe",
+      "name" : "Screenshot",
+      "source" : "3711e250358468fe.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testMethod",
+    "value" : "service request availibility"
+  }, {
+    "name" : "package",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7cff12f258c61ed.json",
+  "parameterValues" : [ "chrome" ]
+}

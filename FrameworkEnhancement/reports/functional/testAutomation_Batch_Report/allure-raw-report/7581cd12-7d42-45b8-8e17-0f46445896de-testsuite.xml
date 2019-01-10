@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1539072699794' stop='1539072768814'>
+    <name>Service alerts content and link verfication</name>
+    <title>Service alerts content and link verfication</title>
+    <test-cases>
+        <test-case start='1539072699796' status='passed' stop='1539072768813'>
+            <name>verify user able to validate service alerts</name>
+            <title>verify user able to validate service alerts</title>
+            <labels>
+                <label name='feature' value='Service alerts content and link verfication'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1539072709277' status='passed' stop='1539072714884'>
+                    <name>user fetched content and date month from service alerts</name>
+                    <title>user fetched content and date month from service alerts</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2c0bc239-3977-482a-8c57-e8590e2d6455-attachment.png' type='image/png' size='239307'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539072714884' status='passed' stop='1539072719477'>
+                    <name>user click on View More link</name>
+                    <title>user click on View More link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='54365508-fd38-499b-bea4-a962857b51fc-attachment.png' type='image/png' size='61496'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539072719479' status='passed' stop='1539072724757'>
+                    <name>user validate alerts page by validating page title</name>
+                    <title>user validate alerts page by validating page title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e16a8c9d-6848-4426-b16f-6f3b21faf7a4-attachment.png' type='image/png' size='61496'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539072724760' status='passed' stop='1539072730468'>
+                    <name>by validating content text "Latest Alerts"</name>
+                    <title>by validating content text "Latest Alerts"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4fb55d34-115d-491d-a728-913bddc7e458-attachment.png' type='image/png' size='239300'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1539072730468' status='passed' stop='1539072762143'>
+                    <name>user click on the Learn More link on 1st service alerts and verify the page content</name>
+                    <title>user click on the Learn More link on 1st service alerts and verify the page content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='647fcdf4-8ffb-42a5-b05a-63efff25a548-attachment.png' type='image/png' size='248873'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fbdbc825-3022-4222-9239-8c2c1ad68e08-attachment.png' type='image/png' size='390011'/>
+                <attachment title='Screenshot' source='41d7078a-049b-4bb3-a1bd-29c5c6264fdb-attachment.png' type='image/png' size='182530'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

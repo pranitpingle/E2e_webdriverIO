@@ -1,0 +1,186 @@
+{
+  "uid" : "65316ffcb0c441b3",
+  "name" : "Validate address - currency and phone number in the results displayed for a valid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate address - currency and phone number in the results displayed for a valid zip code",
+  "historyId" : "354d3c49d407310ad1865465731df9da",
+  "time" : {
+    "start" : 1537793596567,
+    "stop" : 1537793683987,
+    "duration" : 87420
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537793669209,
+        "stop" : 1537793671723,
+        "duration" : 2514
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b7818e92e1f3bf5",
+        "name" : "Screenshot",
+        "source" : "7b7818e92e1f3bf5.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user enter \"73301\" and clicks on search button",
+      "time" : {
+        "start" : 1537793671725,
+        "stop" : 1537793674032,
+        "duration" : 2307
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a29cf765237d40a4",
+        "name" : "Screenshot",
+        "source" : "a29cf765237d40a4.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "address displayed must contain \"AUSTIN TX\"",
+      "time" : {
+        "start" : 1537793674034,
+        "stop" : 1537793676324,
+        "duration" : 2290
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d2c82ed1d099713",
+        "name" : "Screenshot",
+        "source" : "9d2c82ed1d099713.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "fee displayed must be in currency format with two decimal digits",
+      "time" : {
+        "start" : 1537793676326,
+        "stop" : 1537793678770,
+        "duration" : 2444
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "537e5926659b083d",
+        "name" : "Screenshot",
+        "source" : "537e5926659b083d.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "phone number is displayed in NANP format",
+      "time" : {
+        "start" : 1537793678772,
+        "stop" : 1537793681051,
+        "duration" : 2279
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd6cc24c5a326ceb",
+        "name" : "Screenshot",
+        "source" : "fd6cc24c5a326ceb.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "2a48b061fa093b8d",
+      "name" : "Screenshot",
+      "source" : "2a48b061fa093b8d.png",
+      "type" : "image/png",
+      "size" : 10352
+    }, {
+      "uid" : "cd968136f4d56dbd",
+      "name" : "Screenshot",
+      "source" : "cd968136f4d56dbd.png",
+      "type" : "image/png",
+      "size" : 10352
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate address - currency and phone number in the results displayed for a valid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65316ffcb0c441b3.json",
+  "parameterValues" : [ "chrome" ]
+}

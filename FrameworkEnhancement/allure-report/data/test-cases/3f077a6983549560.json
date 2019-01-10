@@ -1,0 +1,229 @@
+{
+  "uid" : "3f077a6983549560",
+  "name" : "Validate number of search results for a valid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate number of search results for a valid zip code",
+  "historyId" : "e045dfb11d48d8a2a2bbde23e49c2eef",
+  "time" : {
+    "start" : 1537283834080,
+    "stop" : 1537283878968,
+    "duration" : 44888
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").\n                    at getAttribute(\"class\") -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").\n                    at getAttribute(\"class\") -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537283846049,
+        "stop" : 1537283849479,
+        "duration" : 3430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d22817a0d034be1",
+        "name" : "Screenshot",
+        "source" : "8d22817a0d034be1.png",
+        "type" : "image/png",
+        "size" : 334962
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user enters \"08043\"",
+      "time" : {
+        "start" : 1537283849547,
+        "stop" : 1537283852955,
+        "duration" : 3408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "163fb499c0df4bd5",
+        "name" : "Screenshot",
+        "source" : "163fb499c0df4bd5.png",
+        "type" : "image/png",
+        "size" : 334961
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on Search button",
+      "time" : {
+        "start" : 1537283852956,
+        "stop" : 1537283857749,
+        "duration" : 4793
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").\n                    at getAttribute(\"class\") -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edf277f653d5b291",
+        "name" : "Screenshot",
+        "source" : "edf277f653d5b291.png",
+        "type" : "image/png",
+        "size" : 372083
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "show more link is enabled",
+      "time" : {
+        "start" : 1537283857750,
+        "stop" : 1537283860388,
+        "duration" : 2638
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9488351d157fd894",
+        "name" : "Screenshot",
+        "source" : "9488351d157fd894.png",
+        "type" : "image/png",
+        "size" : 372473
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "number of search results displayed is \"3\"",
+      "time" : {
+        "start" : 1537283860388,
+        "stop" : 1537283863024,
+        "duration" : 2636
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44a96154c83cf006",
+        "name" : "Screenshot",
+        "source" : "44a96154c83cf006.png",
+        "type" : "image/png",
+        "size" : 372473
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on show more link",
+      "time" : {
+        "start" : 1537283863024,
+        "stop" : 1537283866378,
+        "duration" : 3354
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1eaf820d8a9dff5",
+        "name" : "Screenshot",
+        "source" : "c1eaf820d8a9dff5.png",
+        "type" : "image/png",
+        "size" : 372473
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "number of search results displayed is \"6\"",
+      "time" : {
+        "start" : 1537283866385,
+        "stop" : 1537283869063,
+        "duration" : 2678
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74f7ae3bf94c9f01",
+        "name" : "Screenshot",
+        "source" : "74f7ae3bf94c9f01.png",
+        "type" : "image/png",
+        "size" : 372473
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "89a9a44d0c8d3133",
+      "name" : "Screenshot",
+      "source" : "89a9a44d0c8d3133.png",
+      "type" : "image/png",
+      "size" : 429405
+    }, {
+      "uid" : "f076aab59d7a52c5",
+      "name" : "Screenshot",
+      "source" : "f076aab59d7a52c5.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate number of search results for a valid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f077a6983549560.json",
+  "parameterValues" : [ "chrome" ]
+}

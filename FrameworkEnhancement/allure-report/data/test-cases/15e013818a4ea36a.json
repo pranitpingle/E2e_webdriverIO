@@ -1,0 +1,140 @@
+{
+  "uid" : "15e013818a4ea36a",
+  "name" : "User can check the alerts available in alerts section",
+  "fullName" : "A registered user can check for messages alerts & open request.User can check the alerts available in alerts section",
+  "historyId" : "59d74a5111f5b033f3957337a03cf82",
+  "time" : {
+    "start" : 1537278265885,
+    "stop" : 1537278303237,
+    "duration" : 37352
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to alerts",
+      "time" : {
+        "start" : 1537278279782,
+        "stop" : 1537278288142,
+        "duration" : 8360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c386892f7d91d87c",
+        "name" : "Screenshot",
+        "source" : "c386892f7d91d87c.png",
+        "type" : "image/png",
+        "size" : 388519
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the alerts available in the section with each having alert icon",
+      "time" : {
+        "start" : 1537278288142,
+        "stop" : 1537278291057,
+        "duration" : 2915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "81431be4d2acbc1d",
+        "name" : "Screenshot",
+        "source" : "81431be4d2acbc1d.png",
+        "type" : "image/png",
+        "size" : 388519
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the alerts available in the section with each having alert title",
+      "time" : {
+        "start" : 1537278291058,
+        "stop" : 1537278294880,
+        "duration" : 3822
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "922a5bed9e5618cc",
+        "name" : "Screenshot",
+        "source" : "922a5bed9e5618cc.png",
+        "type" : "image/png",
+        "size" : 388519
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3b72a33702f8d78a",
+      "name" : "Screenshot",
+      "source" : "3b72a33702f8d78a.png",
+      "type" : "image/png",
+      "size" : 429084
+    }, {
+      "uid" : "23f8abc7444b20a4",
+      "name" : "Screenshot",
+      "source" : "23f8abc7444b20a4.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the alerts available in alerts section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15e013818a4ea36a.json",
+  "parameterValues" : [ "chrome" ]
+}

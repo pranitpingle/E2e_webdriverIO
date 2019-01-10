@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546941882132' stop='1546941948128'>
+    <name>User navigates to Usage projection card and verifies the data.</name>
+    <title>User navigates to Usage projection card and verifies the data.</title>
+    <test-cases>
+        <test-case start='1546941882139' status='broken' stop='1546941948127'>
+            <name>user can see projected gallons from usage projection card</name>
+            <title>user can see projected gallons from usage projection card</title>
+            <labels>
+                <label name='feature' value='User navigates to Usage projection card and verifies the data.'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546941894106' status='broken' stop='1546941902127'>
+                    <name>user navigates to usage projection card</name>
+                    <title>user navigates to usage projection card</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3e13d6af-f621-443d-a3b1-4c0239bf9d87-attachment.png' type='image/png' size='30936'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546941902128' status='broken' stop='1546941910132'>
+                    <name>user navigates to usage projection</name>
+                    <title>user navigates to usage projection</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='acbd5698-3745-4667-b1c1-40f2541c6e5c-attachment.png' type='image/png' size='30954'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546941910133' status='broken' stop='1546941917128'>
+                    <name>user view projected gallons</name>
+                    <title>user view projected gallons</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7e6b76fa-4493-46c0-88a2-ff236938a82b-attachment.png' type='image/png' size='30954'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546941917129' status='broken' stop='1546941925133'>
+                    <name>user view current month projection</name>
+                    <title>user view current month projection</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4635158a-f557-4e30-8e93-68f592c283dd-attachment.png' type='image/png' size='30936'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546941925134' status='broken' stop='1546941932127'>
+                    <name>user view days left</name>
+                    <title>user view days left</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1882635f-6d18-4b76-a709-9fcaa2e0dcc2-attachment.png' type='image/png' size='30936'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546941932127' status='broken' stop='1546941941125'>
+                    <name>user view service period</name>
+                    <title>user view service period</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='18a91a22-d587-477a-a239-7d5a2fab489f-attachment.png' type='image/png' size='30954'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b5f94612-3b38-4d90-aa79-e73a1d0d058f-attachment.png' type='image/png' size='30954'/>
+                <attachment title='Screenshot' source='aed0b37a-cdfc-494c-9102-fdbc1d1332a7-attachment.png' type='image/png' size='30954'/>
+            </attachments>
+            <failure>
+                <message>Step "user view service period" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/home/ankitasawant/Documents/AmwaterDashboardFinal-Error solving/AmwaterDashboardFinal/cp-dashboard-qa/features/UsageProjection/cardDetails.feature:10</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

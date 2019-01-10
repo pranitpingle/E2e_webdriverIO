@@ -1,0 +1,140 @@
+{
+  "uid" : "70e1f942c156b135",
+  "name" : "verify user able to open Facebook footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Facebook footer icon link in new browser tab",
+  "historyId" : "76e2139c788553b82234558d79517f7f",
+  "time" : {
+    "start" : 1538037246876,
+    "stop" : 1538037274865,
+    "duration" : 27989
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Facebook link in Footer",
+      "time" : {
+        "start" : 1538037254608,
+        "stop" : 1538037258080,
+        "duration" : 3472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82f43ddf4885dc3d",
+        "name" : "Screenshot",
+        "source" : "82f43ddf4885dc3d.png",
+        "type" : "image/png",
+        "size" : 188599
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Facebook link with page title \"California American Water\"",
+      "time" : {
+        "start" : 1538037258082,
+        "stop" : 1538037265673,
+        "duration" : 7591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2abed8c63e0e187b",
+        "name" : "Screenshot",
+        "source" : "2abed8c63e0e187b.png",
+        "type" : "image/png",
+        "size" : 609773
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Facebook link is successfully redirecting to Facebook by validating page url",
+      "time" : {
+        "start" : 1538037265673,
+        "stop" : 1538037268370,
+        "duration" : 2697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f13b981b9246488",
+        "name" : "Screenshot",
+        "source" : "9f13b981b9246488.png",
+        "type" : "image/png",
+        "size" : 188645
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "4af75cdfd7fd4616",
+      "name" : "Screenshot",
+      "source" : "4af75cdfd7fd4616.png",
+      "type" : "image/png",
+      "size" : 431950
+    }, {
+      "uid" : "f1c430f3211bbe1e",
+      "name" : "Screenshot",
+      "source" : "f1c430f3211bbe1e.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Facebook footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70e1f942c156b135.json",
+  "parameterValues" : [ "chrome" ]
+}

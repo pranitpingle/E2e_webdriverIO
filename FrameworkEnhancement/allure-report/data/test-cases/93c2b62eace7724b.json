@@ -1,0 +1,116 @@
+{
+  "uid" : "93c2b62eace7724b",
+  "name" : "service request number",
+  "fullName" : "Validate fields Service Request card.service request number",
+  "historyId" : "3edb82aa6906803646bb352544e4c5fe",
+  "time" : {
+    "start" : 1537793576283,
+    "stop" : 1537793600325,
+    "duration" : 24042
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "service request number \"1-888-237-1333\" is visible in the card",
+      "time" : {
+        "start" : 1537793588249,
+        "stop" : 1537793592259,
+        "duration" : 4010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19bf702c88fed190",
+        "name" : "Screenshot",
+        "source" : "19bf702c88fed190.png",
+        "type" : "image/png",
+        "size" : 432491
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c48a4cd49ee45b41",
+      "name" : "Screenshot",
+      "source" : "c48a4cd49ee45b41.png",
+      "type" : "image/png",
+      "size" : 432491
+    }, {
+      "uid" : "f9d8ab6c002d76b3",
+      "name" : "Screenshot",
+      "source" : "f9d8ab6c002d76b3.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testMethod",
+    "value" : "service request number"
+  }, {
+    "name" : "package",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eabfea71c7192574",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283886005,
+        "stop" : 1537283911797,
+        "duration" : 25792
+      }
+    }, {
+      "uid" : "932233f0409bb39b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278687418,
+        "stop" : 1537278723159,
+        "duration" : 35741
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93c2b62eace7724b.json",
+  "parameterValues" : [ "chrome" ]
+}

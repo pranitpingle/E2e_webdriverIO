@@ -1,0 +1,224 @@
+{
+  "uid" : "b381d19d82bd22e8",
+  "name" : "verify user able to validate service alerts",
+  "fullName" : "Dashboard service alerts verfication.verify user able to validate service alerts",
+  "historyId" : "f7e95fc7901c8199f65c8363fe263cf6",
+  "time" : {
+    "start" : 1537277766914,
+    "stop" : 1537277880944,
+    "duration" : 114030
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user fetched content and date month from service alerts",
+      "time" : {
+        "start" : 1537277776084,
+        "stop" : 1537277781909,
+        "duration" : 5825
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce0c1fbcea35b30d",
+        "name" : "Screenshot",
+        "source" : "ce0c1fbcea35b30d.png",
+        "type" : "image/png",
+        "size" : 241682
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on View More link",
+      "time" : {
+        "start" : 1537277781910,
+        "stop" : 1537277787702,
+        "duration" : 5792
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82f7b65b9633977f",
+        "name" : "Screenshot",
+        "source" : "82f7b65b9633977f.png",
+        "type" : "image/png",
+        "size" : 72424
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate alerts page by validating page title",
+      "time" : {
+        "start" : 1537277787702,
+        "stop" : 1537277793024,
+        "duration" : 5322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d66614624d87dd1",
+        "name" : "Screenshot",
+        "source" : "d66614624d87dd1.png",
+        "type" : "image/png",
+        "size" : 56772
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "by validating content text \"Latest Alerts\"",
+      "time" : {
+        "start" : 1537277793025,
+        "stop" : 1537277798837,
+        "duration" : 5812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b81748240658876c",
+        "name" : "Screenshot",
+        "source" : "b81748240658876c.png",
+        "type" : "image/png",
+        "size" : 241671
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on the Learn More link on 1st service alerts and verify the page content",
+      "time" : {
+        "start" : 1537277798837,
+        "stop" : 1537277822033,
+        "duration" : 23196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0dedc1d0184aad2",
+        "name" : "Screenshot",
+        "source" : "d0dedc1d0184aad2.png",
+        "type" : "image/png",
+        "size" : 241703
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back to dashboard page and click on 2nd service alert and verify page content",
+      "time" : {
+        "start" : 1537277822033,
+        "stop" : 1537277854151,
+        "duration" : 32118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46067cf763ec57f3",
+        "name" : "Screenshot",
+        "source" : "46067cf763ec57f3.png",
+        "type" : "image/png",
+        "size" : 241701
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back and click on 3rd service alert and verify page content",
+      "time" : {
+        "start" : 1537277854151,
+        "stop" : 1537277874106,
+        "duration" : 19955
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba2cf85aebde4dd4",
+        "name" : "Screenshot",
+        "source" : "ba2cf85aebde4dd4.png",
+        "type" : "image/png",
+        "size" : 241742
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c5b4f1b0e3342728",
+      "name" : "Screenshot",
+      "source" : "c5b4f1b0e3342728.png",
+      "type" : "image/png",
+      "size" : 429272
+    }, {
+      "uid" : "e5a2715ea5bf51fd",
+      "name" : "Screenshot",
+      "source" : "e5a2715ea5bf51fd.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "testClass",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to validate service alerts"
+  }, {
+    "name" : "package",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b381d19d82bd22e8.json",
+  "parameterValues" : [ "chrome" ]
+}

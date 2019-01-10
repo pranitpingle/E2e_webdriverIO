@@ -1,0 +1,253 @@
+{
+  "uid" : "bc964499b73cc7bd",
+  "name" : "Validate number of search results for a valid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate number of search results for a valid zip code",
+  "historyId" : "e045dfb11d48d8a2a2bbde23e49c2eef",
+  "time" : {
+    "start" : 1537793543479,
+    "stop" : 1537793596557,
+    "duration" : 53078
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'includes' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'includes' of undefined\n                    at Object.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\pageFunctions\\paymentLocations.js:25:26)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'includes' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'includes' of undefined\n                    at Object.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\pageFunctions\\paymentLocations.js:25:26)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537793557563,
+        "stop" : 1537793562998,
+        "duration" : 5435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ebd4ec017f379e93",
+        "name" : "Screenshot",
+        "source" : "ebd4ec017f379e93.png",
+        "type" : "image/png",
+        "size" : 338736
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user enters \"08043\"",
+      "time" : {
+        "start" : 1537793563088,
+        "stop" : 1537793567366,
+        "duration" : 4278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ac41cd7b8601af5",
+        "name" : "Screenshot",
+        "source" : "3ac41cd7b8601af5.png",
+        "type" : "image/png",
+        "size" : 338723
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on Search button",
+      "time" : {
+        "start" : 1537793567366,
+        "stop" : 1537793574718,
+        "duration" : 7352
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read property 'includes' of undefined\n                    at Object.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\pageFunctions\\paymentLocations.js:25:26)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6537c031945eb997",
+        "name" : "Screenshot",
+        "source" : "6537c031945eb997.png",
+        "type" : "image/png",
+        "size" : 372687
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "show more link is enabled",
+      "time" : {
+        "start" : 1537793574720,
+        "stop" : 1537793577358,
+        "duration" : 2638
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab0adc0ee5ac2fca",
+        "name" : "Screenshot",
+        "source" : "ab0adc0ee5ac2fca.png",
+        "type" : "image/png",
+        "size" : 372687
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "number of search results displayed is \"3\"",
+      "time" : {
+        "start" : 1537793577359,
+        "stop" : 1537793579944,
+        "duration" : 2585
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "782f0479431cf11b",
+        "name" : "Screenshot",
+        "source" : "782f0479431cf11b.png",
+        "type" : "image/png",
+        "size" : 372687
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on show more link",
+      "time" : {
+        "start" : 1537793579944,
+        "stop" : 1537793584567,
+        "duration" : 4623
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae991e27a3663333",
+        "name" : "Screenshot",
+        "source" : "ae991e27a3663333.png",
+        "type" : "image/png",
+        "size" : 372687
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "number of search results displayed is \"6\"",
+      "time" : {
+        "start" : 1537793584568,
+        "stop" : 1537793588003,
+        "duration" : 3435
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6806e40a51e5785",
+        "name" : "Screenshot",
+        "source" : "b6806e40a51e5785.png",
+        "type" : "image/png",
+        "size" : 372687
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5092285ff18af5f4",
+      "name" : "Screenshot",
+      "source" : "5092285ff18af5f4.png",
+      "type" : "image/png",
+      "size" : 432504
+    }, {
+      "uid" : "7aaf14d2741e853d",
+      "name" : "Screenshot",
+      "source" : "7aaf14d2741e853d.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate number of search results for a valid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f077a6983549560",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").",
+      "time" : {
+        "start" : 1537283834080,
+        "stop" : 1537283878968,
+        "duration" : 44888
+      }
+    }, {
+      "uid" : "4511d9775dd9e7da",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"a[class*='show-more']\").",
+      "time" : {
+        "start" : 1537278551796,
+        "stop" : 1537278604591,
+        "duration" : 52795
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bc964499b73cc7bd.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537271874783' stop='1537271999301'>
+    <name>Navy Footer page links redirection in new tab</name>
+    <title>Navy Footer page links redirection in new tab</title>
+    <test-cases>
+        <test-case start='1537271874786' status='passed' stop='1537271999300'>
+            <name>verify user able to open Navy Footer Links in new tab link in new browser tab</name>
+            <title>verify user able to open Navy Footer Links in new tab link in new browser tab</title>
+            <labels>
+                <label name='feature' value='Navy Footer page links redirection in new tab'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537271887568' status='passed' stop='1537271894071'>
+                    <name>user clicks on Leak Detection Information link in Footer</name>
+                    <title>user clicks on Leak Detection Information link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f5352d4a-cee9-4c7a-b010-928791fa9ecb-attachment.png' type='image/png' size='243991'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271894071' status='passed' stop='1537271904145'>
+                    <name>validate Leak Detection Information link is successfully redirecting to Leak Detection Information page by verifying url</name>
+                    <title>validate Leak Detection Information link is successfully redirecting to Leak Detection Information page by verifying url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='230fa985-9d7f-44de-86f4-8be5f47af2bb-attachment.png' type='image/png' size='243840'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271904153' status='passed' stop='1537271910165'>
+                    <name>user click on Leak Detection Information Spanish link in Footer</name>
+                    <title>user click on Leak Detection Information Spanish link in Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='52509f76-b7ad-4700-85cd-98cc77e2a763-attachment.png' type='image/png' size='244010'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271910165' status='passed' stop='1537271920059'>
+                    <name>validate Leak Detection Information Spanish link is successfully redirecting to Leak Detection Information page by verifying url</name>
+                    <title>validate Leak Detection Information Spanish link is successfully redirecting to Leak Detection Information page by verifying url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a9d9e7b3-7832-4918-af4e-a6e9dcab1844-attachment.png' type='image/png' size='244010'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271920060' status='passed' stop='1537271925913'>
+                    <name>user click on bill calculator link in Navy Footer</name>
+                    <title>user click on bill calculator link in Navy Footer</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b122c51c-2723-4c81-8a32-cc3f72f324e4-attachment.png' type='image/png' size='243932'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271925913' status='passed' stop='1537271932755'>
+                    <name>user validate Bill calculator page with page title "CUSTOMER BILL CALCULATOR"</name>
+                    <title>user validate Bill calculator page with page title "CUSTOMER BILL CALCULATOR"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c80a63ca-4ff2-42ab-b3d7-d9af98b6f4a3-attachment.png' type='image/png' size='89270'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271932756' status='passed' stop='1537271941446'>
+                    <name>validate Bill Calculator link is successfully redirecting to Bill Calculator page by verifying url</name>
+                    <title>validate Bill Calculator link is successfully redirecting to Bill Calculator page by verifying url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8bc199f8-d32f-4a1c-a4c8-47bd1f2b9998-attachment.png' type='image/png' size='244010'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271941447' status='passed' stop='1537271947763'>
+                    <name>user click on Search for openings link</name>
+                    <title>user click on Search for openings link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cf0a772e-e522-46d9-be7f-8a78d68536cb-attachment.png' type='image/png' size='199036'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271947764' status='passed' stop='1537271955461'>
+                    <name>validate the career opening page with text "Career Opportunities"</name>
+                    <title>validate the career opening page with text "Career Opportunities"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='94b8d6f9-2fdc-4c70-89d4-23bdb3c41439-attachment.png' type='image/png' size='148970'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271955461' status='passed' stop='1537271964290'>
+                    <name>validate Career opening page by verifying url</name>
+                    <title>validate Career opening page by verifying url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5cb03d75-584e-43ab-bdac-0db04293b5de-attachment.png' type='image/png' size='243858'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271964290' status='passed' stop='1537271970515'>
+                    <name>user click on view Accomadation Policy</name>
+                    <title>user click on view Accomadation Policy</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='30ee93a2-cb72-47d0-bd6e-724f72d044d3-attachment.png' type='image/png' size='244010'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271970515' status='passed' stop='1537271977319'>
+                    <name>user validate accomodation page with text "ACCOMMODATIONS"</name>
+                    <title>user validate accomodation page with text "ACCOMMODATIONS"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e1febf0c-5856-4b11-a7ae-2f9ef5339dec-attachment.png' type='image/png' size='88493'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271977319' status='passed' stop='1537271986052'>
+                    <name>verify accomodation page by validating url</name>
+                    <title>verify accomodation page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='17a110fc-ea5d-49aa-8826-4b6a6ec9128f-attachment.png' type='image/png' size='244010'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537271986052' status='passed' stop='1537271991920'>
+                    <name>user click on Adjustment Request form</name>
+                    <title>user click on Adjustment Request form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ed5e62e7-4647-4908-b25e-9129112b5d97-attachment.png' type='image/png' size='223464'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='aef673bf-1957-43d0-ba5f-45c76b6db867-attachment.png' type='image/png' size='429219'/>
+                <attachment title='Screenshot' source='ff5f6f9b-c1e0-42c2-b555-44739a6061a7-attachment.png' type='image/png' size='189112'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

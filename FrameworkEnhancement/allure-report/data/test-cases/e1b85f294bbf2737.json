@@ -1,0 +1,175 @@
+{
+  "uid" : "e1b85f294bbf2737",
+  "name" : "User can check the latest alert are displaying at top",
+  "fullName" : "A registered user can check for messages alerts & open request.User can check the latest alert are displaying at top",
+  "historyId" : "a4c0132b9458d6ff88df8ebbc08f53e8",
+  "time" : {
+    "start" : 1537793247317,
+    "stop" : 1537793283878,
+    "duration" : 36561
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").\n                    at getText() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").\n                    at getText() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user again navigates to alerts",
+      "time" : {
+        "start" : 1537793257147,
+        "stop" : 1537793265092,
+        "duration" : 7945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ccd9a6b3724764e4",
+        "name" : "Screenshot",
+        "source" : "ccd9a6b3724764e4.png",
+        "type" : "image/png",
+        "size" : 388028
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the alerts available in the section with each of them having the alert icon",
+      "time" : {
+        "start" : 1537793265092,
+        "stop" : 1537793267787,
+        "duration" : 2695
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4ec6f1ac4285b",
+        "name" : "Screenshot",
+        "source" : "d4ec6f1ac4285b.png",
+        "type" : "image/png",
+        "size" : 388028
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the latest alert is displaying on the top",
+      "time" : {
+        "start" : 1537793267827,
+        "stop" : 1537793275862,
+        "duration" : 8035
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").\n                    at getText() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2057d9498981df8e",
+        "name" : "Screenshot",
+        "source" : "2057d9498981df8e.png",
+        "type" : "image/png",
+        "size" : 388028
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5499004c895ec9ac",
+      "name" : "Screenshot",
+      "source" : "5499004c895ec9ac.png",
+      "type" : "image/png",
+      "size" : 419133
+    }, {
+      "uid" : "1f72f44dd9812b3",
+      "name" : "Screenshot",
+      "source" : "1f72f44dd9812b3.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the latest alert are displaying at top"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "261a0bf5f4aed3a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283500941,
+        "stop" : 1537283540787,
+        "duration" : 39846
+      }
+    }, {
+      "uid" : "942485cc59c265be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278303238,
+        "stop" : 1537278348636,
+        "duration" : 45398
+      }
+    }, {
+      "uid" : "ff93ff97512147e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537261515507,
+        "stop" : 1537261557783,
+        "duration" : 42276
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1b85f294bbf2737.json",
+  "parameterValues" : [ "chrome" ]
+}

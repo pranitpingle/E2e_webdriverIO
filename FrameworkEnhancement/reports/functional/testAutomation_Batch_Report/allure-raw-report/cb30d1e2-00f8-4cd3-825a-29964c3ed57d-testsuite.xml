@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537793139915' stop='1537793256356'>
+    <name>Biliing and Payment history</name>
+    <title>Biliing and Payment history</title>
+    <test-cases>
+        <test-case start='1537793139915' status='failed' stop='1537793177663'>
+            <name>Display Billing and payments history monthwise</name>
+            <title>Display Billing and payments history monthwise</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793159147' status='passed' stop='1537793164159'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9ba01a80-a129-4ae8-b678-16eaa9613f24-attachment.png' type='image/png' size='350179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793164159' status='passed' stop='1537793167178'>
+                    <name>user slides the slider bar to set statement period for 1 month</name>
+                    <title>user slides the slider bar to set statement period for 1 month</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='69170535-17af-44d8-93a9-6f916094b6de-attachment.png' type='image/png' size='347532'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793167178' status='failed' stop='1537793170654'>
+                    <name>billing and payments table should display transactions only for the selected statement period</name>
+                    <title>billing and payments table should display transactions only for the selected statement period</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='02886464-9a78-47fe-b12e-77de41b7cd67-attachment.png' type='image/png' size='335754'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='acdf9019-47f1-4b8d-b15a-47410fad814c-attachment.png' type='image/png' size='432311'/>
+                <attachment title='Screenshot' source='63e75417-f6cf-471e-9023-df28812e5b4b-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>expected null to be true</message>
+                <stack-trace>AssertionError: expected null to be true
+                    at World.&lt;anonymous> (D:\AmwaterDashboardFinal\cp-dashboard-qa\step-definitions\billingAndPayments\billingAndPayments.step.js:17:93)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:594:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\core-js\library\modules\_export.js:36:28)
+                    at World.executeSync (D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:592:12)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:214:29</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537793177697' status='passed' stop='1537793216498'>
+            <name>verify invoice is attached and opens in billing and payments table</name>
+            <title>verify invoice is attached and opens in billing and payments table</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793186948' status='passed' stop='1537793192277'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1447efa1-9bbd-4249-bb97-0b4e80c1467b-attachment.png' type='image/png' size='350124'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793192277' status='passed' stop='1537793196543'>
+                    <name>user clicks on the invoicing link under column TRANSACTION TYPE</name>
+                    <title>user clicks on the invoicing link under column TRANSACTION TYPE</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='68c62975-78b5-4e1e-a80d-123862cad2df-attachment.png' type='image/png' size='85391'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793196548' status='passed' stop='1537793202193'>
+                    <name>information is displayed in a new tab</name>
+                    <title>information is displayed in a new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3c14fac9-a9ef-4c69-992e-2c6fede86cbe-attachment.png' type='image/png' size='174799'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793202193' status='passed' stop='1537793205011'>
+                    <name>new tab contains information as pdf</name>
+                    <title>new tab contains information as pdf</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3ab5dd84-af62-47df-9b19-f380f6a64b78-attachment.png' type='image/png' size='174799'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793205011' status='passed' stop='1537793209466'>
+                    <name>user closes new tab</name>
+                    <title>user closes new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f39d0e59-5ca0-4208-8dfe-3ff3b0f4278d-attachment.png' type='image/png' size='85140'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='08066022-e621-4750-809b-c5e0533df9e9-attachment.png' type='image/png' size='432350'/>
+                <attachment title='Screenshot' source='1c8f7ae8-a929-4f43-a3da-4a73b62f3bdc-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537793216499' status='passed' stop='1537793256356'>
+            <name>verify service information is attached and opens in billing and payments table</name>
+            <title>verify service information is attached and opens in billing and payments table</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793226808' status='passed' stop='1537793231765'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f99f34b3-8c45-4187-8845-59c3a36b174d-attachment.png' type='image/png' size='350231'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793231799' status='passed' stop='1537793235123'>
+                    <name>user clicks on the service link under column IMPORTANT INFORMATION</name>
+                    <title>user clicks on the service link under column IMPORTANT INFORMATION</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='58b327db-db99-4283-be7e-0feec8d40c65-attachment.png' type='image/png' size='85161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793235124' status='passed' stop='1537793241126'>
+                    <name>information is displayed in a new tab</name>
+                    <title>information is displayed in a new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6c92522a-8ed1-4356-83c5-bf03972a06e1-attachment.png' type='image/png' size='410752'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793241126' status='passed' stop='1537793243779'>
+                    <name>new tab contains information as pdf</name>
+                    <title>new tab contains information as pdf</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ca654510-a165-4e36-8985-28215569f3ae-attachment.png' type='image/png' size='410752'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793243781' status='passed' stop='1537793248762'>
+                    <name>user closes new tab</name>
+                    <title>user closes new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9af395db-54b2-46a5-8721-0e7c5bc4fc76-attachment.png' type='image/png' size='85161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='bbead0ba-f992-4d7e-8a38-7ffcab6e0aee-attachment.png' type='image/png' size='418157'/>
+                <attachment title='Screenshot' source='7f18641b-e107-4838-95b3-b8c15d805720-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

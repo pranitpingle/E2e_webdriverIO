@@ -1,0 +1,158 @@
+{
+  "uid" : "15bf81df3fa991ae",
+  "name" : "User can check the redirection to usage overview card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to usage overview card from the header menu",
+  "historyId" : "5d9c7ab6d4d927e6adafbf50dbd3d9c6",
+  "time" : {
+    "start" : 1537793401675,
+    "stop" : 1537793448774,
+    "duration" : 47099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu from header",
+      "time" : {
+        "start" : 1537793414135,
+        "stop" : 1537793423145,
+        "duration" : 9010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a487c23564fdb05c",
+        "name" : "Screenshot",
+        "source" : "a487c23564fdb05c.png",
+        "type" : "image/png",
+        "size" : 411064
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on usage overview sub menu",
+      "time" : {
+        "start" : 1537793423146,
+        "stop" : 1537793431813,
+        "duration" : 8667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e71d723f98722d45",
+        "name" : "Screenshot",
+        "source" : "e71d723f98722d45.png",
+        "type" : "image/png",
+        "size" : 215173
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "usage overview card is displayed in focus with a label as \"Usage Overview\"",
+      "time" : {
+        "start" : 1537793431813,
+        "stop" : 1537793439640,
+        "duration" : 7827
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5add6fa4614f7a8",
+        "name" : "Screenshot",
+        "source" : "d5add6fa4614f7a8.png",
+        "type" : "image/png",
+        "size" : 241223
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c75fcbdcbc839e2b",
+      "name" : "Screenshot",
+      "source" : "c75fcbdcbc839e2b.png",
+      "type" : "image/png",
+      "size" : 432539
+    }, {
+      "uid" : "7196478fb5031e94",
+      "name" : "Screenshot",
+      "source" : "7196478fb5031e94.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to usage overview card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12bc72581e613561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283707216,
+        "stop" : 1537283759824,
+        "duration" : 52608
+      }
+    }, {
+      "uid" : "e22687a9b7998c18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278484854,
+        "stop" : 1537278539305,
+        "duration" : 54451
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15bf81df3fa991ae.json",
+  "parameterValues" : [ "chrome" ]
+}

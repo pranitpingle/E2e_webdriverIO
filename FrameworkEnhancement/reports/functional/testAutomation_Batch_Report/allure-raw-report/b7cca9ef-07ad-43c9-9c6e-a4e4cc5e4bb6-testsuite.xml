@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278493776' stop='1537278560327'>
+    <name>Paperless billing in dashboard</name>
+    <title>Paperless billing in dashboard</title>
+    <test-cases>
+        <test-case start='1537278493776' status='failed' stop='1537278560327'>
+            <name>paperless card should be displayed if paperless is not enrolled for the user</name>
+            <title>paperless card should be displayed if paperless is not enrolled for the user</title>
+            <labels>
+                <label name='feature' value='Paperless billing in dashboard'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278514621' status='passed' stop='1537278525158'>
+                    <name>user navigates to Edit User Profile page</name>
+                    <title>user navigates to Edit User Profile page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='51bbfff7-9e07-4fb1-b0fa-7718e207dc8e-attachment.png' type='image/png' size='351302'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278525162' status='passed' stop='1537278528511'>
+                    <name>user navigates to the paperless enrollment section</name>
+                    <title>user navigates to the paperless enrollment section</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='31b4b13d-15c5-4c91-aef3-18c4a64603aa-attachment.png' type='image/png' size='100260'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278528512' status='failed' stop='1537278550478'>
+                    <name>unsubscribe paperless if it is subscribed and navigate to dashboard "Go Paperless"</name>
+                    <title>unsubscribe paperless if it is subscribed and navigate to dashboard "Go Paperless"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7dfbcc2c-2bca-4095-940c-a32b7de5e05f-attachment.png' type='image/png' size='254945'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2b85013f-c168-443e-a316-709248446041-attachment.png' type='image/png' size='429159'/>
+                <attachment title='Screenshot' source='3c59de9a-b63d-46c4-a51a-8c09d018c619-attachment.png' type='image/png' size='193810'/>
+            </attachments>
+            <failure>
+                <message>expected 'Go Paperless-Our green option' to equal 'Go Paperless'</message>
+                <stack-trace>AssertionError: expected 'Go Paperless-Our green option' to equal 'Go Paperless'
+                    at CommonFunctions.assertElementText (D:\AmwaterDashboardFinal\cp-dashboard-qa\utilities\commonFunctions.js:35:45)
+                    at World.&lt;anonymous> (D:\AmwaterDashboardFinal\cp-dashboard-qa\step-definitions\paperlessFromDashboard\paperlessFromDashboard.step.js:23:13)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:594:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\core-js\library\modules\_export.js:36:28)
+                    at World.executeSync (D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:592:12)
+                    at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:214:29</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

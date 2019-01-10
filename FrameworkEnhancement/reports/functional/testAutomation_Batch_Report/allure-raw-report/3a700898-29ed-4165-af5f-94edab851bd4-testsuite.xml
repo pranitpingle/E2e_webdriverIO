@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278254318' stop='1537278316131'>
+    <name>A registered user can Login to Dashboard and can edit personal information</name>
+    <title>A registered user can Login to Dashboard and can edit personal information</title>
+    <test-cases>
+        <test-case start='1537278254318' status='broken' stop='1537278316130'>
+            <name>user can change name from change Name option</name>
+            <title>user can change name from change Name option</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can edit personal information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278268160' status='passed' stop='1537278286379'>
+                    <name>user navigates to Edit User Profile page and clicks on change name button</name>
+                    <title>user navigates to Edit User Profile page and clicks on change name button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='bbd0839c-a32a-4153-81e7-7cc8ad8aeb2b-attachment.png' type='image/png' size='351563'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278286379' status='broken' stop='1537278298277'>
+                    <name>user changes the contact and preferences</name>
+                    <title>user changes the contact and preferences</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e48a0bf1-74da-4015-86e6-539267427134-attachment.png' type='image/png' size='111385'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278298277' status='pending' stop='1537278300844'>
+                    <name>user changes the address</name>
+                    <title>user changes the address</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7ce19232-787a-40ed-9fb7-4a153243f61c-attachment.png' type='image/png' size='111356'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278300847' status='pending' stop='1537278303196'>
+                    <name>user changes the Login ID</name>
+                    <title>user changes the Login ID</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9b2a65f2-bd1b-4f4e-8910-986a00524af9-attachment.png' type='image/png' size='111385'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278303199' status='pending' stop='1537278305727'>
+                    <name>user changes the Password</name>
+                    <title>user changes the Password</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='eebd0f21-50d5-4395-ac92-f01646bbeb88-attachment.png' type='image/png' size='111385'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278305728' status='pending' stop='1537278308177'>
+                    <name>user changes sec. acc. holder data</name>
+                    <title>user changes sec. acc. holder data</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='65a22720-6c04-46e2-b754-ce7e5cc12ce5-attachment.png' type='image/png' size='111356'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='45cf8616-4959-47fc-a520-89833a1128f6-attachment.png' type='image/png' size='429276'/>
+                <attachment title='Screenshot' source='f2094271-44ad-4e43-bf1d-b636db79585e-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button").
+                    at click() -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

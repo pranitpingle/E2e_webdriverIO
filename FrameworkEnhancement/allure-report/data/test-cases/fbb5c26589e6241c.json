@@ -1,0 +1,191 @@
+{
+  "uid" : "fbb5c26589e6241c",
+  "name" : "verify user able to open Youtube footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Youtube footer icon link in new browser tab",
+  "historyId" : "2837298f8b5c70e93e6f4ade931ae3b8",
+  "time" : {
+    "start" : 1538393358076,
+    "stop" : 1538393384174,
+    "duration" : 26098
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Youtube link in Footer",
+      "time" : {
+        "start" : 1538393365415,
+        "stop" : 1538393368373,
+        "duration" : 2958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e10fd6bd87fd62f3",
+        "name" : "Screenshot",
+        "source" : "e10fd6bd87fd62f3.png",
+        "type" : "image/png",
+        "size" : 162438
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Youtube link with page \"caamwater\"",
+      "time" : {
+        "start" : 1538393368373,
+        "stop" : 1538393375056,
+        "duration" : 6683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b25e71849b04989e",
+        "name" : "Screenshot",
+        "source" : "b25e71849b04989e.png",
+        "type" : "image/png",
+        "size" : 473312
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Youtube link is successfully redirecting to Youtube Page by validating page url",
+      "time" : {
+        "start" : 1538393375056,
+        "stop" : 1538393377616,
+        "duration" : 2560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83a9edededad48b5",
+        "name" : "Screenshot",
+        "source" : "83a9edededad48b5.png",
+        "type" : "image/png",
+        "size" : 162520
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "ba9e1c7dc1b16a22",
+      "name" : "Screenshot",
+      "source" : "ba9e1c7dc1b16a22.png",
+      "type" : "image/png",
+      "size" : 399527
+    }, {
+      "uid" : "63570036474471b8",
+      "name" : "Screenshot",
+      "source" : "63570036474471b8.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Youtube footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d9b45295fde88c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037304781,
+        "stop" : 1538037331791,
+        "duration" : 27010
+      }
+    }, {
+      "uid" : "b35c3b830090a719",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Cannot read property 'scrollTo' of null",
+      "time" : {
+        "start" : 1537793601179,
+        "stop" : 1537793686195,
+        "duration" : 85016
+      }
+    }, {
+      "uid" : "fc5b7e11df12f8d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283865807,
+        "stop" : 1537283906227,
+        "duration" : 40420
+      }
+    }, {
+      "uid" : "29dc173bd935f5e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278654823,
+        "stop" : 1537278704915,
+        "duration" : 50092
+      }
+    }, {
+      "uid" : "feabaeabb68739e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277569027,
+        "stop" : 1537277600630,
+        "duration" : 31603
+      }
+    }, {
+      "uid" : "7dbbf6c400259f72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276636903,
+        "stop" : 1537276666899,
+        "duration" : 29996
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbb5c26589e6241c.json",
+  "parameterValues" : [ "chrome" ]
+}

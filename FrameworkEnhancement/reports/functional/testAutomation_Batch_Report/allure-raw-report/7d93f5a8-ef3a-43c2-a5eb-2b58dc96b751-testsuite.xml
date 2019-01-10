@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866755146' stop='1546866822674'>
+    <name>A registered user can see the conservation tips</name>
+    <title>A registered user can see the conservation tips</title>
+    <test-cases>
+        <test-case start='1546866755151' status='broken' stop='1546866779634'>
+            <name>User can check the conservation tips are displayed with correct content</name>
+            <title>User can check the conservation tips are displayed with correct content</title>
+            <labels>
+                <label name='feature' value='A registered user can see the conservation tips'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866770798' status='pending' stop='1546866772980'>
+                    <name>user navigates to usage menu</name>
+                    <title>user navigates to usage menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ac5d1f24-d937-4b4f-a2e3-aeaa3ee5d698-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866772984' status='pending' stop='1546866775181'>
+                    <name>user click on Conservation Tips</name>
+                    <title>user click on Conservation Tips</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b0ba565d-bf0c-4d4a-a6b7-1a7b04621e73-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866775181' status='pending' stop='1546866777364'>
+                    <name>Conservation tips is displayed on the card "Conservation Tips"</name>
+                    <title>Conservation tips is displayed on the card "Conservation Tips"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ed6c62a9-1c1f-4f60-b4f9-ccec94255710-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3f5bc541-6121-4749-b0e5-b93cc6a63223-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='f74e069b-e157-40aa-896b-893e1f739558-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866779636' status='broken' stop='1546866801299'>
+            <name>User can check all the  conservation tips are displayed with correct content</name>
+            <title>User can check all the  conservation tips are displayed with correct content</title>
+            <labels>
+                <label name='feature' value='A registered user can see the conservation tips'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866792603' status='pending' stop='1546866794745'>
+                    <name>again user navigates to usage menu</name>
+                    <title>again user navigates to usage menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='25103e54-f5bf-4436-a857-0ace1389e13c-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866794745' status='pending' stop='1546866796892'>
+                    <name>again user click on Conservation Tips</name>
+                    <title>again user click on Conservation Tips</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e66902b9-a440-4d13-9023-ff747caad5dd-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866796896' status='pending' stop='1546866799051'>
+                    <name>user navigates to each conservation tips and verify the content</name>
+                    <title>user navigates to each conservation tips and verify the content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='39d7f1a5-b09d-4356-aaf7-52d28596b38f-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='821556ee-ad00-49ef-9395-505439ab6d7d-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='da071c70-6b91-4076-9500-eafef048c600-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866801300' status='broken' stop='1546866822674'>
+            <name>User can check all the  conservation tips are displayed with correct content in detail</name>
+            <title>User can check all the  conservation tips are displayed with correct content in detail</title>
+            <labels>
+                <label name='feature' value='A registered user can see the conservation tips'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866813984' status='pending' stop='1546866816147'>
+                    <name>user navigates to usage menu to verify detailed content</name>
+                    <title>user navigates to usage menu to verify detailed content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='504d0edf-68ca-4655-a54c-ce15a606cc28-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866816147' status='pending' stop='1546866818306'>
+                    <name>user click on Conservation Tips to verfiy detailed content</name>
+                    <title>user click on Conservation Tips to verfiy detailed content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b966065b-709c-489e-bab1-af59bb96835d-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866818307' status='pending' stop='1546866820440'>
+                    <name>user navigates to each conservation tips and verify the content for each tips</name>
+                    <title>user navigates to each conservation tips and verify the content for each tips</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='89b21390-48bc-4f10-b7e5-3898d2c88a61-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5bf337cd-edaa-467c-a5ad-867b8b9a58dd-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='04d55359-84d8-47ea-9acb-c537f19776e9-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

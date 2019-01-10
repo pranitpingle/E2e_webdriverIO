@@ -1,0 +1,145 @@
+{
+  "uid" : "851f24f828bed2a7",
+  "name" : "paperless card should be displayed if paperless is not enrolled for the user",
+  "fullName" : "Paperless billing in dashboard.paperless card should be displayed if paperless is not enrolled for the user",
+  "historyId" : "b4a7a350b0913df5e92090022f0c0e83",
+  "time" : {
+    "start" : 1537278493776,
+    "stop" : 1537278560327,
+    "duration" : 66551
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'Go Paperless-Our green option' to equal 'Go Paperless'",
+  "statusTrace" : "AssertionError: expected 'Go Paperless-Our green option' to equal 'Go Paperless'\n                    at CommonFunctions.assertElementText (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:35:45)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\paperlessFromDashboard\\paperlessFromDashboard.step.js:23:13)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'Go Paperless-Our green option' to equal 'Go Paperless'",
+    "statusTrace" : "AssertionError: expected 'Go Paperless-Our green option' to equal 'Go Paperless'\n                    at CommonFunctions.assertElementText (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:35:45)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\paperlessFromDashboard\\paperlessFromDashboard.step.js:23:13)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page",
+      "time" : {
+        "start" : 1537278514621,
+        "stop" : 1537278525158,
+        "duration" : 10537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "128129eb2bda4a63",
+        "name" : "Screenshot",
+        "source" : "128129eb2bda4a63.png",
+        "type" : "image/png",
+        "size" : 351302
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user navigates to the paperless enrollment section",
+      "time" : {
+        "start" : 1537278525162,
+        "stop" : 1537278528511,
+        "duration" : 3349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c701fe94bc0a4a46",
+        "name" : "Screenshot",
+        "source" : "c701fe94bc0a4a46.png",
+        "type" : "image/png",
+        "size" : 100260
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "unsubscribe paperless if it is subscribed and navigate to dashboard \"Go Paperless\"",
+      "time" : {
+        "start" : 1537278528512,
+        "stop" : 1537278550478,
+        "duration" : 21966
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected 'Go Paperless-Our green option' to equal 'Go Paperless'\n                    at CommonFunctions.assertElementText (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:35:45)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\paperlessFromDashboard\\paperlessFromDashboard.step.js:23:13)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d45dca58e39b6ed5",
+        "name" : "Screenshot",
+        "source" : "d45dca58e39b6ed5.png",
+        "type" : "image/png",
+        "size" : 254945
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5933f9bfbb5d745c",
+      "name" : "Screenshot",
+      "source" : "5933f9bfbb5d745c.png",
+      "type" : "image/png",
+      "size" : 429159
+    }, {
+      "uid" : "aef9ba69177c4c9e",
+      "name" : "Screenshot",
+      "source" : "aef9ba69177c4c9e.png",
+      "type" : "image/png",
+      "size" : 193810
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "paperless card should be displayed if paperless is not enrolled for the user"
+  }, {
+    "name" : "package",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "851f24f828bed2a7.json",
+  "parameterValues" : [ "chrome" ]
+}

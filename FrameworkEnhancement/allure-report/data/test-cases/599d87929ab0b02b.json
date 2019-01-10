@@ -1,0 +1,190 @@
+{
+  "uid" : "599d87929ab0b02b",
+  "name" : "verify user able to open Facebook footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Facebook footer icon link in new browser tab",
+  "historyId" : "76e2139c788553b82234558d79517f7f",
+  "time" : {
+    "start" : 1538393303192,
+    "stop" : 1538393331534,
+    "duration" : 28342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Facebook link in Footer",
+      "time" : {
+        "start" : 1538393311196,
+        "stop" : 1538393315104,
+        "duration" : 3908
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "468f45ed3eaeec3a",
+        "name" : "Screenshot",
+        "source" : "468f45ed3eaeec3a.png",
+        "type" : "image/png",
+        "size" : 139045
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Facebook link with page title \"California American Water\"",
+      "time" : {
+        "start" : 1538393315105,
+        "stop" : 1538393322402,
+        "duration" : 7297
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47727cb1bdaf67be",
+        "name" : "Screenshot",
+        "source" : "47727cb1bdaf67be.png",
+        "type" : "image/png",
+        "size" : 529854
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Facebook link is successfully redirecting to Facebook by validating page url",
+      "time" : {
+        "start" : 1538393322402,
+        "stop" : 1538393324981,
+        "duration" : 2579
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed6b2741e7688f5c",
+        "name" : "Screenshot",
+        "source" : "ed6b2741e7688f5c.png",
+        "type" : "image/png",
+        "size" : 139157
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "ac74c2195d557e1f",
+      "name" : "Screenshot",
+      "source" : "ac74c2195d557e1f.png",
+      "type" : "image/png",
+      "size" : 399486
+    }, {
+      "uid" : "26a6baca8bc2c1f",
+      "name" : "Screenshot",
+      "source" : "26a6baca8bc2c1f.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Facebook footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "70e1f942c156b135",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037246876,
+        "stop" : 1538037274865,
+        "duration" : 27989
+      }
+    }, {
+      "uid" : "7e8fcb8d6df4166c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793510720,
+        "stop" : 1537793547337,
+        "duration" : 36617
+      }
+    }, {
+      "uid" : "28a62c7adfe45c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283790663,
+        "stop" : 1537283831590,
+        "duration" : 40927
+      }
+    }, {
+      "uid" : "2228d3c951fea3ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278569504,
+        "stop" : 1537278611481,
+        "duration" : 41977
+      }
+    }, {
+      "uid" : "899b4be55c691116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277498898,
+        "stop" : 1537277537140,
+        "duration" : 38242
+      }
+    }, {
+      "uid" : "ab05357dbad06e88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276575256,
+        "stop" : 1537276608238,
+        "duration" : 32982
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "599d87929ab0b02b.json",
+  "parameterValues" : [ "chrome" ]
+}

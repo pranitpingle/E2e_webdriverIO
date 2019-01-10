@@ -1,0 +1,182 @@
+{
+  "uid" : "cd5b5b423dea2d7b",
+  "name" : "verify invoice is attached and opens in billing and payments table",
+  "fullName" : "Biliing and Payment history.verify invoice is attached and opens in billing and payments table",
+  "historyId" : "c7a537f6db10c7f120d59d9b794d7bae",
+  "time" : {
+    "start" : 1537283443340,
+    "stop" : 1537283497793,
+    "duration" : 54453
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537283463807,
+        "stop" : 1537283470774,
+        "duration" : 6967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67d3dbde309ed7a2",
+        "name" : "Screenshot",
+        "source" : "67d3dbde309ed7a2.png",
+        "type" : "image/png",
+        "size" : 350046
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on the invoicing link under column TRANSACTION TYPE",
+      "time" : {
+        "start" : 1537283470776,
+        "stop" : 1537283475157,
+        "duration" : 4381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5beb87f8299c379f",
+        "name" : "Screenshot",
+        "source" : "5beb87f8299c379f.png",
+        "type" : "image/png",
+        "size" : 85570
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "information is displayed in a new tab",
+      "time" : {
+        "start" : 1537283475159,
+        "stop" : 1537283481065,
+        "duration" : 5906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42973d536c271a08",
+        "name" : "Screenshot",
+        "source" : "42973d536c271a08.png",
+        "type" : "image/png",
+        "size" : 174799
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "new tab contains information as pdf",
+      "time" : {
+        "start" : 1537283481071,
+        "stop" : 1537283484722,
+        "duration" : 3651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41cab90233cebca0",
+        "name" : "Screenshot",
+        "source" : "41cab90233cebca0.png",
+        "type" : "image/png",
+        "size" : 174799
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes new tab",
+      "time" : {
+        "start" : 1537283484724,
+        "stop" : 1537283489599,
+        "duration" : 4875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4961191cc4483293",
+        "name" : "Screenshot",
+        "source" : "4961191cc4483293.png",
+        "type" : "image/png",
+        "size" : 85436
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "b6b744f7b4e3bfd3",
+      "name" : "Screenshot",
+      "source" : "b6b744f7b4e3bfd3.png",
+      "type" : "image/png",
+      "size" : 429439
+    }, {
+      "uid" : "b266cb701b7fd279",
+      "name" : "Screenshot",
+      "source" : "b266cb701b7fd279.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify invoice is attached and opens in billing and payments table"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd5b5b423dea2d7b.json",
+  "parameterValues" : [ "chrome" ]
+}

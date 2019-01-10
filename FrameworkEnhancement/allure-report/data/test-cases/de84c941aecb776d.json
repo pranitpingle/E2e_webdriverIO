@@ -1,0 +1,145 @@
+{
+  "uid" : "de84c941aecb776d",
+  "name" : "User can make payment by cash",
+  "fullName" : "A registered user can pay by available Payment methods.User can make payment by cash",
+  "historyId" : "9372e6114cda30350c74f9a0132a3a27",
+  "time" : {
+    "start" : 1537283674367,
+    "stop" : 1537283712820,
+    "duration" : 38453
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Make Payments page an selects payment method \"Cash\"",
+      "time" : {
+        "start" : 1537283690287,
+        "stop" : 1537283695591,
+        "duration" : 5304
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "918b5fe1fa2360dd",
+        "name" : "Screenshot",
+        "source" : "918b5fe1fa2360dd.png",
+        "type" : "image/png",
+        "size" : 401984
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user pays with amount \"84\" and enters receipt number to submit",
+      "time" : {
+        "start" : 1537283695645,
+        "stop" : 1537283699037,
+        "duration" : 3392
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5a2e4420fde1d96",
+        "name" : "Screenshot",
+        "source" : "f5a2e4420fde1d96.png",
+        "type" : "image/png",
+        "size" : 401984
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "cash payment is successful with message \"You have successfully completed your CASH payment!\"",
+      "time" : {
+        "start" : 1537283699039,
+        "stop" : 1537283701837,
+        "duration" : 2798
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f242af54a654802f",
+        "name" : "Screenshot",
+        "source" : "f242af54a654802f.png",
+        "type" : "image/png",
+        "size" : 401984
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8b0a29e9fc1ae11f",
+      "name" : "Screenshot",
+      "source" : "8b0a29e9fc1ae11f.png",
+      "type" : "image/png",
+      "size" : 429448
+    }, {
+      "uid" : "1e8c696b4703de83",
+      "name" : "Screenshot",
+      "source" : "1e8c696b4703de83.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can make payment by cash"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de84c941aecb776d.json",
+  "parameterValues" : [ "chrome" ]
+}

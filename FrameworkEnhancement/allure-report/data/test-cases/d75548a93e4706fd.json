@@ -1,0 +1,145 @@
+{
+  "uid" : "d75548a93e4706fd",
+  "name" : "service request availibility",
+  "fullName" : "Validate fields Service Request card.service request availibility",
+  "historyId" : "60618eaf3e1e12ec590a571daf65658b",
+  "time" : {
+    "start" : 1537793600325,
+    "stop" : 1537793681696,
+    "duration" : 81371
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "customer support hours \"Hours: Monday - Friday 7 am - 7 pm\" is visible in the card",
+      "time" : {
+        "start" : 1537793674481,
+        "stop" : 1537793676801,
+        "duration" : 2320
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68ec2b300715e966",
+        "name" : "Screenshot",
+        "source" : "68ec2b300715e966.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "emergency suppport \"For emergencies: We are available 24/7\" is visible in the card",
+      "time" : {
+        "start" : 1537793676802,
+        "stop" : 1537793679220,
+        "duration" : 2418
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c474f49a392659a8",
+        "name" : "Screenshot",
+        "source" : "c474f49a392659a8.png",
+        "type" : "image/png",
+        "size" : 10352
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "e0eeba58a7b29a79",
+      "name" : "Screenshot",
+      "source" : "e0eeba58a7b29a79.png",
+      "type" : "image/png",
+      "size" : 10352
+    }, {
+      "uid" : "fd90167a07c48e36",
+      "name" : "Screenshot",
+      "source" : "fd90167a07c48e36.png",
+      "type" : "image/png",
+      "size" : 10352
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testMethod",
+    "value" : "service request availibility"
+  }, {
+    "name" : "package",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7cff12f258c61ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283911797,
+        "stop" : 1537283939237,
+        "duration" : 27440
+      }
+    }, {
+      "uid" : "9ea165d4730e0a8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278723160,
+        "stop" : 1537278766482,
+        "duration" : 43322
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d75548a93e4706fd.json",
+  "parameterValues" : [ "chrome" ]
+}

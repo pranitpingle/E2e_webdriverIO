@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546938410213' stop='1546938439675'>
+    <name>Login to Gmail.com</name>
+    <title>Login to Gmail.com</title>
+    <test-cases>
+        <test-case start='1546938410220' status='broken' stop='1546938439674'>
+            <name>User launch Gmail and enters valid credentials</name>
+            <title>User launch Gmail and enters valid credentials</title>
+            <labels>
+                <label name='feature' value='Login to Gmail.com'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546938418448' status='broken' stop='1546938420567'>
+                    <name>user navigates to Gmail login page</name>
+                    <title>user navigates to Gmail login page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='34f0af96-7c2b-4ca8-b654-79bc1bbaa4f9-attachment.png' type='image/png' size='30938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938420577' status='pending' stop='1546938422677'>
+                    <name>user clicks on plus button to expand the account information</name>
+                    <title>user clicks on plus button to expand the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b0f8d94c-8e6a-4f95-9095-fed0bbf779ac-attachment.png' type='image/png' size='30956'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938422677' status='pending' stop='1546938424810'>
+                    <name>user clicks on account number &amp; verifies it</name>
+                    <title>user clicks on account number &amp; verifies it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='26ec6c4c-8bde-46da-ac64-9a6097c53436-attachment.png' type='image/png' size='30956'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938424811' status='pending' stop='1546938426936'>
+                    <name>user clicks on Meters service type &amp; verifies the same</name>
+                    <title>user clicks on Meters service type &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='50c2f3f3-638a-4794-abfa-279b5c970bbd-attachment.png' type='image/png' size='30938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938426938' status='pending' stop='1546938429042'>
+                    <name>user clicks on meter serial number &amp; verifies the same</name>
+                    <title>user clicks on meter serial number &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='57f37a7b-a55e-4083-9f87-2117ce59426e-attachment.png' type='image/png' size='32486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938429042' status='pending' stop='1546938431174'>
+                    <name>user clicks on meter size &amp; verifes it</name>
+                    <title>user clicks on meter size &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='61fc297e-2fb6-4318-bf23-ec21c80189a1-attachment.png' type='image/png' size='32486'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938431175' status='pending' stop='1546938433301'>
+                    <name>user clicks on meter location &amp; verifes it</name>
+                    <title>user clicks on meter location &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9232496d-bf07-4921-9a32-39653b05e26b-attachment.png' type='image/png' size='30938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938433301' status='pending' stop='1546938435420'>
+                    <name>user clicks on installation date &amp; verifes it</name>
+                    <title>user clicks on installation date &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='570c15a7-bdc4-446a-9ef6-0d411fa9e6b7-attachment.png' type='image/png' size='30938'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546938435421' status='pending' stop='1546938437545'>
+                    <name>user is displayed with all the account information</name>
+                    <title>user is displayed with all the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4afbc7a4-bb35-4f22-9731-f3d178506f18-attachment.png' type='image/png' size='30956'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8c13535c-b441-4252-b558-fceb4b3c0b7e-attachment.png' type='image/png' size='30938'/>
+                <attachment title='Screenshot' source='8040cdfc-2458-4d92-a871-93bd6750bbc7-attachment.png' type='image/png' size='30956'/>
+            </attachments>
+            <failure>
+                <message>Step "user navigates to Gmail login page" is not defined. You can ignore this error by setting
+                                              cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>/home/ankitasawant/Documents/AmwaterDashboardFinal-Error solving/AmwaterDashboardFinal/cp-dashboard-qa/features/testingnewfeature/newtest.feature:4</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

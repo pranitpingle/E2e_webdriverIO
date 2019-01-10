@@ -1,0 +1,208 @@
+{
+  "uid" : "64be0343767cd772",
+  "name" : "user can change name from change Name option",
+  "fullName" : "A registered user can Login to Dashboard and can edit personal information.user can change name from change Name option",
+  "historyId" : "b2317d22cb56f47776f5600b5c428a06",
+  "time" : {
+    "start" : 1537261469807,
+    "stop" : 1537261533517,
+    "duration" : 63710
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page and clicks on change name button",
+      "time" : {
+        "start" : 1537261484183,
+        "stop" : 1537261502718,
+        "duration" : 18535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d73d0570d73b1ce",
+        "name" : "Screenshot",
+        "source" : "7d73d0570d73b1ce.png",
+        "type" : "image/png",
+        "size" : 351499
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the contact and preferences",
+      "time" : {
+        "start" : 1537261502718,
+        "stop" : 1537261515888,
+        "duration" : 13170
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85f6fe756084c897",
+        "name" : "Screenshot",
+        "source" : "85f6fe756084c897.png",
+        "type" : "image/png",
+        "size" : 111298
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the address",
+      "time" : {
+        "start" : 1537261515890,
+        "stop" : 1537261518235,
+        "duration" : 2345
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f4f233ebf6ee1f6",
+        "name" : "Screenshot",
+        "source" : "3f4f233ebf6ee1f6.png",
+        "type" : "image/png",
+        "size" : 111298
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the Login ID",
+      "time" : {
+        "start" : 1537261518236,
+        "stop" : 1537261520730,
+        "duration" : 2494
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "866441ade2ea9df4",
+        "name" : "Screenshot",
+        "source" : "866441ade2ea9df4.png",
+        "type" : "image/png",
+        "size" : 111324
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes the Password",
+      "time" : {
+        "start" : 1537261520732,
+        "stop" : 1537261523310,
+        "duration" : 2578
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "880e0e0ae10ca1d5",
+        "name" : "Screenshot",
+        "source" : "880e0e0ae10ca1d5.png",
+        "type" : "image/png",
+        "size" : 111295
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user changes sec. acc. holder data",
+      "time" : {
+        "start" : 1537261523310,
+        "stop" : 1537261525729,
+        "duration" : 2419
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a282bd43b0ec36",
+        "name" : "Screenshot",
+        "source" : "9a282bd43b0ec36.png",
+        "type" : "image/png",
+        "size" : 111295
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "ebe8c8166ab7ddb",
+      "name" : "Screenshot",
+      "source" : "ebe8c8166ab7ddb.png",
+      "type" : "image/png",
+      "size" : 429219
+    }, {
+      "uid" : "753b0b2e2e1ccb3d",
+      "name" : "Screenshot",
+      "source" : "753b0b2e2e1ccb3d.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can change name from change Name option"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can Login to Dashboard and can edit personal information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64be0343767cd772.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,140 @@
+{
+  "uid" : "29dc173bd935f5e7",
+  "name" : "verify user able to open Youtube footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Youtube footer icon link in new browser tab",
+  "historyId" : "2837298f8b5c70e93e6f4ade931ae3b8",
+  "time" : {
+    "start" : 1537278654823,
+    "stop" : 1537278704915,
+    "duration" : 50092
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Youtube link in Footer",
+      "time" : {
+        "start" : 1537278672159,
+        "stop" : 1537278679554,
+        "duration" : 7395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a400fdea58353db2",
+        "name" : "Screenshot",
+        "source" : "a400fdea58353db2.png",
+        "type" : "image/png",
+        "size" : 205563
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Youtube link with page \"caamwater\"",
+      "time" : {
+        "start" : 1537278679554,
+        "stop" : 1537278688529,
+        "duration" : 8975
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbe6885d2521589a",
+        "name" : "Screenshot",
+        "source" : "bbe6885d2521589a.png",
+        "type" : "image/png",
+        "size" : 563393
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Youtube link is successfully redirecting to Youtube Page by validating page url",
+      "time" : {
+        "start" : 1537278688529,
+        "stop" : 1537278693827,
+        "duration" : 5298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9ffd5fff75be5c2",
+        "name" : "Screenshot",
+        "source" : "b9ffd5fff75be5c2.png",
+        "type" : "image/png",
+        "size" : 205612
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "cef32965a3bdb14d",
+      "name" : "Screenshot",
+      "source" : "cef32965a3bdb14d.png",
+      "type" : "image/png",
+      "size" : 429135
+    }, {
+      "uid" : "8a5aa7e1687dc8a",
+      "name" : "Screenshot",
+      "source" : "8a5aa7e1687dc8a.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Youtube footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29dc173bd935f5e7.json",
+  "parameterValues" : [ "chrome" ]
+}

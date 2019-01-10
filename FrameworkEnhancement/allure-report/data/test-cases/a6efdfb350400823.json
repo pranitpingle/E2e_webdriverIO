@@ -1,0 +1,161 @@
+{
+  "uid" : "a6efdfb350400823",
+  "name" : "verify user able to open Feedback footer link and verify it",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Feedback footer link and verify it",
+  "historyId" : "ae6a2fd696b9db40beda9fdc0ec65f67",
+  "time" : {
+    "start" : 1538037147475,
+    "stop" : 1538037180609,
+    "duration" : 33134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1538037155535,
+        "stop" : 1538037161237,
+        "duration" : 5702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8786e78791950f9b",
+        "name" : "Screenshot",
+        "source" : "8786e78791950f9b.png",
+        "type" : "image/png",
+        "size" : 143776
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user selects radio button for first question and second question for footer",
+      "time" : {
+        "start" : 1538037161237,
+        "stop" : 1538037163987,
+        "duration" : 2750
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84001be8c7a7de74",
+        "name" : "Screenshot",
+        "source" : "84001be8c7a7de74.png",
+        "type" : "image/png",
+        "size" : 144047
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form for footer",
+      "time" : {
+        "start" : 1538037163988,
+        "stop" : 1538037171517,
+        "duration" : 7529
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0d7122e2933e1a1",
+        "name" : "Screenshot",
+        "source" : "b0d7122e2933e1a1.png",
+        "type" : "image/png",
+        "size" : 170140
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with message for footer first \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1538037171517,
+        "stop" : 1538037174019,
+        "duration" : 2502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc2c45dc1c267af1",
+        "name" : "Screenshot",
+        "source" : "fc2c45dc1c267af1.png",
+        "type" : "image/png",
+        "size" : 185162
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "e8b35ca035281945",
+      "name" : "Screenshot",
+      "source" : "e8b35ca035281945.png",
+      "type" : "image/png",
+      "size" : 431832
+    }, {
+      "uid" : "c23a6a783dc7f752",
+      "name" : "Screenshot",
+      "source" : "c23a6a783dc7f752.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Feedback footer link and verify it"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6efdfb350400823.json",
+  "parameterValues" : [ "chrome" ]
+}

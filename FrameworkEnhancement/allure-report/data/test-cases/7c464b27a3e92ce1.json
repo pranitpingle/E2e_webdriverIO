@@ -1,0 +1,209 @@
+{
+  "uid" : "7c464b27a3e92ce1",
+  "name" : "verify invoice is attached and opens in billing and payments table",
+  "fullName" : "Biliing and Payment history.verify invoice is attached and opens in billing and payments table",
+  "historyId" : "c7a537f6db10c7f120d59d9b794d7bae",
+  "time" : {
+    "start" : 1537793177697,
+    "stop" : 1537793216498,
+    "duration" : 38801
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537793186948,
+        "stop" : 1537793192277,
+        "duration" : 5329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17cfaa417e56296a",
+        "name" : "Screenshot",
+        "source" : "17cfaa417e56296a.png",
+        "type" : "image/png",
+        "size" : 350124
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on the invoicing link under column TRANSACTION TYPE",
+      "time" : {
+        "start" : 1537793192277,
+        "stop" : 1537793196543,
+        "duration" : 4266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "695505dfe894869b",
+        "name" : "Screenshot",
+        "source" : "695505dfe894869b.png",
+        "type" : "image/png",
+        "size" : 85391
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "information is displayed in a new tab",
+      "time" : {
+        "start" : 1537793196548,
+        "stop" : 1537793202193,
+        "duration" : 5645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69a239afde01fcd0",
+        "name" : "Screenshot",
+        "source" : "69a239afde01fcd0.png",
+        "type" : "image/png",
+        "size" : 174799
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "new tab contains information as pdf",
+      "time" : {
+        "start" : 1537793202193,
+        "stop" : 1537793205011,
+        "duration" : 2818
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eec738ecd6ef59c6",
+        "name" : "Screenshot",
+        "source" : "eec738ecd6ef59c6.png",
+        "type" : "image/png",
+        "size" : 174799
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes new tab",
+      "time" : {
+        "start" : 1537793205011,
+        "stop" : 1537793209466,
+        "duration" : 4455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84c0e641f88c6127",
+        "name" : "Screenshot",
+        "source" : "84c0e641f88c6127.png",
+        "type" : "image/png",
+        "size" : 85140
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "46b43c66469fc2d8",
+      "name" : "Screenshot",
+      "source" : "46b43c66469fc2d8.png",
+      "type" : "image/png",
+      "size" : 432350
+    }, {
+      "uid" : "dca50d1dcc846705",
+      "name" : "Screenshot",
+      "source" : "dca50d1dcc846705.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify invoice is attached and opens in billing and payments table"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd5b5b423dea2d7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283443340,
+        "stop" : 1537283497793,
+        "duration" : 54453
+      }
+    }, {
+      "uid" : "883a814808a3ced3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278229680,
+        "stop" : 1537278281486,
+        "duration" : 51806
+      }
+    }, {
+      "uid" : "dbae4f46af77ecbb",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <a tabindex=\"0\" href=\"#\">...</a> is not clickable at point (437, 65). Other element would receive the click: <div class=\"banner-container aw-hidden-tablet\" style=\"background-image: url(&quot;/static/media/dashboard-banner.0e3f59e5.png&quot;);\"></div>",
+      "time" : {
+        "start" : 1537261449047,
+        "stop" : 1537261492768,
+        "duration" : 43721
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c464b27a3e92ce1.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,166 @@
+{
+  "uid" : "f8fade857a1f3fe3",
+  "name" : "User can submit the feedback using all the manadatory fields",
+  "fullName" : "A registered user can submit the feedback.User can submit the feedback using all the manadatory fields",
+  "historyId" : "af975facda297980d58f526e4511fd01",
+  "time" : {
+    "start" : 1537283550296,
+    "stop" : 1537283615694,
+    "duration" : 65398
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"div[class= 'ant-notification-notice-description']\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\"div[class= 'ant-notification-notice-description']\") still not existing after 10000ms\n                    at elements(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"div[class= 'ant-notification-notice-description']\") still not existing after 10000ms",
+    "statusTrace" : "Error: element (\"div[class= 'ant-notification-notice-description']\") still not existing after 10000ms\n                    at elements(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+    "steps" : [ {
+      "name" : "user navigates to feedback modal view",
+      "time" : {
+        "start" : 1537283571801,
+        "stop" : 1537283581312,
+        "duration" : 9511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe6fab9703fe85e2",
+        "name" : "Screenshot",
+        "source" : "fe6fab9703fe85e2.png",
+        "type" : "image/png",
+        "size" : 161579
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user selects radio button for first question and second question",
+      "time" : {
+        "start" : 1537283581315,
+        "stop" : 1537283585117,
+        "duration" : 3802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2448084f2a679f3",
+        "name" : "Screenshot",
+        "source" : "a2448084f2a679f3.png",
+        "type" : "image/png",
+        "size" : 161831
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form",
+      "time" : {
+        "start" : 1537283585117,
+        "stop" : 1537283594023,
+        "duration" : 8906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92b2c82c38423be9",
+        "name" : "Screenshot",
+        "source" : "92b2c82c38423be9.png",
+        "type" : "image/png",
+        "size" : 429624
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with message \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1537283594023,
+        "stop" : 1537283608036,
+        "duration" : 14013
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"div[class= 'ant-notification-notice-description']\") still not existing after 10000ms\n                    at elements(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb1a1bc84c51de51",
+        "name" : "Screenshot",
+        "source" : "eb1a1bc84c51de51.png",
+        "type" : "image/png",
+        "size" : 429319
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8104e97b8617851a",
+      "name" : "Screenshot",
+      "source" : "8104e97b8617851a.png",
+      "type" : "image/png",
+      "size" : 429319
+    }, {
+      "uid" : "89bf1abce3834e70",
+      "name" : "Screenshot",
+      "source" : "89bf1abce3834e70.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can submit the feedback using all the manadatory fields"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8fade857a1f3fe3.json",
+  "parameterValues" : [ "chrome" ]
+}

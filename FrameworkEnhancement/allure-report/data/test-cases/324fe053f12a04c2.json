@@ -1,0 +1,145 @@
+{
+  "uid" : "324fe053f12a04c2",
+  "name" : "User can check all the  conservation tips are displayed with correct content",
+  "fullName" : "A registered user can see the conservation tips.User can check all the  conservation tips are displayed with correct content",
+  "historyId" : "4df8fa2b1b4a422138258cb726588ff",
+  "time" : {
+    "start" : 1537278231266,
+    "stop" : 1537278272113,
+    "duration" : 40847
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not visible",
+  "statusTrace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.8789363494700984-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not visible",
+    "statusTrace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.8789363494700984-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu",
+      "time" : {
+        "start" : 1537278245380,
+        "stop" : 1537278255699,
+        "duration" : 10319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ead8d4c9ff022ae",
+        "name" : "Screenshot",
+        "source" : "3ead8d4c9ff022ae.png",
+        "type" : "image/png",
+        "size" : 429522
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "again user click on Conservation Tips",
+      "time" : {
+        "start" : 1537278255704,
+        "stop" : 1537278259764,
+        "duration" : 4060
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.8789363494700984-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c50fbac2752a4ba",
+        "name" : "Screenshot",
+        "source" : "4c50fbac2752a4ba.png",
+        "type" : "image/png",
+        "size" : 429522
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user navigates to each conservation tips and verify the content",
+      "time" : {
+        "start" : 1537278259820,
+        "stop" : 1537278263370,
+        "duration" : 3550
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9810d6b55a2ec40",
+        "name" : "Screenshot",
+        "source" : "f9810d6b55a2ec40.png",
+        "type" : "image/png",
+        "size" : 429522
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "1330b6da9d099276",
+      "name" : "Screenshot",
+      "source" : "1330b6da9d099276.png",
+      "type" : "image/png",
+      "size" : 429215
+    }, {
+      "uid" : "d7bd95fbf4356e6c",
+      "name" : "Screenshot",
+      "source" : "d7bd95fbf4356e6c.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check all the  conservation tips are displayed with correct content"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "324fe053f12a04c2.json",
+  "parameterValues" : [ "chrome" ]
+}

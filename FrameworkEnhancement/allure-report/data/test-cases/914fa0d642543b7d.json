@@ -1,0 +1,166 @@
+{
+  "uid" : "914fa0d642543b7d",
+  "name" : "User can make payment by Electronic Check",
+  "fullName" : "A registered user can pay by available Payment methods.User can make payment by Electronic Check",
+  "historyId" : "1666dd784df2105e7049f33027ea0b08",
+  "time" : {
+    "start" : 1537278412833,
+    "stop" : 1537278452249,
+    "duration" : 39416
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Make Payments page an selects payment method \"Electronic Check\"",
+      "time" : {
+        "start" : 1537278427309,
+        "stop" : 1537278433807,
+        "duration" : 6498
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e6d6920c549f220",
+        "name" : "Screenshot",
+        "source" : "2e6d6920c549f220.png",
+        "type" : "image/png",
+        "size" : 401795
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user sucessfully pays \"5.00$\"",
+      "time" : {
+        "start" : 1537278433868,
+        "stop" : 1537278437784,
+        "duration" : 3916
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adf68c4f2522f66",
+        "name" : "Screenshot",
+        "source" : "adf68c4f2522f66.png",
+        "type" : "image/png",
+        "size" : 401795
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user recieves payment successful message \"You have successfully completed your Electronic Check Payment!\"",
+      "time" : {
+        "start" : 1537278437786,
+        "stop" : 1537278440882,
+        "duration" : 3096
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33b2c24dc5f6f3f",
+        "name" : "Screenshot",
+        "source" : "33b2c24dc5f6f3f.png",
+        "type" : "image/png",
+        "size" : 401795
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user Account Summary is updated with the deficit amount after 10 seconds",
+      "time" : {
+        "start" : 1537278440883,
+        "stop" : 1537278443753,
+        "duration" : 2870
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dec869f09efcf6dc",
+        "name" : "Screenshot",
+        "source" : "dec869f09efcf6dc.png",
+        "type" : "image/png",
+        "size" : 401795
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "25a26fbbab045d65",
+      "name" : "Screenshot",
+      "source" : "25a26fbbab045d65.png",
+      "type" : "image/png",
+      "size" : 429271
+    }, {
+      "uid" : "1b0c68e2d4d106c9",
+      "name" : "Screenshot",
+      "source" : "1b0c68e2d4d106c9.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can make payment by Electronic Check"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "914fa0d642543b7d.json",
+  "parameterValues" : [ "chrome" ]
+}

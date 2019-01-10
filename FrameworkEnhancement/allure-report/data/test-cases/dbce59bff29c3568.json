@@ -1,0 +1,190 @@
+{
+  "uid" : "dbce59bff29c3568",
+  "name" : "verify user able to open privacy policy footer link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open privacy policy footer link in new browser tab",
+  "historyId" : "7a9e6f2f6c1a957589132cc74ffe5d24",
+  "time" : {
+    "start" : 1538393134238,
+    "stop" : 1538393176915,
+    "duration" : 42677
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Privacy Policy link in Footer",
+      "time" : {
+        "start" : 1538393143754,
+        "stop" : 1538393152504,
+        "duration" : 8750
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65635058c36bf85a",
+        "name" : "Screenshot",
+        "source" : "65635058c36bf85a.png",
+        "type" : "image/png",
+        "size" : 149977
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Privacy Policy page with page title \"PRIVACY POLICY\"",
+      "time" : {
+        "start" : 1538393152504,
+        "stop" : 1538393158986,
+        "duration" : 6482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0458619e926e15b",
+        "name" : "Screenshot",
+        "source" : "d0458619e926e15b.png",
+        "type" : "image/png",
+        "size" : 61460
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Privacy Policy link is successfully redirecting to Privacy Policy Page by validating page url",
+      "time" : {
+        "start" : 1538393158987,
+        "stop" : 1538393170530,
+        "duration" : 11543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8e48244dc228ed4",
+        "name" : "Screenshot",
+        "source" : "c8e48244dc228ed4.png",
+        "type" : "image/png",
+        "size" : 149977
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "2a2f47f6f6a6ea57",
+      "name" : "Screenshot",
+      "source" : "2a2f47f6f6a6ea57.png",
+      "type" : "image/png",
+      "size" : 399494
+    }, {
+      "uid" : "a76d5d5fdf512f36",
+      "name" : "Screenshot",
+      "source" : "a76d5d5fdf512f36.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open privacy policy footer link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4884c0376b50a7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037073877,
+        "stop" : 1538037117160,
+        "duration" : 43283
+      }
+    }, {
+      "uid" : "ab488631ac0cd994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793293064,
+        "stop" : 1537793346994,
+        "duration" : 53930
+      }
+    }, {
+      "uid" : "564981622e2812ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283552832,
+        "stop" : 1537283609791,
+        "duration" : 56959
+      }
+    }, {
+      "uid" : "d9937f824852d11d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278336894,
+        "stop" : 1537278387910,
+        "duration" : 51016
+      }
+    }, {
+      "uid" : "60d334b04a6f0818",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277283609,
+        "stop" : 1537277338443,
+        "duration" : 54834
+      }
+    }, {
+      "uid" : "47b2c2e557378dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276385715,
+        "stop" : 1537276432000,
+        "duration" : 46285
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbce59bff29c3568.json",
+  "parameterValues" : [ "chrome" ]
+}

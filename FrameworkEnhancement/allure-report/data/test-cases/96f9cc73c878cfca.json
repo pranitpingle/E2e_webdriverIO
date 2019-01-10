@@ -1,0 +1,266 @@
+{
+  "uid" : "96f9cc73c878cfca",
+  "name" : "User can check account & meter information",
+  "fullName" : "A registered user can Login to Dashboard and can see the account information.User can check account & meter information",
+  "historyId" : "6621bb1fc9c25bab48985f7dbb3de451",
+  "time" : {
+    "start" : 1537283368175,
+    "stop" : 1537283439779,
+    "duration" : 71604
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Dashboard page",
+      "time" : {
+        "start" : 1537283392994,
+        "stop" : 1537283396251,
+        "duration" : 3257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5afa2346d53e5ad",
+        "name" : "Screenshot",
+        "source" : "d5afa2346d53e5ad.png",
+        "type" : "image/png",
+        "size" : 429470
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on plus button to expand the account information",
+      "time" : {
+        "start" : 1537283396341,
+        "stop" : 1537283402944,
+        "duration" : 6603
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12ce7594b9806a9c",
+        "name" : "Screenshot",
+        "source" : "12ce7594b9806a9c.png",
+        "type" : "image/png",
+        "size" : 384658
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on account number & verifies it",
+      "time" : {
+        "start" : 1537283402946,
+        "stop" : 1537283407084,
+        "duration" : 4138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "933f25e9768ef2df",
+        "name" : "Screenshot",
+        "source" : "933f25e9768ef2df.png",
+        "type" : "image/png",
+        "size" : 384653
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on Meters service type & verifies the same",
+      "time" : {
+        "start" : 1537283407084,
+        "stop" : 1537283410867,
+        "duration" : 3783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdab68806978ff89",
+        "name" : "Screenshot",
+        "source" : "cdab68806978ff89.png",
+        "type" : "image/png",
+        "size" : 286717
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on meter serial number & verifies the same",
+      "time" : {
+        "start" : 1537283410868,
+        "stop" : 1537283413729,
+        "duration" : 2861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "746f9b4a7db0ceb",
+        "name" : "Screenshot",
+        "source" : "746f9b4a7db0ceb.png",
+        "type" : "image/png",
+        "size" : 278041
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on meter size & verifes it",
+      "time" : {
+        "start" : 1537283413731,
+        "stop" : 1537283416967,
+        "duration" : 3236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef6e9bb2d17e823c",
+        "name" : "Screenshot",
+        "source" : "ef6e9bb2d17e823c.png",
+        "type" : "image/png",
+        "size" : 268447
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on meter location & verifes it",
+      "time" : {
+        "start" : 1537283416968,
+        "stop" : 1537283420286,
+        "duration" : 3318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a66c4e89ca38b3e4",
+        "name" : "Screenshot",
+        "source" : "a66c4e89ca38b3e4.png",
+        "type" : "image/png",
+        "size" : 252961
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on installation date & verifes it",
+      "time" : {
+        "start" : 1537283420286,
+        "stop" : 1537283423520,
+        "duration" : 3234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e80df43e5e5e712",
+        "name" : "Screenshot",
+        "source" : "e80df43e5e5e712.png",
+        "type" : "image/png",
+        "size" : 232463
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user is displayed with all the account information",
+      "time" : {
+        "start" : 1537283423520,
+        "stop" : 1537283431163,
+        "duration" : 7643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8442d4cf3f20ec03",
+        "name" : "Screenshot",
+        "source" : "8442d4cf3f20ec03.png",
+        "type" : "image/png",
+        "size" : 232463
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8f0280fa92908486",
+      "name" : "Screenshot",
+      "source" : "8f0280fa92908486.png",
+      "type" : "image/png",
+      "size" : 429470
+    }, {
+      "uid" : "126c6f10e6951b52",
+      "name" : "Screenshot",
+      "source" : "126c6f10e6951b52.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check account & meter information"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96f9cc73c878cfca.json",
+  "parameterValues" : [ "chrome" ]
+}

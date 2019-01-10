@@ -1,0 +1,169 @@
+{
+  "uid" : "205ec55c0032e099",
+  "name" : "User can check the make payment modal view are displayed with all the payment method from header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the make payment modal view are displayed with all the payment method from header menu",
+  "historyId" : "24995d9ed318e1ea8afc9d110a9af249",
+  "time" : {
+    "start" : 1537793332518,
+    "stop" : 1537793364884,
+    "duration" : 32366
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "again user navigates to payment menu",
+      "time" : {
+        "start" : 1537793341224,
+        "stop" : 1537793350229,
+        "duration" : 9005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8d7e3338016481a",
+        "name" : "Screenshot",
+        "source" : "e8d7e3338016481a.png",
+        "type" : "image/png",
+        "size" : 405099
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on make payment",
+      "time" : {
+        "start" : 1537793350233,
+        "stop" : 1537793355622,
+        "duration" : 5389
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c6a3db1c2d9a38d",
+        "name" : "Screenshot",
+        "source" : "7c6a3db1c2d9a38d.png",
+        "type" : "image/png",
+        "size" : 405099
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "all the payment methods are displayed under make payment modal view with label \"Make a Payment\"",
+      "time" : {
+        "start" : 1537793355690,
+        "stop" : 1537793358280,
+        "duration" : 2590
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a700de80c602a5e2",
+        "name" : "Screenshot",
+        "source" : "a700de80c602a5e2.png",
+        "type" : "image/png",
+        "size" : 405099
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "2ecf998b6ba6bf1a",
+      "name" : "Screenshot",
+      "source" : "2ecf998b6ba6bf1a.png",
+      "type" : "image/png",
+      "size" : 432567
+    }, {
+      "uid" : "d73c2fa722aa0b1",
+      "name" : "Screenshot",
+      "source" : "d73c2fa722aa0b1.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the make payment modal view are displayed with all the payment method from header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "36293620e42cac41",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "time" : {
+        "start" : 1537283618142,
+        "stop" : 1537283657597,
+        "duration" : 39455
+      }
+    }, {
+      "uid" : "a259e1bff9ae307f",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "time" : {
+        "start" : 1537278395893,
+        "stop" : 1537278438928,
+        "duration" : 43035
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "205ec55c0032e099.json",
+  "parameterValues" : [ "chrome" ]
+}

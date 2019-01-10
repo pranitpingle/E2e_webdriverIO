@@ -1,0 +1,161 @@
+{
+  "uid" : "2f151732dcd1466",
+  "name" : "Validate locations are not diplayed for invalid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate locations are not diplayed for invalid zip code",
+  "historyId" : "f826b2a49ac95715875ac5ae8237dc5b",
+  "time" : {
+    "start" : 1537278714706,
+    "stop" : 1537278770999,
+    "duration" : 56293
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537278730691,
+        "stop" : 1537278740396,
+        "duration" : 9705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b0721d4f75251b9",
+        "name" : "Screenshot",
+        "source" : "6b0721d4f75251b9.png",
+        "type" : "image/png",
+        "size" : 334741
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user enter \"73302\" and clicks on search button",
+      "time" : {
+        "start" : 1537278740398,
+        "stop" : 1537278748838,
+        "duration" : 8440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c10168ffc668da68",
+        "name" : "Screenshot",
+        "source" : "c10168ffc668da68.png",
+        "type" : "image/png",
+        "size" : 339202
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "no search location results is shown",
+      "time" : {
+        "start" : 1537278748847,
+        "stop" : 1537278754078,
+        "duration" : 5231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55a287e876f5fe07",
+        "name" : "Screenshot",
+        "source" : "55a287e876f5fe07.png",
+        "type" : "image/png",
+        "size" : 339202
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "search result pane has text \"No Cash Payment Locations available for ZIP Code 73302.\" displayed",
+      "time" : {
+        "start" : 1537278754078,
+        "stop" : 1537278759327,
+        "duration" : 5249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adff6402b192443c",
+        "name" : "Screenshot",
+        "source" : "adff6402b192443c.png",
+        "type" : "image/png",
+        "size" : 339202
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "2ffd1d97391dcb02",
+      "name" : "Screenshot",
+      "source" : "2ffd1d97391dcb02.png",
+      "type" : "image/png",
+      "size" : 429143
+    }, {
+      "uid" : "47b26232007e910c",
+      "name" : "Screenshot",
+      "source" : "47b26232007e910c.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate locations are not diplayed for invalid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f151732dcd1466.json",
+  "parameterValues" : [ "chrome" ]
+}

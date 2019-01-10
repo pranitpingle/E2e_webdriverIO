@@ -1,0 +1,1121 @@
+{
+  "89c34b984f59b0be8cf612ab56d1ad1c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0d100566cf4edbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793495752,
+        "stop" : 1537793544863,
+        "duration" : 49111
+      }
+    } ]
+  },
+  "2b6da3ceeb3077153f2613e03dc7fa8d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8164a0801bb1f761",
+      "status" : "broken",
+      "statusDetails" : "element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms",
+      "time" : {
+        "start" : 1537793364885,
+        "stop" : 1537793401674,
+        "duration" : 36789
+      }
+    } ]
+  },
+  "f9f1f6d7bbad9e423ace3d1ce9558426" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c9f0e0db827a02e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793295977,
+        "stop" : 1537793348804,
+        "duration" : 52827
+      }
+    } ]
+  },
+  "7a9e6f2f6c1a957589132cc74ffe5d24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbce59bff29c3568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393134238,
+        "stop" : 1538393176915,
+        "duration" : 42677
+      }
+    } ]
+  },
+  "b3c79d4befa83058358dedaf2d05384a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "adc1ede72218aee7",
+      "status" : "broken",
+      "statusDetails" : "element (\".amw-autopay-success-page\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1537793242884,
+        "stop" : 1537793287066,
+        "duration" : 44182
+      }
+    } ]
+  },
+  "354d3c49d407310ad1865465731df9da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "522a77cc345d446a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793683988,
+        "stop" : 1537793719990,
+        "duration" : 36002
+      }
+    } ]
+  },
+  "77a8f5afeb266a1bf7aa8a0be4956e85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bdfd85f1f2eb424e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393176915,
+        "stop" : 1538393205914,
+        "duration" : 28999
+      }
+    } ]
+  },
+  "bde31f0d968a75ef1cd782d1ae58901c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62503d2c70a6f358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793677990,
+        "stop" : 1537793711958,
+        "duration" : 33968
+      }
+    } ]
+  },
+  "bdfac44a4ee51d417b6e3b23073d5ad7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6313fe29ee0e4edc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393238196,
+        "stop" : 1538393270783,
+        "duration" : 32587
+      }
+    } ]
+  },
+  "f7e95fc7901c8199f65c8363fe263cf6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa04088e7331332c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283796740,
+        "stop" : 1537283846876,
+        "duration" : 50136
+      }
+    } ]
+  },
+  "d9b75f8209606503da5c1f8172afbdb8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c801bacbf648248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393270784,
+        "stop" : 1538393303189,
+        "duration" : 32405
+      }
+    } ]
+  },
+  "b4cb770fc56b331adfe3ccd0c7ea6131" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "328b29988624bacc",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+      "time" : {
+        "start" : 1537793555261,
+        "stop" : 1537793631696,
+        "duration" : 76435
+      }
+    } ]
+  },
+  "d9281ef27a9dd69b34d7751077f7431d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ec05e2d696376cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793207114,
+        "stop" : 1537793378516,
+        "duration" : 171402
+      }
+    } ]
+  },
+  "6621bb1fc9c25bab48985f7dbb3de451" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3e5e8f02f704d9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793140189,
+        "stop" : 1537793198577,
+        "duration" : 58388
+      }
+    } ]
+  },
+  "3edb82aa6906803646bb352544e4c5fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93c2b62eace7724b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793576283,
+        "stop" : 1537793600325,
+        "duration" : 24042
+      }
+    } ]
+  },
+  "2ab5262e1d10d0801ae20150bde3d0d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "942691131a113b2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793394991,
+        "stop" : 1537793531943,
+        "duration" : 136952
+      }
+    } ]
+  },
+  "fa9a919223f043e2431633d1f560d95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2bf601cba5b0b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793381062,
+        "stop" : 1537793430754,
+        "duration" : 49692
+      }
+    } ]
+  },
+  "c7a537f6db10c7f120d59d9b794d7bae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c464b27a3e92ce1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793177697,
+        "stop" : 1537793216498,
+        "duration" : 38801
+      }
+    } ]
+  },
+  "b7f16e2af6f523f422a2657e549046d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5884fbada41891e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393384174,
+        "stop" : 1538393404591,
+        "duration" : 20417
+      }
+    } ]
+  },
+  "f826b2a49ac95715875ac5ae8237dc5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b348ce529722bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793719991,
+        "stop" : 1537793745757,
+        "duration" : 25766
+      }
+    } ]
+  },
+  "43b49167e2b7d5050373e6533815fcdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e6c7e6553bf905f",
+      "status" : "broken",
+      "statusDetails" : "element (\".amw-autopay-success-page\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1537793139950,
+        "stop" : 1537793195260,
+        "duration" : 55310
+      }
+    } ]
+  },
+  "b088179ca766265054120344f56f66a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b643208542817ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793306240,
+        "stop" : 1537793346392,
+        "duration" : 40152
+      }
+    } ]
+  },
+  "35a2cee3ff258c15953a8df6ad6fdb78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "adb88a476e674585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283721410,
+        "stop" : 1537283864370,
+        "duration" : 142960
+      }
+    } ]
+  },
+  "daf6c3aa05cba0a80488d7ca5bcc2052" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8229ad74152bfd96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793494781,
+        "stop" : 1537793544863,
+        "duration" : 50082
+      }
+    } ]
+  },
+  "9f79d3d0576fe9cd676f4de4e0cb0bcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4319430ce99c011f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793348805,
+        "stop" : 1537793381061,
+        "duration" : 32256
+      }
+    } ]
+  },
+  "166535b661b281a05da57481df515ca2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4327a6582f64b31f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793346392,
+        "stop" : 1537793384772,
+        "duration" : 38380
+      }
+    } ]
+  },
+  "24995d9ed318e1ea8afc9d110a9af249" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "205ec55c0032e099",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "time" : {
+        "start" : 1537793332518,
+        "stop" : 1537793364884,
+        "duration" : 32366
+      }
+    } ]
+  },
+  "288c93eb6cbc52c91131116b0d40d111" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44f521ec02081ed4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393404592,
+        "stop" : 1538393430791,
+        "duration" : 26199
+      }
+    } ]
+  },
+  "d8d4ef2f9669ccbad536fddec42fc1ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30645e4e60c4463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393331537,
+        "stop" : 1538393358075,
+        "duration" : 26538
+      }
+    } ]
+  },
+  "fbc089bf7766a4b17b24935083c7f6a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a142846f01669cc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793139873,
+        "stop" : 1537793184767,
+        "duration" : 44894
+      }
+    } ]
+  },
+  "a4c0132b9458d6ff88df8ebbc08f53e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1b85f294bbf2737",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").",
+      "time" : {
+        "start" : 1537793247317,
+        "stop" : 1537793283878,
+        "duration" : 36561
+      }
+    } ]
+  },
+  "2837298f8b5c70e93e6f4ade931ae3b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbb5c26589e6241c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393358076,
+        "stop" : 1538393384174,
+        "duration" : 26098
+      }
+    } ]
+  },
+  "aa8ff40286f6972a01928bba0897c1cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f750aaf38536c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793216499,
+        "stop" : 1537793256356,
+        "duration" : 39857
+      }
+    } ]
+  },
+  "9372e6114cda30350c74f9a0132a3a27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddf23f25be352685",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "time" : {
+        "start" : 1537793387287,
+        "stop" : 1537793418202,
+        "duration" : 30915
+      }
+    } ]
+  },
+  "b2317d22cb56f47776f5600b5c428a06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea1ec72590aa5b33",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").",
+      "time" : {
+        "start" : 1537278254318,
+        "stop" : 1537278316130,
+        "duration" : 61812
+      }
+    } ]
+  },
+  "6d421a2ec664d6f7cc5c28875080599" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78adf2b2eb0aecfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793541158,
+        "stop" : 1537793576276,
+        "duration" : 35118
+      }
+    } ]
+  },
+  "317734362e6793d54c92a637f1e2fb3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53350f83561ed964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793184774,
+        "stop" : 1537793214519,
+        "duration" : 29745
+      }
+    } ]
+  },
+  "45d3d20a146be84bc6c7006427c9c811" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ba33a9a80a38b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793448774,
+        "stop" : 1537793494781,
+        "duration" : 46007
+      }
+    } ]
+  },
+  "c23cca393becf81af417f28b41d887ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c395299fbffeda76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793240841,
+        "stop" : 1537793288458,
+        "duration" : 47617
+      }
+    } ]
+  },
+  "c4257e721c5bf387d3501fad62127dbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9da57f4a355f2d6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283863196,
+        "stop" : 1537283982133,
+        "duration" : 118937
+      }
+    } ]
+  },
+  "f2a881cd2a89f31da4b355dc4ba64fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f4cc105f289ca91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793640591,
+        "stop" : 1537793686145,
+        "duration" : 45554
+      }
+    } ]
+  },
+  "4df8fa2b1b4a422138258cb726588ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "102c96c895daa3f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793192095,
+        "stop" : 1537793240840,
+        "duration" : 48745
+      }
+    } ]
+  },
+  "1a856877946b4e7daec07b39bff8bc0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd9948dac422e455",
+      "status" : "broken",
+      "statusDetails" : "element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms",
+      "time" : {
+        "start" : 1537793195261,
+        "stop" : 1537793242882,
+        "duration" : 47621
+      }
+    } ]
+  },
+  "60618eaf3e1e12ec590a571daf65658b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d75548a93e4706fd",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Cannot read property 'scrollTo' of null",
+      "time" : {
+        "start" : 1537793600325,
+        "stop" : 1537793681696,
+        "duration" : 81371
+      }
+    } ]
+  },
+  "7a97d6bc5932b57845e34d0146b7131c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "255a34a0d2cdb8ac",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1537793296807,
+        "stop" : 1537793332518,
+        "duration" : 35711
+      }
+    } ]
+  },
+  "ae6a2fd696b9db40beda9fdc0ec65f67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fe17a69aef5d62b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393205916,
+        "stop" : 1538393238194,
+        "duration" : 32278
+      }
+    } ]
+  },
+  "59d74a5111f5b033f3957337a03cf82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a8609d22dc256da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793214522,
+        "stop" : 1537793247316,
+        "duration" : 32794
+      }
+    } ]
+  },
+  "71c496c48db6b2058a9c465929994535" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f112afce36c8b26",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1537793493336,
+        "stop" : 1537793543477,
+        "duration" : 50141
+      }
+    } ]
+  },
+  "2c3909d6c8dcc1f24b751f1c2d99f1a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d94f9995ae4c29b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393656843,
+        "stop" : 1538393746849,
+        "duration" : 90006
+      }
+    } ]
+  },
+  "b4a7a350b0913df5e92090022f0c0e83" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b80c715dadf3fb6e",
+      "status" : "failed",
+      "statusDetails" : "expected '' to equal 'Go Paperless'",
+      "time" : {
+        "start" : 1537793438434,
+        "stop" : 1537793486553,
+        "duration" : 48119
+      }
+    } ]
+  },
+  "555fd191e2d4421ed25289e25dcaf7f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfb556e44a6b11b1",
+      "status" : "failed",
+      "statusDetails" : "expected null to be true",
+      "time" : {
+        "start" : 1537793139915,
+        "stop" : 1537793177663,
+        "duration" : 37748
+      }
+    } ]
+  },
+  "f8a4636499908eb4fcb618799c72065" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b0dd98d5a8319b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793140418,
+        "stop" : 1537793192095,
+        "duration" : 51677
+      }
+    } ]
+  },
+  "e045dfb11d48d8a2a2bbde23e49c2eef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc964499b73cc7bd",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'includes' of undefined",
+      "time" : {
+        "start" : 1537793543479,
+        "stop" : 1537793596557,
+        "duration" : 53078
+      }
+    } ]
+  },
+  "5d9c7ab6d4d927e6adafbf50dbd3d9c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15bf81df3fa991ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793401675,
+        "stop" : 1537793448774,
+        "duration" : 47099
+      }
+    } ]
+  },
+  "1666dd784df2105e7049f33027ea0b08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9dc0993a3fbca936",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "time" : {
+        "start" : 1537793418202,
+        "stop" : 1537793453667,
+        "duration" : 35465
+      }
+    } ]
+  },
+  "76e2139c788553b82234558d79517f7f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "599d87929ab0b02b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538393303192,
+        "stop" : 1538393331534,
+        "duration" : 28342
+      }
+    } ]
+  },
+  "af975facda297980d58f526e4511fd01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9867cdc28171b70b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793264301,
+        "stop" : 1537793306239,
+        "duration" : 41938
+      }
+    } ]
+  },
+  "b852f2778959b51ad2ac767a8b623373" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c92f66ba52ab9890",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "time" : {
+        "start" : 1537793453668,
+        "stop" : 1537793484652,
+        "duration" : 30984
+      }
+    } ]
+  }
+}

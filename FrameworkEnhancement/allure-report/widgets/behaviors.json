@@ -1,0 +1,114 @@
+{
+  "total" : 23,
+  "items" : [ {
+    "uid" : "56ac3e99fe6af9fc1d87f3aafecc2526",
+    "name" : "Biliing and Payment history",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "892bae417ab141ddef913037c0f6a963",
+    "name" : "Paperless billing in dashboard",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a4aa52e5792f81746e30f4d2f3811a94",
+    "name" : "A registered user can open different menu and submenu",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "ab3174645ca17b50f6611a4e432038d1",
+    "name" : "AutoPay enrollment",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d0852dbd46f75da53bc94224927ce397",
+    "name" : "A registered user can pay by available Payment methods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0acf0d5a60ca2ef5d8d4e0ab81fc076f",
+    "name" : "Check Payment Locations by Zip codes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "2a8be02400e1deb6bc47d57b56878286",
+    "name" : "A registered user can check for messages alerts & open request",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "0a8bfbc2b53e1b50010fd680deda270c",
+    "name" : "Validate fields Service Request card",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f8a20fb1e7b2df3b047f9648c3a95859",
+    "name" : "A registered user can Login to Dashboard and can edit personal information",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "ba7da160506bf8e842aee6d2d9d4ca12",
+    "name" : "User navigates to usage overview card and verifies the data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

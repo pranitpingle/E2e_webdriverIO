@@ -1,0 +1,140 @@
+{
+  "uid" : "fb18d8b5fe62e7b5",
+  "name" : "User can check all the  conservation tips are displayed with correct content in detail",
+  "fullName" : "A registered user can see the conservation tips.User can check all the  conservation tips are displayed with correct content in detail",
+  "historyId" : "c23cca393becf81af417f28b41d887ce",
+  "time" : {
+    "start" : 1537278272114,
+    "stop" : 1537278327951,
+    "duration" : 55837
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to usage menu to verify detailed content",
+      "time" : {
+        "start" : 1537278285287,
+        "stop" : 1537278294878,
+        "duration" : 9591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c867498bf696a70",
+        "name" : "Screenshot",
+        "source" : "3c867498bf696a70.png",
+        "type" : "image/png",
+        "size" : 407735
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on Conservation Tips to verfiy detailed content",
+      "time" : {
+        "start" : 1537278294927,
+        "stop" : 1537278303790,
+        "duration" : 8863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b11bbb9271cbc7a",
+        "name" : "Screenshot",
+        "source" : "3b11bbb9271cbc7a.png",
+        "type" : "image/png",
+        "size" : 292288
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user navigates to each conservation tips and verify the content for each tips",
+      "time" : {
+        "start" : 1537278303791,
+        "stop" : 1537278319979,
+        "duration" : 16188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c1db7bad33f2074",
+        "name" : "Screenshot",
+        "source" : "2c1db7bad33f2074.png",
+        "type" : "image/png",
+        "size" : 287223
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "e45d8f0a301e0f14",
+      "name" : "Screenshot",
+      "source" : "e45d8f0a301e0f14.png",
+      "type" : "image/png",
+      "size" : 429224
+    }, {
+      "uid" : "462b35fde06a9c1c",
+      "name" : "Screenshot",
+      "source" : "462b35fde06a9c1c.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check all the  conservation tips are displayed with correct content in detail"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb18d8b5fe62e7b5.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,169 @@
+{
+  "uid" : "5884fbada41891e7",
+  "name" : "verify user able to open Blog footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Blog footer icon link in new browser tab",
+  "historyId" : "b7f16e2af6f523f422a2657e549046d4",
+  "time" : {
+    "start" : 1538393384174,
+    "stop" : 1538393404591,
+    "duration" : 20417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on blog link in Footer",
+      "time" : {
+        "start" : 1538393391859,
+        "stop" : 1538393394570,
+        "duration" : 2711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b992491d781bc703",
+        "name" : "Screenshot",
+        "source" : "b992491d781bc703.png",
+        "type" : "image/png",
+        "size" : 149955
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "blog link is successfully redirecting to blog Page by validating page url",
+      "time" : {
+        "start" : 1538393394571,
+        "stop" : 1538393398108,
+        "duration" : 3537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6da1cccff4796c",
+        "name" : "Screenshot",
+        "source" : "d6da1cccff4796c.png",
+        "type" : "image/png",
+        "size" : 149988
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "b7d624304a4cb1f7",
+      "name" : "Screenshot",
+      "source" : "b7d624304a4cb1f7.png",
+      "type" : "image/png",
+      "size" : 399439
+    }, {
+      "uid" : "b2e6221d8000843c",
+      "name" : "Screenshot",
+      "source" : "b2e6221d8000843c.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Blog footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcef9307ae035448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037331793,
+        "stop" : 1538037352304,
+        "duration" : 20511
+      }
+    }, {
+      "uid" : "db9081245ea63c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793686196,
+        "stop" : 1537793708945,
+        "duration" : 22749
+      }
+    }, {
+      "uid" : "12e7ee64b48da7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283906227,
+        "stop" : 1537283934848,
+        "duration" : 28621
+      }
+    }, {
+      "uid" : "4ded15dd8c6dab08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278704916,
+        "stop" : 1537278748529,
+        "duration" : 43613
+      }
+    }, {
+      "uid" : "4970fb71ff5ad366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277600630,
+        "stop" : 1537277622045,
+        "duration" : 21415
+      }
+    }, {
+      "uid" : "f1a655c80d3998ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276666900,
+        "stop" : 1537276689567,
+        "duration" : 22667
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5884fbada41891e7.json",
+  "parameterValues" : [ "chrome" ]
+}

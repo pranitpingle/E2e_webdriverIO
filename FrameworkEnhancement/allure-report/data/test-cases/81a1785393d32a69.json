@@ -1,0 +1,166 @@
+{
+  "uid" : "81a1785393d32a69",
+  "name" : "User can make payment by Debit or Credit card",
+  "fullName" : "A registered user can pay by available Payment methods.User can make payment by Debit or Credit card",
+  "historyId" : "b852f2778959b51ad2ac767a8b623373",
+  "time" : {
+    "start" : 1537278452249,
+    "stop" : 1537278491459,
+    "duration" : 39210
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Make Payments page an selects payment method \"Credit or Debit Card\"",
+      "time" : {
+        "start" : 1537278462277,
+        "stop" : 1537278467575,
+        "duration" : 5298
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6661cfe120cdbeaa",
+        "name" : "Screenshot",
+        "source" : "6661cfe120cdbeaa.png",
+        "type" : "image/png",
+        "size" : 401664
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user sucessfully pays \"5.00$\"",
+      "time" : {
+        "start" : 1537278467579,
+        "stop" : 1537278470658,
+        "duration" : 3079
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5915c524c7d6fec",
+        "name" : "Screenshot",
+        "source" : "b5915c524c7d6fec.png",
+        "type" : "image/png",
+        "size" : 401664
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user recieves payment successful message \"You have successfully completed your Credit Card Payment!\"",
+      "time" : {
+        "start" : 1537278470661,
+        "stop" : 1537278473908,
+        "duration" : 3247
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56e0cf154382324f",
+        "name" : "Screenshot",
+        "source" : "56e0cf154382324f.png",
+        "type" : "image/png",
+        "size" : 401664
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user Account Summary is updated with the deficit amount after 10 seconds",
+      "time" : {
+        "start" : 1537278473934,
+        "stop" : 1537278477207,
+        "duration" : 3273
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fb7331a3727569c",
+        "name" : "Screenshot",
+        "source" : "4fb7331a3727569c.png",
+        "type" : "image/png",
+        "size" : 401664
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "159addf6709bd82e",
+      "name" : "Screenshot",
+      "source" : "159addf6709bd82e.png",
+      "type" : "image/png",
+      "size" : 429144
+    }, {
+      "uid" : "e459e6eb434be0de",
+      "name" : "Screenshot",
+      "source" : "e459e6eb434be0de.png",
+      "type" : "image/png",
+      "size" : 193892
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can make payment by Debit or Credit card"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81a1785393d32a69.json",
+  "parameterValues" : [ "chrome" ]
+}

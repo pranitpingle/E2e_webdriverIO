@@ -1,0 +1,269 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An element could not be located on the page using the given search parameters (\"#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > form > div.email-box > div:nth-child(1) > div > div.alerts > div:nth-child(2) > button\").",
+      "children" : [ {
+        "name" : "user can change name from change Name option",
+        "uid" : "ea1ec72590aa5b33",
+        "parentUid" : "8381b81f6556ab340313606a9c2d1eb8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537278254318,
+          "stop" : 1537278316130,
+          "duration" : 61812
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "8381b81f6556ab340313606a9c2d1eb8"
+    }, {
+      "name" : "element (\".amw-autopay-success-page\") still not existing after 10000ms",
+      "children" : [ {
+        "name" : "User has an option to enroll for AutoPay",
+        "uid" : "2e6c7e6553bf905f",
+        "parentUid" : "1e4c0c96dfe161fe34b5e9bf4993ab6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793139950,
+          "stop" : 1537793195260,
+          "duration" : 55310
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "User has an option to Cancel AutoPay Enrollment",
+        "uid" : "adc1ede72218aee7",
+        "parentUid" : "1e4c0c96dfe161fe34b5e9bf4993ab6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793242884,
+          "stop" : 1537793287066,
+          "duration" : 44182
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "1e4c0c96dfe161fe34b5e9bf4993ab6f"
+    }, {
+      "name" : "element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms",
+      "children" : [ {
+        "name" : "User has an option to Update AutoPay information",
+        "uid" : "cd9948dac422e455",
+        "parentUid" : "a7eaabf48e0d455e829dcb1d61cdf62e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793195261,
+          "stop" : 1537793242882,
+          "duration" : 47621
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "a7eaabf48e0d455e829dcb1d61cdf62e"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters (\"//*[@class='message-list-item'][1]//*[@class='timestamp']\").",
+      "children" : [ {
+        "name" : "User can check the latest alert are displaying at top",
+        "uid" : "e1b85f294bbf2737",
+        "parentUid" : "b7b0797c0daeedee06f7b803ea5f3d6f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793247317,
+          "stop" : 1537793283878,
+          "duration" : 36561
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "b7b0797c0daeedee06f7b803ea5f3d6f"
+    }, {
+      "name" : "element not visible",
+      "children" : [ {
+        "name" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+        "uid" : "255a34a0d2cdb8ac",
+        "parentUid" : "fe7d1215444336e91481b7a3c674ef15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793296807,
+          "stop" : 1537793332518,
+          "duration" : 35711
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "fe7d1215444336e91481b7a3c674ef15"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters (\"//a[text()='Make Payment']\").",
+      "children" : [ {
+        "name" : "User can check the make payment modal view are displayed with all the payment method from header menu",
+        "uid" : "205ec55c0032e099",
+        "parentUid" : "5fe00a28174d1fa70f8033b60e3429ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793332518,
+          "stop" : 1537793364884,
+          "duration" : 32366
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "User can make payment by cash",
+        "uid" : "ddf23f25be352685",
+        "parentUid" : "5fe00a28174d1fa70f8033b60e3429ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793387287,
+          "stop" : 1537793418202,
+          "duration" : 30915
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "User can make payment by Electronic Check",
+        "uid" : "9dc0993a3fbca936",
+        "parentUid" : "5fe00a28174d1fa70f8033b60e3429ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793418202,
+          "stop" : 1537793453667,
+          "duration" : 35465
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "User can make payment by Debit or Credit card",
+        "uid" : "c92f66ba52ab9890",
+        "parentUid" : "5fe00a28174d1fa70f8033b60e3429ee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793453668,
+          "stop" : 1537793484652,
+          "duration" : 30984
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "5fe00a28174d1fa70f8033b60e3429ee"
+    }, {
+      "name" : "element (\"input[class= 'amw-input-search-field blackColor']\") still not existing after 2000ms",
+      "children" : [ {
+        "name" : "User can check the redirection to payment location card from the header menu",
+        "uid" : "8164a0801bb1f761",
+        "parentUid" : "2dd845b2c805e69eac1fb0354e2b3046",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793364885,
+          "stop" : 1537793401674,
+          "duration" : 36789
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "2dd845b2c805e69eac1fb0354e2b3046"
+    }, {
+      "name" : "element (\"//div[contains(text(), 'No Cash Payment')]\") still not existing after 10000ms",
+      "children" : [ {
+        "name" : "Validate Payment Locations Page default status",
+        "uid" : "1f112afce36c8b26",
+        "parentUid" : "79188c94a00b3f1e1bab301d1537da6c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793493336,
+          "stop" : 1537793543477,
+          "duration" : 50141
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "79188c94a00b3f1e1bab301d1537da6c"
+    }, {
+      "name" : "Cannot read property 'includes' of undefined",
+      "children" : [ {
+        "name" : "Validate number of search results for a valid zip code",
+        "uid" : "bc964499b73cc7bd",
+        "parentUid" : "b9445e886a9e1daa144bb95a481b1446",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793543479,
+          "stop" : 1537793596557,
+          "duration" : 53078
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "b9445e886a9e1daa144bb95a481b1446"
+    }, {
+      "name" : "unknown error: Element <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button> is not clickable at point (955, 351). Other element would receive the click: <button id=\"pdfButton\" type=\"button\" class=\"ant-btn\">...</button>",
+      "children" : [ {
+        "name" : "user can see monthly consumption details from usage overview card",
+        "uid" : "328b29988624bacc",
+        "parentUid" : "741f79777f44cebc50faea20dfe13b7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793555261,
+          "stop" : 1537793631696,
+          "duration" : 76435
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "741f79777f44cebc50faea20dfe13b7c"
+    }, {
+      "name" : "unknown error: Cannot read property 'scrollTo' of null",
+      "children" : [ {
+        "name" : "service request availibility",
+        "uid" : "d75548a93e4706fd",
+        "parentUid" : "4a5067bfdd50269be06f10e269150089",
+        "status" : "broken",
+        "time" : {
+          "start" : 1537793600325,
+          "stop" : 1537793681696,
+          "duration" : 81371
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "4a5067bfdd50269be06f10e269150089"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected null to be true",
+      "children" : [ {
+        "name" : "Display Billing and payments history monthwise",
+        "uid" : "dfb556e44a6b11b1",
+        "parentUid" : "78dfddb6bf36398e1b1cde30da155619",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537793139915,
+          "stop" : 1537793177663,
+          "duration" : 37748
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "78dfddb6bf36398e1b1cde30da155619"
+    }, {
+      "name" : "expected '' to equal 'Go Paperless'",
+      "children" : [ {
+        "name" : "paperless card should be displayed if paperless is not enrolled for the user",
+        "uid" : "b80c715dadf3fb6e",
+        "parentUid" : "186dca5fd14aa12b4853a6cf9961af8e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1537793438434,
+          "stop" : 1537793486553,
+          "duration" : 48119
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "186dca5fd14aa12b4853a6cf9961af8e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

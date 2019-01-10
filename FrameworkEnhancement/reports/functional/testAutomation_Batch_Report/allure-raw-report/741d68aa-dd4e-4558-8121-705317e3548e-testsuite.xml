@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866795431' stop='1546866819292'>
+    <name>A registered user can verify the email notifications</name>
+    <title>A registered user can verify the email notifications</title>
+    <test-cases>
+        <test-case start='1546866795442' status='broken' stop='1546866819290'>
+            <name>To verify if user can verify email notifications that are being sent to primary email id when user changes something successfully  of Edit Profile section</name>
+            <title>To verify if user can verify email notifications that are being sent to primary email id when user changes something successfully  of Edit Profile section</title>
+            <labels>
+                <label name='feature' value='A registered user can verify the email notifications'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866810504' status='pending' stop='1546866812705'>
+                    <name>user navigates to Edit User Profile page and modifies fields</name>
+                    <title>user navigates to Edit User Profile page and modifies fields</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b91d5b44-bcb6-4d22-87ea-05c0067b58a6-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866812706' status='pending' stop='1546866814890'>
+                    <name>user make changes to the fields</name>
+                    <title>user make changes to the fields</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0782d585-6a43-4fcd-b211-d8aa72bebea9-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866814890' status='pending' stop='1546866817042'>
+                    <name>user receives email notifications in the primary email id</name>
+                    <title>user receives email notifications in the primary email id</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6fe438d5-c566-4ece-9ba4-a7791b0f5407-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e68d2aec-3791-4497-afc6-394c8cd74567-attachment.png' type='image/png' size='35306'/>
+                <attachment title='Screenshot' source='5e871faa-fb52-45d8-8bce-dcc2039b869c-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

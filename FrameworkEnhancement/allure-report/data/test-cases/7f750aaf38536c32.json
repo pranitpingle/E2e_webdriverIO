@@ -1,0 +1,208 @@
+{
+  "uid" : "7f750aaf38536c32",
+  "name" : "verify service information is attached and opens in billing and payments table",
+  "fullName" : "Biliing and Payment history.verify service information is attached and opens in billing and payments table",
+  "historyId" : "aa8ff40286f6972a01928bba0897c1cf",
+  "time" : {
+    "start" : 1537793216499,
+    "stop" : 1537793256356,
+    "duration" : 39857
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537793226808,
+        "stop" : 1537793231765,
+        "duration" : 4957
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e6d3678ecc80627",
+        "name" : "Screenshot",
+        "source" : "3e6d3678ecc80627.png",
+        "type" : "image/png",
+        "size" : 350231
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user clicks on the service link under column IMPORTANT INFORMATION",
+      "time" : {
+        "start" : 1537793231799,
+        "stop" : 1537793235123,
+        "duration" : 3324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee4276e545395874",
+        "name" : "Screenshot",
+        "source" : "ee4276e545395874.png",
+        "type" : "image/png",
+        "size" : 85161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "information is displayed in a new tab",
+      "time" : {
+        "start" : 1537793235124,
+        "stop" : 1537793241126,
+        "duration" : 6002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bc0df4e1e1f51b3",
+        "name" : "Screenshot",
+        "source" : "6bc0df4e1e1f51b3.png",
+        "type" : "image/png",
+        "size" : 410752
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "new tab contains information as pdf",
+      "time" : {
+        "start" : 1537793241126,
+        "stop" : 1537793243779,
+        "duration" : 2653
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6937afa9ee0422a8",
+        "name" : "Screenshot",
+        "source" : "6937afa9ee0422a8.png",
+        "type" : "image/png",
+        "size" : 410752
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes new tab",
+      "time" : {
+        "start" : 1537793243781,
+        "stop" : 1537793248762,
+        "duration" : 4981
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "755382ee529787b8",
+        "name" : "Screenshot",
+        "source" : "755382ee529787b8.png",
+        "type" : "image/png",
+        "size" : 85161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3cb7bf3ea42617dd",
+      "name" : "Screenshot",
+      "source" : "3cb7bf3ea42617dd.png",
+      "type" : "image/png",
+      "size" : 418157
+    }, {
+      "uid" : "32f1442a487515ad",
+      "name" : "Screenshot",
+      "source" : "32f1442a487515ad.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify service information is attached and opens in billing and payments table"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3d6c2362c265f75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283497794,
+        "stop" : 1537283544451,
+        "duration" : 46657
+      }
+    }, {
+      "uid" : "fc9d69b20f159bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278281489,
+        "stop" : 1537278325354,
+        "duration" : 43865
+      }
+    }, {
+      "uid" : "6992b77cf9ecff3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537261492768,
+        "stop" : 1537261538813,
+        "duration" : 46045
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f750aaf38536c32.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,180 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546934781809' stop='1546934859797'>
+    <name>Biliing and Payment history</name>
+    <title>Biliing and Payment history</title>
+    <test-cases>
+        <test-case start='1546934781812' status='broken' stop='1546934808557'>
+            <name>Display Billing and payments history monthwise</name>
+            <title>Display Billing and payments history monthwise</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546934799854' status='pending' stop='1546934801948'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9f888adf-a189-4191-a5b0-8ce353423993-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934801950' status='pending' stop='1546934804086'>
+                    <name>user slides the slider bar to set statement period for 1 month</name>
+                    <title>user slides the slider bar to set statement period for 1 month</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8f7c5524-42cc-43a9-91c4-ce9716425f69-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934804086' status='pending' stop='1546934806278'>
+                    <name>billing and payments table should display transactions only for the selected statement period</name>
+                    <title>billing and payments table should display transactions only for the selected statement period</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='444ba002-eeac-458b-b4b5-2c56173e3ac8-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='43aa256c-bd89-4471-88c1-a72db7e73e4c-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='efb52cad-1ecb-4961-8672-1af6cfa1b052-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546934808559' status='broken' stop='1546934834323'>
+            <name>verify invoice is attached and opens in billing and payments table</name>
+            <title>verify invoice is attached and opens in billing and payments table</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546934821432' status='pending' stop='1546934823581'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f49044d0-7a59-49f6-ac4c-eae0add1ce2d-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934823584' status='pending' stop='1546934825736'>
+                    <name>user clicks on the invoicing link under column TRANSACTION TYPE</name>
+                    <title>user clicks on the invoicing link under column TRANSACTION TYPE</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='971b1340-85ec-455d-8e20-d198d256d50d-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934825742' status='pending' stop='1546934827892'>
+                    <name>information is displayed in a new tab</name>
+                    <title>information is displayed in a new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='59651f72-b1df-414f-8de8-ff32534c35e6-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934827893' status='pending' stop='1546934830005'>
+                    <name>new tab contains information as pdf</name>
+                    <title>new tab contains information as pdf</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cd9ba7d6-3c5d-4633-b2f6-419e8432be8f-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934830005' status='pending' stop='1546934832100'>
+                    <name>user closes new tab</name>
+                    <title>user closes new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='907f5cf5-a8a0-4020-8dc7-5177ed7c06ac-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3237b12e-9b90-4aed-a67f-9e8ceb2f0634-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='8df826a8-be2f-481f-8923-7b1a153159a5-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546934834324' status='broken' stop='1546934859797'>
+            <name>verify service information is attached and opens in billing and payments table</name>
+            <title>verify service information is attached and opens in billing and payments table</title>
+            <labels>
+                <label name='feature' value='Biliing and Payment history'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546934846914' status='pending' stop='1546934849019'>
+                    <name>user navigates to Billing and Payments page</name>
+                    <title>user navigates to Billing and Payments page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6ae13a28-a6ce-4b98-830b-6937ed88c096-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934849023' status='pending' stop='1546934851140'>
+                    <name>user clicks on the service link under column IMPORTANT INFORMATION</name>
+                    <title>user clicks on the service link under column IMPORTANT INFORMATION</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7046dbdf-ea2b-4731-bc6c-b0201e154b65-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934851141' status='pending' stop='1546934853276'>
+                    <name>information is displayed in a new tab</name>
+                    <title>information is displayed in a new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='108e0a0d-4e98-4830-9072-0dc60dc97272-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934853279' status='pending' stop='1546934855438'>
+                    <name>new tab contains information as pdf</name>
+                    <title>new tab contains information as pdf</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3f65de11-a931-4b7c-b645-db0ad3fa0928-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546934855440' status='pending' stop='1546934857539'>
+                    <name>user closes new tab</name>
+                    <title>user closes new tab</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e0a5f282-ca9a-46b2-85b2-8ebea77fa4a4-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4c0d1ae9-6f71-445f-aa5f-27b650333b37-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='ec027b1e-fceb-46be-b4dd-c196b57da43d-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

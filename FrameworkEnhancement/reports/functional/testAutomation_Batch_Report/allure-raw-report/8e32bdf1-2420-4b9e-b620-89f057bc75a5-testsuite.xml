@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283877451' stop='1537283946246'>
+    <name>User navigates to usage overview card and verifies the data</name>
+    <title>User navigates to usage overview card and verifies the data</title>
+    <test-cases>
+        <test-case start='1537283877453' status='broken' stop='1537283946246'>
+            <name>user can see monthly consumption details from usage overview card</name>
+            <title>user can see monthly consumption details from usage overview card</title>
+            <labels>
+                <label name='feature' value='User navigates to usage overview card and verifies the data'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283893142' status='passed' stop='1537283901342'>
+                    <name>user navigates to usage overview page</name>
+                    <title>user navigates to usage overview page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0f9e212d-82d3-4d0c-83d2-9b8d9ce13435-attachment.png' type='image/png' size='396808'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283901342' status='broken' stop='1537283935217'>
+                    <name>user click on the radio button having month details</name>
+                    <title>user click on the radio button having month details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7524a96c-c5c4-40f2-be94-b7f3ef0f0ff3-attachment.png' type='image/png' size='364061'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283935218' status='pending' stop='1537283937929'>
+                    <name>user view monthly details</name>
+                    <title>user view monthly details</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d05507cd-594f-4719-9f4b-2f7d0267360e-attachment.png' type='image/png' size='364061'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ee536814-65c0-4c9f-83c6-e502eb2348dc-attachment.png' type='image/png' size='429458'/>
+                <attachment title='Screenshot' source='93749a47-c98f-4ab0-ae81-7d1b2caed167-attachment.png' type='image/png' size='189114'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Element &lt;button id="pdfButton" type="button" class="ant-btn">...&lt;/button> is not clickable at point (955, 351). Other element would receive the click: &lt;button id="pdfButton" type="button" class="ant-btn">...&lt;/button></message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at elementIdClick("0.9421332684138681-11") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

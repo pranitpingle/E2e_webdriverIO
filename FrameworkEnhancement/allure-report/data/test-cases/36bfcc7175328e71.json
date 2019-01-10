@@ -1,0 +1,182 @@
+{
+  "uid" : "36bfcc7175328e71",
+  "name" : "Validate address - currency and phone number in the results displayed for a valid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate address - currency and phone number in the results displayed for a valid zip code",
+  "historyId" : "354d3c49d407310ad1865465731df9da",
+  "time" : {
+    "start" : 1537278604592,
+    "stop" : 1537278655301,
+    "duration" : 50709
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1537278616288,
+        "stop" : 1537278621333,
+        "duration" : 5045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "719af2983d25cf0a",
+        "name" : "Screenshot",
+        "source" : "719af2983d25cf0a.png",
+        "type" : "image/png",
+        "size" : 334792
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user enter \"73301\" and clicks on search button",
+      "time" : {
+        "start" : 1537278621336,
+        "stop" : 1537278625479,
+        "duration" : 4143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f7c16ba6e33f9b6",
+        "name" : "Screenshot",
+        "source" : "6f7c16ba6e33f9b6.png",
+        "type" : "image/png",
+        "size" : 373002
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "address displayed must contain \"AUSTIN TX\"",
+      "time" : {
+        "start" : 1537278625479,
+        "stop" : 1537278632535,
+        "duration" : 7056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4f1baec61d604c9",
+        "name" : "Screenshot",
+        "source" : "a4f1baec61d604c9.png",
+        "type" : "image/png",
+        "size" : 179420
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "fee displayed must be in currency format with two decimal digits",
+      "time" : {
+        "start" : 1537278632594,
+        "stop" : 1537278635975,
+        "duration" : 3381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a318a0139d7eb11",
+        "name" : "Screenshot",
+        "source" : "3a318a0139d7eb11.png",
+        "type" : "image/png",
+        "size" : 168971
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "phone number is displayed in NANP format",
+      "time" : {
+        "start" : 1537278635977,
+        "stop" : 1537278643856,
+        "duration" : 7879
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7c9479acec6fc9c",
+        "name" : "Screenshot",
+        "source" : "a7c9479acec6fc9c.png",
+        "type" : "image/png",
+        "size" : 168971
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "77b7982fe6449081",
+      "name" : "Screenshot",
+      "source" : "77b7982fe6449081.png",
+      "type" : "image/png",
+      "size" : 429227
+    }, {
+      "uid" : "1a55482008bc367a",
+      "name" : "Screenshot",
+      "source" : "1a55482008bc367a.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate address - currency and phone number in the results displayed for a valid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36bfcc7175328e71.json",
+  "parameterValues" : [ "chrome" ]
+}

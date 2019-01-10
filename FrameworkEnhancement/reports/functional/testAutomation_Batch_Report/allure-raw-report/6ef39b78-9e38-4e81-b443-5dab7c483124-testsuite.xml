@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537283856207' stop='1537283939237'>
+    <name>Validate fields Service Request card</name>
+    <title>Validate fields Service Request card</title>
+    <test-cases>
+        <test-case start='1537283856209' status='passed' stop='1537283886005'>
+            <name>service request description</name>
+            <title>service request description</title>
+            <labels>
+                <label name='feature' value='Validate fields Service Request card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283871371' status='passed' stop='1537283875664'>
+                    <name>service description visible in the card is "Please call us for any customer service requests including starting or stopping service."</name>
+                    <title>service description visible in the card is "Please call us for any customer service requests including starting or stopping service."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='61fbe446-ee59-4c50-b5d3-cafb8d4684dd-attachment.png' type='image/png' size='429410'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='85732907-97d4-41b0-a1fd-7c958108f346-attachment.png' type='image/png' size='429410'/>
+                <attachment title='Screenshot' source='8df022be-5344-4ce5-914e-b40e22227a7f-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537283886005' status='passed' stop='1537283911797'>
+            <name>service request number</name>
+            <title>service request number</title>
+            <labels>
+                <label name='feature' value='Validate fields Service Request card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283900888' status='passed' stop='1537283903861'>
+                    <name>service request number "1-888-237-1333" is visible in the card</name>
+                    <title>service request number "1-888-237-1333" is visible in the card</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='88d41945-c3b1-4c10-b64e-6fd81ed35068-attachment.png' type='image/png' size='429458'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d438b8a5-1ae3-45c4-8779-df5f550f1a4b-attachment.png' type='image/png' size='429458'/>
+                <attachment title='Screenshot' source='8bb138d8-478f-4322-926a-6d13ce797270-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537283911797' status='passed' stop='1537283939237'>
+            <name>service request availibility</name>
+            <title>service request availibility</title>
+            <labels>
+                <label name='feature' value='Validate fields Service Request card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537283923307' status='passed' stop='1537283926453'>
+                    <name>customer support hours "Hours: Monday - Friday 7 am - 7 pm" is visible in the card</name>
+                    <title>customer support hours "Hours: Monday - Friday 7 am - 7 pm" is visible in the card</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0316eaf1-b1f0-4d94-b4e8-bbe89984c96d-attachment.png' type='image/png' size='429466'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537283926503' status='passed' stop='1537283929984'>
+                    <name>emergency suppport "For emergencies: We are available 24/7" is visible in the card</name>
+                    <title>emergency suppport "For emergencies: We are available 24/7" is visible in the card</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ed302db8-fc9c-4244-8a66-08a49676b7fb-attachment.png' type='image/png' size='429466'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7596e277-62d3-4cac-8a87-12d2155b8cfb-attachment.png' type='image/png' size='429466'/>
+                <attachment title='Screenshot' source='41d8410e-c76e-4bb7-8e46-9005943560e3-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,161 @@
+{
+  "uid" : "e2d6c88b976aa08a",
+  "name" : "User can submit the feedback using all the fields",
+  "fullName" : "Footer page links redirection in new tab.User can submit the feedback using all the fields",
+  "historyId" : "bdfac44a4ee51d417b6e3b23073d5ad7",
+  "time" : {
+    "start" : 1537793419330,
+    "stop" : 1537793462099,
+    "duration" : 42769
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1537793429987,
+        "stop" : 1537793436490,
+        "duration" : 6503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2dcd990fdc852e7",
+        "name" : "Screenshot",
+        "source" : "d2dcd990fdc852e7.png",
+        "type" : "image/png",
+        "size" : 172538
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "again user selects radio button for first question and second question and the comment box for footer",
+      "time" : {
+        "start" : 1537793436555,
+        "stop" : 1537793440574,
+        "duration" : 4019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3e4977ae8cd4a7f",
+        "name" : "Screenshot",
+        "source" : "d3e4977ae8cd4a7f.png",
+        "type" : "image/png",
+        "size" : 172804
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form again for footer",
+      "time" : {
+        "start" : 1537793440575,
+        "stop" : 1537793450851,
+        "duration" : 10276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b66f25083c294e0",
+        "name" : "Screenshot",
+        "source" : "7b66f25083c294e0.png",
+        "type" : "image/png",
+        "size" : 206259
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with a message for footer second \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1537793450882,
+        "stop" : 1537793453900,
+        "duration" : 3018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "918c55e5f1ff3974",
+        "name" : "Screenshot",
+        "source" : "918c55e5f1ff3974.png",
+        "type" : "image/png",
+        "size" : 226593
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "d1ec4f39b1462e07",
+      "name" : "Screenshot",
+      "source" : "d1ec4f39b1462e07.png",
+      "type" : "image/png",
+      "size" : 432545
+    }, {
+      "uid" : "7290e680995d824d",
+      "name" : "Screenshot",
+      "source" : "7290e680995d824d.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can submit the feedback using all the fields"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2d6c88b976aa08a.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,157 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537793264299' stop='1537793384772'>
+    <name>A registered user can submit the feedback</name>
+    <title>A registered user can submit the feedback</title>
+    <test-cases>
+        <test-case start='1537793264301' status='passed' stop='1537793306239'>
+            <name>User can submit the feedback using all the manadatory fields</name>
+            <title>User can submit the feedback using all the manadatory fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793275678' status='passed' stop='1537793281884'>
+                    <name>user navigates to feedback modal view</name>
+                    <title>user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6fea5464-9fb8-44ed-b598-f8c42a34e5be-attachment.png' type='image/png' size='161892'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793281884' status='passed' stop='1537793285269'>
+                    <name>user selects radio button for first question and second question</name>
+                    <title>user selects radio button for first question and second question</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9fac2096-8d8e-44c0-b218-ab18d3841eaa-attachment.png' type='image/png' size='162134'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793285270' status='passed' stop='1537793294246'>
+                    <name>user submit the feedback form</name>
+                    <title>user submit the feedback form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='37882cf7-748b-4eed-952a-de610f852527-attachment.png' type='image/png' size='432711'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793294250' status='passed' stop='1537793298091'>
+                    <name>feedback is successfull with message "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with message "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b99c008b-91f4-450d-8a11-71979cda1f2b-attachment.png' type='image/png' size='432432'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b8a2445d-fb89-4806-bfc2-3bb5ebc730f7-attachment.png' type='image/png' size='432432'/>
+                <attachment title='Screenshot' source='19763c92-d65e-43ae-b2b6-ea538c360914-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537793306240' status='passed' stop='1537793346392'>
+            <name>User can submit the feedback using all the fields</name>
+            <title>User can submit the feedback using all the fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793318878' status='passed' stop='1537793324763'>
+                    <name>again user navigates to feedback modal view</name>
+                    <title>again user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3bf3ad90-df39-4f1f-ac0a-5dabf51c417d-attachment.png' type='image/png' size='161914'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793324764' status='passed' stop='1537793327785'>
+                    <name>again user selects radio button for first question and second question and the comment box</name>
+                    <title>again user selects radio button for first question and second question and the comment box</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e17e81f6-3cb7-4dea-9036-b37c33b32d17-attachment.png' type='image/png' size='162158'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793327785' status='passed' stop='1537793335638'>
+                    <name>user submit the feedback form again</name>
+                    <title>user submit the feedback form again</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2c240849-dca2-4aba-a153-140ea82be38b-attachment.png' type='image/png' size='432826'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793335638' status='passed' stop='1537793338851'>
+                    <name>feedback is successfull with a message "Thank you for providing your feedback"</name>
+                    <title>feedback is successfull with a message "Thank you for providing your feedback"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='24eef7ba-a4e7-4614-b06c-342c2fd296bd-attachment.png' type='image/png' size='432547'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c2f249d5-b095-4eb4-b8f4-f04ceddad4c5-attachment.png' type='image/png' size='432547'/>
+                <attachment title='Screenshot' source='1414b329-baa2-4b23-8ea0-5ffec758a549-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537793346392' status='passed' stop='1537793384772'>
+            <name>User cannot submit the feedback using one manadatory fields</name>
+            <title>User cannot submit the feedback using one manadatory fields</title>
+            <labels>
+                <label name='feature' value='A registered user can submit the feedback'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537793357148' status='passed' stop='1537793363318'>
+                    <name>a user navigates to feedback modal view</name>
+                    <title>a user navigates to feedback modal view</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='57753470-338a-485e-a7c6-9073b2d9a32d-attachment.png' type='image/png' size='161905'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793363318' status='passed' stop='1537793366411'>
+                    <name>user selects radio button for second question only</name>
+                    <title>user selects radio button for second question only</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='52021269-a981-4449-bebe-f62d7bbb9710-attachment.png' type='image/png' size='162009'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793366411' status='passed' stop='1537793373926'>
+                    <name>user tries to submit the feedback form</name>
+                    <title>user tries to submit the feedback form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d3653f1b-d48d-4087-b532-55b420f15641-attachment.png' type='image/png' size='165391'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537793373927' status='passed' stop='1537793377121'>
+                    <name>feedback submission ask for the selection of fields with a validation message</name>
+                    <title>feedback submission ask for the selection of fields with a validation message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='107fba56-a970-451a-aff0-812d9a2b982b-attachment.png' type='image/png' size='432928'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0f429ac7-9139-405c-8b9f-088274b2536d-attachment.png' type='image/png' size='432561'/>
+                <attachment title='Screenshot' source='e860b53d-2ac5-4a4b-9113-749b38b85e25-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

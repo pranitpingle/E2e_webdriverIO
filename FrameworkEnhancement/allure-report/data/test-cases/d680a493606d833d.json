@@ -1,0 +1,166 @@
+{
+  "uid" : "d680a493606d833d",
+  "name" : "User can submit the feedback using all the fields",
+  "fullName" : "Footer page links redirection in new tab.User can submit the feedback using all the fields",
+  "historyId" : "bdfac44a4ee51d417b6e3b23073d5ad7",
+  "time" : {
+    "start" : 1537278468364,
+    "stop" : 1537278522685,
+    "duration" : 54321
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"div[class= 'ant-notification-notice-description']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"div[class= 'ant-notification-notice-description']\").\n                    at elements(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17\n                    at getText(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\helpers\\errorHandler.js:112:39",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"div[class= 'ant-notification-notice-description']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"div[class= 'ant-notification-notice-description']\").\n                    at elements(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17\n                    at getText(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\helpers\\errorHandler.js:112:39",
+    "steps" : [ {
+      "name" : "again user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1537278481996,
+        "stop" : 1537278491163,
+        "duration" : 9167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f26d2713e4b1721a",
+        "name" : "Screenshot",
+        "source" : "f26d2713e4b1721a.png",
+        "type" : "image/png",
+        "size" : 156569
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "again user selects radio button for first question and second question and the comment box for footer",
+      "time" : {
+        "start" : 1537278491163,
+        "stop" : 1537278498836,
+        "duration" : 7673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d79969c7e5a5b0f8",
+        "name" : "Screenshot",
+        "source" : "d79969c7e5a5b0f8.png",
+        "type" : "image/png",
+        "size" : 156825
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user submit the feedback form again for footer",
+      "time" : {
+        "start" : 1537278498838,
+        "stop" : 1537278507215,
+        "duration" : 8377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c544343525f5e7d",
+        "name" : "Screenshot",
+        "source" : "1c544343525f5e7d.png",
+        "type" : "image/png",
+        "size" : 189907
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback is successfull with a message for footer second \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1537278507217,
+        "stop" : 1537278512007,
+        "duration" : 4790
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"div[class= 'ant-notification-notice-description']\").\n                    at elements(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\getText.js:18:17\n                    at getText(\"div[class= 'ant-notification-notice-description']\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\helpers\\errorHandler.js:112:39",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd3991eb9b47e911",
+        "name" : "Screenshot",
+        "source" : "dd3991eb9b47e911.png",
+        "type" : "image/png",
+        "size" : 204485
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "40ee289c3e6495b4",
+      "name" : "Screenshot",
+      "source" : "40ee289c3e6495b4.png",
+      "type" : "image/png",
+      "size" : 429238
+    }, {
+      "uid" : "d9355fd03284219f",
+      "name" : "Screenshot",
+      "source" : "d9355fd03284219f.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can submit the feedback using all the fields"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d680a493606d833d.json",
+  "parameterValues" : [ "chrome" ]
+}

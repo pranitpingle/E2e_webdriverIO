@@ -1,0 +1,145 @@
+{
+  "uid" : "35c8aab35588bb",
+  "name" : "User has an option to Cancel AutoPay Enrollment",
+  "fullName" : "AutoPay enrollment.User has an option to Cancel AutoPay Enrollment",
+  "historyId" : "b3c79d4befa83058358dedaf2d05384a",
+  "time" : {
+    "start" : 1537278306456,
+    "stop" : 1537278367750,
+    "duration" : 61294
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".amw-autopay-success-page\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\".amw-autopay-success-page\") still not existing after 10000ms\n                    at elements(\".amw-autopay-success-page\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".amw-autopay-success-page\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".amw-autopay-success-page\") still not existing after 10000ms",
+    "statusTrace" : "Error: element (\".amw-autopay-success-page\") still not existing after 10000ms\n                    at elements(\".amw-autopay-success-page\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".amw-autopay-success-page\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+    "steps" : [ {
+      "name" : "user is enrolled for AutoPay",
+      "time" : {
+        "start" : 1537278318543,
+        "stop" : 1537278340664,
+        "duration" : 22121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa754723cd3ae90d",
+        "name" : "Screenshot",
+        "source" : "aa754723cd3ae90d.png",
+        "type" : "image/png",
+        "size" : 100283
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user cancels AutoPay enrollment and gets the message \"You successfully cancelled enrollment in Auto Pay.\"",
+      "time" : {
+        "start" : 1537278340667,
+        "stop" : 1537278362899,
+        "duration" : 22232
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\".amw-autopay-success-page\") still not existing after 10000ms\n                    at elements(\".amw-autopay-success-page\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".amw-autopay-success-page\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdf04094f7c24dfe",
+        "name" : "Screenshot",
+        "source" : "cdf04094f7c24dfe.png",
+        "type" : "image/png",
+        "size" : 107830
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes success message dialog and AutoPay card is now displayed in Dashboard",
+      "time" : {
+        "start" : 1537278362900,
+        "stop" : 1537278365350,
+        "duration" : 2450
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9059b5e177f3834f",
+        "name" : "Screenshot",
+        "source" : "9059b5e177f3834f.png",
+        "type" : "image/png",
+        "size" : 107830
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "8dfdf8e0baa42199",
+      "name" : "Screenshot",
+      "source" : "8dfdf8e0baa42199.png",
+      "type" : "image/png",
+      "size" : 429105
+    }, {
+      "uid" : "7b5ec221ce7ec4c8",
+      "name" : "Screenshot",
+      "source" : "7b5ec221ce7ec4c8.png",
+      "type" : "image/png",
+      "size" : 107830
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "User has an option to Cancel AutoPay Enrollment"
+  }, {
+    "name" : "package",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35c8aab35588bb.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,178 @@
+{
+  "uid" : "dfb556e44a6b11b1",
+  "name" : "Display Billing and payments history monthwise",
+  "fullName" : "Biliing and Payment history.Display Billing and payments history monthwise",
+  "historyId" : "555fd191e2d4421ed25289e25dcaf7f7",
+  "time" : {
+    "start" : 1537793139915,
+    "stop" : 1537793177663,
+    "duration" : 37748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected null to be true",
+  "statusTrace" : "AssertionError: expected null to be true\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\billingAndPayments\\billingAndPayments.step.js:17:93)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected null to be true",
+    "statusTrace" : "AssertionError: expected null to be true\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\billingAndPayments\\billingAndPayments.step.js:17:93)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537793159147,
+        "stop" : 1537793164159,
+        "duration" : 5012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c37b9f8cbe09b1f",
+        "name" : "Screenshot",
+        "source" : "1c37b9f8cbe09b1f.png",
+        "type" : "image/png",
+        "size" : 350179
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user slides the slider bar to set statement period for 1 month",
+      "time" : {
+        "start" : 1537793164159,
+        "stop" : 1537793167178,
+        "duration" : 3019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27a796c1ea24b7c7",
+        "name" : "Screenshot",
+        "source" : "27a796c1ea24b7c7.png",
+        "type" : "image/png",
+        "size" : 347532
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "billing and payments table should display transactions only for the selected statement period",
+      "time" : {
+        "start" : 1537793167178,
+        "stop" : 1537793170654,
+        "duration" : 3476
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected null to be true\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\billingAndPayments\\billingAndPayments.step.js:17:93)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d57d6d7c9f5080c",
+        "name" : "Screenshot",
+        "source" : "7d57d6d7c9f5080c.png",
+        "type" : "image/png",
+        "size" : 335754
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "a7e168f00f351397",
+      "name" : "Screenshot",
+      "source" : "a7e168f00f351397.png",
+      "type" : "image/png",
+      "size" : 432311
+    }, {
+      "uid" : "a823c8f0edaf053e",
+      "name" : "Screenshot",
+      "source" : "a823c8f0edaf053e.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "Display Billing and payments history monthwise"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3425627ba5f44c25",
+      "status" : "broken",
+      "statusDetails" : "element (\".ant-slider-step\") still not existing after 20000ms",
+      "time" : {
+        "start" : 1537283367885,
+        "stop" : 1537283443339,
+        "duration" : 75454
+      }
+    }, {
+      "uid" : "883aa330db32f42c",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1537278173532,
+        "stop" : 1537278229677,
+        "duration" : 56145
+      }
+    }, {
+      "uid" : "194fcf66726efd44",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1537261398579,
+        "stop" : 1537261449045,
+        "duration" : 50466
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dfb556e44a6b11b1.json",
+  "parameterValues" : [ "chrome" ]
+}

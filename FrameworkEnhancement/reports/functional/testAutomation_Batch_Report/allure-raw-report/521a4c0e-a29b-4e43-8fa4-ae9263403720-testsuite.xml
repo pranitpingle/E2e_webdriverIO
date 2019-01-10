@@ -1,0 +1,185 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866821651' stop='1546866898415'>
+    <name>Paperless billing enrollment</name>
+    <title>Paperless billing enrollment</title>
+    <test-cases>
+        <test-case start='1546866821657' status='broken' stop='1546866847649'>
+            <name>user can unenroll from paperless billing enrollment</name>
+            <title>user can unenroll from paperless billing enrollment</title>
+            <labels>
+                <label name='feature' value='Paperless billing enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866836821' status='pending' stop='1546866838978'>
+                    <name>user navigates to Edit User Profile page and clicks on Unenroll button</name>
+                    <title>user navigates to Edit User Profile page and clicks on Unenroll button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='015352f9-0cc3-40c8-9805-2024d45a327c-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866838986' status='pending' stop='1546866841161'>
+                    <name>user accepts acknowledgement and submits form</name>
+                    <title>user accepts acknowledgement and submits form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='62063fbd-6a2b-453b-a0ac-08a7d756439e-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866841162' status='pending' stop='1546866843332'>
+                    <name>discontinue paperless billing successfull message is displayed "Discontinue Paperless Billing has been Successful."</name>
+                    <title>discontinue paperless billing successfull message is displayed "Discontinue Paperless Billing has been Successful."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='532f099e-0270-4eb4-a1fb-e04997d6b3e8-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866843334' status='pending' stop='1546866845420'>
+                    <name>user closes success mesage dialog and go paperless card is displayed in Dashboard</name>
+                    <title>user closes success mesage dialog and go paperless card is displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='57d87197-5515-431f-9644-ebdbc5749e9a-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2fb1c05d-4294-4a4e-b19f-9255b83ccc53-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='33130335-9ec6-46d2-888e-ad12bf501b75-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866847650' status='broken' stop='1546866870986'>
+            <name>Verify thank you message during paperless billing enrollment</name>
+            <title>Verify thank you message during paperless billing enrollment</title>
+            <labels>
+                <label name='feature' value='Paperless billing enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866860403' status='pending' stop='1546866862502'>
+                    <name>user click on Go Paperless Card in Dashboard</name>
+                    <title>user click on Go Paperless Card in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ecf4103b-1356-4ac6-8efe-100a8d68ed3b-attachment.png' type='image/png' size='35050'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866862503' status='pending' stop='1546866864581'>
+                    <name>Paperless billing enrollment form must be seen</name>
+                    <title>Paperless billing enrollment form must be seen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4fbe177f-5add-40ca-9bcc-189a4c31db1e-attachment.png' type='image/png' size='35304'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866864583' status='pending' stop='1546866866695'>
+                    <name>Thank you message is seen "Thank you for requesting to participate in our paperless billing program which helps protect our environment by saving paper. Checking the box below confirms that you would like to receive your water bill and bill inserts online. You will no longer receive a paper bill. Instead, you will receive an email notification informing you that your water bill and other important information is ready for viewing through My Account. Should you want a copy for your records, you can simply print it from the web site."</name>
+                    <title>Thank you message is seen "Thank you for requesting to participate in our paperless billing program which helps protect our environment by saving paper. Checking the box below confirms that you would like to receive your water bill and bill inserts online. You will no longer receive a paper bill. Instead, you will receive an email notification informing you that your water bill and other important information is ready for viewing through My Account. Should you want a copy for your records, you can simply print it from the web site."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0fe40bb2-d761-40ef-bdcf-bc35facdcb94-attachment.png' type='image/png' size='35304'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866866699' status='pending' stop='1546866868789'>
+                    <name>user closes Paperless billing enrollment dialog</name>
+                    <title>user closes Paperless billing enrollment dialog</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='94ed22a3-fbcc-4dd8-96fe-a126bc4a156c-attachment.png' type='image/png' size='35304'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='98ac346b-c5ed-4aa8-8417-75b31e878fc1-attachment.png' type='image/png' size='35050'/>
+                <attachment title='Screenshot' source='537b7257-58a9-47fe-acb4-e7f3e545f8cb-attachment.png' type='image/png' size='35304'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866870986' status='broken' stop='1546866898410'>
+            <name>Verify acknowledgement during paperless billing enrollment</name>
+            <title>Verify acknowledgement during paperless billing enrollment</title>
+            <labels>
+                <label name='feature' value='Paperless billing enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866883468' status='pending' stop='1546866885595'>
+                    <name>user click on Go Paperless Card in Dashboard</name>
+                    <title>user click on Go Paperless Card in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e1d1914c-17e9-4d76-9387-45aa963e63da-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866885596' status='pending' stop='1546866887763'>
+                    <name>user acknowledgement message is seen "* Yes, I am confirming that I wish to receive my future water bills and communications online. I understand that once my registration has been activated, I will no longer receive a paper bill or standard paper communications."</name>
+                    <title>user acknowledgement message is seen "* Yes, I am confirming that I wish to receive my future water bills and communications online. I understand that once my registration has been activated, I will no longer receive a paper bill or standard paper communications."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2417939c-3625-4a6a-9238-981dab11c241-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866887763' status='pending' stop='1546866889962'>
+                    <name>user checks the acknowledgement checkbox and submits</name>
+                    <title>user checks the acknowledgement checkbox and submits</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cd8b152b-ad7e-4fe6-8cd8-ecc367a3147e-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866889963' status='pending' stop='1546866892152'>
+                    <name>paperless enrollment successfull message is seen "Enrollment in Paperless Billing is Successful."</name>
+                    <title>paperless enrollment successfull message is seen "Enrollment in Paperless Billing is Successful."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8c78b425-fbe6-4356-a72b-0ec7731fbb5c-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866892152' status='pending' stop='1546866894288'>
+                    <name>user closes Paperless billing enrollment dialog</name>
+                    <title>user closes Paperless billing enrollment dialog</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e6b6878e-9599-4321-a696-6b8a8b5fe0bb-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866894289' status='pending' stop='1546866896334'>
+                    <name>go paperless card must not be visible in Dashboard</name>
+                    <title>go paperless card must not be visible in Dashboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='63a56904-6ecd-47f9-aa97-a8547ed64679-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>chrome not reachable</message>
+                <stack-trace>Error: Request timed out after the element was still found on the page.
+                    at element(".amw-bill-payment-close-icon") - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

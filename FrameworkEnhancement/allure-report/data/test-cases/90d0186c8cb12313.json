@@ -1,0 +1,140 @@
+{
+  "uid" : "90d0186c8cb12313",
+  "name" : "User can download the pdf messages available in message section",
+  "fullName" : "A registered user can check for messages alerts & open request.User can download the pdf messages available in message section",
+  "historyId" : "fbc089bf7766a4b17b24935083c7f6a0",
+  "time" : {
+    "start" : 1537278173442,
+    "stop" : 1537278228589,
+    "duration" : 55147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to messages",
+      "time" : {
+        "start" : 1537278202006,
+        "stop" : 1537278210208,
+        "duration" : 8202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82bf4d8efb38038a",
+        "name" : "Screenshot",
+        "source" : "82bf4d8efb38038a.png",
+        "type" : "image/png",
+        "size" : 395798
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the messages available in the section with message icon and title",
+      "time" : {
+        "start" : 1537278210208,
+        "stop" : 1537278214457,
+        "duration" : 4249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb26b74049aa1f90",
+        "name" : "Screenshot",
+        "source" : "cb26b74049aa1f90.png",
+        "type" : "image/png",
+        "size" : 395798
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user can download the selected pdf messages",
+      "time" : {
+        "start" : 1537278214466,
+        "stop" : 1537278221264,
+        "duration" : 6798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7bd1ebfb0e864a9",
+        "name" : "Screenshot",
+        "source" : "a7bd1ebfb0e864a9.png",
+        "type" : "image/png",
+        "size" : 395864
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "ebc5ad7aaed1fb46",
+      "name" : "Screenshot",
+      "source" : "ebc5ad7aaed1fb46.png",
+      "type" : "image/png",
+      "size" : 429220
+    }, {
+      "uid" : "bf12aab51ca9ff0f",
+      "name" : "Screenshot",
+      "source" : "bf12aab51ca9ff0f.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can download the pdf messages available in message section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90d0186c8cb12313.json",
+  "parameterValues" : [ "chrome" ]
+}

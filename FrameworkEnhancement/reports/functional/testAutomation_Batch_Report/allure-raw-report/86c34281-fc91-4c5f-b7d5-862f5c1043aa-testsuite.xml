@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278173733' stop='1537278243827'>
+    <name>A registered user can Login to Dashboard and can see the account information</name>
+    <title>A registered user can Login to Dashboard and can see the account information</title>
+    <test-cases>
+        <test-case start='1537278173733' status='broken' stop='1537278243825'>
+            <name>User can check account &amp; meter information</name>
+            <title>User can check account &amp; meter information</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to Dashboard and can see the account information'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278202947' status='passed' stop='1537278205744'>
+                    <name>user navigates to Dashboard page</name>
+                    <title>user navigates to Dashboard page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1907750b-a77c-46ad-a44a-13df7e3e47eb-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278205744' status='broken' stop='1537278212286'>
+                    <name>user clicks on plus button to expand the account information</name>
+                    <title>user clicks on plus button to expand the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='63250c16-c6fe-481b-85c8-9fbeaa175e57-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278212370' status='pending' stop='1537278215387'>
+                    <name>user clicks on account number &amp; verifies it</name>
+                    <title>user clicks on account number &amp; verifies it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5dae90b8-9d07-4d6f-91f0-8234ac1ffdc6-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278215388' status='pending' stop='1537278218672'>
+                    <name>user clicks on Meters service type &amp; verifies the same</name>
+                    <title>user clicks on Meters service type &amp; verifies the same</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ad69f251-9a06-4685-9de4-57c9e6a6dc32-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278218672' status='pending' stop='1537278221499'>
+                    <name>user clicks on meter size &amp; verifes it</name>
+                    <title>user clicks on meter size &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2299ebe6-29b3-4169-8cd5-3762a0b6bed1-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278221499' status='pending' stop='1537278224341'>
+                    <name>user clicks on meter location &amp; verifes it</name>
+                    <title>user clicks on meter location &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d5698190-ee7b-4d4e-9d1d-a5f5a2a3c340-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278224416' status='pending' stop='1537278227426'>
+                    <name>user clicks on installation date &amp; verifes it</name>
+                    <title>user clicks on installation date &amp; verifes it</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d6b6e7c1-1f0b-4c73-892e-1592f492b276-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278227428' status='pending' stop='1537278230479'>
+                    <name>user is displayed with all the account information</name>
+                    <title>user is displayed with all the account information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ce2b51a5-183d-4aaa-9728-9cb2b6d14c05-attachment.png' type='image/png' size='429146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='680d259d-ec4a-4588-b4d8-ee9bc706d7db-attachment.png' type='image/png' size='429146'/>
+                <attachment title='Screenshot' source='f2778e2a-9110-41d8-9909-21a2112cc451-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters.</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters.
+                    at moveToObject("//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]", 0, 700) -     at D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\wdio-sync\build\at element("//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\moveToObject.js:47:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

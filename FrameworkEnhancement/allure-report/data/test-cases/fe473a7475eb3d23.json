@@ -1,0 +1,119 @@
+{
+  "uid" : "fe473a7475eb3d23",
+  "name" : "User can check his basic information",
+  "fullName" : "To check the users primary information.User can check his basic information",
+  "historyId" : "bde31f0d968a75ef1cd782d1ae58901c",
+  "time" : {
+    "start" : 1537283956149,
+    "stop" : 1537283993243,
+    "duration" : 37094
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user reaches to Dashboard page after the login",
+      "time" : {
+        "start" : 1537283972190,
+        "stop" : 1537283983382,
+        "duration" : 11192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13e3f13233aae7cb",
+        "name" : "Screenshot",
+        "source" : "13e3f13233aae7cb.png",
+        "type" : "image/png",
+        "size" : 429368
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user verifies all his basic information",
+      "time" : {
+        "start" : 1537283983382,
+        "stop" : 1537283986104,
+        "duration" : 2722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6cfb75468567965",
+        "name" : "Screenshot",
+        "source" : "d6cfb75468567965.png",
+        "type" : "image/png",
+        "size" : 429368
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "84e45db85a439fc0",
+      "name" : "Screenshot",
+      "source" : "84e45db85a439fc0.png",
+      "type" : "image/png",
+      "size" : 429368
+    }, {
+      "uid" : "5b10ffefaa619fd",
+      "name" : "Screenshot",
+      "source" : "5b10ffefaa619fd.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "testClass",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check his basic information"
+  }, {
+    "name" : "package",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe473a7475eb3d23.json",
+  "parameterValues" : [ "chrome" ]
+}

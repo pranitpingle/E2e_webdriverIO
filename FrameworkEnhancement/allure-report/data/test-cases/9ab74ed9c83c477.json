@@ -1,0 +1,145 @@
+{
+  "uid" : "9ab74ed9c83c477",
+  "name" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+  "historyId" : "7a97d6bc5932b57845e34d0146b7131c",
+  "time" : {
+    "start" : 1537283573631,
+    "stop" : 1537283618142,
+    "duration" : 44511
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to payment menu",
+      "time" : {
+        "start" : 1537283588248,
+        "stop" : 1537283600012,
+        "duration" : 11764
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1177b6c243748b9",
+        "name" : "Screenshot",
+        "source" : "a1177b6c243748b9.png",
+        "type" : "image/png",
+        "size" : 401889
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on cash payment",
+      "time" : {
+        "start" : 1537283600014,
+        "stop" : 1537283611419,
+        "duration" : 11405
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").\n                    at click() -     at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:316:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54e41c33f704c167",
+        "name" : "Screenshot",
+        "source" : "54e41c33f704c167.png",
+        "type" : "image/png",
+        "size" : 368672
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "cash payment selected as default under payment modal view \"Cash Payment Receipt Entry\"",
+      "time" : {
+        "start" : 1537283611420,
+        "stop" : 1537283614315,
+        "duration" : 2895
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5710f1fd55f37ad",
+        "name" : "Screenshot",
+        "source" : "c5710f1fd55f37ad.png",
+        "type" : "image/png",
+        "size" : 368672
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "dde94a2aa25170e4",
+      "name" : "Screenshot",
+      "source" : "dde94a2aa25170e4.png",
+      "type" : "image/png",
+      "size" : 429353
+    }, {
+      "uid" : "9356209a46099a5d",
+      "name" : "Screenshot",
+      "source" : "9356209a46099a5d.png",
+      "type" : "image/png",
+      "size" : 368672
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ab74ed9c83c477.json",
+  "parameterValues" : [ "chrome" ]
+}

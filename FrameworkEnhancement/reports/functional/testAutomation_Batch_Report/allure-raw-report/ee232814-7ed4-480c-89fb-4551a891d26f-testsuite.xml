@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537261399614' stop='1537261564675'>
+    <name>A registered user can see the conservation tips</name>
+    <title>A registered user can see the conservation tips</title>
+    <test-cases>
+        <test-case start='1537261399614' status='passed' stop='1537261468495'>
+            <name>User can check the conservation tips are displayed with correct content</name>
+            <title>User can check the conservation tips are displayed with correct content</title>
+            <labels>
+                <label name='feature' value='A registered user can see the conservation tips'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537261431243' status='passed' stop='1537261441436'>
+                    <name>user navigates to usage menu</name>
+                    <title>user navigates to usage menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='817ca0e9-39da-4808-b9fe-a1c89ac5cbdb-attachment.png' type='image/png' size='407745'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537261441436' status='passed' stop='1537261451212'>
+                    <name>user click on Conservation Tips</name>
+                    <title>user click on Conservation Tips</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7c8910b0-3994-4138-ae42-ee69d6bdf1ba-attachment.png' type='image/png' size='232995'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537261451213' status='passed' stop='1537261460523'>
+                    <name>Conservation tips is displayed on the card "Conservation Tips"</name>
+                    <title>Conservation tips is displayed on the card "Conservation Tips"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3f448c46-a8d7-466c-837e-5ad8c2ed3f46-attachment.png' type='image/png' size='239020'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='75faa939-7ffc-4d6f-9287-784ebe77f859-attachment.png' type='image/png' size='429232'/>
+                <attachment title='Screenshot' source='773d1bd8-7c41-4850-81d0-5b067edd6c68-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537261468497' status='passed' stop='1537261522572'>
+            <name>User can check all the  conservation tips are displayed with correct content</name>
+            <title>User can check all the  conservation tips are displayed with correct content</title>
+            <labels>
+                <label name='feature' value='A registered user can see the conservation tips'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537261481412' status='passed' stop='1537261492186'>
+                    <name>again user navigates to usage menu</name>
+                    <title>again user navigates to usage menu</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='937e726e-a6ac-4bd9-bf37-07424e96aefe-attachment.png' type='image/png' size='407598'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537261492186' status='passed' stop='1537261501298'>
+                    <name>again user click on Conservation Tips</name>
+                    <title>again user click on Conservation Tips</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e2a6b5e9-da13-4898-b039-0ac4a5548f89-attachment.png' type='image/png' size='263894'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537261501298' status='passed' stop='1537261514832'>
+                    <name>user navigates to each conservation tips and verify the content</name>
+                    <title>user navigates to each conservation tips and verify the content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='72203901-4234-485a-ae3c-970556a5df51-attachment.png' type='image/png' size='272104'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='258b9bea-9e58-4d2f-9aad-598a978e4960-attachment.png' type='image/png' size='429082'/>
+                <attachment title='Screenshot' source='ddfb13e0-6ae6-45a9-bc86-cecd62bb144f-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537261522574' status='broken' stop='1537261564675'>
+            <name>User can check all the  conservation tips are displayed with correct content in detail</name>
+            <title>User can check all the  conservation tips are displayed with correct content in detail</title>
+            <labels>
+                <label name='feature' value='A registered user can see the conservation tips'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537261534508' status='passed' stop='1537261544573'>
+                    <name>user navigates to usage menu to verify detailed content</name>
+                    <title>user navigates to usage menu to verify detailed content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='320db227-e507-44a7-8009-87f16abffdc6-attachment.png' type='image/png' size='429479'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537261544573' status='broken' stop='1537261548540'>
+                    <name>user click on Conservation Tips to verfiy detailed content</name>
+                    <title>user click on Conservation Tips to verfiy detailed content</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cb947bd0-d5f0-44cc-bff1-f8f005ab0b91-attachment.png' type='image/png' size='429460'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537261548541' status='pending' stop='1537261551427'>
+                    <name>user navigates to each conservation tips and verify the content for each tips</name>
+                    <title>user navigates to each conservation tips and verify the content for each tips</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5538a682-ede6-4589-b256-9e886340e88e-attachment.png' type='image/png' size='429460'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='db3a2210-598c-4b1e-a2c5-6fe615c20a48-attachment.png' type='image/png' size='429146'/>
+                <attachment title='Screenshot' source='ec8c88be-5327-4d65-9949-c7f062373b7e-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+            <failure>
+                <message>element not visible</message>
+                <stack-trace>Error: An element command could not be completed because the element is not visible on the page.
+                    at elementIdClick("0.08710742641339175-3") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\click.js:20:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

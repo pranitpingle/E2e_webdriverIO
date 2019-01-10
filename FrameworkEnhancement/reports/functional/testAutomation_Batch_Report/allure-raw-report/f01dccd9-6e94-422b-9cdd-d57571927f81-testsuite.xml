@@ -1,0 +1,234 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546866725831' stop='1546866835243'>
+    <name>A registered user can check for messages alerts &amp; open request</name>
+    <title>A registered user can check for messages alerts &amp; open request</title>
+    <test-cases>
+        <test-case start='1546866725839' status='broken' stop='1546866752268'>
+            <name>User can download the pdf messages available in message section</name>
+            <title>User can download the pdf messages available in message section</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866743694' status='pending' stop='1546866745822'>
+                    <name>user navigates to messages</name>
+                    <title>user navigates to messages</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='53d79e51-9158-4e43-ada7-73fb11711dc2-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866745822' status='pending' stop='1546866747918'>
+                    <name>user see the messages available in the section with message icon and title</name>
+                    <title>user see the messages available in the section with message icon and title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='85f6c7d2-9bf6-4eab-b51d-3cfd707ac243-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866747921' status='pending' stop='1546866750019'>
+                    <name>user can download the selected pdf messages</name>
+                    <title>user can download the selected pdf messages</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='42d4b438-c05b-4171-975c-3a5fb5223e46-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='315a55c3-5993-4b4c-a5df-e05aa0117733-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='5b71a13c-4a13-49a6-a01d-1b022fe84e4f-attachment.png' type='image/png' size='35054'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866752271' status='broken' stop='1546866771582'>
+            <name>User can see the open request available in the section or not</name>
+            <title>User can see the open request available in the section or not</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866765065' status='pending' stop='1546866767242'>
+                    <name>user navigates to Open Request</name>
+                    <title>user navigates to Open Request</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c2ff0e51-a519-4dd1-a380-b0d9d34b96f8-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866767253' status='pending' stop='1546866769359'>
+                    <name>user see the open request available in the section or not</name>
+                    <title>user see the open request available in the section or not</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4cb87388-a69f-4229-910c-c81751f712dc-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1dfe3f21-b844-44d8-a85d-f79190d64dd8-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='841f0b25-4dd9-4402-aa1a-0605a1072ec3-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866771583' status='broken' stop='1546866792745'>
+            <name>User can check the alerts available in alerts section</name>
+            <title>User can check the alerts available in alerts section</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866784180' status='pending' stop='1546866786330'>
+                    <name>user navigates to alerts</name>
+                    <title>user navigates to alerts</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='51c20952-a5c4-420a-9ced-4c5bca37e275-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866786331' status='pending' stop='1546866788421'>
+                    <name>user see the alerts available in the section with each having alert icon</name>
+                    <title>user see the alerts available in the section with each having alert icon</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4619ebea-b074-4c5f-bc8f-71451731b6e7-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866788422' status='pending' stop='1546866790530'>
+                    <name>user see the alerts available in the section with each having alert title</name>
+                    <title>user see the alerts available in the section with each having alert title</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='eb25dbcb-2e3d-4980-8bd8-42f606c0128e-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='21ea9084-7b0a-44a2-8604-c158c8607a11-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='9d6b3c98-95fc-4c7f-9b09-b73dd44e03c6-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866792746' status='broken' stop='1546866813998'>
+            <name>User can check the latest alert are displaying at top</name>
+            <title>User can check the latest alert are displaying at top</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866805343' status='pending' stop='1546866807443'>
+                    <name>user again navigates to alerts</name>
+                    <title>user again navigates to alerts</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5557b040-74ea-4b7a-9977-dd370cab7ff4-attachment.png' type='image/png' size='35306'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866807443' status='pending' stop='1546866809664'>
+                    <name>user see the alerts available in the section with each of them having the alert icon</name>
+                    <title>user see the alerts available in the section with each of them having the alert icon</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4a17427a-7300-4126-a711-b03f48581ce1-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866809669' status='pending' stop='1546866811811'>
+                    <name>user see the latest alert is displaying on the top</name>
+                    <title>user see the latest alert is displaying on the top</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b1536929-63ad-4e04-a728-3ee2d0bf43c5-attachment.png' type='image/png' size='35054'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3ff8e17a-9a52-4c30-b1ca-cce9d6a4cab8-attachment.png' type='image/png' size='35054'/>
+                <attachment title='Screenshot' source='558e566b-39af-42bc-8d6b-75563a6a80b5-attachment.png' type='image/png' size='35306'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546866814000' status='broken' stop='1546866835242'>
+            <name>User can check the latest alert are displaying at top</name>
+            <title>User can check the latest alert are displaying at top</title>
+            <labels>
+                <label name='feature' value='A registered user can check for messages alerts &amp; open request'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1546866826465' status='pending' stop='1546866828634'>
+                    <name>user again navigates to message</name>
+                    <title>user again navigates to message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3e05a8ba-ffc9-4003-ad54-3378eec2d72c-attachment.png' type='image/png' size='35307'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866828635' status='pending' stop='1546866830819'>
+                    <name>user see the messages available in the section with each of them having the message icon</name>
+                    <title>user see the messages available in the section with each of them having the message icon</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='709793ac-1814-4903-a42c-97f6185fdc7a-attachment.png' type='image/png' size='35307'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1546866830820' status='pending' stop='1546866833004'>
+                    <name>user see the latest message is displaying on the top</name>
+                    <title>user see the latest message is displaying on the top</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0132072e-d2f0-476b-ae43-8a8367604c55-attachment.png' type='image/png' size='35333'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='82139079-7a3f-47fd-97ee-f022ce018352-attachment.png' type='image/png' size='35307'/>
+                <attachment title='Screenshot' source='d0e34a65-551f-4f62-b823-cb2cc219fa6f-attachment.png' type='image/png' size='35333'/>
+            </attachments>
+            <failure>
+                <message>unknown error: Cannot read property 'scrollTo' of null</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at execute(&lt;Function>) - index.js:316:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

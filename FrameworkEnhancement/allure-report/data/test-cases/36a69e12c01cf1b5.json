@@ -1,0 +1,140 @@
+{
+  "uid" : "36a69e12c01cf1b5",
+  "name" : "verify user able to open Terms Of Use footer link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Terms Of Use footer link in new browser tab",
+  "historyId" : "77a8f5afeb266a1bf7aa8a0be4956e85",
+  "time" : {
+    "start" : 1537278387910,
+    "stop" : 1537278427425,
+    "duration" : 39515
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Terms Of Use link in Footer",
+      "time" : {
+        "start" : 1537278401389,
+        "stop" : 1537278405144,
+        "duration" : 3755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7df6a11a492b5e2e",
+        "name" : "Screenshot",
+        "source" : "7df6a11a492b5e2e.png",
+        "type" : "image/png",
+        "size" : 229227
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Terms of Use page with page title \"TERMS OF USE\"",
+      "time" : {
+        "start" : 1537278405146,
+        "stop" : 1537278412656,
+        "duration" : 7510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe3430fb47ed0796",
+        "name" : "Screenshot",
+        "source" : "fe3430fb47ed0796.png",
+        "type" : "image/png",
+        "size" : 79866
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Terms of Use link is successfully redirecting to Terms of Use Page by validating page url",
+      "time" : {
+        "start" : 1537278412658,
+        "stop" : 1537278418776,
+        "duration" : 6118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27360bdcfd18f24f",
+        "name" : "Screenshot",
+        "source" : "27360bdcfd18f24f.png",
+        "type" : "image/png",
+        "size" : 229227
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "3ebfb322eea6d626",
+      "name" : "Screenshot",
+      "source" : "3ebfb322eea6d626.png",
+      "type" : "image/png",
+      "size" : 429271
+    }, {
+      "uid" : "ba8e70fb5122aa37",
+      "name" : "Screenshot",
+      "source" : "ba8e70fb5122aa37.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Terms Of Use footer link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36a69e12c01cf1b5.json",
+  "parameterValues" : [ "chrome" ]
+}

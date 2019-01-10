@@ -1,0 +1,140 @@
+{
+  "uid" : "261a0bf5f4aed3a4",
+  "name" : "User can check the latest alert are displaying at top",
+  "fullName" : "A registered user can check for messages alerts & open request.User can check the latest alert are displaying at top",
+  "historyId" : "a4c0132b9458d6ff88df8ebbc08f53e8",
+  "time" : {
+    "start" : 1537283500941,
+    "stop" : 1537283540787,
+    "duration" : 39846
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user again navigates to alerts",
+      "time" : {
+        "start" : 1537283512389,
+        "stop" : 1537283521238,
+        "duration" : 8849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5ff32f84bd467aa",
+        "name" : "Screenshot",
+        "source" : "d5ff32f84bd467aa.png",
+        "type" : "image/png",
+        "size" : 388777
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the alerts available in the section with each of them having the alert icon",
+      "time" : {
+        "start" : 1537283521239,
+        "stop" : 1537283524162,
+        "duration" : 2923
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31e89d1f402fd04e",
+        "name" : "Screenshot",
+        "source" : "31e89d1f402fd04e.png",
+        "type" : "image/png",
+        "size" : 388777
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the latest alert is displaying on the top",
+      "time" : {
+        "start" : 1537283524162,
+        "stop" : 1537283532072,
+        "duration" : 7910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1afe149d1ba34163",
+        "name" : "Screenshot",
+        "source" : "1afe149d1ba34163.png",
+        "type" : "image/png",
+        "size" : 388777
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "d875f08ce49252bb",
+      "name" : "Screenshot",
+      "source" : "d875f08ce49252bb.png",
+      "type" : "image/png",
+      "size" : 429319
+    }, {
+      "uid" : "73374f0261363f18",
+      "name" : "Screenshot",
+      "source" : "73374f0261363f18.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the latest alert are displaying at top"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "261a0bf5f4aed3a4.json",
+  "parameterValues" : [ "chrome" ]
+}

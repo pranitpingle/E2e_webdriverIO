@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278173441' stop='1537278367752'>
+    <name>AutoPay enrollment</name>
+    <title>AutoPay enrollment</title>
+    <test-cases>
+        <test-case start='1537278173445' status='broken' stop='1537278245726'>
+            <name>User has an option to enroll for AutoPay</name>
+            <title>User has an option to enroll for AutoPay</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278201287' status='passed' stop='1537278209754'>
+                    <name>user is not enrolled for AutoPay</name>
+                    <title>user is not enrolled for AutoPay</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e12594db-9715-4638-b269-df5dab89efe5-attachment.png' type='image/png' size='429438'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278209774' status='broken' stop='1537278240289'>
+                    <name>user enrolls for AutoPay and gets "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</name>
+                    <title>user enrolls for AutoPay and gets "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5a253889-aa46-43b1-a82b-4371af1b2439-attachment.png' type='image/png' size='147813'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278240289' status='pending' stop='1537278242935'>
+                    <name>user closes success message dialog and AutoPay card is not displayed in Dashboard</name>
+                    <title>user closes success message dialog and AutoPay card is not displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a5fea629-19e2-4ea6-a5a7-85fee84020e4-attachment.png' type='image/png' size='147813'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='eff85aa1-bfe0-4484-bf69-47515e32a6dc-attachment.png' type='image/png' size='429232'/>
+                <attachment title='Screenshot' source='b2daef0a-35bc-4e8c-bba3-c7f4c98930f7-attachment.png' type='image/png' size='147813'/>
+            </attachments>
+            <failure>
+                <message>element (".amw-autopay-success-page") still not existing after 10000ms</message>
+                <stack-trace>Error: element (".amw-autopay-success-page") still not existing after 10000ms
+                    at elements(".amw-autopay-success-page") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting(".amw-autopay-success-page") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537278245726' status='broken' stop='1537278306456'>
+            <name>User has an option to Update AutoPay information</name>
+            <title>User has an option to Update AutoPay information</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278259384' status='passed' stop='1537278283752'>
+                    <name>user is enrolled for AutoPay to update information</name>
+                    <title>user is enrolled for AutoPay to update information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='928051ab-2642-4b92-a410-e76955fb3f9b-attachment.png' type='image/png' size='100283'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278283752' status='broken' stop='1537278301151'>
+                    <name>user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</name>
+                    <title>user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4509e12d-6c3a-441f-bceb-885ac1129874-attachment.png' type='image/png' size='104392'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278301154' status='pending' stop='1537278303518'>
+                    <name>user closes success message dialog and AutoPay card is displayed with updated Information</name>
+                    <title>user closes success message dialog and AutoPay card is displayed with updated Information</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fb750236-aec2-4acf-87e5-b2fcacdf7cc9-attachment.png' type='image/png' size='104392'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c6cd4608-d273-4df9-affb-8273173844ad-attachment.png' type='image/png' size='429259'/>
+                <attachment title='Screenshot' source='6af76d7a-353d-46c2-a715-0acdc6792184-attachment.png' type='image/png' size='104392'/>
+            </attachments>
+            <failure>
+                <message>element (".ant-checkbox.ant-checkbox-checked") still not existing after 5000ms</message>
+                <stack-trace>Error: element (".ant-checkbox.ant-checkbox-checked") still not existing after 5000ms
+                    at elements(".ant-checkbox.ant-checkbox-checked") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting(".ant-checkbox.ant-checkbox-checked") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1537278306456' status='broken' stop='1537278367750'>
+            <name>User has an option to Cancel AutoPay Enrollment</name>
+            <title>User has an option to Cancel AutoPay Enrollment</title>
+            <labels>
+                <label name='feature' value='AutoPay enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278318543' status='passed' stop='1537278340664'>
+                    <name>user is enrolled for AutoPay</name>
+                    <title>user is enrolled for AutoPay</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4d3e2ddb-da0e-4798-be5d-ded7c431305d-attachment.png' type='image/png' size='100283'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278340667' status='broken' stop='1537278362899'>
+                    <name>user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."</name>
+                    <title>user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fca9efb8-386f-4997-ba00-b7387d0b8d18-attachment.png' type='image/png' size='107830'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278362900' status='pending' stop='1537278365350'>
+                    <name>user closes success message dialog and AutoPay card is now displayed in Dashboard</name>
+                    <title>user closes success message dialog and AutoPay card is now displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a9ba445a-8869-4a6d-95b7-08ac762d498d-attachment.png' type='image/png' size='107830'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d90432c0-0ab6-4315-98a0-5b59abae65b3-attachment.png' type='image/png' size='429105'/>
+                <attachment title='Screenshot' source='79ee8dd2-0371-4ee0-b1fc-12bec6938874-attachment.png' type='image/png' size='107830'/>
+            </attachments>
+            <failure>
+                <message>element (".amw-autopay-success-page") still not existing after 10000ms</message>
+                <stack-trace>Error: element (".amw-autopay-success-page") still not existing after 10000ms
+                    at elements(".amw-autopay-success-page") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting(".amw-autopay-success-page") - D:\AmwaterDashboardFinal\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

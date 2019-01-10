@@ -1,0 +1,140 @@
+{
+  "uid" : "e22687a9b7998c18",
+  "name" : "User can check the redirection to usage overview card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to usage overview card from the header menu",
+  "historyId" : "5d9c7ab6d4d927e6adafbf50dbd3d9c6",
+  "time" : {
+    "start" : 1537278484854,
+    "stop" : 1537278539305,
+    "duration" : 54451
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu from header",
+      "time" : {
+        "start" : 1537278499382,
+        "stop" : 1537278511793,
+        "duration" : 12411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31e0baeb5dc36fce",
+        "name" : "Screenshot",
+        "source" : "31e0baeb5dc36fce.png",
+        "type" : "image/png",
+        "size" : 407729
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on usage overview sub menu",
+      "time" : {
+        "start" : 1537278511795,
+        "stop" : 1537278521455,
+        "duration" : 9660
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a762e262348db2ab",
+        "name" : "Screenshot",
+        "source" : "a762e262348db2ab.png",
+        "type" : "image/png",
+        "size" : 205090
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "usage overview card is displayed in focus with a label as \"Usage Overview\"",
+      "time" : {
+        "start" : 1537278521458,
+        "stop" : 1537278530905,
+        "duration" : 9447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac2559da88a6806f",
+        "name" : "Screenshot",
+        "source" : "ac2559da88a6806f.png",
+        "type" : "image/png",
+        "size" : 229197
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "15d4a9de8c0bb606",
+      "name" : "Screenshot",
+      "source" : "15d4a9de8c0bb606.png",
+      "type" : "image/png",
+      "size" : 429221
+    }, {
+      "uid" : "61a3a95d9327a9ce",
+      "name" : "Screenshot",
+      "source" : "61a3a95d9327a9ce.png",
+      "type" : "image/png",
+      "size" : 193579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to usage overview card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e22687a9b7998c18.json",
+  "parameterValues" : [ "chrome" ]
+}

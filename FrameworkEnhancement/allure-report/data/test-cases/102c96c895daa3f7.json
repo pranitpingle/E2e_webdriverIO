@@ -1,0 +1,167 @@
+{
+  "uid" : "102c96c895daa3f7",
+  "name" : "User can check all the  conservation tips are displayed with correct content",
+  "fullName" : "A registered user can see the conservation tips.User can check all the  conservation tips are displayed with correct content",
+  "historyId" : "4df8fa2b1b4a422138258cb726588ff",
+  "time" : {
+    "start" : 1537793192095,
+    "stop" : 1537793240840,
+    "duration" : 48745
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu",
+      "time" : {
+        "start" : 1537793203425,
+        "stop" : 1537793212562,
+        "duration" : 9137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d51d89457ac8c9f",
+        "name" : "Screenshot",
+        "source" : "6d51d89457ac8c9f.png",
+        "type" : "image/png",
+        "size" : 410977
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "again user click on Conservation Tips",
+      "time" : {
+        "start" : 1537793212631,
+        "stop" : 1537793220367,
+        "duration" : 7736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24ddac76091e8cd8",
+        "name" : "Screenshot",
+        "source" : "24ddac76091e8cd8.png",
+        "type" : "image/png",
+        "size" : 220133
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user navigates to each conservation tips and verify the content",
+      "time" : {
+        "start" : 1537793220368,
+        "stop" : 1537793234127,
+        "duration" : 13759
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc1db74c025e663e",
+        "name" : "Screenshot",
+        "source" : "fc1db74c025e663e.png",
+        "type" : "image/png",
+        "size" : 226602
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "2a19e1c956720116",
+      "name" : "Screenshot",
+      "source" : "2a19e1c956720116.png",
+      "type" : "image/png",
+      "size" : 432460
+    }, {
+      "uid" : "e40274859e173a60",
+      "name" : "Screenshot",
+      "source" : "e40274859e173a60.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check all the  conservation tips are displayed with correct content"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a62d629c99b30f83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283422418,
+        "stop" : 1537283484986,
+        "duration" : 62568
+      }
+    }, {
+      "uid" : "324fe053f12a04c2",
+      "status" : "broken",
+      "statusDetails" : "element not visible",
+      "time" : {
+        "start" : 1537278231266,
+        "stop" : 1537278272113,
+        "duration" : 40847
+      }
+    }, {
+      "uid" : "a8cd460357f8c52c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537261468497,
+        "stop" : 1537261522572,
+        "duration" : 54075
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "102c96c895daa3f7.json",
+  "parameterValues" : [ "chrome" ]
+}

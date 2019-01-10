@@ -1,0 +1,140 @@
+{
+  "uid" : "df4893c736826e16",
+  "name" : "verify user able to open PuddleDuck footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open PuddleDuck footer icon link in new browser tab",
+  "historyId" : "288c93eb6cbc52c91131116b0d40d111",
+  "time" : {
+    "start" : 1537283934848,
+    "stop" : 1537283970620,
+    "duration" : 35772
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on PuddleDuck link in Footer",
+      "time" : {
+        "start" : 1537283946243,
+        "stop" : 1537283950683,
+        "duration" : 4440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9971dfe06a64ff6",
+        "name" : "Screenshot",
+        "source" : "f9971dfe06a64ff6.png",
+        "type" : "image/png",
+        "size" : 226706
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate PuddleDuck link with page \"PUDDLES ON THE WEB\"",
+      "time" : {
+        "start" : 1537283950683,
+        "stop" : 1537283958126,
+        "duration" : 7443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92013015269fea31",
+        "name" : "Screenshot",
+        "source" : "92013015269fea31.png",
+        "type" : "image/png",
+        "size" : 232297
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url",
+      "time" : {
+        "start" : 1537283958126,
+        "stop" : 1537283962289,
+        "duration" : 4163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e08d429c9606dca4",
+        "name" : "Screenshot",
+        "source" : "e08d429c9606dca4.png",
+        "type" : "image/png",
+        "size" : 226706
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c47ebc196657ca08",
+      "name" : "Screenshot",
+      "source" : "c47ebc196657ca08.png",
+      "type" : "image/png",
+      "size" : 429422
+    }, {
+      "uid" : "83a767b97e53917a",
+      "name" : "Screenshot",
+      "source" : "83a767b97e53917a.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open PuddleDuck footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df4893c736826e16.json",
+  "parameterValues" : [ "chrome" ]
+}

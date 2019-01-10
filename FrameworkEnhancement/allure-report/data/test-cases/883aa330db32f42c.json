@@ -1,0 +1,145 @@
+{
+  "uid" : "883aa330db32f42c",
+  "name" : "Display Billing and payments history monthwise",
+  "fullName" : "Biliing and Payment history.Display Billing and payments history monthwise",
+  "historyId" : "555fd191e2d4421ed25289e25dcaf7f7",
+  "time" : {
+    "start" : 1537278173532,
+    "stop" : 1537278229677,
+    "duration" : 56145
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected false to be true",
+  "statusTrace" : "AssertionError: expected false to be true\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\billingAndPayments\\billingAndPayments.step.js:17:93)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected false to be true",
+    "statusTrace" : "AssertionError: expected false to be true\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\billingAndPayments\\billingAndPayments.step.js:17:93)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1537278200325,
+        "stop" : 1537278206138,
+        "duration" : 5813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67af5c13590890c",
+        "name" : "Screenshot",
+        "source" : "67af5c13590890c.png",
+        "type" : "image/png",
+        "size" : 349719
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user slides the slider bar to set statement period for 1 month",
+      "time" : {
+        "start" : 1537278206138,
+        "stop" : 1537278209788,
+        "duration" : 3650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bdc623a950da0ef0",
+        "name" : "Screenshot",
+        "source" : "bdc623a950da0ef0.png",
+        "type" : "image/png",
+        "size" : 351393
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "billing and payments table should display transactions only for the selected statement period",
+      "time" : {
+        "start" : 1537278209788,
+        "stop" : 1537278222710,
+        "duration" : 12922
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected false to be true\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\billingAndPayments\\billingAndPayments.step.js:17:93)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e247f3e057ac01bd",
+        "name" : "Screenshot",
+        "source" : "e247f3e057ac01bd.png",
+        "type" : "image/png",
+        "size" : 106046
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5db879bb1e5dd8d",
+      "name" : "Screenshot",
+      "source" : "5db879bb1e5dd8d.png",
+      "type" : "image/png",
+      "size" : 429232
+    }, {
+      "uid" : "2403a0b604d60124",
+      "name" : "Screenshot",
+      "source" : "2403a0b604d60124.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "Display Billing and payments history monthwise"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "883aa330db32f42c.json",
+  "parameterValues" : [ "chrome" ]
+}

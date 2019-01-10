@@ -1,0 +1,166 @@
+{
+  "uid" : "a142846f01669cc8",
+  "name" : "User can download the pdf messages available in message section",
+  "fullName" : "A registered user can check for messages alerts & open request.User can download the pdf messages available in message section",
+  "historyId" : "fbc089bf7766a4b17b24935083c7f6a0",
+  "time" : {
+    "start" : 1537793139873,
+    "stop" : 1537793184767,
+    "duration" : 44894
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to messages",
+      "time" : {
+        "start" : 1537793159115,
+        "stop" : 1537793167214,
+        "duration" : 8099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5cacc6787d986ae",
+        "name" : "Screenshot",
+        "source" : "b5cacc6787d986ae.png",
+        "type" : "image/png",
+        "size" : 407549
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user see the messages available in the section with message icon and title",
+      "time" : {
+        "start" : 1537793167214,
+        "stop" : 1537793170372,
+        "duration" : 3158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8eef2059281c92a7",
+        "name" : "Screenshot",
+        "source" : "8eef2059281c92a7.png",
+        "type" : "image/png",
+        "size" : 407549
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user can download the selected pdf messages",
+      "time" : {
+        "start" : 1537793170372,
+        "stop" : 1537793176871,
+        "duration" : 6499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ae896cf1800e665",
+        "name" : "Screenshot",
+        "source" : "5ae896cf1800e665.png",
+        "type" : "image/png",
+        "size" : 407575
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "29afed8124c65b12",
+      "name" : "Screenshot",
+      "source" : "29afed8124c65b12.png",
+      "type" : "image/png",
+      "size" : 432389
+    }, {
+      "uid" : "f05aed509d4faeb1",
+      "name" : "Screenshot",
+      "source" : "f05aed509d4faeb1.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can download the pdf messages available in message section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2bc0f6ee7fe8b40b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283367924,
+        "stop" : 1537283424552,
+        "duration" : 56628
+      }
+    }, {
+      "uid" : "90d0186c8cb12313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278173442,
+        "stop" : 1537278228589,
+        "duration" : 55147
+      }
+    }, {
+      "uid" : "13bace47bbeb06d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537261398676,
+        "stop" : 1537261444545,
+        "duration" : 45869
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a142846f01669cc8.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "d0d100566cf4edbe",
+  "name" : "verify user able to validate service alerts",
+  "fullName" : "Service alerts content and link verfication.verify user able to validate service alerts",
+  "historyId" : "89c34b984f59b0be8cf612ab56d1ad1c",
+  "time" : {
+    "start" : 1537793495752,
+    "stop" : 1537793544863,
+    "duration" : 49111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user fetched content and date month from service alerts",
+      "time" : {
+        "start" : 1537793511446,
+        "stop" : 1537793517532,
+        "duration" : 6086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e240f09fb75f60d2",
+        "name" : "Screenshot",
+        "source" : "e240f09fb75f60d2.png",
+        "type" : "image/png",
+        "size" : 191439
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on View More link",
+      "time" : {
+        "start" : 1537793517534,
+        "stop" : 1537793522715,
+        "duration" : 5181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "793a093278440b9e",
+        "name" : "Screenshot",
+        "source" : "793a093278440b9e.png",
+        "type" : "image/png",
+        "size" : 72424
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate alerts page by validating page title",
+      "time" : {
+        "start" : 1537793522716,
+        "stop" : 1537793528380,
+        "duration" : 5664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cdcfa4ffba078ac6",
+        "name" : "Screenshot",
+        "source" : "cdcfa4ffba078ac6.png",
+        "type" : "image/png",
+        "size" : 72424
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "by validating content text \"Latest Alerts\"",
+      "time" : {
+        "start" : 1537793528380,
+        "stop" : 1537793536268,
+        "duration" : 7888
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "36f8cae03d4f6816",
+        "name" : "Screenshot",
+        "source" : "36f8cae03d4f6816.png",
+        "type" : "image/png",
+        "size" : 191432
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "d45523ad5416f9db",
+      "name" : "Screenshot",
+      "source" : "d45523ad5416f9db.png",
+      "type" : "image/png",
+      "size" : 432427
+    }, {
+      "uid" : "b9188a8f4ea7ac23",
+      "name" : "Screenshot",
+      "source" : "b9188a8f4ea7ac23.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Service alerts content and link verfication"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Service alerts content and link verfication"
+  }, {
+    "name" : "testClass",
+    "value" : "Service alerts content and link verfication"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to validate service alerts"
+  }, {
+    "name" : "package",
+    "value" : "Service alerts content and link verfication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0d100566cf4edbe.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,211 @@
+{
+  "uid" : "3c801bacbf648248",
+  "name" : "User cannot submit the feedback using one manadatory fields",
+  "fullName" : "Footer page links redirection in new tab.User cannot submit the feedback using one manadatory fields",
+  "historyId" : "d9b75f8209606503da5c1f8172afbdb8",
+  "time" : {
+    "start" : 1538393270784,
+    "stop" : 1538393303189,
+    "duration" : 32405
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "a user navigates to feedback from footer link",
+      "time" : {
+        "start" : 1538393278521,
+        "stop" : 1538393284228,
+        "duration" : 5707
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73c6d21cabc16c12",
+        "name" : "Screenshot",
+        "source" : "73c6d21cabc16c12.png",
+        "type" : "image/png",
+        "size" : 111891
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user selects radio button for second question only for footer",
+      "time" : {
+        "start" : 1538393284229,
+        "stop" : 1538393286713,
+        "duration" : 2484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cce3da7ed977b9dd",
+        "name" : "Screenshot",
+        "source" : "cce3da7ed977b9dd.png",
+        "type" : "image/png",
+        "size" : 112021
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user tries to submit the feedback form for footer",
+      "time" : {
+        "start" : 1538393286713,
+        "stop" : 1538393294181,
+        "duration" : 7468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f956acfbf361bc9",
+        "name" : "Screenshot",
+        "source" : "2f956acfbf361bc9.png",
+        "type" : "image/png",
+        "size" : 115477
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "feedback submission ask for the selection of fields with a validation message for footer",
+      "time" : {
+        "start" : 1538393294182,
+        "stop" : 1538393296708,
+        "duration" : 2526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12e5ad1854050893",
+        "name" : "Screenshot",
+        "source" : "12e5ad1854050893.png",
+        "type" : "image/png",
+        "size" : 139079
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "d920f7077cc5cf74",
+      "name" : "Screenshot",
+      "source" : "d920f7077cc5cf74.png",
+      "type" : "image/png",
+      "size" : 399412
+    }, {
+      "uid" : "16f526ffc9d85fb1",
+      "name" : "Screenshot",
+      "source" : "16f526ffc9d85fb1.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "User cannot submit the feedback using one manadatory fields"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c845e308a1518249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037214001,
+        "stop" : 1538037246874,
+        "duration" : 32873
+      }
+    }, {
+      "uid" : "4c541759fc1efa35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793462100,
+        "stop" : 1537793510719,
+        "duration" : 48619
+      }
+    }, {
+      "uid" : "1a8f7bae2ef8f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283749582,
+        "stop" : 1537283790662,
+        "duration" : 41080
+      }
+    }, {
+      "uid" : "6660a3753c032504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278522686,
+        "stop" : 1537278569503,
+        "duration" : 46817
+      }
+    }, {
+      "uid" : "8dfdeb63972700a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277462150,
+        "stop" : 1537277498896,
+        "duration" : 36746
+      }
+    }, {
+      "uid" : "7266da47720dd015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276535497,
+        "stop" : 1537276575255,
+        "duration" : 39758
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c801bacbf648248.json",
+  "parameterValues" : [ "chrome" ]
+}

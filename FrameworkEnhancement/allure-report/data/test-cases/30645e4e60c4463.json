@@ -1,0 +1,190 @@
+{
+  "uid" : "30645e4e60c4463",
+  "name" : "verify user able to open Twitter footer icon link in new browser tab",
+  "fullName" : "Footer page links redirection in new tab.verify user able to open Twitter footer icon link in new browser tab",
+  "historyId" : "d8d4ef2f9669ccbad536fddec42fc1ea",
+  "time" : {
+    "start" : 1538393331537,
+    "stop" : 1538393358075,
+    "duration" : 26538
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user clicks on Twitter link in Footer",
+      "time" : {
+        "start" : 1538393339199,
+        "stop" : 1538393342212,
+        "duration" : 3013
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a8735fc02420ac2",
+        "name" : "Screenshot",
+        "source" : "2a8735fc02420ac2.png",
+        "type" : "image/png",
+        "size" : 139056
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate Twitter link with page \"CA American Water\"",
+      "time" : {
+        "start" : 1538393342213,
+        "stop" : 1538393349075,
+        "duration" : 6862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95b1407823f3ea51",
+        "name" : "Screenshot",
+        "source" : "95b1407823f3ea51.png",
+        "type" : "image/png",
+        "size" : 743639
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Twitter link is successfully redirecting to Twitter by validating page url",
+      "time" : {
+        "start" : 1538393349075,
+        "stop" : 1538393351660,
+        "duration" : 2585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff4a8055e3eac9d1",
+        "name" : "Screenshot",
+        "source" : "ff4a8055e3eac9d1.png",
+        "type" : "image/png",
+        "size" : 139000
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "2ede9352eeb10bf1",
+      "name" : "Screenshot",
+      "source" : "2ede9352eeb10bf1.png",
+      "type" : "image/png",
+      "size" : 399572
+    }, {
+      "uid" : "f1e133de176cd6e8",
+      "name" : "Screenshot",
+      "source" : "f1e133de176cd6e8.png",
+      "type" : "image/png",
+      "size" : 183168
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Twitter footer icon link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Footer page links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "924be7af624301ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1538037274867,
+        "stop" : 1538037304780,
+        "duration" : 29913
+      }
+    }, {
+      "uid" : "e1dd5765b958c85a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537793547338,
+        "stop" : 1537793601179,
+        "duration" : 53841
+      }
+    }, {
+      "uid" : "973f03e0edab90f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283831591,
+        "stop" : 1537283865806,
+        "duration" : 34215
+      }
+    }, {
+      "uid" : "f607e2b0b7820b3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278611481,
+        "stop" : 1537278654823,
+        "duration" : 43342
+      }
+    }, {
+      "uid" : "9fb3a0586ec47c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277537141,
+        "stop" : 1537277569025,
+        "duration" : 31884
+      }
+    }, {
+      "uid" : "b9c96e0c528c0f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537276608240,
+        "stop" : 1537276636900,
+        "duration" : 28660
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30645e4e60c4463.json",
+  "parameterValues" : [ "chrome" ]
+}

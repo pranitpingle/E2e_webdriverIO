@@ -1,0 +1,392 @@
+{
+  "uid" : "6c9b2f456770898d",
+  "name" : "Verify user is able to click and verify all social media link on marketing cards",
+  "fullName" : "Social Media Marketing card all links verification.Verify user is able to click and verify all social media link on marketing cards",
+  "historyId" : "2c3909d6c8dcc1f24b751f1c2d99f1a9",
+  "time" : {
+    "start" : 1537793557410,
+    "stop" : 1537793670572,
+    "duration" : 113162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user click on Facebook link on media cards",
+      "time" : {
+        "start" : 1537793574914,
+        "stop" : 1537793585852,
+        "duration" : 10938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f1a1cad29c98095",
+        "name" : "Screenshot",
+        "source" : "6f1a1cad29c98095.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate the Facebook page by validating url",
+      "time" : {
+        "start" : 1537793585853,
+        "stop" : 1537793591209,
+        "duration" : 5356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a79a40e77c15d085",
+        "name" : "Screenshot",
+        "source" : "a79a40e77c15d085.png",
+        "type" : "image/png",
+        "size" : 609771
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back to dashboard page",
+      "time" : {
+        "start" : 1537793591209,
+        "stop" : 1537793594427,
+        "duration" : 3218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad2d7556328f52d4",
+        "name" : "Screenshot",
+        "source" : "ad2d7556328f52d4.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on twitter link on media cards",
+      "time" : {
+        "start" : 1537793594427,
+        "stop" : 1537793604471,
+        "duration" : 10044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a45e8480df57d88e",
+        "name" : "Screenshot",
+        "source" : "a45e8480df57d88e.png",
+        "type" : "image/png",
+        "size" : 191221
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate the twitter page by validating url",
+      "time" : {
+        "start" : 1537793604472,
+        "stop" : 1537793609443,
+        "duration" : 4971
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2ac967043fe9a93",
+        "name" : "Screenshot",
+        "source" : "e2ac967043fe9a93.png",
+        "type" : "image/png",
+        "size" : 782381
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back to dashboard page from twitter page",
+      "time" : {
+        "start" : 1537793609443,
+        "stop" : 1537793612631,
+        "duration" : 3188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0f0f8d55959bcdd",
+        "name" : "Screenshot",
+        "source" : "b0f0f8d55959bcdd.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on Youtube link on media cards",
+      "time" : {
+        "start" : 1537793612634,
+        "stop" : 1537793621509,
+        "duration" : 8875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e5a7af9c1768a8e",
+        "name" : "Screenshot",
+        "source" : "6e5a7af9c1768a8e.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate the Youtube page by validating url",
+      "time" : {
+        "start" : 1537793621509,
+        "stop" : 1537793625256,
+        "duration" : 3747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e43555ed01e6b107",
+        "name" : "Screenshot",
+        "source" : "e43555ed01e6b107.png",
+        "type" : "image/png",
+        "size" : 563393
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back to dashboard page from Youtube page",
+      "time" : {
+        "start" : 1537793625256,
+        "stop" : 1537793627782,
+        "duration" : 2526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56d40f2be83cdf3e",
+        "name" : "Screenshot",
+        "source" : "56d40f2be83cdf3e.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on amwater blog link on media cards",
+      "time" : {
+        "start" : 1537793627783,
+        "stop" : 1537793637103,
+        "duration" : 9320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0d5d4ffae1ef74d",
+        "name" : "Screenshot",
+        "source" : "b0d5d4ffae1ef74d.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate the amwater blog page by validating url",
+      "time" : {
+        "start" : 1537793637105,
+        "stop" : 1537793642658,
+        "duration" : 5553
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c925afa3cf0f76",
+        "name" : "Screenshot",
+        "source" : "4c925afa3cf0f76.png",
+        "type" : "image/png",
+        "size" : 645736
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back to dashboard page from amwater blog page",
+      "time" : {
+        "start" : 1537793642688,
+        "stop" : 1537793646040,
+        "duration" : 3352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0beefb78a006c55",
+        "name" : "Screenshot",
+        "source" : "b0beefb78a006c55.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on puddle link on media cards",
+      "time" : {
+        "start" : 1537793646040,
+        "stop" : 1537793657305,
+        "duration" : 11265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73f67fe864e41aa0",
+        "name" : "Screenshot",
+        "source" : "73f67fe864e41aa0.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate the puddle page by validating url",
+      "time" : {
+        "start" : 1537793657305,
+        "stop" : 1537793660886,
+        "duration" : 3581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37bdd769479979b0",
+        "name" : "Screenshot",
+        "source" : "37bdd769479979b0.png",
+        "type" : "image/png",
+        "size" : 232297
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user switch back to dashboard page from puddle page",
+      "time" : {
+        "start" : 1537793660886,
+        "stop" : 1537793663463,
+        "duration" : 2577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6729b1b119e3f3a",
+        "name" : "Screenshot",
+        "source" : "b6729b1b119e3f3a.png",
+        "type" : "image/png",
+        "size" : 191228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "9218ee728b5236c7",
+      "name" : "Screenshot",
+      "source" : "9218ee728b5236c7.png",
+      "type" : "image/png",
+      "size" : 432491
+    }, {
+      "uid" : "8120fa9f3a0d6fa2",
+      "name" : "Screenshot",
+      "source" : "8120fa9f3a0d6fa2.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 17
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Social Media Marketing card all links verification"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Social Media Marketing card all links verification"
+  }, {
+    "name" : "testClass",
+    "value" : "Social Media Marketing card all links verification"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify user is able to click and verify all social media link on marketing cards"
+  }, {
+    "name" : "package",
+    "value" : "Social Media Marketing card all links verification"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c9b2f456770898d.json",
+  "parameterValues" : [ "chrome" ]
+}

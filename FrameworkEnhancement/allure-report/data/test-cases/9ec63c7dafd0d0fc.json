@@ -1,0 +1,145 @@
+{
+  "uid" : "9ec63c7dafd0d0fc",
+  "name" : "User can check the conservation tips are displayed with correct content",
+  "fullName" : "A registered user can see the conservation tips.User can check the conservation tips are displayed with correct content",
+  "historyId" : "f8a4636499908eb4fcb618799c72065",
+  "time" : {
+    "start" : 1537283368363,
+    "stop" : 1537283422418,
+    "duration" : 54055
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected '' to equal 'Conservation Tips'",
+  "statusTrace" : "AssertionError: expected '' to equal 'Conservation Tips'\n                    at CommonFunctions.assertElementText (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:35:45)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\conservationTIps\\conservationTips.js:19:15)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected '' to equal 'Conservation Tips'",
+    "statusTrace" : "AssertionError: expected '' to equal 'Conservation Tips'\n                    at CommonFunctions.assertElementText (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:35:45)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\conservationTIps\\conservationTips.js:19:15)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+    "steps" : [ {
+      "name" : "user navigates to usage menu",
+      "time" : {
+        "start" : 1537283393079,
+        "stop" : 1537283403467,
+        "duration" : 10388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7cb13ad36ab88a81",
+        "name" : "Screenshot",
+        "source" : "7cb13ad36ab88a81.png",
+        "type" : "image/png",
+        "size" : 407926
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on Conservation Tips",
+      "time" : {
+        "start" : 1537283403471,
+        "stop" : 1537283412366,
+        "duration" : 8895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1e7c96997499d0a",
+        "name" : "Screenshot",
+        "source" : "b1e7c96997499d0a.png",
+        "type" : "image/png",
+        "size" : 429401
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Conservation tips is displayed on the card \"Conservation Tips\"",
+      "time" : {
+        "start" : 1537283412366,
+        "stop" : 1537283415192,
+        "duration" : 2826
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected '' to equal 'Conservation Tips'\n                    at CommonFunctions.assertElementText (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\utilities\\commonFunctions.js:35:45)\n                    at World.<anonymous> (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\step-definitions\\conservationTIps\\conservationTips.js:19:15)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:594:26\n                    at new Promise (<anonymous>)\n                    at new F (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\core-js\\library\\modules\\_export.js:36:28)\n                    at World.executeSync (D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:592:12)\n                    at D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\wdio-sync\\build\\index.js:214:29",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c13dec1bddd64824",
+        "name" : "Screenshot",
+        "source" : "c13dec1bddd64824.png",
+        "type" : "image/png",
+        "size" : 429401
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "90f1eb19a1e288a0",
+      "name" : "Screenshot",
+      "source" : "90f1eb19a1e288a0.png",
+      "type" : "image/png",
+      "size" : 429509
+    }, {
+      "uid" : "dae60d4bdda05593",
+      "name" : "Screenshot",
+      "source" : "dae60d4bdda05593.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the conservation tips are displayed with correct content"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ec63c7dafd0d0fc.json",
+  "parameterValues" : [ "chrome" ]
+}

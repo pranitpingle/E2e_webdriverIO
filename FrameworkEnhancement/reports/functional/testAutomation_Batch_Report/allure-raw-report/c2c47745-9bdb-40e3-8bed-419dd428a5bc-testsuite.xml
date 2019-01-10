@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537277982828' stop='1537278079388'>
+    <name>Validate social media links on Marketing card</name>
+    <title>Validate social media links on Marketing card</title>
+    <test-cases>
+        <test-case start='1537277982831' status='passed' stop='1537278079386'>
+            <name>Verify user is able to click and verify all social media link on marketing cards</name>
+            <title>Verify user is able to click and verify all social media link on marketing cards</title>
+            <labels>
+                <label name='feature' value='Validate social media links on Marketing card'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537277993931' status='passed' stop='1537278003423'>
+                    <name>user click on Facebook link on media cards</name>
+                    <title>user click on Facebook link on media cards</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='21427453-900b-4185-981f-b66c23586f4c-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278003423' status='passed' stop='1537278007747'>
+                    <name>user validate the Facebook page by validating url</name>
+                    <title>user validate the Facebook page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='498f831f-130a-40fd-b965-1c147a3eaf6a-attachment.png' type='image/png' size='618142'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278007747' status='passed' stop='1537278010689'>
+                    <name>user switch back to dashboard page</name>
+                    <title>user switch back to dashboard page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='17a0e923-cc15-49d4-8697-e7da0e5d9a10-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278010729' status='passed' stop='1537278019483'>
+                    <name>user click on twitter link on media cards</name>
+                    <title>user click on twitter link on media cards</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0144e8b0-3958-4134-9dc7-8b3aacbdf9c5-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278019483' status='passed' stop='1537278023517'>
+                    <name>user validate the twitter page by validating url</name>
+                    <title>user validate the twitter page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b70e0770-8dbb-4fe2-a9e4-85040a61ea52-attachment.png' type='image/png' size='787558'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278023517' status='passed' stop='1537278026163'>
+                    <name>user switch back to dashboard page from twitter page</name>
+                    <title>user switch back to dashboard page from twitter page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5be58c7e-e4d1-4958-962f-a9301782162d-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278026163' status='passed' stop='1537278035298'>
+                    <name>user click on Youtube link on media cards</name>
+                    <title>user click on Youtube link on media cards</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='654435a6-c1a6-4f16-b8ad-087d3b91bca4-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278035298' status='passed' stop='1537278039120'>
+                    <name>user validate the Youtube page by validating url</name>
+                    <title>user validate the Youtube page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7dc49ca2-60e8-48b7-a72d-7446a4c157c8-attachment.png' type='image/png' size='563393'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278039120' status='passed' stop='1537278041712'>
+                    <name>user switch back to dashboard page from Youtube page</name>
+                    <title>user switch back to dashboard page from Youtube page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6c17d074-5afc-465c-8f1f-14c43770b6fa-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278041712' status='passed' stop='1537278050684'>
+                    <name>user click on amwater blog link on media cards</name>
+                    <title>user click on amwater blog link on media cards</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='244cce3b-418d-4c47-b9d5-0e6090f205fb-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278050684' status='passed' stop='1537278054498'>
+                    <name>user validate the amwater blog page by validating url</name>
+                    <title>user validate the amwater blog page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='986ea156-6bd9-41f9-b0c7-b12af2e9cbe6-attachment.png' type='image/png' size='645639'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278054498' status='passed' stop='1537278057375'>
+                    <name>user switch back to dashboard page from amwater blog page</name>
+                    <title>user switch back to dashboard page from amwater blog page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='da0baff2-77b9-4d96-be90-c0a719537cef-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278057375' status='passed' stop='1537278066136'>
+                    <name>user click on puddle link on media cards</name>
+                    <title>user click on puddle link on media cards</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='26b7344e-450f-4824-a068-2984189ec6de-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278066137' status='passed' stop='1537278069764'>
+                    <name>user validate the puddle page by validating url</name>
+                    <title>user validate the puddle page by validating url</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0ef37164-e0d4-4b71-8b6b-2f01185b380d-attachment.png' type='image/png' size='232297'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278069764' status='passed' stop='1537278072340'>
+                    <name>user switch back to dashboard page from puddle page</name>
+                    <title>user switch back to dashboard page from puddle page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='df6834f8-d04c-48da-a06c-5dfeb160d1bc-attachment.png' type='image/png' size='289085'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='c33486a1-03b7-422b-b988-3aa436b91e0a-attachment.png' type='image/png' size='429098'/>
+                <attachment title='Screenshot' source='f3cbb292-77ea-40ec-bf6d-7ddd7840a9f3-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

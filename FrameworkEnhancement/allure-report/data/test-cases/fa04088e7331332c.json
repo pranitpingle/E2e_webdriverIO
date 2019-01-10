@@ -1,0 +1,187 @@
+{
+  "uid" : "fa04088e7331332c",
+  "name" : "verify user able to validate service alerts",
+  "fullName" : "Dashboard service alerts verfication.verify user able to validate service alerts",
+  "historyId" : "f7e95fc7901c8199f65c8363fe263cf6",
+  "time" : {
+    "start" : 1537283796740,
+    "stop" : 1537283846876,
+    "duration" : 50136
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user fetched content and date month from service alerts",
+      "time" : {
+        "start" : 1537283815259,
+        "stop" : 1537283821340,
+        "duration" : 6081
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95f4a59b8ab5357a",
+        "name" : "Screenshot",
+        "source" : "95f4a59b8ab5357a.png",
+        "type" : "image/png",
+        "size" : 193069
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on View More link",
+      "time" : {
+        "start" : 1537283821340,
+        "stop" : 1537283827117,
+        "duration" : 5777
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bea07c420277459",
+        "name" : "Screenshot",
+        "source" : "6bea07c420277459.png",
+        "type" : "image/png",
+        "size" : 72424
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user validate alerts page by validating page title",
+      "time" : {
+        "start" : 1537283827117,
+        "stop" : 1537283832449,
+        "duration" : 5332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6309a8c882333afb",
+        "name" : "Screenshot",
+        "source" : "6309a8c882333afb.png",
+        "type" : "image/png",
+        "size" : 72424
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "by validating content text \"Latest Alerts\"",
+      "time" : {
+        "start" : 1537283832452,
+        "stop" : 1537283839241,
+        "duration" : 6789
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4dfc08c5c31554be",
+        "name" : "Screenshot",
+        "source" : "4dfc08c5c31554be.png",
+        "type" : "image/png",
+        "size" : 193064
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5d9e7631fa7c8a3b",
+      "name" : "Screenshot",
+      "source" : "5d9e7631fa7c8a3b.png",
+      "type" : "image/png",
+      "size" : 429435
+    }, {
+      "uid" : "20d8aa3f3624995d",
+      "name" : "Screenshot",
+      "source" : "20d8aa3f3624995d.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "testClass",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to validate service alerts"
+  }, {
+    "name" : "package",
+    "value" : "Dashboard service alerts verfication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e413733330e44495",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537280046492,
+        "stop" : 1537280085336,
+        "duration" : 38844
+      }
+    }, {
+      "uid" : "ee854a72a8c666f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278571679,
+        "stop" : 1537278724042,
+        "duration" : 152363
+      }
+    }, {
+      "uid" : "b381d19d82bd22e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537277766914,
+        "stop" : 1537277880944,
+        "duration" : 114030
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa04088e7331332c.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,169 @@
+{
+  "uid" : "255a34a0d2cdb8ac",
+  "name" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+  "historyId" : "7a97d6bc5932b57845e34d0146b7131c",
+  "time" : {
+    "start" : 1537793296807,
+    "stop" : 1537793332518,
+    "duration" : 35711
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not visible",
+  "statusTrace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.7947132742656156-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not visible",
+    "statusTrace" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.7947132742656156-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+    "steps" : [ {
+      "name" : "user navigates to payment menu",
+      "time" : {
+        "start" : 1537793311169,
+        "stop" : 1537793320261,
+        "duration" : 9092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87dc06cb31e18175",
+        "name" : "Screenshot",
+        "source" : "87dc06cb31e18175.png",
+        "type" : "image/png",
+        "size" : 433251
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user click on cash payment",
+      "time" : {
+        "start" : 1537793320261,
+        "stop" : 1537793323010,
+        "duration" : 2749
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element command could not be completed because the element is not visible on the page.\n                    at elementIdClick(\"0.7947132742656156-3\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\click.js:20:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "157306481aac2e5c",
+        "name" : "Screenshot",
+        "source" : "157306481aac2e5c.png",
+        "type" : "image/png",
+        "size" : 433251
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "cash payment selected as default under payment modal view \"Cash Payment Receipt Entry\"",
+      "time" : {
+        "start" : 1537793323010,
+        "stop" : 1537793325715,
+        "duration" : 2705
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "245b6926d7767c9a",
+        "name" : "Screenshot",
+        "source" : "245b6926d7767c9a.png",
+        "type" : "image/png",
+        "size" : 433251
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "5b103679d3c615f1",
+      "name" : "Screenshot",
+      "source" : "5b103679d3c615f1.png",
+      "type" : "image/png",
+      "size" : 432547
+    }, {
+      "uid" : "31b13e9558bf95d0",
+      "name" : "Screenshot",
+      "source" : "31b13e9558bf95d0.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ab74ed9c83c477",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").",
+      "time" : {
+        "start" : 1537283573631,
+        "stop" : 1537283618142,
+        "duration" : 44511
+      }
+    }, {
+      "uid" : "8a45e8ca54d28f18",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"//a[text()='Continue']\").",
+      "time" : {
+        "start" : 1537278358593,
+        "stop" : 1537278395893,
+        "duration" : 37300
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "255a34a0d2cdb8ac.json",
+  "parameterValues" : [ "chrome" ]
+}

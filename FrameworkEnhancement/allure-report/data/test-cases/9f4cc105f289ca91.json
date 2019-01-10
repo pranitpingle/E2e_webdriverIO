@@ -1,0 +1,221 @@
+{
+  "uid" : "9f4cc105f289ca91",
+  "name" : "user can see projected gallons from usage projection card",
+  "fullName" : "User navigates to Usage projection card and verifies the data..user can see projected gallons from usage projection card",
+  "historyId" : "f2a881cd2a89f31da4b355dc4ba64fdd",
+  "time" : {
+    "start" : 1537793640591,
+    "stop" : 1537793686145,
+    "duration" : 45554
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to usage projection card",
+      "time" : {
+        "start" : 1537793654224,
+        "stop" : 1537793659692,
+        "duration" : 5468
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6d9e63242dba288",
+        "name" : "Screenshot",
+        "source" : "a6d9e63242dba288.png",
+        "type" : "image/png",
+        "size" : 235109
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user navigates to usage projection",
+      "time" : {
+        "start" : 1537793659692,
+        "stop" : 1537793665067,
+        "duration" : 5375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5520b261e1f666af",
+        "name" : "Screenshot",
+        "source" : "5520b261e1f666af.png",
+        "type" : "image/png",
+        "size" : 235109
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view projected gallons",
+      "time" : {
+        "start" : 1537793665067,
+        "stop" : 1537793667959,
+        "duration" : 2892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46c86dea9a1803f8",
+        "name" : "Screenshot",
+        "source" : "46c86dea9a1803f8.png",
+        "type" : "image/png",
+        "size" : 235109
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view current month projection",
+      "time" : {
+        "start" : 1537793667960,
+        "stop" : 1537793670404,
+        "duration" : 2444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6661b21c9581e38b",
+        "name" : "Screenshot",
+        "source" : "6661b21c9581e38b.png",
+        "type" : "image/png",
+        "size" : 235109
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view days left",
+      "time" : {
+        "start" : 1537793670404,
+        "stop" : 1537793673046,
+        "duration" : 2642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8db27eae06eb5e44",
+        "name" : "Screenshot",
+        "source" : "8db27eae06eb5e44.png",
+        "type" : "image/png",
+        "size" : 235109
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user view service period",
+      "time" : {
+        "start" : 1537793673046,
+        "stop" : 1537793677944,
+        "duration" : 4898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b60d4d0d678a336",
+        "name" : "Screenshot",
+        "source" : "3b60d4d0d678a336.png",
+        "type" : "image/png",
+        "size" : 235109
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "4e1cb09eb8f86880",
+      "name" : "Screenshot",
+      "source" : "4e1cb09eb8f86880.png",
+      "type" : "image/png",
+      "size" : 432528
+    }, {
+      "uid" : "f3ab035e00c6a5c8",
+      "name" : "Screenshot",
+      "source" : "f3ab035e00c6a5c8.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see projected gallons from usage projection card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3161ca245a26b7a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537283948893,
+        "stop" : 1537283993736,
+        "duration" : 44843
+      }
+    }, {
+      "uid" : "9993c50c6ad422b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1537278778173,
+        "stop" : 1537278831408,
+        "duration" : 53235
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f4cc105f289ca91.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,161 @@
+{
+  "uid" : "536a63748d1fc019",
+  "name" : "user can unenroll from paperless billing enrollment",
+  "fullName" : "Paperless billing enrollment.user can unenroll from paperless billing enrollment",
+  "historyId" : "f9f1f6d7bbad9e423ace3d1ce9558426",
+  "time" : {
+    "start" : 1537278338250,
+    "stop" : 1537278385293,
+    "duration" : 47043
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page and clicks on Unenroll button",
+      "time" : {
+        "start" : 1537278351016,
+        "stop" : 1537278364718,
+        "duration" : 13702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "746012d8f559694c",
+        "name" : "Screenshot",
+        "source" : "746012d8f559694c.png",
+        "type" : "image/png",
+        "size" : 132563
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user accepts acknowledgement and submits form",
+      "time" : {
+        "start" : 1537278364719,
+        "stop" : 1537278368479,
+        "duration" : 3760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6af47f767b2252b3",
+        "name" : "Screenshot",
+        "source" : "6af47f767b2252b3.png",
+        "type" : "image/png",
+        "size" : 132941
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "discontinue paperless billing successfull message is displayed \"Discontinue Paperless Billing has been Successful.\"",
+      "time" : {
+        "start" : 1537278368479,
+        "stop" : 1537278371201,
+        "duration" : 2722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc429999beb97a8e",
+        "name" : "Screenshot",
+        "source" : "dc429999beb97a8e.png",
+        "type" : "image/png",
+        "size" : 132941
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes success mesage dialog and go paperless card is displayed in Dashboard",
+      "time" : {
+        "start" : 1537278371202,
+        "stop" : 1537278376262,
+        "duration" : 5060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17b8e99d41dc9f63",
+        "name" : "Screenshot",
+        "source" : "17b8e99d41dc9f63.png",
+        "type" : "image/png",
+        "size" : 429378
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "89ddde178ad6e9fc",
+      "name" : "Screenshot",
+      "source" : "89ddde178ad6e9fc.png",
+      "type" : "image/png",
+      "size" : 429217
+    }, {
+      "uid" : "e2b7c66a64488977",
+      "name" : "Screenshot",
+      "source" : "e2b7c66a64488977.png",
+      "type" : "image/png",
+      "size" : 193577
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can unenroll from paperless billing enrollment"
+  }, {
+    "name" : "package",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "536a63748d1fc019.json",
+  "parameterValues" : [ "chrome" ]
+}

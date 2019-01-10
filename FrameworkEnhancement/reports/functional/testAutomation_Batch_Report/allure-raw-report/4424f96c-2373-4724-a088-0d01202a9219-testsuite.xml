@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537278338248' stop='1537278478404'>
+    <name>Paperless billing enrollment</name>
+    <title>Paperless billing enrollment</title>
+    <test-cases>
+        <test-case start='1537278338250' status='passed' stop='1537278385293'>
+            <name>user can unenroll from paperless billing enrollment</name>
+            <title>user can unenroll from paperless billing enrollment</title>
+            <labels>
+                <label name='feature' value='Paperless billing enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278351016' status='passed' stop='1537278364718'>
+                    <name>user navigates to Edit User Profile page and clicks on Unenroll button</name>
+                    <title>user navigates to Edit User Profile page and clicks on Unenroll button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='12be8527-3ca1-4e6a-9578-d8638bf01c80-attachment.png' type='image/png' size='132563'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278364719' status='passed' stop='1537278368479'>
+                    <name>user accepts acknowledgement and submits form</name>
+                    <title>user accepts acknowledgement and submits form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='99469fb6-4006-461b-8e9f-9a755e22da27-attachment.png' type='image/png' size='132941'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278368479' status='passed' stop='1537278371201'>
+                    <name>discontinue paperless billing successfull message is displayed "Discontinue Paperless Billing has been Successful."</name>
+                    <title>discontinue paperless billing successfull message is displayed "Discontinue Paperless Billing has been Successful."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7c8429d0-c104-441a-bc37-5730b780ccc0-attachment.png' type='image/png' size='132941'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278371202' status='passed' stop='1537278376262'>
+                    <name>user closes success mesage dialog and go paperless card is displayed in Dashboard</name>
+                    <title>user closes success mesage dialog and go paperless card is displayed in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='688480f6-1bca-4fd5-badd-0ac8ecf99004-attachment.png' type='image/png' size='429378'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0fe49b62-32e6-4025-adae-74593a9c80ff-attachment.png' type='image/png' size='429217'/>
+                <attachment title='Screenshot' source='6d6dcac9-1cb5-4263-86f5-082f374e59be-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537278385297' status='passed' stop='1537278428661'>
+            <name>Verify thank you message during paperless billing enrollment</name>
+            <title>Verify thank you message during paperless billing enrollment</title>
+            <labels>
+                <label name='feature' value='Paperless billing enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278399171' status='passed' stop='1537278408091'>
+                    <name>user click on Go Paperless Card in Dashboard</name>
+                    <title>user click on Go Paperless Card in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c628d2e3-941a-4cb3-8fb2-9bccdd9885fb-attachment.png' type='image/png' size='181741'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278408092' status='passed' stop='1537278411169'>
+                    <name>Paperless billing enrollment form must be seen</name>
+                    <title>Paperless billing enrollment form must be seen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c39929b8-d7e3-4f0d-b211-ad5b3d837c12-attachment.png' type='image/png' size='181741'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278411169' status='passed' stop='1537278414414'>
+                    <name>Thank you message is seen "Thank you for requesting to participate in our paperless billing program which helps protect our environment by saving paper. Checking the box below confirms that you would like to receive your water bill and bill inserts online. You will no longer receive a paper bill. Instead, you will receive an email notification informing you that your water bill and other important information is ready for viewing through My Account. Should you want a copy for your records, you can simply print it from the web site."</name>
+                    <title>Thank you message is seen "Thank you for requesting to participate in our paperless billing program which helps protect our environment by saving paper. Checking the box below confirms that you would like to receive your water bill and bill inserts online. You will no longer receive a paper bill. Instead, you will receive an email notification informing you that your water bill and other important information is ready for viewing through My Account. Should you want a copy for your records, you can simply print it from the web site."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b42e728b-32f5-4798-a5d1-7b4882b45eb7-attachment.png' type='image/png' size='181741'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278414415' status='passed' stop='1537278418947'>
+                    <name>user closes Paperless billing enrollment dialog</name>
+                    <title>user closes Paperless billing enrollment dialog</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='10eab68c-aca3-43de-bd12-510701b57b07-attachment.png' type='image/png' size='250291'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8a723e8f-98bc-4982-878a-3c840e553904-attachment.png' type='image/png' size='429167'/>
+                <attachment title='Screenshot' source='644f3e81-a0be-40d6-9dee-ca8203fa3f55-attachment.png' type='image/png' size='193577'/>
+            </attachments>
+        </test-case>
+        <test-case start='1537278428661' status='passed' stop='1537278478404'>
+            <name>Verify acknowledgement during paperless billing enrollment</name>
+            <title>Verify acknowledgement during paperless billing enrollment</title>
+            <labels>
+                <label name='feature' value='Paperless billing enrollment'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1537278441676' status='passed' stop='1537278451042'>
+                    <name>user click on Go Paperless Card in Dashboard</name>
+                    <title>user click on Go Paperless Card in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6475293f-2288-40e5-aad8-c106de9f9c70-attachment.png' type='image/png' size='181741'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278451046' status='passed' stop='1537278454026'>
+                    <name>user acknowledgement message is seen "* Yes, I am confirming that I wish to receive my future water bills and communications online. I understand that once my registration has been activated, I will no longer receive a paper bill or standard paper communications."</name>
+                    <title>user acknowledgement message is seen "* Yes, I am confirming that I wish to receive my future water bills and communications online. I understand that once my registration has been activated, I will no longer receive a paper bill or standard paper communications."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f9de5ecf-60a1-43d4-9018-61c0189c79c1-attachment.png' type='image/png' size='181741'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278454026' status='passed' stop='1537278459175'>
+                    <name>user checks the acknowledgement checkbox and submits</name>
+                    <title>user checks the acknowledgement checkbox and submits</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='82df81a1-2bc5-4f37-b482-55f7a8f473d3-attachment.png' type='image/png' size='192812'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278459176' status='passed' stop='1537278462181'>
+                    <name>paperless enrollment successfull message is seen "Enrollment in Paperless Billing is Successful."</name>
+                    <title>paperless enrollment successfull message is seen "Enrollment in Paperless Billing is Successful."</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='684f03d5-bef5-4b4b-a2ad-f909a0676398-attachment.png' type='image/png' size='192812'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278462184' status='passed' stop='1537278465632'>
+                    <name>user closes Paperless billing enrollment dialog</name>
+                    <title>user closes Paperless billing enrollment dialog</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='76e9bd70-aad3-48ce-9472-68bcc646246e-attachment.png' type='image/png' size='300501'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1537278465633' status='passed' stop='1537278468658'>
+                    <name>go paperless card must not be visible in Dashboard</name>
+                    <title>go paperless card must not be visible in Dashboard</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e2211e0d-cf49-452f-b46b-b407b7a6ac9c-attachment.png' type='image/png' size='300501'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='78fdc38b-a002-4fbd-81f7-a3a9ad8f903a-attachment.png' type='image/png' size='429117'/>
+                <attachment title='Screenshot' source='25dea554-ce5e-4db5-9ded-ab163c653606-attachment.png' type='image/png' size='193579'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

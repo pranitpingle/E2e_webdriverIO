@@ -1,0 +1,169 @@
+{
+  "uid" : "cd9948dac422e455",
+  "name" : "User has an option to Update AutoPay information",
+  "fullName" : "AutoPay enrollment.User has an option to Update AutoPay information",
+  "historyId" : "1a856877946b4e7daec07b39bff8bc0f",
+  "time" : {
+    "start" : 1537793195261,
+    "stop" : 1537793242882,
+    "duration" : 47621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms",
+  "statusTrace" : "Error: element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms\n                    at elements(\".ant-checkbox.ant-checkbox-checked\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".ant-checkbox.ant-checkbox-checked\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms",
+    "statusTrace" : "Error: element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms\n                    at elements(\".ant-checkbox.ant-checkbox-checked\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".ant-checkbox.ant-checkbox-checked\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+    "steps" : [ {
+      "name" : "user is enrolled for AutoPay to update information",
+      "time" : {
+        "start" : 1537793206296,
+        "stop" : 1537793222201,
+        "duration" : 15905
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae267e5f18f886c8",
+        "name" : "Screenshot",
+        "source" : "ae267e5f18f886c8.png",
+        "type" : "image/png",
+        "size" : 96195
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user updates AutoPay enrollment and gets the message \"You successfully enrolled in Auto Pay! You will receive a confirmation email shortly.\"",
+      "time" : {
+        "start" : 1537793222201,
+        "stop" : 1537793238168,
+        "duration" : 15967
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms\n                    at elements(\".ant-checkbox.ant-checkbox-checked\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\isExisting.js:46:17\n                    at isExisting(\".ant-checkbox.ant-checkbox-checked\") - D:\\AmwaterDashboardFinal\\cp-dashboard-qa\\node_modules\\webdriverio\\build\\lib\\commands\\waitForExist.js:67:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ebcfc410ac3f8a11",
+        "name" : "Screenshot",
+        "source" : "ebcfc410ac3f8a11.png",
+        "type" : "image/png",
+        "size" : 103824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "user closes success message dialog and AutoPay card is displayed with updated Information",
+      "time" : {
+        "start" : 1537793238170,
+        "stop" : 1537793240511,
+        "duration" : 2341
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e04e0c886160a222",
+        "name" : "Screenshot",
+        "source" : "e04e0c886160a222.png",
+        "type" : "image/png",
+        "size" : 103824
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "6e0792b92aa9ea91",
+      "name" : "Screenshot",
+      "source" : "6e0792b92aa9ea91.png",
+      "type" : "image/png",
+      "size" : 432460
+    }, {
+      "uid" : "6a276243476356e7",
+      "name" : "Screenshot",
+      "source" : "6a276243476356e7.png",
+      "type" : "image/png",
+      "size" : 103824
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "User has an option to Update AutoPay information"
+  }, {
+    "name" : "package",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8acf90195bdae34d",
+      "status" : "broken",
+      "statusDetails" : "element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms",
+      "time" : {
+        "start" : 1537283437197,
+        "stop" : 1537283507679,
+        "duration" : 70482
+      }
+    }, {
+      "uid" : "386718b078332b1d",
+      "status" : "broken",
+      "statusDetails" : "element (\".ant-checkbox.ant-checkbox-checked\") still not existing after 5000ms",
+      "time" : {
+        "start" : 1537278245726,
+        "stop" : 1537278306456,
+        "duration" : 60730
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cd9948dac422e455.json",
+  "parameterValues" : [ "chrome" ]
+}
